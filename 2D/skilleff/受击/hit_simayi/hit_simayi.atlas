@@ -1,0 +1,13 @@
+
+hit_simayi.png
+size: 98,98
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd_1
+  rotate: false
+  xy: 1, 1
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1

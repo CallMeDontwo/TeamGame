@@ -1,0 +1,27 @@
+
+Hero_xiongmao_hudun.png
+size: 288,106
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+danke_0
+  rotate: true
+  xy: 1, 1
+  size: 104, 116
+  orig: 110, 128
+  offset: 4, 4
+  index: -1
+glow_0
+  rotate: false
+  xy: 118, 5
+  size: 100, 100
+  orig: 128, 128
+  offset: 14, 14
+  index: -1
+xiongzhang_0
+  rotate: false
+  xy: 219, 31
+  size: 68, 74
+  orig: 70, 76
+  offset: 1, 1
+  index: -1

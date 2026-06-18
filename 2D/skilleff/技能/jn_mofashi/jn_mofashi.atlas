@@ -1,0 +1,139 @@
+
+jn_mofashi.png
+size: 420,389
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fxx/bone1_2
+  rotate: true
+  xy: 365, 99
+  size: 41, 33
+  orig: 41, 33
+  offset: 0, 0
+  index: -1
+fxx/bone1_3
+  rotate: true
+  xy: 374, 141
+  size: 49, 43
+  orig: 49, 43
+  offset: 0, 0
+  index: -1
+fxx/bone1_5
+  rotate: true
+  xy: 374, 64
+  size: 34, 39
+  orig: 34, 39
+  offset: 0, 0
+  index: -1
+fxx/gt1
+  rotate: true
+  xy: 389, 208
+  size: 66, 30
+  orig: 66, 30
+  offset: 0, 0
+  index: -1
+fxx/gt3
+  rotate: true
+  xy: 310, 109
+  size: 81, 54
+  orig: 81, 54
+  offset: 0, 0
+  index: -1
+fxx/lvzi
+  rotate: false
+  xy: 231, 274
+  size: 138, 114
+  orig: 138, 114
+  offset: 0, 0
+  index: -1
+fxx/par_0
+  rotate: false
+  xy: 207, 87
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+fxx/xiaoren
+  rotate: true
+  xy: 131, 1
+  size: 78, 86
+  orig: 78, 86
+  offset: 0, 0
+  index: -1
+fxx/yanwu1_15
+  rotate: true
+  xy: 1, 183
+  size: 205, 102
+  orig: 205, 102
+  offset: 0, 0
+  index: -1
+fxx/yanwu2_0
+  rotate: false
+  xy: 1, 80
+  size: 205, 102
+  orig: 205, 102
+  offset: 0, 0
+  index: -1
+l_shou_wan
+  rotate: true
+  xy: 218, 4
+  size: 82, 77
+  orig: 82, 77
+  offset: 0, 0
+  index: -1
+maodai
+  rotate: true
+  xy: 370, 275
+  size: 26, 44
+  orig: 26, 44
+  offset: 0, 0
+  index: -1
+maozi_li
+  rotate: true
+  xy: 370, 302
+  size: 86, 49
+  orig: 86, 49
+  offset: 0, 0
+  index: -1
+maoziqian
+  rotate: false
+  xy: 266, 191
+  size: 122, 82
+  orig: 122, 82
+  offset: 0, 0
+  index: -1
+r_wanshou
+  rotate: true
+  xy: 296, 4
+  size: 82, 77
+  orig: 82, 77
+  offset: 0, 0
+  index: -1
+saoba_gun
+  rotate: true
+  xy: 1, 6
+  size: 73, 129
+  orig: 73, 129
+  offset: 0, 0
+  index: -1
+saoba_mao
+  rotate: false
+  xy: 104, 253
+  size: 126, 135
+  orig: 126, 135
+  offset: 0, 0
+  index: -1
+shuitong1
+  rotate: true
+  xy: 104, 190
+  size: 62, 80
+  orig: 62, 80
+  offset: 0, 0
+  index: -1
+shuitong2
+  rotate: true
+  xy: 185, 190
+  size: 62, 80
+  orig: 62, 80
+  offset: 0, 0
+  index: -1

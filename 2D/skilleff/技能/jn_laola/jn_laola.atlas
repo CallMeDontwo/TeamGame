@@ -1,0 +1,174 @@
+
+jn_laola.png
+size: 814,203
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/baokai_quan_0
+  rotate: false
+  xy: 260, 11
+  size: 72, 72
+  orig: 102, 102
+  offset: 15, 15
+  index: -1
+images/baokai_quan_2
+  rotate: false
+  xy: 676, 17
+  size: 88, 88
+  orig: 102, 102
+  offset: 7, 7
+  index: -1
+images/baokai_quan_3
+  rotate: false
+  xy: 626, 106
+  size: 96, 96
+  orig: 102, 102
+  offset: 3, 3
+  index: -1
+images/feiji
+  rotate: false
+  xy: 354, 96
+  size: 223, 106
+  orig: 230, 106
+  offset: 0, 0
+  index: -1
+images/gj_fire_00
+  rotate: false
+  xy: 333, 23
+  size: 40, 67
+  orig: 99, 86
+  offset: 0, 8
+  index: -1
+images/gj_fire_01
+  rotate: true
+  xy: 589, 1
+  size: 99, 86
+  orig: 99, 86
+  offset: 0, 0
+  index: -1
+images/gj_fire_02
+  rotate: true
+  xy: 723, 137
+  size: 65, 42
+  orig: 99, 86
+  offset: 0, 19
+  index: -1
+images/gj_sanjiao_00
+  rotate: false
+  xy: 413, 3
+  size: 84, 92
+  orig: 102, 102
+  offset: 10, 7
+  index: -1
+images/gj_xt_00
+  rotate: false
+  xy: 260, 2
+  size: 104, 8
+  orig: 120, 8
+  offset: 8, 0
+  index: -1
+images/gj_xt_01
+  rotate: true
+  xy: 578, 98
+  size: 104, 8
+  orig: 120, 8
+  offset: 8, 0
+  index: -1
+images/glow_0
+  rotate: false
+  xy: 179, 3
+  size: 80, 80
+  orig: 102, 102
+  offset: 11, 11
+  index: -1
+images/glow_00
+  rotate: false
+  xy: 587, 101
+  size: 38, 101
+  orig: 44, 109
+  offset: 3, 6
+  index: -1
+images/gm
+  rotate: false
+  xy: 676, 1
+  size: 25, 15
+  orig: 25, 15
+  offset: 0, 0
+  index: -1
+images/hqiangguan
+  rotate: false
+  xy: 365, 1
+  size: 47, 21
+  orig: 47, 21
+  offset: 0, 0
+  index: -1
+images/hyepian
+  rotate: true
+  xy: 723, 108
+  size: 28, 59
+  orig: 28, 59
+  offset: 0, 0
+  index: -1
+images/jjx_0
+  rotate: false
+  xy: 765, 57
+  size: 48, 50
+  orig: 48, 50
+  offset: 0, 0
+  index: -1
+images/qiangguan
+  rotate: true
+  xy: 766, 137
+  size: 65, 24
+  orig: 65, 24
+  offset: 0, 0
+  index: -1
+images/qianghou
+  rotate: false
+  xy: 374, 36
+  size: 37, 34
+  orig: 37, 34
+  offset: 0, 0
+  index: -1
+images/san_0
+  rotate: false
+  xy: 179, 84
+  size: 106, 118
+  orig: 106, 118
+  offset: 0, 0
+  index: -1
+images/smoke_01
+  rotate: true
+  xy: 374, 71
+  size: 24, 38
+  orig: 24, 38
+  offset: 0, 0
+  index: -1
+images/smoke_02
+  rotate: false
+  xy: 765, 21
+  size: 32, 35
+  orig: 32, 35
+  offset: 0, 0
+  index: -1
+images/smoke_03
+  rotate: false
+  xy: 286, 91
+  size: 67, 111
+  orig: 67, 111
+  offset: 0, 0
+  index: -1
+images/yepian
+  rotate: true
+  xy: 1, 4
+  size: 198, 177
+  orig: 198, 177
+  offset: 0, 0
+  index: -1
+images/yuan_0
+  rotate: false
+  xy: 498, 5
+  size: 90, 90
+  orig: 102, 102
+  offset: 6, 6
+  index: -1

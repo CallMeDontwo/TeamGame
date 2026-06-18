@@ -1,0 +1,195 @@
+
+jn_chaorenjin.png
+size: 451,417
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 1, 181
+  size: 235, 113
+  orig: 235, 113
+  offset: 0, 0
+  index: -1
+10
+  rotate: true
+  xy: 178, 183
+  size: 53, 69
+  orig: 53, 69
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 213, 127
+  size: 33, 30
+  orig: 33, 30
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 422, 183
+  size: 27, 29
+  orig: 27, 29
+  offset: 0, 0
+  index: -1
+13
+  rotate: false
+  xy: 213, 158
+  size: 34, 24
+  orig: 34, 24
+  offset: 0, 0
+  index: -1
+14
+  rotate: false
+  xy: 147, 186
+  size: 30, 34
+  orig: 30, 34
+  offset: 0, 0
+  index: -1
+15
+  rotate: false
+  xy: 213, 3
+  size: 46, 47
+  orig: 46, 47
+  offset: 0, 0
+  index: -1
+16
+  rotate: false
+  xy: 376, 264
+  size: 74, 46
+  orig: 74, 46
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 248, 213
+  size: 23, 19
+  orig: 23, 19
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 374, 213
+  size: 58, 50
+  orig: 58, 50
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 374, 165
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+5
+  rotate: true
+  xy: 268, 277
+  size: 33, 107
+  orig: 33, 107
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 213, 95
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+7
+  rotate: true
+  xy: 248, 190
+  size: 22, 19
+  orig: 22, 19
+  offset: 0, 0
+  index: -1
+8
+  rotate: true
+  xy: 422, 157
+  size: 25, 27
+  orig: 25, 27
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 115, 186
+  size: 31, 34
+  orig: 31, 34
+  offset: 0, 0
+  index: -1
+bai_0
+  rotate: false
+  xy: 351, 5
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+fx/baoci_0
+  rotate: true
+  xy: 1, 1
+  size: 179, 105
+  orig: 179, 105
+  offset: 0, 0
+  index: -1
+fx/baoci_1
+  rotate: true
+  xy: 107, 1
+  size: 179, 105
+  orig: 179, 105
+  offset: 0, 0
+  index: -1
+fx/baoci_2
+  rotate: true
+  xy: 162, 237
+  size: 179, 105
+  orig: 179, 105
+  offset: 0, 0
+  index: -1
+fx/baoci_3
+  rotate: false
+  xy: 268, 311
+  size: 179, 105
+  orig: 179, 105
+  offset: 0, 0
+  index: -1
+fx/ci2_0
+  rotate: true
+  xy: 268, 186
+  size: 90, 105
+  orig: 90, 105
+  offset: 0, 0
+  index: -1
+fx/ci2_1
+  rotate: true
+  xy: 248, 95
+  size: 90, 105
+  orig: 90, 105
+  offset: 0, 0
+  index: -1
+fx/ci2_2
+  rotate: false
+  xy: 354, 51
+  size: 90, 105
+  orig: 90, 105
+  offset: 0, 0
+  index: -1
+fx/hongxian
+  rotate: true
+  xy: 115, 221
+  size: 195, 46
+  orig: 195, 46
+  offset: 0, 0
+  index: -1
+glow_0
+  rotate: false
+  xy: 260, 4
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+par_xing_0
+  rotate: false
+  xy: 397, 5
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1

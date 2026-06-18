@@ -1,0 +1,41 @@
+
+jn_yanmo_xia.png
+size: 215,239
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dici
+  rotate: false
+  xy: 61, 191
+  size: 65, 47
+  orig: 65, 47
+  offset: 0, 0
+  index: -1
+dici2
+  rotate: false
+  xy: 1, 197
+  size: 59, 41
+  orig: 59, 41
+  offset: 0, 0
+  index: -1
+dilie
+  rotate: false
+  xy: 1, 1
+  size: 208, 90
+  orig: 211, 92
+  offset: 2, 1
+  index: -1
+jian
+  rotate: true
+  xy: 1, 92
+  size: 67, 196
+  orig: 67, 196
+  offset: 0, 0
+  index: -1
+sanjiao_0
+  rotate: true
+  xy: 127, 160
+  size: 78, 87
+  orig: 96, 96
+  offset: 10, 6
+  index: -1

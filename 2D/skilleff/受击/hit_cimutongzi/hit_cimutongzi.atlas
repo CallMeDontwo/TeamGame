@@ -1,0 +1,13 @@
+
+hit_cimutongzi.png
+size: 107,93
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/atk_bd_00
+  rotate: false
+  xy: 2, 2
+  size: 103, 89
+  orig: 109, 109
+  offset: 2, 10
+  index: -1

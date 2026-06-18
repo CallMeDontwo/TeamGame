@@ -1,0 +1,60 @@
+{
+  "skeleton": {
+    "hash": "I4iwUldPQhEhf1sdEIWsNtxGPyQ",
+    "spine": "3.8.99",
+    "x": -30,
+    "y": -25.53,
+    "width": 60,
+    "height": 60,
+    "images": "./images/",
+    "audio": ""
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "dandao",
+      "parent": "root"
+    }
+  ],
+  "slots": [
+    {
+      "name": "dd_zhadan_0",
+      "bone": "dandao",
+      "attachment": "dd_zhadan_0"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "dd_zhadan_0": {
+          "dd_zhadan_0": {
+            "y": 4.47,
+            "width": 60,
+            "height": 60
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "attack": {
+      "bones": {
+        "dandao": {
+          "rotate": [
+            {},
+            {
+              "time": 0.5,
+              "angle": 180
+            },
+            {
+              "time": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}

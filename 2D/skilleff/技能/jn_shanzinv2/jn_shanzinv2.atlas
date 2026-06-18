@@ -1,0 +1,62 @@
+
+jn_shanzinv2.png
+size: 685,130
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd_f_00
+  rotate: true
+  xy: 598, 5
+  size: 63, 53
+  orig: 64, 64
+  offset: 0, 6
+  index: -1
+glow_00
+  rotate: false
+  xy: 598, 69
+  size: 60, 60
+  orig: 64, 64
+  offset: 2, 2
+  index: -1
+jufeng/jufeng_0
+  rotate: false
+  xy: 1, 5
+  size: 123, 124
+  orig: 128, 128
+  offset: 4, 3
+  index: -1
+jufeng/jufeng_2
+  rotate: false
+  xy: 367, 6
+  size: 122, 123
+  orig: 128, 128
+  offset: 4, 4
+  index: -1
+jufeng/jufeng_4
+  rotate: false
+  xy: 125, 3
+  size: 121, 126
+  orig: 128, 128
+  offset: 4, 2
+  index: -1
+jufeng/jufeng_6
+  rotate: false
+  xy: 247, 2
+  size: 119, 127
+  orig: 128, 128
+  offset: 5, 1
+  index: -1
+jufeng/jufeng_8
+  rotate: false
+  xy: 490, 1
+  size: 107, 128
+  orig: 128, 128
+  offset: 10, 0
+  index: -1
+yh_00
+  rotate: false
+  xy: 652, 35
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1

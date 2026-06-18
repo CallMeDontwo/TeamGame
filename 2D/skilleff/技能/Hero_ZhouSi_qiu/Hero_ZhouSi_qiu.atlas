@@ -1,0 +1,27 @@
+
+Hero_ZhouSi_qiu.png
+size: 134,48
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/di_0
+  rotate: false
+  xy: 1, 1
+  size: 46, 46
+  orig: 60, 60
+  offset: 7, 7
+  index: -1
+images/ring_0
+  rotate: false
+  xy: 48, 3
+  size: 44, 44
+  orig: 60, 60
+  offset: 8, 8
+  index: -1
+images/sd_0
+  rotate: false
+  xy: 93, 3
+  size: 40, 44
+  orig: 70, 70
+  offset: 16, 13
+  index: -1

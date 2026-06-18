@@ -1,0 +1,118 @@
+
+Jn_aobing.png
+size: 899,357
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd/bd_0
+  rotate: true
+  xy: 442, 76
+  size: 280, 175
+  orig: 280, 175
+  offset: 0, 0
+  index: -1
+bd/bd_1
+  rotate: false
+  xy: 1, 52
+  size: 280, 175
+  orig: 280, 175
+  offset: 0, 0
+  index: -1
+bd/bd_2
+  rotate: false
+  xy: 618, 181
+  size: 280, 175
+  orig: 280, 175
+  offset: 0, 0
+  index: -1
+bd/bd_3
+  rotate: false
+  xy: 618, 5
+  size: 280, 175
+  orig: 280, 175
+  offset: 0, 0
+  index: -1
+bizi
+  rotate: false
+  xy: 484, 32
+  size: 40, 43
+  orig: 40, 43
+  offset: 0, 0
+  index: -1
+glow_0
+  rotate: false
+  xy: 282, 11
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+st
+  rotate: false
+  xy: 1, 228
+  size: 440, 128
+  orig: 440, 128
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 282, 102
+  size: 130, 125
+  orig: 130, 125
+  offset: 0, 0
+  index: -1
+tw_caihong_0
+  rotate: true
+  xy: 1, 16
+  size: 35, 140
+  orig: 35, 140
+  offset: 0, 0
+  index: -1
+xiaba
+  rotate: false
+  xy: 142, 7
+  size: 95, 44
+  orig: 95, 44
+  offset: 0, 0
+  index: -1
+xingxing_0
+  rotate: false
+  xy: 427, 1
+  size: 56, 74
+  orig: 56, 74
+  offset: 0, 0
+  index: -1
+yanqiu1
+  rotate: false
+  xy: 431, 218
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+yanqiu2
+  rotate: false
+  xy: 431, 209
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+yuqi2
+  rotate: true
+  xy: 373, 18
+  size: 83, 53
+  orig: 83, 53
+  offset: 0, 0
+  index: -1
+yuxu1
+  rotate: true
+  xy: 413, 176
+  size: 51, 17
+  orig: 51, 17
+  offset: 0, 0
+  index: -1
+yuxu2
+  rotate: false
+  xy: 238, 1
+  size: 35, 50
+  orig: 35, 50
+  offset: 0, 0
+  index: -1

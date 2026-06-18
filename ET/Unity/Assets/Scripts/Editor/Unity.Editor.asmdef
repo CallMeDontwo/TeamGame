@@ -1,0 +1,31 @@
+{
+    "name": "Unity.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Core",
+        "Unity.Mono",
+        "Unity.ThirdParty",
+        "Unity.Model",
+        "Unity.Hotfix",
+        "Unity.ModelView",
+        "Unity.HotfixView",
+        "Unity.Mathematics",
+        "HybridCLR.Runtime",
+        "HybridCLR.Editor",
+        "spine-unity",
+        "spine-unity-editor",
+        "YooAsset",
+        "YooAsset.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

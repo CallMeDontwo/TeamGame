@@ -1,0 +1,20 @@
+
+jn_maowang_buff.png
+size: 176,119
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jiahao_0
+  rotate: false
+  xy: 124, 62
+  size: 51, 56
+  orig: 60, 60
+  offset: 5, 1
+  index: -1
+quan
+  rotate: true
+  xy: 1, 1
+  size: 117, 122
+  orig: 128, 128
+  offset: 3, 3
+  index: -1

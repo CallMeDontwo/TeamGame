@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,1500">
+  <displayList>
+    <component id="n3_ee5c" name="Btn_Record" src="jxfj6b" fileName="组件/DebugComponent/Button1.xml" xy="112,263" size="740,76">
+      <Button title="记录"/>
+    </component>
+    <component id="n4_ee5c" name="Btn_Settings" src="jxfj6b" fileName="组件/DebugComponent/Button1.xml" xy="108,448" size="740,76">
+      <Button title="设定"/>
+    </component>
+    <component id="n2_jxfj" name="Btn_Exit" src="jxfj6b" fileName="组件/DebugComponent/Button1.xml" xy="335,1353">
+      <Button title="×退出"/>
+    </component>
+  </displayList>
+</component>

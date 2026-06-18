@@ -1,0 +1,118 @@
+
+ui_main_btn_sevenday_3.8.75.png
+size: 237,62
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+7
+  rotate: true
+  xy: 2, 5
+  size: 55, 72
+  orig: 57, 74
+  offset: 1, 1
+  index: -1
+c1
+  rotate: true
+  xy: 166, 2
+  size: 26, 23
+  orig: 28, 25
+  offset: 1, 1
+  index: -1
+c2
+  rotate: true
+  xy: 191, 3
+  size: 27, 24
+  orig: 29, 26
+  offset: 1, 1
+  index: -1
+c3
+  rotate: true
+  xy: 140, 2
+  size: 26, 24
+  orig: 28, 26
+  offset: 1, 1
+  index: -1
+c4
+  rotate: true
+  xy: 217, 38
+  size: 22, 18
+  orig: 24, 20
+  offset: 1, 1
+  index: -1
+c5
+  rotate: true
+  xy: 169, 32
+  size: 28, 23
+  orig: 30, 25
+  offset: 1, 1
+  index: -1
+jb1
+  rotate: false
+  xy: 76, 2
+  size: 30, 16
+  orig: 32, 18
+  offset: 1, 1
+  index: -1
+jb2
+  rotate: true
+  xy: 113, 30
+  size: 30, 17
+  orig: 32, 19
+  offset: 1, 1
+  index: -1
+jb3
+  rotate: false
+  xy: 108, 2
+  size: 30, 16
+  orig: 32, 18
+  offset: 1, 1
+  index: -1
+jb4
+  rotate: true
+  xy: 132, 30
+  size: 30, 17
+  orig: 32, 19
+  offset: 1, 1
+  index: -1
+jb5
+  rotate: true
+  xy: 151, 30
+  size: 30, 16
+  orig: 32, 18
+  offset: 1, 1
+  index: -1
+shuaguang
+  rotate: false
+  xy: 113, 20
+  size: 10, 8
+  orig: 10, 8
+  offset: 0, 0
+  index: -1
+xx3
+  rotate: false
+  xy: 217, 2
+  size: 17, 17
+  orig: 19, 19
+  offset: 1, 1
+  index: -1
+xx4
+  rotate: true
+  xy: 194, 43
+  size: 17, 20
+  orig: 19, 22
+  offset: 1, 1
+  index: -1
+xx5
+  rotate: true
+  xy: 217, 21
+  size: 15, 18
+  orig: 17, 20
+  offset: 1, 1
+  index: -1
+zs1
+  rotate: false
+  xy: 76, 20
+  size: 35, 40
+  orig: 37, 42
+  offset: 1, 1
+  index: -1

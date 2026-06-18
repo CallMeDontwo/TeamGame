@@ -1,0 +1,69 @@
+
+dandao_1_bd.png
+size: 133,223
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd_wujiao
+  rotate: false
+  xy: 1, 158
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+glow_0
+  rotate: false
+  xy: 66, 158
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+sanjiao_0
+  rotate: false
+  xy: 1, 93
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+yanwu_qiu_0
+  rotate: false
+  xy: 66, 47
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+yanwu_qiu_1
+  rotate: false
+  xy: 1, 1
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+yanwu_qiu_2
+  rotate: false
+  xy: 47, 1
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+yuan_0
+  rotate: false
+  xy: 66, 93
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+yueya_0
+  rotate: false
+  xy: 112, 28
+  size: 20, 64
+  orig: 20, 64
+  offset: 0, 0
+  index: -1
+yueya_da_0
+  rotate: true
+  xy: 1, 47
+  size: 45, 64
+  orig: 45, 64
+  offset: 0, 0
+  index: -1

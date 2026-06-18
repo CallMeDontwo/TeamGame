@@ -1,0 +1,41 @@
+
+jn_xuenv2.png
+size: 573,131
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fxxx/bd_0
+  rotate: true
+  xy: 276, 4
+  size: 126, 119
+  orig: 150, 150
+  offset: 9, 2
+  index: -1
+fxxx/bd_1
+  rotate: false
+  xy: 143, 2
+  size: 132, 128
+  orig: 150, 150
+  offset: 8, 3
+  index: -1
+fxxx/bd_2
+  rotate: false
+  xy: 1, 1
+  size: 141, 129
+  orig: 150, 150
+  offset: 4, 11
+  index: -1
+fxxx/binzhui_0
+  rotate: true
+  xy: 396, 75
+  size: 55, 176
+  orig: 60, 180
+  offset: 2, 1
+  index: -1
+fxxx/binzhui_2_0
+  rotate: true
+  xy: 396, 19
+  size: 55, 133
+  orig: 60, 180
+  offset: 2, 44
+  index: -1

@@ -1,0 +1,20 @@
+
+jn_yilidan_xia.png
+size: 229,183
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bai_0
+  rotate: false
+  xy: 183, 137
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+images/yuliang
+  rotate: false
+  xy: 1, 1
+  size: 181, 181
+  orig: 183, 183
+  offset: 1, 1
+  index: -1

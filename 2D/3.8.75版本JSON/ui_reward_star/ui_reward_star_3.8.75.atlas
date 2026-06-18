@@ -1,0 +1,13 @@
+
+ui_reward_star_3.8.75.png
+size: 29,30
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 2
+  size: 25, 26
+  orig: 30, 30
+  offset: 2, 2
+  index: -1

@@ -1,0 +1,13 @@
+
+hit_zixia.png
+size: 103,87
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bd_0
+  rotate: false
+  xy: 1, 1
+  size: 101, 85
+  orig: 102, 102
+  offset: 0, 9
+  index: -1

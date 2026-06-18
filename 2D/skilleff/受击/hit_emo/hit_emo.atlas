@@ -1,0 +1,69 @@
+
+hit_emo.png
+size: 267,159
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd_wujiao
+  rotate: false
+  xy: 1, 81
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+glow_0
+  rotate: false
+  xy: 1, 3
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+sanjiao_0
+  rotate: false
+  xy: 79, 81
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+yanwu_qiu_0
+  rotate: false
+  xy: 157, 26
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+yanwu_qiu_1
+  rotate: false
+  xy: 212, 104
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+yanwu_qiu_2
+  rotate: false
+  xy: 212, 49
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+yuan_0
+  rotate: false
+  xy: 79, 3
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+yueya_0
+  rotate: true
+  xy: 157, 1
+  size: 24, 77
+  orig: 24, 77
+  offset: 0, 0
+  index: -1
+yueya_da_0
+  rotate: false
+  xy: 157, 81
+  size: 54, 77
+  orig: 54, 77
+  offset: 0, 0
+  index: -1

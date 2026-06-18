@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,1500">
+  <controller name="C_CaiPiaoModule" pages="0,,1," selected="0"/>
+  <controller name="C_CoinNum" pages="0,,1,,2,,3,,4," selected="0"/>
+  <controller name="C_BGM" pages="0,,1,,2," selected="0"/>
+  <controller name="C_CaiJingMusic" pages="0,,1,,2," selected="0"/>
+  <controller name="C_CaiPiaoRate" pages="0,,1,,2,,3,,4," selected="0"/>
+  <controller name="C_RTP" pages="0,,1,,2,,3,,4," selected="0"/>
+  <displayList>
+    <text id="n3_ee5c" name="n3" xy="112,156" size="103,66" fontSize="50" color="#00ebf0" text="设定"/>
+    <image id="n4_ee5c" name="n4" src="jxfj5x" fileName="资源/DebugUI/切图/Background_line.png" xy="50,222" size="860,2">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <text id="n10_ee5c" name="n10" xy="50,224" size="286,58" fontSize="40" color="#00ebf0" align="center" autoSize="none" text="项目"/>
+    <text id="n11_ee5c" name="n11" xy="336,224" size="574,58" fontSize="40" color="#00ebf0" align="center" autoSize="none" text="项目"/>
+    <text id="n17_ee5c" name="n17" xy="50,321" size="250,54" fontSize="40" color="#00ebf0" autoSize="none" text="彩票模式"/>
+    <text id="n18_ee5c" name="n18" xy="50,401" size="250,54" fontSize="40" color="#00ebf0" autoSize="none" text="投币数量"/>
+    <text id="n19_ee5c" name="n19" xy="50,481" size="250,54" fontSize="40" color="#00ebf0" autoSize="none" text="背景音乐"/>
+    <text id="n20_ee5c" name="n20" xy="50,561" size="250,54" fontSize="40" color="#00ebf0" autoSize="none" text="彩金音乐"/>
+    <text id="n21_ee5c" name="n21" xy="50,641" size="250,54" fontSize="40" color="#00ebf0" autoSize="none" text="彩票比例"/>
+    <text id="n22_ee5c" name="n22" xy="50,721" size="250,54" fontSize="40" color="#00ebf0" autoSize="none" text="游戏返奖率"/>
+    <list id="n9_ee5c" name="n9" xy="336,323" size="574,50" layout="row" overflow="scroll" colGap="50" defaultItem="ui://hoqdodepee5c6l" selectionController="C_CaiPiaoModule">
+      <item title="OFF"/>
+      <item title="ON"/>
+    </list>
+    <list id="n12_ee5c" name="n12" xy="336,403" size="574,50" layout="row" overflow="scroll" colGap="20" defaultItem="ui://hoqdodepee5c6k" selectionController="C_CoinNum">
+      <item title="1"/>
+      <item title="2"/>
+      <item title="3"/>
+      <item title="4"/>
+      <item title="5"/>
+    </list>
+    <list id="n13_ee5c" name="n13" xy="336,483" size="574,50" layout="row" overflow="scroll" colGap="20" defaultItem="ui://hoqdodepee5c6k" selectionController="C_BGM">
+      <item title="1"/>
+      <item title="2"/>
+      <item title="3"/>
+    </list>
+    <list id="n14_ee5c" name="n14" xy="336,563" size="574,50" layout="row" overflow="scroll" colGap="20" defaultItem="ui://hoqdodepee5c6k" selectionController="C_CaiJingMusic">
+      <item title="1"/>
+      <item title="2"/>
+      <item title="3"/>
+    </list>
+    <list id="n15_ee5c" name="n15" xy="336,643" size="574,50" layout="row" overflow="scroll" colGap="20" defaultItem="ui://hoqdodepee5c6k" selectionController="C_CaiPiaoRate">
+      <item title="1"/>
+      <item title="2"/>
+      <item title="3"/>
+      <item title="4"/>
+      <item title="5"/>
+    </list>
+    <list id="n16_ee5c" name="n16" xy="336,723" size="574,50" layout="row" overflow="scroll" colGap="10" defaultItem="ui://hoqdodepee5c6l" selectionController="C_RTP">
+      <item title="86%"/>
+      <item title="89%"/>
+      <item title="92%"/>
+      <item title="95%"/>
+      <item title="98%"/>
+    </list>
+    <component id="n2_ee5c" name="Btn_Back" src="ee5c6d" fileName="组件/DebugComponent/Button2.xml" xy="60,1374"/>
+    <component id="n24_m0uw" name="Btn_Resotre" src="m0uw6m" fileName="组件/DebugComponent/Button5.xml" xy="608,1374" size="302,66">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button title="恢复出厂设置" titleColor="#e708e4"/>
+    </component>
+  </displayList>
+</component>

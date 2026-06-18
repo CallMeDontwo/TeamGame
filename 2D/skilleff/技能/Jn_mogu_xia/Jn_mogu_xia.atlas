@@ -1,0 +1,27 @@
+
+Jn_mogu_xia.png
+size: 273,318
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dankeng_37
+  rotate: false
+  xy: 1, 172
+  size: 254, 145
+  orig: 256, 160
+  offset: 1, 5
+  index: -1
+diquan_0
+  rotate: false
+  xy: 1, 1
+  size: 170, 170
+  orig: 180, 180
+  offset: 5, 5
+  index: -1
+glow_0
+  rotate: false
+  xy: 172, 71
+  size: 100, 100
+  orig: 128, 128
+  offset: 14, 14
+  index: -1

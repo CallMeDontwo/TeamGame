@@ -1,0 +1,92 @@
+syntax = "proto3"; 
+package ProtoCmd;
+
+
+//ProtoId 101
+message ReqJoinGroup{		//加入联机
+	int32 gameType = 1;
+	string macStr = 2;
+}
+
+//ProtoId -101
+message RespJoinGroup{
+	int32 group = 1;		//组ID
+	int32 num = 2;			//组内编号
+	PbGameData gameData = 3;
+}
+
+message PbGameData{
+	repeated int32 numList = 1;		//推币机JP奖数值
+	int32 value = 2;				//爆爆乐联机奖池
+}
+
+
+//ProtoId 102
+message ReqPlayCoin{		//投币
+	int32 coinNum = 1;				//投币数
+}
+
+
+//ProtoId 103
+message ReqGetReward{		//发送中奖
+	int32 rewardType = 1;		//推币机中奖类型  JP1:5  JP2: 6  JP3: 7  ALL:8
+}
+
+//ProtoId -103
+message RespGetReward{
+	int32 value = 1;		//爆爆乐中奖金额	
+}
+
+
+
+
+//ProtoId 104
+message PushGameData{			//推送数据变化
+	PbGameData gameData = 1;
+}
+
+//ProtoId 105
+message PushGameGroup{			//推送联机变化
+	int32 type = 1;		//1断开联机  2：改变分组
+	int32 groupId = 2;
+	int32 num = 3;
+	PbGameData gameData = 4;
+}
+
+//ProtoId 106
+message PushGameOperate{
+	int32 num = 1;		
+}
+
+
+
+
+
+//ProtoId 199
+message ReqHeartBeat{	//心跳 
+
+}
+
+//ProtoId -199
+message RespHeartBeat	//返回心跳
+{
+	int64 currTime = 1;	//当前时间
+}
+
+
+//ProtoId 10001
+message RespAckError
+{
+	int32 errType=1;//错误码类型(比如1常用的错误码客户端不需要处理啥,2代表客户端需要马上断开连接之类的)
+	int32 errInfoId=2;//对应的错误码表
+	
+}
+
+
+
+
+
+
+
+
+

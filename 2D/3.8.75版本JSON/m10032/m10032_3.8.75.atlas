@@ -1,0 +1,153 @@
+
+m10032_3.8.75.png
+size: 499,144
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+clothes_1
+  rotate: true
+  xy: 293, 58
+  size: 84, 61
+  orig: 86, 63
+  offset: 1, 1
+  index: -1
+clothes_2
+  rotate: true
+  xy: 2, 26
+  size: 116, 111
+  orig: 116, 111
+  offset: 0, 0
+  index: -1
+eye
+  rotate: true
+  xy: 441, 10
+  size: 53, 25
+  orig: 55, 27
+  offset: 1, 1
+  index: -1
+eye_xuanyun
+  rotate: false
+  xy: 97, 2
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+gutou
+  rotate: false
+  xy: 309, 3
+  size: 70, 53
+  orig: 70, 53
+  offset: 0, 0
+  index: -1
+hair_1
+  rotate: true
+  xy: 115, 39
+  size: 103, 97
+  orig: 103, 97
+  offset: 0, 0
+  index: -1
+hair_2
+  rotate: false
+  xy: 121, 2
+  size: 35, 35
+  orig: 37, 37
+  offset: 1, 1
+  index: -1
+hand_L
+  rotate: true
+  xy: 184, 6
+  size: 31, 27
+  orig: 33, 29
+  offset: 1, 1
+  index: -1
+hand_R
+  rotate: false
+  xy: 213, 7
+  size: 27, 30
+  orig: 29, 32
+  offset: 1, 1
+  index: -1
+head
+  rotate: true
+  xy: 214, 53
+  size: 89, 77
+  orig: 91, 79
+  offset: 1, 1
+  index: -1
+hit_yan1
+  rotate: false
+  xy: 469, 72
+  size: 16, 18
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+hit_yan2
+  rotate: false
+  xy: 469, 92
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+hit_yan3
+  rotate: false
+  xy: 469, 114
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+kulou
+  rotate: true
+  xy: 405, 65
+  size: 77, 62
+  orig: 77, 63
+  offset: 0, 1
+  index: -1
+leg_L
+  rotate: true
+  xy: 468, 34
+  size: 29, 27
+  orig: 31, 29
+  offset: 1, 1
+  index: -1
+leg_R
+  rotate: true
+  xy: 468, 3
+  size: 29, 27
+  orig: 31, 29
+  offset: 1, 1
+  index: -1
+upperarm_L_1
+  rotate: true
+  xy: 242, 3
+  size: 48, 65
+  orig: 48, 65
+  offset: 0, 0
+  index: -1
+upperarm_R_01
+  rotate: true
+  xy: 381, 4
+  size: 53, 58
+  orig: 53, 58
+  offset: 0, 0
+  index: -1
+weapon_1
+  rotate: false
+  xy: 356, 59
+  size: 47, 83
+  orig: 49, 85
+  offset: 1, 1
+  index: -1
+yingzi
+  rotate: false
+  xy: 2, 2
+  size: 93, 22
+  orig: 93, 22
+  offset: 0, 0
+  index: -1
+zui
+  rotate: false
+  xy: 158, 5
+  size: 24, 32
+  orig: 24, 32
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,146 @@
+
+m10057_3.8.75.png
+size: 272,431
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+clothes
+  rotate: false
+  xy: 144, 251
+  size: 86, 63
+  orig: 88, 65
+  offset: 1, 1
+  index: -1
+eye
+  rotate: true
+  xy: 184, 53
+  size: 20, 46
+  orig: 22, 48
+  offset: 1, 1
+  index: -1
+eye_xuanyun
+  rotate: false
+  xy: 227, 17
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+gutou
+  rotate: false
+  xy: 135, 111
+  size: 70, 53
+  orig: 70, 53
+  offset: 0, 0
+  index: -1
+hand_L
+  rotate: true
+  xy: 233, 69
+  size: 40, 34
+  orig: 42, 36
+  offset: 1, 1
+  index: -1
+hand_R
+  rotate: false
+  xy: 232, 245
+  size: 37, 32
+  orig: 39, 34
+  offset: 1, 1
+  index: -1
+head
+  rotate: false
+  xy: 2, 295
+  size: 140, 134
+  orig: 142, 136
+  offset: 1, 1
+  index: -1
+hit_yan3
+  rotate: false
+  xy: 232, 39
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+kulou
+  rotate: false
+  xy: 135, 166
+  size: 77, 62
+  orig: 77, 63
+  offset: 0, 1
+  index: -1
+leg_L
+  rotate: true
+  xy: 135, 66
+  size: 43, 47
+  orig: 43, 47
+  offset: 0, 0
+  index: -1
+leg_R
+  rotate: true
+  xy: 207, 111
+  size: 40, 50
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+spine
+  rotate: false
+  xy: 144, 316
+  size: 122, 113
+  orig: 122, 113
+  offset: 0, 0
+  index: -1
+upperarm_L_1
+  rotate: false
+  xy: 220, 199
+  size: 50, 44
+  orig: 52, 46
+  offset: 1, 1
+  index: -1
+upperarm_L_2
+  rotate: true
+  xy: 232, 279
+  size: 35, 38
+  orig: 37, 40
+  offset: 1, 1
+  index: -1
+upperarm_L_3
+  rotate: true
+  xy: 135, 21
+  size: 43, 45
+  orig: 45, 47
+  offset: 1, 1
+  index: -1
+upperarm_R_1
+  rotate: false
+  xy: 214, 153
+  size: 55, 44
+  orig: 57, 46
+  offset: 1, 1
+  index: -1
+upperarm_R_2
+  rotate: true
+  xy: 184, 75
+  size: 34, 47
+  orig: 36, 49
+  offset: 1, 1
+  index: -1
+upperarm_R_3
+  rotate: false
+  xy: 182, 10
+  size: 43, 41
+  orig: 45, 43
+  offset: 1, 1
+  index: -1
+weapon_1
+  rotate: true
+  xy: 2, 2
+  size: 291, 131
+  orig: 293, 133
+  offset: 1, 1
+  index: -1
+yingzi
+  rotate: false
+  xy: 135, 230
+  size: 83, 19
+  orig: 83, 19
+  offset: 0, 0
+  index: -1

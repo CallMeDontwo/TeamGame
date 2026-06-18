@@ -1,0 +1,20 @@
+{
+    "name": "FairyGUI.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:15fc0a57446b3144c949da3e2b9737a9",
+        "GUID:68765d262e2128e4ab49c983f3411946"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "FAIRYGUI_SPINE"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

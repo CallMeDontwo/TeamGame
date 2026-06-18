@@ -1,0 +1,22 @@
+{
+    "name": "Unity.Model",
+    "rootNamespace": "ET",
+    "references": [
+        "Unity.Core",
+        "Unity.Mono",
+        "Unity.ThirdParty",
+        "Unity.Mathematics",
+        "MemoryPack.Unity"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_COMPILE || UNITY_EDITOR"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

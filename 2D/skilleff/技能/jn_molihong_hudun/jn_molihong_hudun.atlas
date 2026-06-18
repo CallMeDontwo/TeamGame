@@ -1,0 +1,13 @@
+
+jn_molihong_hudun.png
+size: 225,235
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hudun_0
+  rotate: false
+  xy: 1, 1
+  size: 223, 233
+  orig: 256, 256
+  offset: 15, 13
+  index: -1

@@ -1,0 +1,9 @@
+{"dict": [
+[1001, {"_t":"NumericTypeConfig","_id":1001,"Name":"HP","Alias":"当前生命","Desc":"单位当前血量"}],
+[1002, {"_t":"NumericTypeConfig","_id":1002,"Name":"MaxHP","Alias":"最大生命","Desc":"满血时的血量"}],
+[1003, {"_t":"NumericTypeConfig","_id":1003,"Name":"Attack","Alias":"攻击力","Desc":"基础攻击伤害"}],
+[1004, {"_t":"NumericTypeConfig","_id":1004,"Name":"Defense","Alias":"防御力","Desc":""}],
+[1005, {"_t":"NumericTypeConfig","_id":1005,"Name":"AttackRange","Alias":"攻击距离","Desc":"可攻击的最远距离"}],
+[1006, {"_t":"NumericTypeConfig","_id":1006,"Name":"AttackCD","Alias":"攻击冷却","Desc":"两次攻击间隔(ms)"}],
+[1007, {"_t":"NumericTypeConfig","_id":1007,"Name":"MoveSpeed","Alias":"移动速度","Desc":"配置表移动速度(用于NumericComponent)"}],
+]}

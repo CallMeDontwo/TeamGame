@@ -1,0 +1,90 @@
+
+jn_guajie.png
+size: 561,204
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/1/fx_guajie_00
+  rotate: true
+  xy: 217, 93
+  size: 110, 106
+  orig: 111, 106
+  offset: 1, 0
+  index: -1
+images/1/fx_guajie_01
+  rotate: false
+  xy: 418, 97
+  size: 80, 106
+  orig: 111, 106
+  offset: 16, 0
+  index: -1
+images/1/fx_guajie_02
+  rotate: false
+  xy: 324, 97
+  size: 93, 106
+  orig: 111, 106
+  offset: 10, 0
+  index: -1
+images/2/gj_baoz_00
+  rotate: false
+  xy: 1, 17
+  size: 215, 186
+  orig: 218, 218
+  offset: 3, 10
+  index: -1
+images/2/gj_fire_00
+  rotate: false
+  xy: 514, 36
+  size: 42, 72
+  orig: 105, 91
+  offset: 0, 8
+  index: -1
+images/2/gj_fire_01
+  rotate: false
+  xy: 223, 1
+  size: 104, 91
+  orig: 105, 91
+  offset: 1, 0
+  index: -1
+images/2/gj_fire_02
+  rotate: true
+  xy: 499, 134
+  size: 69, 44
+  orig: 105, 91
+  offset: 0, 20
+  index: -1
+images/2/gj_sanjiao_00
+  rotate: true
+  xy: 328, 7
+  size: 89, 99
+  orig: 109, 109
+  offset: 11, 7
+  index: -1
+images/2/gj_sd_00
+  rotate: true
+  xy: 544, 109
+  size: 94, 16
+  orig: 94, 16
+  offset: 0, 0
+  index: -1
+images/2/gj_xt_00
+  rotate: false
+  xy: 1, 7
+  size: 110, 9
+  orig: 128, 9
+  offset: 9, 0
+  index: -1
+images/2/gj_xt_01
+  rotate: false
+  xy: 112, 7
+  size: 110, 9
+  orig: 128, 9
+  offset: 9, 0
+  index: -1
+images/2/glow_0
+  rotate: false
+  xy: 428, 11
+  size: 85, 85
+  orig: 109, 109
+  offset: 12, 12
+  index: -1

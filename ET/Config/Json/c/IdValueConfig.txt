@@ -1,0 +1,10 @@
+{"dict": [
+[0, {"_t":"IdValueConfig","_id":0,"SexModel":"Character_Model_boy","Skin":"Skin/Normal","TrimSkin_back":"","Vehicle":""}],
+[1, {"_t":"IdValueConfig","_id":1,"SexModel":"Character_Model_girl","Skin":"Skin/Miner","TrimSkin_back":"BS_Angel_1","Vehicle":"Vehicle_ZQ_Balance_car"}],
+[2, {"_t":"IdValueConfig","_id":2,"SexModel":"","Skin":"Skin/Pirate","TrimSkin_back":"BS_Angel_2","Vehicle":"Vehicle_ZQ_Miner"}],
+[3, {"_t":"IdValueConfig","_id":3,"SexModel":"","Skin":"Skin/Waiter","TrimSkin_back":"BS_Imp_1","Vehicle":"Vehicle_ZQ_moto"}],
+[4, {"_t":"IdValueConfig","_id":4,"SexModel":"","Skin":"","TrimSkin_back":"BS_Miner_3","Vehicle":"Vehicle_ZQ_Pirate_1"}],
+[5, {"_t":"IdValueConfig","_id":5,"SexModel":"","Skin":"","TrimSkin_back":"BS_Pirate_1","Vehicle":"Vehicle_ZQ_soda_aeroplane"}],
+[6, {"_t":"IdValueConfig","_id":6,"SexModel":"","Skin":"","TrimSkin_back":"BS_Soda_1","Vehicle":""}],
+[7, {"_t":"IdValueConfig","_id":7,"SexModel":"","Skin":"","TrimSkin_back":"BS_Soda_2","Vehicle":""}],
+]}

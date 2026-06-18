@@ -1,0 +1,97 @@
+
+jn_bianfuxia.png
+size: 548,247
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd_0_1
+  rotate: false
+  xy: 201, 7
+  size: 101, 85
+  orig: 102, 102
+  offset: 0, 9
+  index: -1
+glow_0
+  rotate: false
+  xy: 454, 90
+  size: 80, 80
+  orig: 102, 102
+  offset: 11, 11
+  index: -1
+qian2
+  rotate: false
+  xy: 255, 93
+  size: 198, 77
+  orig: 207, 110
+  offset: 4, 22
+  index: -1
+qian3
+  rotate: false
+  xy: 303, 1
+  size: 192, 88
+  orig: 207, 110
+  offset: 7, 11
+  index: -1
+qian4
+  rotate: false
+  xy: 1, 98
+  size: 173, 76
+  orig: 207, 110
+  offset: 11, 11
+  index: -1
+qian5
+  rotate: false
+  xy: 1, 15
+  size: 199, 79
+  orig: 207, 110
+  offset: 4, 16
+  index: -1
+yanwu/yanwu_0
+  rotate: false
+  xy: 175, 95
+  size: 79, 76
+  orig: 102, 102
+  offset: 11, 10
+  index: -1
+yanwu/yanwu_12
+  rotate: false
+  xy: 366, 171
+  size: 88, 75
+  orig: 102, 102
+  offset: 6, 13
+  index: -1
+yanwu/yanwu_14
+  rotate: false
+  xy: 455, 171
+  size: 92, 75
+  orig: 102, 102
+  offset: 2, 12
+  index: -1
+yanwu/yanwu_2
+  rotate: false
+  xy: 186, 172
+  size: 87, 74
+  orig: 102, 102
+  offset: 5, 11
+  index: -1
+yanwu/yanwu_4
+  rotate: false
+  xy: 274, 172
+  size: 91, 74
+  orig: 102, 102
+  offset: 5, 9
+  index: -1
+yanwu/yanwu_6
+  rotate: false
+  xy: 1, 175
+  size: 94, 71
+  orig: 102, 102
+  offset: 1, 11
+  index: -1
+yanwu/yanwu_8
+  rotate: false
+  xy: 96, 175
+  size: 89, 71
+  orig: 102, 102
+  offset: 2, 12
+  index: -1

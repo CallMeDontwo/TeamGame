@@ -1,0 +1,125 @@
+
+jn_xiao86.png
+size: 439,267
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ci_glow_0
+  rotate: true
+  xy: 263, 6
+  size: 128, 61
+  orig: 135, 81
+  offset: 7, 1
+  index: -1
+fxx/banyuan_ring_0
+  rotate: true
+  xy: 325, 67
+  size: 87, 110
+  orig: 115, 115
+  offset: 26, 2
+  index: -1
+fxx/bd_0
+  rotate: false
+  xy: 1, 1
+  size: 114, 95
+  orig: 115, 115
+  offset: 0, 10
+  index: -1
+fxx/glow_0
+  rotate: false
+  xy: 116, 7
+  size: 89, 89
+  orig: 115, 115
+  offset: 13, 13
+  index: -1
+fxx/huang_ci_0
+  rotate: true
+  xy: 185, 135
+  size: 131, 36
+  orig: 135, 36
+  offset: 4, 0
+  index: -1
+fxx/huang_tw_0
+  rotate: true
+  xy: 1, 97
+  size: 169, 45
+  orig: 180, 54
+  offset: 8, 5
+  index: -1
+fxx/ks_caihong_0
+  rotate: false
+  xy: 325, 155
+  size: 113, 111
+  orig: 115, 115
+  offset: 1, 2
+  index: -1
+fxx/lan_ci_0
+  rotate: true
+  xy: 222, 135
+  size: 131, 36
+  orig: 135, 36
+  offset: 4, 0
+  index: -1
+fxx/lan_tw_0
+  rotate: true
+  xy: 47, 97
+  size: 169, 45
+  orig: 180, 54
+  offset: 8, 5
+  index: -1
+fxx/lv_ci_0
+  rotate: true
+  xy: 226, 3
+  size: 131, 36
+  orig: 135, 36
+  offset: 4, 0
+  index: -1
+fxx/lv_tw_0
+  rotate: true
+  xy: 93, 97
+  size: 169, 45
+  orig: 180, 54
+  offset: 8, 5
+  index: -1
+fxx/zi_ci_0
+  rotate: true
+  xy: 259, 135
+  size: 131, 36
+  orig: 135, 36
+  offset: 4, 0
+  index: -1
+fxx/zi_tw_0
+  rotate: true
+  xy: 139, 97
+  size: 169, 45
+  orig: 180, 54
+  offset: 8, 5
+  index: -1
+par_bai_0
+  rotate: false
+  xy: 206, 80
+  size: 16, 16
+  orig: 22, 22
+  offset: 3, 3
+  index: -1
+par_xing_0
+  rotate: false
+  xy: 325, 10
+  size: 56, 56
+  orig: 58, 58
+  offset: 1, 1
+  index: -1
+yanwu1_1
+  rotate: true
+  xy: 382, 16
+  size: 50, 53
+  orig: 57, 57
+  offset: 5, 1
+  index: -1
+yanwu2_0
+  rotate: false
+  xy: 185, 97
+  size: 40, 37
+  orig: 45, 45
+  offset: 3, 4
+  index: -1

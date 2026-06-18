@@ -1,0 +1,55 @@
+
+jn_elingzhiyan_ani.png
+size: 283,197
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chujiao
+  rotate: false
+  xy: 1, 7
+  size: 191, 189
+  orig: 191, 189
+  offset: 0, 0
+  index: -1
+gg1
+  rotate: false
+  xy: 256, 67
+  size: 13, 12
+  orig: 13, 12
+  offset: 0, 0
+  index: -1
+gg2
+  rotate: false
+  xy: 256, 59
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1
+heidi
+  rotate: false
+  xy: 256, 80
+  size: 26, 26
+  orig: 26, 26
+  offset: 0, 0
+  index: -1
+tongkong
+  rotate: true
+  xy: 193, 1
+  size: 39, 63
+  orig: 39, 63
+  offset: 0, 0
+  index: -1
+yanbai1
+  rotate: true
+  xy: 193, 41
+  size: 65, 62
+  orig: 65, 62
+  offset: 0, 0
+  index: -1
+yanbai2
+  rotate: false
+  xy: 193, 107
+  size: 89, 89
+  orig: 89, 89
+  offset: 0, 0
+  index: -1

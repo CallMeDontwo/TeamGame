@@ -1,0 +1,139 @@
+
+Jn_lixiaolong2.png
+size: 492,141
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 78
+  size: 147, 16
+  orig: 147, 16
+  offset: 0, 0
+  index: -1
+10
+  rotate: true
+  xy: 481, 29
+  size: 25, 9
+  orig: 25, 9
+  offset: 0, 0
+  index: -1
+11
+  rotate: true
+  xy: 456, 56
+  size: 37, 25
+  orig: 37, 25
+  offset: 0, 0
+  index: -1
+12
+  rotate: true
+  xy: 2, 2
+  size: 74, 39
+  orig: 74, 39
+  offset: 0, 0
+  index: -1
+13
+  rotate: false
+  xy: 2, 96
+  size: 373, 43
+  orig: 373, 43
+  offset: 0, 0
+  index: -1
+14
+  rotate: false
+  xy: 439, 4
+  size: 41, 23
+  orig: 41, 23
+  offset: 0, 0
+  index: -1
+15
+  rotate: false
+  xy: 439, 29
+  size: 40, 25
+  orig: 40, 25
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 43, 8
+  size: 37, 29
+  orig: 37, 29
+  offset: 0, 0
+  index: -1
+3
+  rotate: true
+  xy: 125, 33
+  size: 43, 23
+  orig: 43, 23
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 82, 8
+  size: 37, 29
+  orig: 37, 29
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 309, 2
+  size: 41, 27
+  orig: 41, 27
+  offset: 0, 0
+  index: -1
+6
+  rotate: true
+  xy: 400, 4
+  size: 56, 37
+  orig: 56, 37
+  offset: 0, 0
+  index: -1
+7
+  rotate: true
+  xy: 456, 95
+  size: 44, 34
+  orig: 44, 34
+  offset: 0, 0
+  index: -1
+8
+  rotate: true
+  xy: 359, 2
+  size: 58, 39
+  orig: 58, 39
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 43, 39
+  size: 80, 37
+  orig: 80, 37
+  offset: 0, 0
+  index: -1
+bd_0
+  rotate: false
+  xy: 377, 62
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+glow_0
+  rotate: false
+  xy: 151, 17
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+xingxing_0
+  rotate: false
+  xy: 309, 31
+  size: 48, 63
+  orig: 48, 63
+  offset: 0, 0
+  index: -1
+yanhua_16
+  rotate: false
+  xy: 230, 17
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1

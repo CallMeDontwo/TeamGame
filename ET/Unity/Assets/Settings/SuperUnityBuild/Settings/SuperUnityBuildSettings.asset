@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6959038950095604397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2786f6b2301a94f4288672ff5305244c, type: 3}
+  m_Name: Windows
+  m_EditorClassIdentifier: 
+  enabled: 1
+  distributionList:
+    distributions: []
+  targets:
+  - type: 19
+    name: Player
+    enabled: 1
+    binaryNameFormat: '{0}.exe'
+    subtarget: 0
+  - type: 19
+    name: Dedicated Server
+    enabled: 0
+    binaryNameFormat: '{0}.exe'
+    subtarget: 1
+  variants:
+  - variantName: Architecture
+    selectedIndex: 0
+    values:
+    - Intel 64-bit
+    - Intel 32-bit
+    isFlag: 0
+  - variantName: Build Output
+    selectedIndex: 0
+    values:
+    - App
+    - Visual Studio Solution
+    isFlag: 0
+  scriptingBackends:
+  - scriptingImplementation: 0
+    name: Mono
+    enabled: 1
+  - scriptingImplementation: 1
+    name: IL2CPP
+    enabled: 0
+  platformName: Windows
+  targetGroup: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d5886119a5c7b34d8872ab527ca3e1b, type: 3}
+  m_Name: SuperUnityBuildSettings
+  m_EditorClassIdentifier: 
+  _basicSettings:
+    baseBuildFolder: Builds
+    buildPath: $PRODUCT_NAME_$RELEASE_TYPE_$PLATFORM_$TARGET_$SCRIPTING_BACKEND_$VERSION
+    openFolderPostBuild: 1
+    constantsFileLocation: Assets\Scripts\Mono\Generate\SuperUnityBuild
+  _productParameters:
+    buildCounter: 0
+    buildVersion: 1.0.0.24
+    versionTemplate: 1.0.0.$BUILD
+    autoGenerate: 1
+    syncWithPlayerSettings: 0
+  _releaseTypeList:
+    releaseTypes:
+    - typeName: Release
+      bundleIdentifier: com.miwantribe.coinpusher
+      companyName: Miwan Tribe
+      productName: XiYouBaoBaoLe
+      syncAppNameWithProduct: 1
+      appBuildName: XiYouBaoBaoLe
+      buildOptions: 0
+      customDefines: 
+      sceneList:
+        releaseScenes:
+        - fileGUID: 774cf96e7ce78d544abb365f9b141fd3
+          sceneActive: 1
+  _platformList:
+    platforms:
+    - {fileID: -6959038950095604397}
+  _projectConfigurations:
+    configSet:
+      _Buckets: 01000000ffffffff03000000ffffffff02000000ffffffffffffffff
+      _HashCodes: 1fdd3c6a7f388d4369f086712d6dfd48000000000000000000000000
+      _Next: ffffffff00000000ffffffffffffffff000000000000000000000000
+      _Count: 4
+      _Version: 4
+      _FreeList: -1
+      _FreeCount: 0
+      _Keys:
+      - Release/Windows/Player (Intel 64-bit,App)/Mono
+      - Release/Windows/Player (Intel 64-bit,App)
+      - Release/Windows
+      - Release
+      - 
+      - 
+      - 
+      _Values:
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys:
+        - Release/Windows/Player (Intel 64-bit,App)/Mono
+      - enabled: 1
+        childKeys:
+        - Release/Windows/Player (Intel 64-bit,App)
+      - enabled: 1
+        childKeys:
+        - Release/Windows
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys: []
+      - enabled: 1
+        childKeys: []
+    showViewOptions: 0
+    showConfigs: 0
+    showBuildInfo: 0
+    hideDisabled: 1
+    treeView: 0
+    selectedKeyChain: Release/Windows/Player (Intel 64-bit,App)/Mono
+  _preBuildActions:
+    buildActions: []
+  _postBuildActions:
+    buildActions: []

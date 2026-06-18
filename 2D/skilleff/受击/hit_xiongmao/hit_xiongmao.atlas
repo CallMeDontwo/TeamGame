@@ -1,0 +1,27 @@
+
+hit_xiongmao.png
+size: 175,106
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bd_wujiao
+  rotate: true
+  xy: 1, 11
+  size: 94, 92
+  orig: 102, 102
+  offset: 8, 4
+  index: -1
+images/glow_0
+  rotate: false
+  xy: 94, 25
+  size: 80, 80
+  orig: 102, 102
+  offset: 11, 11
+  index: -1
+images/par_yezi2
+  rotate: true
+  xy: 94, 1
+  size: 23, 66
+  orig: 23, 66
+  offset: 0, 0
+  index: -1

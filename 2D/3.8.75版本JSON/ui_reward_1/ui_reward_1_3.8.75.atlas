@@ -1,0 +1,48 @@
+
+ui_reward_1_3.8.75.png
+size: 1310,543
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+16
+  rotate: false
+  xy: 1068, 164
+  size: 104, 119
+  orig: 128, 128
+  offset: 12, 1
+  index: -1
+17
+  rotate: true
+  xy: 2, 2
+  size: 539, 566
+  orig: 539, 566
+  offset: 0, 0
+  index: -1
+g
+  rotate: false
+  xy: 570, 11
+  size: 280, 28
+  orig: 327, 32
+  offset: 24, 2
+  index: -1
+g31
+  rotate: true
+  xy: 1068, 285
+  size: 256, 240
+  orig: 300, 300
+  offset: 22, 30
+  index: -1
+quan
+  rotate: false
+  xy: 570, 41
+  size: 496, 500
+  orig: 500, 500
+  offset: 2, 0
+  index: -1
+xx1
+  rotate: false
+  xy: 852, 16
+  size: 17, 23
+  orig: 17, 23
+  offset: 0, 0
+  index: -1

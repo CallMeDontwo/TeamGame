@@ -1,0 +1,62 @@
+
+jn_molihong_chufa.png
+size: 538,315
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd_sijiao_0
+  rotate: true
+  xy: 348, 66
+  size: 123, 122
+  orig: 128, 128
+  offset: 5, 4
+  index: -1
+bd_xl/bd_xl_0
+  rotate: false
+  xy: 202, 188
+  size: 125, 126
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+bd_xl/bd_xl_1
+  rotate: false
+  xy: 222, 62
+  size: 125, 125
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+bd_xl/bd_xl_2
+  rotate: true
+  xy: 328, 190
+  size: 124, 122
+  orig: 128, 128
+  offset: 2, 1
+  index: -1
+bd_xl/bd_xl_3
+  rotate: false
+  xy: 1, 1
+  size: 119, 112
+  orig: 128, 128
+  offset: 2, 2
+  index: -1
+bd_xl/bd_xl_4
+  rotate: true
+  xy: 121, 3
+  size: 110, 100
+  orig: 128, 128
+  offset: 3, 2
+  index: -1
+bd_xl/bd_xl_5
+  rotate: true
+  xy: 451, 210
+  size: 104, 86
+  orig: 128, 128
+  offset: 7, 9
+  index: -1
+san
+  rotate: false
+  xy: 1, 114
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1

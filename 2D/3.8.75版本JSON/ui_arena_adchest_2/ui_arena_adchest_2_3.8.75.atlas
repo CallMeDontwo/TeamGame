@@ -1,0 +1,90 @@
+
+ui_arena_adchest_2_3.8.75.png
+size: 464,529
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 16
+  size: 284, 123
+  orig: 284, 123
+  offset: 0, 0
+  index: -1
+1_1
+  rotate: false
+  xy: 2, 141
+  size: 292, 177
+  orig: 292, 178
+  offset: 0, 1
+  index: -1
+1_4
+  rotate: false
+  xy: 2, 320
+  size: 296, 207
+  orig: 297, 207
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 397, 296
+  size: 54, 65
+  orig: 60, 73
+  offset: 3, 4
+  index: -1
+5
+  rotate: false
+  xy: 374, 30
+  size: 80, 82
+  orig: 91, 91
+  offset: 5, 5
+  index: -1
+6
+  rotate: false
+  xy: 296, 114
+  size: 112, 132
+  orig: 124, 146
+  offset: 6, 8
+  index: -1
+banguang2
+  rotate: true
+  xy: 300, 248
+  size: 279, 95
+  orig: 282, 104
+  offset: 1, 0
+  index: -1
+banguang3
+  rotate: false
+  xy: 410, 180
+  size: 45, 114
+  orig: 50, 129
+  offset: 5, 0
+  index: -1
+dian
+  rotate: false
+  xy: 429, 434
+  size: 28, 93
+  orig: 28, 95
+  offset: 0, 1
+  index: -1
+quan1
+  rotate: true
+  xy: 288, 2
+  size: 23, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+xian
+  rotate: true
+  xy: 397, 352
+  size: 175, 30
+  orig: 181, 31
+  offset: 2, 1
+  index: -1
+xx
+  rotate: false
+  xy: 288, 27
+  size: 84, 85
+  orig: 94, 102
+  offset: 4, 7
+  index: -1

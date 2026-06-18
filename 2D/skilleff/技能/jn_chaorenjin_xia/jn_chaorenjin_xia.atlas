@@ -1,0 +1,20 @@
+
+jn_chaorenjin_xia.png
+size: 301,255
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bai_0
+  rotate: false
+  xy: 255, 209
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+images/taiyang
+  rotate: false
+  xy: 1, 1
+  size: 253, 253
+  orig: 255, 255
+  offset: 1, 1
+  index: -1

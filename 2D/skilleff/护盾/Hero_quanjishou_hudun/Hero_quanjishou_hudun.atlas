@@ -1,0 +1,27 @@
+
+Hero_quanjishou_hudun.png
+size: 312,130
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+danke_0
+  rotate: false
+  xy: 130, 1
+  size: 110, 128
+  orig: 110, 128
+  offset: 0, 0
+  index: -1
+glow_0
+  rotate: false
+  xy: 1, 1
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+xiongzhang_0
+  rotate: false
+  xy: 241, 53
+  size: 70, 76
+  orig: 70, 76
+  offset: 0, 0
+  index: -1

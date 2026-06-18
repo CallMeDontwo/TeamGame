@@ -1,0 +1,83 @@
+
+JN_SDhuang_xiapi.png
+size: 198,258
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bujian2_0
+  rotate: true
+  xy: 92, 120
+  size: 39, 15
+  orig: 40, 16
+  offset: 1, 0
+  index: -1
+bujian3_0
+  rotate: false
+  xy: 57, 24
+  size: 49, 44
+  orig: 56, 48
+  offset: 4, 3
+  index: -1
+bujian4_0
+  rotate: false
+  xy: 107, 16
+  size: 40, 48
+  orig: 54, 54
+  offset: 8, 2
+  index: -1
+dd_sd_xian_0
+  rotate: false
+  xy: 1, 160
+  size: 114, 31
+  orig: 120, 40
+  offset: 3, 5
+  index: -1
+dd_sd_xian_1
+  rotate: false
+  xy: 1, 192
+  size: 114, 33
+  orig: 120, 40
+  offset: 3, 2
+  index: -1
+dd_sd_xian_2
+  rotate: false
+  xy: 1, 226
+  size: 115, 31
+  orig: 120, 40
+  offset: 3, 1
+  index: -1
+glow_0
+  rotate: false
+  xy: 117, 177
+  size: 80, 80
+  orig: 102, 102
+  offset: 11, 11
+  index: -1
+sanjiao2_0
+  rotate: true
+  xy: 116, 141
+  size: 35, 81
+  orig: 40, 88
+  offset: 3, 4
+  index: -1
+sanjiao4_0
+  rotate: true
+  xy: 1, 1
+  size: 63, 55
+  orig: 64, 64
+  offset: 1, 4
+  index: -1
+tuanyun_3
+  rotate: false
+  xy: 108, 65
+  size: 79, 75
+  orig: 79, 75
+  offset: 0, 0
+  index: -1
+yuan_0
+  rotate: false
+  xy: 1, 69
+  size: 90, 90
+  orig: 102, 102
+  offset: 6, 6
+  index: -1

@@ -1,0 +1,62 @@
+
+jn_FireBoom.png
+size: 365,169
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baokai_quan_0
+  rotate: false
+  xy: 98, 7
+  size: 72, 72
+  orig: 102, 102
+  offset: 15, 15
+  index: -1
+baokai_quan_1
+  rotate: false
+  xy: 278, 1
+  size: 80, 80
+  orig: 102, 102
+  offset: 11, 11
+  index: -1
+baokai_quan_2
+  rotate: false
+  xy: 189, 80
+  size: 88, 88
+  orig: 102, 102
+  offset: 7, 7
+  index: -1
+baokai_quan_3
+  rotate: false
+  xy: 1, 72
+  size: 96, 96
+  orig: 102, 102
+  offset: 3, 3
+  index: -1
+glow_bai_0
+  rotate: true
+  xy: 98, 80
+  size: 88, 90
+  orig: 102, 102
+  offset: 7, 6
+  index: -1
+yanwu1_0
+  rotate: true
+  xy: 171, 17
+  size: 62, 65
+  orig: 72, 72
+  offset: 6, 3
+  index: -1
+yuan_0
+  rotate: false
+  xy: 278, 82
+  size: 86, 86
+  orig: 102, 102
+  offset: 8, 8
+  index: -1
+yueya_da_0
+  rotate: true
+  xy: 1, 7
+  size: 64, 87
+  orig: 72, 102
+  offset: 4, 5
+  index: -1

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="290,76" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n2_jxfj" name="n2" src="x7764x" fileName="资源/DebugUI/切图/Background_botton_nor.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_jxfj" name="n3" src="x7764y" fileName="资源/DebugUI/切图/Background_botton_sel.png" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_jxfj" name="title" xy="0,0" size="290,76" fontSize="50" color="#00ebf0" align="center" vAlign="middle" autoSize="none" singleLine="true" text="">
+      <gearColor controller="button" pages="2" values="#000000,#000000" default="#00ebf0,#000000"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

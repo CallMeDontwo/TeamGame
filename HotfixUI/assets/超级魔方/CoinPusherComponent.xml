@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920" opaque="false">
+  <displayList>
+    <component id="n4_pgrl" name="Com_Settings" src="jxfj6a" fileName="组件/DebugComponent/SettingsComponent.xml" xy="60,210">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

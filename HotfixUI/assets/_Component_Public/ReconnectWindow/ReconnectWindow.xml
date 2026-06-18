@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920">
+  <displayList>
+    <graph id="n0_vojl" name="n0" xy="0,-320" size="1080,2560" type="rect" lineSize="0" fillColor="#99000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n1_vojl" name="n1" xy="509,925" size="197,69" group="n3_lu2a" fontSize="52" color="#ffd9a3" align="center" vAlign="middle" strokeColor="#ffffff" text="Loding..."/>
+    <image id="n2_lu2a" name="n2" src="lu2aq9s" fileName="ReconnectWindow/资源/loading_icon.png" xy="373,893" pivot="0.5,0.5" group="n3_lu2a"/>
+    <group id="n3_lu2a" name="n3" xy="373,893" size="333,134" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+  </displayList>
+  <transition name="T_Play" autoPlay="true">
+    <item time="0" type="Rotation" target="n2_lu2a" tween="true" startValue="0" endValue="360" duration="48" ease="Linear" repeat="-1"/>
+  </transition>
+</component>

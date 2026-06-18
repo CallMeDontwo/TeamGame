@@ -1,0 +1,90 @@
+
+ui_bounty_chestopen_4_3.8.75.png
+size: 858,271
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 556, 150
+  size: 278, 119
+  orig: 278, 119
+  offset: 0, 0
+  index: -1
+1_1
+  rotate: false
+  xy: 282, 103
+  size: 272, 166
+  orig: 272, 166
+  offset: 0, 0
+  index: -1
+1_4
+  rotate: false
+  xy: 2, 70
+  size: 278, 199
+  orig: 278, 199
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 776, 2
+  size: 52, 64
+  orig: 60, 73
+  offset: 4, 5
+  index: -1
+5
+  rotate: false
+  xy: 776, 68
+  size: 80, 80
+  orig: 91, 91
+  offset: 5, 6
+  index: -1
+6
+  rotate: false
+  xy: 575, 16
+  size: 113, 132
+  orig: 124, 146
+  offset: 6, 8
+  index: -1
+banguang2
+  rotate: false
+  xy: 294, 8
+  size: 279, 93
+  orig: 282, 104
+  offset: 1, 0
+  index: -1
+banguang3
+  rotate: true
+  xy: 179, 23
+  size: 45, 113
+  orig: 50, 129
+  offset: 5, 0
+  index: -1
+dian
+  rotate: true
+  xy: 2, 8
+  size: 28, 93
+  orig: 28, 95
+  offset: 0, 1
+  index: -1
+quan1
+  rotate: false
+  xy: 97, 12
+  size: 23, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+xian
+  rotate: false
+  xy: 2, 38
+  size: 175, 30
+  orig: 181, 31
+  offset: 2, 1
+  index: -1
+xx
+  rotate: false
+  xy: 690, 63
+  size: 84, 85
+  orig: 94, 102
+  offset: 3, 7
+  index: -1

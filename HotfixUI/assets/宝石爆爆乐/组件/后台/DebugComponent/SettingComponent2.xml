@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,1500">
+  <displayList>
+    <text id="n3_ee5c" name="n3" xy="112,156" size="103,66" fontSize="50" color="#00ebf0" text="记录"/>
+    <component id="n0_ee5c" name="Btn_Record1" src="x7764w" fileName="组件/后台/DebugComponent/Button1.xml" xy="110,263" size="740,76">
+      <relation target="" sidePair="center-center"/>
+      <Button title="奖项记录"/>
+    </component>
+    <component id="n1_ee5c" name="Btn_Record2" src="x7764w" fileName="组件/后台/DebugComponent/Button1.xml" xy="108,448" size="740,76">
+      <relation target="" sidePair="center-center"/>
+      <Button title="账目记录"/>
+    </component>
+    <component id="n2_ee5c" name="Btn_Back" src="x77650" fileName="组件/后台/DebugComponent/Button2.xml" xy="60,1374">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+  </displayList>
+</component>

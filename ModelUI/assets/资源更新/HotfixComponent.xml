@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920">
+  <controller name="C_Status" pages="0,,1,,3," selected="0"/>
+  <controller name="C_Tip" pages="0,,1," selected="0"/>
+  <displayList>
+    <graph id="n15_q5mt" name="n15" xy="0,-320" size="1080,2560" type="rect" lineSize="0" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n3_v869" name="n3" xy="271,1748" size="537,49" fontSize="37" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" text="Checking Update,  please wait.">
+      <gearDisplay controller="C_Status" pages="0"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <text id="n4_v869" name="n4" xy="308,1640" size="464,49" group="n2_v869" fontSize="37" color="#ffffff" align="center" strokeColor="#000000" text="Downloading, please wait."/>
+    <text id="n5_v869" name="Text_DownloadSize" xy="148,1700" size="323,37" group="n2_v869" fontSize="26" color="#ffffff" vars="true" autoSize="none" strokeColor="#000000" text="{var1=100MB}/{var2=1000MB}"/>
+    <text id="n19_d7sg" name="Text_DownloadSpeed" xy="698,1700" size="234,37" group="n2_v869" fontSize="26" color="#ffffff" align="right" vars="true" autoSize="none" strokeColor="#000000" text="{var1=100.00MB}/S"/>
+    <component id="n1_v869" name="Bar_Download" src="v8691" fileName="组件/DownloadProgress.xml" xy="148,1745" group="n2_v869">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <group id="n2_v869" name="n2" xy="148,1640" size="784,158" advanced="true">
+      <gearDisplay controller="C_Status" pages="1"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <text id="n10_v869" name="n10" xy="241,1748" size="597,49" fontSize="37" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" text="Download successful, please wait.">
+      <gearDisplay controller="C_Status" pages="3"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+    <graph id="n12_v869" name="n12" xy="0,-276" size="1080,2473" type="rect" lineSize="0" fillColor="#4c000000">
+      <gearDisplay controller="C_Tip" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n11_v869" name="Com_DownloadTip" src="v8692" fileName="组件/DownloadTip.xml" xy="172,663">
+      <gearDisplay controller="C_Tip" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

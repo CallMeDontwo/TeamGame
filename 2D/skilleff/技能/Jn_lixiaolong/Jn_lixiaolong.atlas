@@ -1,0 +1,146 @@
+
+Jn_lixiaolong.png
+size: 931,235
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 2
+  size: 245, 27
+  orig: 245, 27
+  offset: 0, 0
+  index: -1
+10
+  rotate: false
+  xy: 249, 14
+  size: 42, 15
+  orig: 42, 15
+  offset: 0, 0
+  index: -1
+11
+  rotate: true
+  xy: 887, 171
+  size: 62, 41
+  orig: 62, 41
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 762, 168
+  size: 123, 65
+  orig: 123, 65
+  offset: 0, 0
+  index: -1
+13
+  rotate: false
+  xy: 2, 161
+  size: 622, 72
+  orig: 622, 72
+  offset: 0, 0
+  index: -1
+14
+  rotate: false
+  xy: 816, 5
+  size: 69, 38
+  orig: 69, 38
+  offset: 0, 0
+  index: -1
+15
+  rotate: true
+  xy: 887, 23
+  size: 67, 42
+  orig: 67, 42
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 650, 2
+  size: 61, 49
+  orig: 61, 49
+  offset: 0, 0
+  index: -1
+3
+  rotate: true
+  xy: 890, 98
+  size: 71, 38
+  orig: 71, 38
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 701, 2
+  size: 61, 49
+  orig: 61, 49
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 816, 45
+  size: 69, 45
+  orig: 69, 45
+  offset: 0, 0
+  index: -1
+6
+  rotate: true
+  xy: 752, 6
+  size: 93, 62
+  orig: 93, 62
+  offset: 0, 0
+  index: -1
+7
+  rotate: true
+  xy: 831, 92
+  size: 74, 57
+  orig: 74, 57
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 732, 101
+  size: 97, 65
+  orig: 97, 65
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 626, 172
+  size: 134, 61
+  orig: 134, 61
+  offset: 0, 0
+  index: -1
+bd_0
+  rotate: false
+  xy: 260, 31
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+glow_0
+  rotate: false
+  xy: 390, 31
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+xingxing_0
+  rotate: false
+  xy: 650, 65
+  size: 80, 105
+  orig: 80, 105
+  offset: 0, 0
+  index: -1
+yanhua_16
+  rotate: false
+  xy: 520, 31
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+yanwu_0
+  rotate: false
+  xy: 2, 31
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1

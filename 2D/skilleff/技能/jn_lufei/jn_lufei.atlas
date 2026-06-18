@@ -1,0 +1,41 @@
+
+jn_lufei.png
+size: 511,318
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd_0
+  rotate: false
+  xy: 408, 215
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+glow_0
+  rotate: false
+  xy: 408, 112
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+ring_0
+  rotate: false
+  xy: 406, 9
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 1, 1
+  size: 404, 157
+  orig: 404, 157
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 1, 159
+  size: 406, 158
+  orig: 406, 158
+  offset: 0, 0
+  index: -1

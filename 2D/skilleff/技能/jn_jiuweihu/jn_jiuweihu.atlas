@@ -1,0 +1,62 @@
+
+jn_jiuweihu.png
+size: 922,429
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/1/bd_00
+  rotate: false
+  xy: 1, 215
+  size: 340, 213
+  orig: 340, 213
+  offset: 0, 0
+  index: -1
+images/1/bd_01
+  rotate: false
+  xy: 1, 1
+  size: 340, 213
+  orig: 340, 213
+  offset: 0, 0
+  index: -1
+images/1/bd_02
+  rotate: false
+  xy: 342, 215
+  size: 340, 213
+  orig: 340, 213
+  offset: 0, 0
+  index: -1
+images/1/bd_03
+  rotate: false
+  xy: 342, 1
+  size: 340, 213
+  orig: 340, 213
+  offset: 0, 0
+  index: -1
+images/glow_00
+  rotate: false
+  xy: 812, 319
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+images/weib_0
+  rotate: false
+  xy: 683, 102
+  size: 128, 326
+  orig: 128, 326
+  offset: 0, 0
+  index: -1
+images/xingxing_0
+  rotate: false
+  xy: 683, 12
+  size: 68, 89
+  orig: 68, 89
+  offset: 0, 0
+  index: -1
+images/yanwu_qiu_1
+  rotate: false
+  xy: 812, 241
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1

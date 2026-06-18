@@ -1,0 +1,118 @@
+
+jn_aimiliya.png
+size: 637,530
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+001
+  rotate: true
+  xy: 335, 4
+  size: 106, 82
+  orig: 106, 82
+  offset: 0, 0
+  index: -1
+002
+  rotate: false
+  xy: 186, 3
+  size: 148, 107
+  orig: 148, 107
+  offset: 0, 0
+  index: -1
+003
+  rotate: false
+  xy: 440, 143
+  size: 159, 118
+  orig: 159, 118
+  offset: 0, 0
+  index: -1
+004
+  rotate: false
+  xy: 440, 262
+  size: 166, 126
+  orig: 166, 126
+  offset: 0, 0
+  index: -1
+005
+  rotate: false
+  xy: 270, 230
+  size: 169, 131
+  orig: 169, 131
+  offset: 0, 0
+  index: -1
+006
+  rotate: false
+  xy: 438, 389
+  size: 176, 140
+  orig: 176, 140
+  offset: 0, 0
+  index: -1
+02
+  rotate: false
+  xy: 420, 24
+  size: 118, 118
+  orig: 118, 118
+  offset: 0, 0
+  index: -1
+dd_aiminiya
+  rotate: false
+  xy: 539, 1
+  size: 87, 42
+  orig: 87, 42
+  offset: 0, 0
+  index: -1
+di
+  rotate: false
+  xy: 1, 69
+  size: 184, 172
+  orig: 184, 172
+  offset: 0, 0
+  index: -1
+dian1
+  rotate: true
+  xy: 539, 44
+  size: 98, 97
+  orig: 98, 97
+  offset: 0, 0
+  index: -1
+dian2
+  rotate: false
+  xy: 1, 8
+  size: 132, 60
+  orig: 132, 60
+  offset: 0, 0
+  index: -1
+i
+  rotate: true
+  xy: 186, 111
+  size: 17, 205
+  orig: 17, 205
+  offset: 0, 0
+  index: -1
+o
+  rotate: false
+  xy: 270, 362
+  size: 167, 167
+  orig: 167, 167
+  offset: 0, 0
+  index: -1
+quan
+  rotate: false
+  xy: 186, 129
+  size: 233, 100
+  orig: 233, 100
+  offset: 0, 0
+  index: -1
+xh
+  rotate: false
+  xy: 1, 242
+  size: 268, 287
+  orig: 268, 287
+  offset: 0, 0
+  index: -1
+xxh
+  rotate: false
+  xy: 134, 29
+  size: 46, 39
+  orig: 46, 39
+  offset: 0, 0
+  index: -1

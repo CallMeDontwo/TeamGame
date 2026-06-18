@@ -1,0 +1,69 @@
+
+ui_main_btn_growup_3.8.75.png
+size: 200,77
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aixin
+  rotate: true
+  xy: 167, 42
+  size: 33, 31
+  orig: 35, 33
+  offset: 1, 1
+  index: -1
+hua
+  rotate: false
+  xy: 2, 4
+  size: 71, 71
+  orig: 73, 73
+  offset: 1, 1
+  index: -1
+lian
+  rotate: true
+  xy: 121, 26
+  size: 49, 44
+  orig: 51, 46
+  offset: 1, 1
+  index: -1
+xx1
+  rotate: true
+  xy: 159, 8
+  size: 16, 15
+  orig: 18, 17
+  offset: 1, 1
+  index: -1
+xx2
+  rotate: false
+  xy: 140, 4
+  size: 17, 20
+  orig: 19, 22
+  offset: 1, 1
+  index: -1
+xx3
+  rotate: false
+  xy: 121, 3
+  size: 17, 21
+  orig: 19, 23
+  offset: 1, 1
+  index: -1
+yan1
+  rotate: true
+  xy: 75, 2
+  size: 9, 16
+  orig: 11, 18
+  offset: 1, 1
+  index: -1
+yan2
+  rotate: true
+  xy: 93, 3
+  size: 8, 16
+  orig: 10, 18
+  offset: 1, 1
+  index: -1
+ye
+  rotate: true
+  xy: 75, 13
+  size: 62, 44
+  orig: 62, 44
+  offset: 0, 0
+  index: -1

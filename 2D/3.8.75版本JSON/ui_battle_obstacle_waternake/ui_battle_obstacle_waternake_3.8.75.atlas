@@ -1,0 +1,27 @@
+
+ui_battle_obstacle_waternake_3.8.75.png
+size: 221,65
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lv1
+  rotate: true
+  xy: 171, 14
+  size: 49, 48
+  orig: 51, 50
+  offset: 1, 1
+  index: -1
+lv2
+  rotate: false
+  xy: 2, 2
+  size: 77, 61
+  orig: 77, 61
+  offset: 0, 0
+  index: -1
+lv3
+  rotate: false
+  xy: 81, 13
+  size: 88, 50
+  orig: 88, 50
+  offset: 0, 0
+  index: -1

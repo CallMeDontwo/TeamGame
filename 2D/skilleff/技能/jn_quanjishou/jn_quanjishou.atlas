@@ -1,0 +1,41 @@
+
+jn_quanjishou.png
+size: 471,322
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd_0
+  rotate: true
+  xy: 209, 12
+  size: 101, 85
+  orig: 102, 102
+  offset: 0, 9
+  index: -1
+glow_0
+  rotate: false
+  xy: 295, 33
+  size: 80, 80
+  orig: 102, 102
+  offset: 11, 11
+  index: -1
+gun1
+  rotate: false
+  xy: 1, 1
+  size: 206, 58
+  orig: 207, 58
+  offset: 0, 0
+  index: -1
+quan1
+  rotate: true
+  xy: 1, 60
+  size: 261, 207
+  orig: 262, 207
+  offset: 1, 0
+  index: -1
+quan2
+  rotate: false
+  xy: 209, 114
+  size: 261, 207
+  orig: 262, 207
+  offset: 1, 0
+  index: -1

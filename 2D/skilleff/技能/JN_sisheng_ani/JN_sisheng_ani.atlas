@@ -1,0 +1,83 @@
+
+JN_sisheng_ani.png
+size: 452,389
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cb
+  rotate: true
+  xy: 1, 6
+  size: 59, 70
+  orig: 59, 70
+  offset: 0, 0
+  index: -1
+dg_23
+  rotate: false
+  xy: 212, 183
+  size: 205, 205
+  orig: 205, 205
+  offset: 0, 0
+  index: -1
+l_shou
+  rotate: true
+  xy: 418, 359
+  size: 29, 31
+  orig: 29, 31
+  offset: 0, 0
+  index: -1
+l_xiuzi
+  rotate: false
+  xy: 104, 75
+  size: 96, 93
+  orig: 96, 93
+  offset: 0, 0
+  index: -1
+liandao
+  rotate: false
+  xy: 1, 169
+  size: 210, 219
+  orig: 210, 219
+  offset: 0, 0
+  index: -1
+r_shou
+  rotate: true
+  xy: 418, 332
+  size: 26, 31
+  orig: 26, 31
+  offset: 0, 0
+  index: -1
+r_xiuzi
+  rotate: true
+  xy: 347, 1
+  size: 76, 103
+  orig: 76, 103
+  offset: 0, 0
+  index: -1
+st
+  rotate: false
+  xy: 212, 46
+  size: 134, 136
+  orig: 134, 136
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 347, 78
+  size: 104, 104
+  orig: 104, 104
+  offset: 0, 0
+  index: -1
+yanwu1_0
+  rotate: false
+  xy: 104, 2
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+yuan
+  rotate: false
+  xy: 1, 66
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1

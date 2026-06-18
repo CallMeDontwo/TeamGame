@@ -1,0 +1,20 @@
+
+jiaxue_shang.png
+size: 115,82
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_5
+  rotate: false
+  xy: 1, 1
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+jt_0
+  rotate: false
+  xy: 82, 1
+  size: 32, 80
+  orig: 32, 80
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,90 @@
+
+dandao_jineng_1_bd.png
+size: 967,323
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/ty_dabaozha/ty_dbz_1
+  rotate: false
+  xy: 1, 1
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+images/ty_dabaozha/ty_dbz_11
+  rotate: false
+  xy: 323, 1
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+images/ty_dabaozha/ty_dbz_13
+  rotate: false
+  xy: 484, 162
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+images/ty_dabaozha/ty_dbz_15
+  rotate: false
+  xy: 484, 1
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+images/ty_dabaozha/ty_dbz_17
+  rotate: false
+  xy: 645, 162
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+images/ty_dabaozha/ty_dbz_19
+  rotate: false
+  xy: 645, 1
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+images/ty_dabaozha/ty_dbz_21
+  rotate: false
+  xy: 806, 162
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+images/ty_dabaozha/ty_dbz_23
+  rotate: false
+  xy: 806, 1
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+images/ty_dabaozha/ty_dbz_3
+  rotate: false
+  xy: 162, 162
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+images/ty_dabaozha/ty_dbz_5
+  rotate: false
+  xy: 162, 1
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+images/ty_dabaozha/ty_dbz_7
+  rotate: false
+  xy: 323, 162
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+images/ty_dabaozha/ty_dbz_9
+  rotate: false
+  xy: 1, 162
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1

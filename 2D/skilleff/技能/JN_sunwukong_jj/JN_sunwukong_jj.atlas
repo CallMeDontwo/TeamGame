@@ -1,0 +1,69 @@
+
+JN_sunwukong_jj.png
+size: 470,196
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+caihong_0
+  rotate: true
+  xy: 202, 32
+  size: 79, 139
+  orig: 81, 162
+  offset: 2, 23
+  index: -1
+ci_glow_0
+  rotate: true
+  xy: 408, 67
+  size: 128, 61
+  orig: 135, 81
+  offset: 7, 1
+  index: -1
+glow_0
+  rotate: false
+  xy: 112, 22
+  size: 89, 89
+  orig: 115, 115
+  offset: 13, 13
+  index: -1
+jingubang1_0
+  rotate: true
+  xy: 1, 112
+  size: 83, 406
+  orig: 83, 406
+  offset: 0, 0
+  index: -1
+par_bai_0
+  rotate: false
+  xy: 380, 38
+  size: 16, 16
+  orig: 22, 22
+  offset: 3, 3
+  index: -1
+par_xing_0
+  rotate: false
+  xy: 342, 55
+  size: 56, 56
+  orig: 58, 58
+  offset: 1, 1
+  index: -1
+ring_0
+  rotate: false
+  xy: 1, 1
+  size: 110, 110
+  orig: 115, 115
+  offset: 3, 3
+  index: -1
+yanwu1_1
+  rotate: true
+  xy: 399, 16
+  size: 50, 53
+  orig: 57, 57
+  offset: 5, 1
+  index: -1
+yanwu2_0
+  rotate: true
+  xy: 342, 14
+  size: 40, 37
+  orig: 45, 45
+  offset: 3, 4
+  index: -1

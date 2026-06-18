@@ -1,0 +1,20 @@
+
+fd_nezha.png
+size: 171,94
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/par_xing_0
+  rotate: false
+  xy: 126, 49
+  size: 43, 43
+  orig: 45, 45
+  offset: 1, 1
+  index: -1
+images/sj_guangshu_7
+  rotate: true
+  xy: 2, 2
+  size: 90, 122
+  orig: 90, 126
+  offset: 0, 4
+  index: -1

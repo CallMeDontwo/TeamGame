@@ -1,0 +1,83 @@
+
+jn_maowang.png
+size: 685,557
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd_0
+  rotate: false
+  xy: 236, 15
+  size: 126, 105
+  orig: 128, 128
+  offset: 0, 12
+  index: -1
+fz_0
+  rotate: false
+  xy: 236, 121
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+glow_0
+  rotate: false
+  xy: 579, 5
+  size: 100, 100
+  orig: 128, 128
+  offset: 14, 14
+  index: -1
+guangzhu_0
+  rotate: true
+  xy: 473, 301
+  size: 255, 211
+  orig: 256, 256
+  offset: 0, 45
+  index: -1
+par_3
+  rotate: true
+  xy: 476, 1
+  size: 104, 102
+  orig: 128, 128
+  offset: 13, 12
+  index: -1
+par_31
+  rotate: true
+  xy: 1, 4
+  size: 78, 109
+  orig: 128, 128
+  offset: 28, 8
+  index: -1
+shengbo_1
+  rotate: false
+  xy: 1, 320
+  size: 234, 236
+  orig: 256, 256
+  offset: 12, 10
+  index: -1
+shengbo_2
+  rotate: false
+  xy: 1, 83
+  size: 234, 236
+  orig: 256, 256
+  offset: 12, 10
+  index: -1
+shengbo_3
+  rotate: true
+  xy: 236, 322
+  size: 234, 236
+  orig: 256, 256
+  offset: 12, 10
+  index: -1
+skl_xishouxian_1
+  rotate: false
+  xy: 476, 106
+  size: 196, 194
+  orig: 200, 200
+  offset: 4, 3
+  index: -1
+yuan_00
+  rotate: false
+  xy: 363, 8
+  size: 112, 112
+  orig: 128, 128
+  offset: 8, 8
+  index: -1

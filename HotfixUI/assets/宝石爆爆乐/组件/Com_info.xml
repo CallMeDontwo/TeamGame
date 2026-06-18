@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="791,1200" overflow="scroll" scrollBarFlags="1024" scrollBar="auto" scrollBarMargin="0,0,0,21" scrollBarRes="ui://7am1s0tj105cq84,">
+  <displayList>
+    <image id="n15_qize" name="n15" src="qize3d" fileName="资源/玩法说明/SODA_RULE-1.png" xy="10,1"/>
+    <image id="n16_qize" name="n16" src="qize3e" fileName="资源/玩法说明/SODA_RULE-2.png" xy="0,944"/>
+    <image id="n17_qize" name="n17" src="qize3f" fileName="资源/玩法说明/SODA_RULE-3.png" xy="10,1951"/>
+    <image id="n18_qize" name="n18" src="qize3g" fileName="资源/玩法说明/SODA_RULE-4.png" xy="10,2956"/>
+  </displayList>
+</component>

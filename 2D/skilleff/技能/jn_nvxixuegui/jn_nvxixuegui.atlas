@@ -1,0 +1,90 @@
+
+jn_nvxixuegui.png
+size: 315,508
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Fire_00
+  rotate: true
+  xy: 248, 355
+  size: 36, 57
+  orig: 36, 57
+  offset: 0, 0
+  index: -1
+images/bd_00
+  rotate: false
+  xy: 208, 213
+  size: 106, 113
+  orig: 115, 115
+  offset: 5, 0
+  index: -1
+images/bf
+  rotate: true
+  xy: 1, 150
+  size: 162, 206
+  orig: 162, 207
+  offset: 0, 1
+  index: -1
+images/bf_00
+  rotate: true
+  xy: 1, 13
+  size: 39, 104
+  orig: 39, 104
+  offset: 0, 0
+  index: -1
+images/bz_00
+  rotate: true
+  xy: 208, 97
+  size: 115, 103
+  orig: 115, 115
+  offset: 0, 6
+  index: -1
+images/gl_00
+  rotate: false
+  xy: 1, 53
+  size: 112, 96
+  orig: 115, 115
+  offset: 2, 9
+  index: -1
+images/glow_0
+  rotate: false
+  xy: 114, 60
+  size: 89, 89
+  orig: 115, 115
+  offset: 13, 13
+  index: -1
+images/jt
+  rotate: false
+  xy: 190, 335
+  size: 57, 56
+  orig: 57, 56
+  offset: 0, 0
+  index: -1
+images/sanjiao_0
+  rotate: true
+  xy: 204, 1
+  size: 95, 104
+  orig: 115, 115
+  offset: 11, 8
+  index: -1
+images/sphere_00
+  rotate: false
+  xy: 190, 392
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+images/xt_00
+  rotate: false
+  xy: 190, 327
+  size: 83, 7
+  orig: 90, 11
+  offset: 4, 2
+  index: -1
+images/xy_00
+  rotate: false
+  xy: 1, 313
+  size: 188, 194
+  orig: 188, 194
+  offset: 0, 0
+  index: -1

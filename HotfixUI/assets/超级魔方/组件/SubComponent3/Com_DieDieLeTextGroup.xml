@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="842,66">
+  <displayList>
+    <component id="n9_vdhu" name="Text_SlotMultiple0" src="vdhu5k" fileName="组件/SubComponent3/Com_DieDieLeText.xml" xy="0,0" size="97,55"/>
+    <component id="n10_vdhu" name="Text_SlotMultiple1" src="vdhu5k" fileName="组件/SubComponent3/Com_DieDieLeText.xml" xy="106,0" size="97,55"/>
+    <component id="n11_vdhu" name="Text_SlotMultiple2" src="vdhu5k" fileName="组件/SubComponent3/Com_DieDieLeText.xml" xy="213,0" size="97,55"/>
+    <component id="n12_vdhu" name="Text_SlotMultiple3" src="vdhu5k" fileName="组件/SubComponent3/Com_DieDieLeText.xml" xy="319,0" size="97,55"/>
+    <component id="n13_vdhu" name="Text_SlotMultiple4" src="vdhu5k" fileName="组件/SubComponent3/Com_DieDieLeText.xml" xy="426,0" size="97,55"/>
+    <component id="n14_vdhu" name="Text_SlotMultiple5" src="vdhu5k" fileName="组件/SubComponent3/Com_DieDieLeText.xml" xy="532,0" size="97,55"/>
+    <component id="n15_vdhu" name="Text_SlotMultiple6" src="vdhu5k" fileName="组件/SubComponent3/Com_DieDieLeText.xml" xy="638,0" size="97,55"/>
+    <component id="n16_vdhu" name="Text_SlotMultiple7" src="vdhu5k" fileName="组件/SubComponent3/Com_DieDieLeText.xml" xy="745,0" size="97,55"/>
+  </displayList>
+</component>

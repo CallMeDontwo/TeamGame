@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Tool.ExportProto": {
+      "commandName": "Project",
+      "commandLineArgs": "--Type=Directory --ProtoPath=../../../../Server/proto/ --ExportPath=../Unity/Assets/Scripts/Model/Generate/Client/Message/"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="881,543">
+  <displayList>
+    <image id="n18_995r" name="n18" src="995r4p" fileName="资源/主界面/window.png" xy="0,0"/>
+    <text id="n28_d8z8" name="n28" xy="11,3" size="40,44" fontSize="32" color="#ffffff" letterSpacing="-1" text="X2"/>
+    <text id="n29_d8z8" name="n29" xy="827,3" size="40,44" fontSize="32" color="#ffffff" letterSpacing="-1" text="X2"/>
+    <text id="n32_d8z8" name="n32" xy="11,491" size="40,44" fontSize="32" color="#ffffff" letterSpacing="-1" text="X2"/>
+    <text id="n33_d8z8" name="n33" xy="827,491" size="40,44" fontSize="32" color="#ffffff" letterSpacing="-1" text="X2"/>
+    <list id="n19_d8z8" name="List_List1" xy="65,7" size="176,528" group="n22_d8z8" touchable="false" selectionMode="none" overflow="scroll" defaultItem="ui://hoqdodepd8z852">
+      <item icon="ui://hoqdodep995r3f"/>
+      <item icon="ui://hoqdodep995r3g"/>
+      <item icon="ui://hoqdodep995r3h"/>
+    </list>
+    <list id="n20_d8z8" name="List_List2" xy="350,7" size="176,528" group="n22_d8z8" touchable="false" selectionMode="none" overflow="scroll" defaultItem="ui://hoqdodepd8z852">
+      <item icon="ui://hoqdodep995r2z"/>
+      <item icon="ui://hoqdodep995r2y"/>
+      <item icon="ui://hoqdodep995r2x"/>
+    </list>
+    <list id="n21_d8z8" name="List_List3" xy="640,7" size="176,528" group="n22_d8z8" touchable="false" selectionMode="none" overflow="scroll" defaultItem="ui://hoqdodepd8z852">
+      <item icon="ui://hoqdodep995r2w"/>
+      <item icon="ui://hoqdodep995r2f"/>
+      <item icon="ui://hoqdodep995r2h"/>
+    </list>
+    <group id="n22_d8z8" name="n22" xy="65,7" size="751,528"/>
+    <graph id="n23_d8z8" name="Graph_Line1" xy="50,98" pivot="0.5,0.5" size="780,30" visible="false" type="rect" lineSize="4" lineColor="#ffffffff" fillColor="#ff2a9fec" corner="10"/>
+    <graph id="n24_d8z8" name="Graph_Line2" xy="50,256" pivot="0.5,0.5" size="780,30" visible="false" type="rect" lineSize="4" lineColor="#ffffffff" fillColor="#ff2a9fec" corner="10"/>
+    <graph id="n25_d8z8" name="Graph_Line3" xy="50,414" pivot="0.5,0.5" size="780,30" visible="false" type="rect" lineSize="4" lineColor="#ffffffff" fillColor="#ff2a9fec" corner="10"/>
+    <graph id="n26_d8z8" name="Graph_TL2BR" xy="15,256" pivot="0.5,0.5" size="850,30" visible="false" rotation="30" type="rect" lineSize="4" lineColor="#ffffffff" fillColor="#ff2a9fec" corner="10"/>
+    <graph id="n27_d8z8" name="Graph_TR2BL" xy="15,256" pivot="0.5,0.5" size="850,30" visible="false" rotation="-30" type="rect" lineSize="4" lineColor="#ffffffff" fillColor="#ff2a9fec" corner="10"/>
+    <loader3D id="n34_sdwr" name="Loader_Start" xy="0,0" size="881,543" visible="false" animation="" skin="" loop="true"/>
+  </displayList>
+</component>

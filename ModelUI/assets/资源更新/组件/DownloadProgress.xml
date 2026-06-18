@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="784,53" extention="ProgressBar">
+  <displayList>
+    <image id="n0_v869" name="n0" src="j5fz9" fileName="资源/Task_Bar.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_v869" name="bar" src="j5fz8" fileName="资源/Task_BarFill.png" xy="9,7" fillMethod="hz">
+      <relation target="" sidePair="height-height"/>
+    </image>
+    <text id="n2_v869" name="title" xy="358,7" size="83,41" fontSize="30" color="#ffffff" strokeColor="#000000" text="100%">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+  <ProgressBar/>
+</component>

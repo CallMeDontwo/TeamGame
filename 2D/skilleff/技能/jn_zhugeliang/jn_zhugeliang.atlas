@@ -1,0 +1,104 @@
+
+jn_zhugeliang.png
+size: 933,380
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+feng/feng_00
+  rotate: false
+  xy: 1, 34
+  size: 213, 128
+  orig: 218, 218
+  offset: 4, 29
+  index: -1
+feng/feng_02
+  rotate: false
+  xy: 521, 69
+  size: 208, 126
+  orig: 218, 218
+  offset: 7, 45
+  index: -1
+glow_0
+  rotate: false
+  xy: 428, 8
+  size: 85, 85
+  orig: 109, 109
+  offset: 12, 12
+  index: -1
+jufeng/jufeng_0
+  rotate: true
+  xy: 629, 196
+  size: 183, 212
+  orig: 218, 218
+  offset: 17, 0
+  index: -1
+jufeng/jufeng_2
+  rotate: true
+  xy: 215, 8
+  size: 186, 212
+  orig: 218, 218
+  offset: 17, 0
+  index: -1
+jufeng/jufeng_4
+  rotate: false
+  xy: 1, 163
+  size: 189, 216
+  orig: 218, 218
+  offset: 12, 0
+  index: -1
+jufeng/jufeng_6
+  rotate: true
+  xy: 191, 195
+  size: 184, 218
+  orig: 218, 218
+  offset: 17, 0
+  index: -1
+jufeng/jufeng_8
+  rotate: true
+  xy: 410, 197
+  size: 182, 218
+  orig: 218, 218
+  offset: 19, 0
+  index: -1
+lizi_00
+  rotate: false
+  xy: 591, 14
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+yueya_00
+  rotate: true
+  xy: 730, 6
+  size: 189, 202
+  orig: 218, 218
+  offset: 18, 8
+  index: -1
+ziti_01
+  rotate: false
+  xy: 842, 314
+  size: 82, 65
+  orig: 91, 70
+  offset: 5, 2
+  index: -1
+ziti_02
+  rotate: false
+  xy: 428, 94
+  size: 92, 102
+  orig: 99, 104
+  offset: 4, 1
+  index: -1
+ziti_03
+  rotate: true
+  xy: 514, 1
+  size: 67, 76
+  orig: 75, 82
+  offset: 4, 3
+  index: -1
+ziti_04
+  rotate: false
+  xy: 842, 238
+  size: 71, 75
+  orig: 77, 82
+  offset: 3, 4
+  index: -1

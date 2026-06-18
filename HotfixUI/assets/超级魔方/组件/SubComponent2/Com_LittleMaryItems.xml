@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="748,534">
+  <displayList>
+    <component id="n2_d8z8" name="Label_MaryItem0" src="d8z853" fileName="组件/SubComponent2/Label_MaryItem.xml" xy="0,0">
+      <Label icon="ui://hoqdodep995r2g"/>
+    </component>
+    <component id="n3_d8z8" name="Label_MaryItem1" src="d8z853" fileName="组件/SubComponent2/Label_MaryItem.xml" xy="107,0">
+      <Label icon="ui://hoqdodep995r2y"/>
+    </component>
+    <component id="n4_d8z8" name="Label_MaryItem2" src="d8z853" fileName="组件/SubComponent2/Label_MaryItem.xml" xy="214,0">
+      <Label icon="ui://hoqdodep995r2z"/>
+    </component>
+    <component id="n5_d8z8" name="Label_MaryItem3" src="d8z853" fileName="组件/SubComponent2/Label_MaryItem.xml" xy="321,0">
+      <Label icon="ui://hoqdodep995r3h"/>
+    </component>
+    <component id="n6_d8z8" name="Label_MaryItem4" src="d8z853" fileName="组件/SubComponent2/Label_MaryItem.xml" xy="428,0">
+      <Label icon="ui://hoqdodep995r3g"/>
+    </component>
+    <component id="n7_d8z8" name="Label_MaryItem5" src="d8z853" fileName="组件/SubComponent2/Label_MaryItem.xml" xy="535,0">
+      <Label icon="ui://hoqdodep995r3f"/>
+    </component>
+    <component id="n8_d8z8" name="Label_MaryItem6" src="d8z853" fileName="组件/SubComponent2/Label_MaryItem.xml" xy="642,0">
+      <Label icon="ui://hoqdodep995r2g"/>
+    </component>
+    <component id="n9_d8z8" name="Label_MaryItem7" src="d8z853" fileName="组件/SubComponent2/Label_MaryItem.xml" xy="642,107">
+      <Label icon="ui://hoqdodep995r2f"/>
+    </component>
+    <component id="n15_d8z8" name="Label_MaryItem8" src="d8z853" fileName="组件/SubComponent2/Label_MaryItem.xml" xy="642,214">
+      <Label icon="ui://hoqdodep995r2w"/>
+    </component>
+    <component id="n16_d8z8" name="Label_MaryItem9" src="d8z853" fileName="组件/SubComponent2/Label_MaryItem.xml" xy="642,321">
+      <Label icon="ui://hoqdodep995r2x"/>
+    </component>
+    <component id="n21_d8z8" name="Label_MaryItem10" src="d8z853" fileName="组件/SubComponent2/Label_MaryItem.xml" xy="642,428">
+      <Label icon="ui://hoqdodep995r2g"/>
+    </component>
+    <component id="n22_d8z8" name="Label_MaryItem11" src="d8z853" fileName="组件/SubComponent2/Label_MaryItem.xml" xy="535,428">
+      <Label icon="ui://hoqdodep995r2y"/>
+    </component>
+    <component id="n26_d8z8" name="Label_MaryItem12" src="d8z853" fileName="组件/SubComponent2/Label_MaryItem.xml" xy="428,428">
+      <Label icon="ui://hoqdodep995r2z"/>
+    </component>
+    <component id="n27_d8z8" name="Label_MaryItem13" src="d8z853" fileName="组件/SubComponent2/Label_MaryItem.xml" xy="321,428">
+      <Label icon="ui://hoqdodep995r3h"/>
+    </component>
+    <component id="n28_d8z8" name="Label_MaryItem14" src="d8z853" fileName="组件/SubComponent2/Label_MaryItem.xml" xy="214,428">
+      <Label icon="ui://hoqdodep995r3g"/>
+    </component>
+    <component id="n29_d8z8" name="Label_MaryItem15" src="d8z853" fileName="组件/SubComponent2/Label_MaryItem.xml" xy="107,428">
+      <Label icon="ui://hoqdodep995r3f"/>
+    </component>
+    <component id="n30_d8z8" name="Label_MaryItem16" src="d8z853" fileName="组件/SubComponent2/Label_MaryItem.xml" xy="0,428">
+      <Label icon="ui://hoqdodep995r2g"/>
+    </component>
+    <component id="n31_d8z8" name="Label_MaryItem17" src="d8z853" fileName="组件/SubComponent2/Label_MaryItem.xml" xy="0,321">
+      <Label icon="ui://hoqdodep995r2f"/>
+    </component>
+    <component id="n32_d8z8" name="Label_MaryItem18" src="d8z853" fileName="组件/SubComponent2/Label_MaryItem.xml" xy="0,214">
+      <Label icon="ui://hoqdodep995r2w"/>
+    </component>
+    <component id="n34_d8z8" name="Label_MaryItem19" src="d8z853" fileName="组件/SubComponent2/Label_MaryItem.xml" xy="0,107">
+      <Label icon="ui://hoqdodep995r2x"/>
+    </component>
+  </displayList>
+</component>

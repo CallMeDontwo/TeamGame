@@ -1,0 +1,83 @@
+
+jn_zhousiwangzi.png
+size: 700,555
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ksquan_12
+  rotate: true
+  xy: 579, 422
+  size: 132, 120
+  orig: 144, 144
+  offset: 4, 13
+  index: -1
+par_0
+  rotate: false
+  xy: 579, 319
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+ring_0
+  rotate: false
+  xy: 1, 1
+  size: 191, 191
+  orig: 205, 205
+  offset: 7, 7
+  index: -1
+sd/sd_0
+  rotate: false
+  xy: 1, 193
+  size: 133, 361
+  orig: 205, 410
+  offset: 28, 15
+  index: -1
+sd/sd_11
+  rotate: false
+  xy: 193, 14
+  size: 153, 179
+  orig: 205, 410
+  offset: 46, 30
+  index: -1
+sd/sd_13
+  rotate: true
+  xy: 135, 194
+  size: 22, 86
+  orig: 205, 410
+  offset: 107, 31
+  index: -1
+sd/sd_2
+  rotate: false
+  xy: 293, 217
+  size: 124, 337
+  orig: 205, 410
+  offset: 64, 29
+  index: -1
+sd/sd_4
+  rotate: false
+  xy: 135, 217
+  size: 157, 337
+  orig: 205, 410
+  offset: 24, 17
+  index: -1
+sd/sd_6
+  rotate: true
+  xy: 347, 64
+  size: 152, 334
+  orig: 205, 410
+  offset: 26, 12
+  index: -1
+sd/sd_9
+  rotate: false
+  xy: 418, 227
+  size: 160, 327
+  orig: 205, 410
+  offset: 36, 27
+  index: -1
+yuan_0
+  rotate: false
+  xy: 579, 224
+  size: 94, 94
+  orig: 102, 102
+  offset: 4, 4
+  index: -1

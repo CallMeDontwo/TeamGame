@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="809,360">
+  <displayList>
+    <component id="n0_vdhu" name="n0" src="vdhu5m" fileName="组件/SubComponent3/Com_DieDieLeList.xml" xy="0,0">
+      <relation target="" sidePair="height-height"/>
+    </component>
+    <component id="n1_vdhu" name="n1" src="vdhu5m" fileName="组件/SubComponent3/Com_DieDieLeList.xml" xy="107,0">
+      <relation target="" sidePair="height-height"/>
+    </component>
+    <component id="n2_vdhu" name="n2" src="vdhu5m" fileName="组件/SubComponent3/Com_DieDieLeList.xml" xy="214,0">
+      <relation target="" sidePair="height-height"/>
+    </component>
+    <component id="n3_vdhu" name="n3" src="vdhu5m" fileName="组件/SubComponent3/Com_DieDieLeList.xml" xy="321,0">
+      <relation target="" sidePair="height-height"/>
+    </component>
+    <component id="n4_vdhu" name="n4" src="vdhu5m" fileName="组件/SubComponent3/Com_DieDieLeList.xml" xy="428,0">
+      <relation target="" sidePair="height-height"/>
+    </component>
+    <component id="n5_vdhu" name="n5" src="vdhu5m" fileName="组件/SubComponent3/Com_DieDieLeList.xml" xy="535,0">
+      <relation target="" sidePair="height-height"/>
+    </component>
+    <component id="n6_vdhu" name="n6" src="vdhu5m" fileName="组件/SubComponent3/Com_DieDieLeList.xml" xy="642,0">
+      <relation target="" sidePair="height-height"/>
+    </component>
+    <component id="n7_vdhu" name="n7" src="vdhu5m" fileName="组件/SubComponent3/Com_DieDieLeList.xml" xy="749,0">
+      <relation target="" sidePair="height-height"/>
+    </component>
+  </displayList>
+</component>

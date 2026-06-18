@@ -1,0 +1,32 @@
+{
+    "name": "Unity.HotfixView",
+    "rootNamespace": "ET",
+    "references": [
+        "Unity.Core",
+        "Unity.Mono",
+        "Unity.ThirdParty",
+        "Unity.Model",
+        "Unity.Hotfix",
+        "Unity.ModelView",
+        "Unity.InputSystem",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.Mathematics",
+        "Cinemachine",
+        "FairyGUI.Runtime",
+        "MemoryPack.Unity",
+        "spine-unity",
+        "YooAsset",
+        "ZString"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_COMPILE || UNITY_EDITOR"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

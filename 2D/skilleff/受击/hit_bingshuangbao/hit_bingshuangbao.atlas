@@ -1,0 +1,41 @@
+
+hit_bingshuangbao.png
+size: 72,261
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/binzhui_0
+  rotate: false
+  xy: 39, 15
+  size: 19, 23
+  orig: 19, 23
+  offset: 0, 0
+  index: -1
+images/ci_0
+  rotate: true
+  xy: 1, 163
+  size: 97, 64
+  orig: 97, 64
+  offset: 0, 0
+  index: -1
+images/glow_0
+  rotate: false
+  xy: 1, 92
+  size: 70, 70
+  orig: 90, 90
+  offset: 10, 10
+  index: -1
+images/xh_0
+  rotate: false
+  xy: 1, 1
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+images/yanwu_qiu_0
+  rotate: false
+  xy: 1, 39
+  size: 55, 52
+  orig: 63, 63
+  offset: 4, 5
+  index: -1

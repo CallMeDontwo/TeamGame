@@ -1,0 +1,41 @@
+
+arena_match_ui_3.8.75.png
+size: 726,970
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+g1
+  rotate: true
+  xy: 2, 2
+  size: 966, 308
+  orig: 1049, 570
+  offset: 15, 218
+  index: -1
+g2
+  rotate: true
+  xy: 312, 97
+  size: 416, 380
+  orig: 535, 510
+  offset: 59, 67
+  index: -1
+g3
+  rotate: false
+  xy: 312, 515
+  size: 412, 453
+  orig: 508, 479
+  offset: 84, 15
+  index: -1
+s
+  rotate: true
+  xy: 406, 30
+  size: 65, 89
+  orig: 65, 89
+  offset: 0, 0
+  index: -1
+v
+  rotate: true
+  xy: 312, 16
+  size: 79, 92
+  orig: 79, 92
+  offset: 0, 0
+  index: -1

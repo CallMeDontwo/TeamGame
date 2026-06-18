@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,1500">
+  <displayList>
+    <text id="n3_ee5c" name="n3" xy="112,156" size="330,66" fontSize="50" color="#00ebf0" text="记录&gt;账目记录"/>
+    <image id="n4_ee5c" name="n4" src="jxfj5x" fileName="资源/DebugUI/切图/Background_line.png" xy="50,222" size="860,2">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <text id="n7_ee5c" name="n7" xy="50,230" size="430,54" fontSize="40" color="#00ebf0" align="center" vAlign="middle" autoSize="none" text="奖项"/>
+    <text id="n9_ee5c" name="n9" xy="480,230" size="430,54" fontSize="40" color="#00ebf0" align="center" vAlign="middle" autoSize="none" text="数据"/>
+    <component id="n11_ekr7" name="Com_Record0" src="ee5c6i" fileName="组件/DebugComponent/RecordItem2.xml" xy="50,284" size="860,54" group="n19_ekr7">
+      <Label title="投币"/>
+    </component>
+    <component id="n12_ekr7" name="Com_Record1" src="ee5c6i" fileName="组件/DebugComponent/RecordItem2.xml" xy="50,338" size="860,54" group="n19_ekr7" controller="C_Type,1">
+      <Label title="奖币"/>
+    </component>
+    <component id="n13_ekr7" name="Com_Record2" src="ee5c6i" fileName="组件/DebugComponent/RecordItem2.xml" xy="50,392" size="860,54" group="n19_ekr7">
+      <Label title="推币"/>
+    </component>
+    <component id="n14_ekr7" name="Com_Record3" src="ee5c6i" fileName="组件/DebugComponent/RecordItem2.xml" xy="50,446" size="860,54" group="n19_ekr7" controller="C_Type,1">
+      <Label title="彩票"/>
+    </component>
+    <component id="n15_ekr7" name="Com_Record4" src="ee5c6i" fileName="组件/DebugComponent/RecordItem2.xml" xy="50,500" size="860,54" group="n19_ekr7">
+      <Label title="中奖数"/>
+    </component>
+    <component id="n16_ekr7" name="Com_Record5" src="ee5c6i" fileName="组件/DebugComponent/RecordItem2.xml" xy="50,554" size="860,54" group="n19_ekr7" controller="C_Type,1">
+      <Label title="推币率"/>
+    </component>
+    <component id="n17_ekr7" name="Com_Record6" src="ee5c6i" fileName="组件/DebugComponent/RecordItem2.xml" xy="50,608" size="860,54" group="n19_ekr7">
+      <Label title="中奖率"/>
+    </component>
+    <component id="n18_ekr7" name="Com_Record7" src="ee5c6i" fileName="组件/DebugComponent/RecordItem2.xml" xy="50,662" size="860,54" group="n19_ekr7" controller="C_Type,1">
+      <Label title="游戏返奖率"/>
+    </component>
+    <group id="n19_ekr7" name="n19" xy="50,284" size="860,432" advanced="true" layout="vt" excludeInvisibles="true">
+      <relation target="" sidePair="width-width"/>
+    </group>
+    <component id="n2_ee5c" name="Btn_Back" src="ee5c6d" fileName="组件/DebugComponent/Button2.xml" xy="60,1374">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n10_m0uw" name="Btn_Resotre" src="m0uw6m" fileName="组件/DebugComponent/Button5.xml" xy="807,1374" size="103,66">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+      <Button title="重置" titleColor="#ffffff"/>
+    </component>
+  </displayList>
+</component>

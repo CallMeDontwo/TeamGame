@@ -1,0 +1,69 @@
+
+Hero_wuya_jn.png
+size: 480,197
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+du1_1
+  rotate: false
+  xy: 264, 84
+  size: 215, 112
+  orig: 215, 112
+  offset: 0, 0
+  index: -1
+du3
+  rotate: true
+  xy: 302, 21
+  size: 62, 52
+  orig: 62, 52
+  offset: 0, 0
+  index: -1
+du5
+  rotate: true
+  xy: 174, 29
+  size: 167, 89
+  orig: 167, 89
+  offset: 0, 0
+  index: -1
+l_tongkong
+  rotate: false
+  xy: 174, 1
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+l_yanbai
+  rotate: true
+  xy: 355, 49
+  size: 34, 33
+  orig: 34, 33
+  offset: 0, 0
+  index: -1
+r_tongkong
+  rotate: false
+  xy: 174, 15
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+r_yanbai
+  rotate: true
+  xy: 355, 14
+  size: 34, 33
+  orig: 34, 33
+  offset: 0, 0
+  index: -1
+st
+  rotate: false
+  xy: 1, 6
+  size: 172, 190
+  orig: 172, 190
+  offset: 0, 0
+  index: -1
+zui
+  rotate: true
+  xy: 264, 15
+  size: 68, 37
+  orig: 68, 37
+  offset: 0, 0
+  index: -1

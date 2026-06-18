@@ -1,0 +1,27 @@
+
+hit_mofashi.png
+size: 310,104
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/fxx/bd_2_0
+  rotate: false
+  xy: 1, 1
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+images/fxx/glow_0
+  rotate: false
+  xy: 104, 1
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+images/fxx/par_0
+  rotate: false
+  xy: 207, 1
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1

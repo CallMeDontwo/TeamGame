@@ -1,0 +1,76 @@
+
+jn_xuenv.png
+size: 639,178
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bd_0
+  rotate: false
+  xy: 175, 62
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+images/bing_1
+  rotate: false
+  xy: 407, 76
+  size: 67, 29
+  orig: 67, 29
+  offset: 0, 0
+  index: -1
+images/bing_2
+  rotate: true
+  xy: 407, 106
+  size: 71, 180
+  orig: 71, 180
+  offset: 0, 0
+  index: -1
+images/bing_3
+  rotate: true
+  xy: 175, 1
+  size: 60, 132
+  orig: 60, 132
+  offset: 0, 0
+  index: -1
+images/bing_4
+  rotate: true
+  xy: 308, 5
+  size: 56, 101
+  orig: 56, 101
+  offset: 0, 0
+  index: -1
+images/binzhui_0
+  rotate: false
+  xy: 588, 118
+  size: 50, 59
+  orig: 50, 59
+  offset: 0, 0
+  index: -1
+images/cresh01_1_00
+  rotate: false
+  xy: 291, 62
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+images/glow_0
+  rotate: false
+  xy: 1, 4
+  size: 173, 173
+  orig: 173, 173
+  offset: 0, 0
+  index: -1
+images/xuedi_0
+  rotate: false
+  xy: 410, 7
+  size: 140, 68
+  orig: 140, 68
+  offset: 0, 0
+  index: -1
+images/yanwu_qiu_0
+  rotate: false
+  xy: 551, 24
+  size: 81, 81
+  orig: 81, 81
+  offset: 0, 0
+  index: -1

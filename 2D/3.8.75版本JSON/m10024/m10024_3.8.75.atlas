@@ -1,0 +1,76 @@
+
+m10024_3.8.75.png
+size: 380,174
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eye_L
+  rotate: true
+  xy: 26, 5
+  size: 21, 30
+  orig: 21, 30
+  offset: 0, 0
+  index: -1
+eye_R
+  rotate: true
+  xy: 58, 5
+  size: 21, 30
+  orig: 21, 30
+  offset: 0, 0
+  index: -1
+eye_xuanyun
+  rotate: false
+  xy: 2, 4
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+gutou
+  rotate: true
+  xy: 286, 9
+  size: 70, 53
+  orig: 70, 53
+  offset: 0, 0
+  index: -1
+kulou
+  rotate: true
+  xy: 222, 2
+  size: 77, 62
+  orig: 77, 63
+  offset: 0, 1
+  index: -1
+mouth
+  rotate: true
+  xy: 297, 87
+  size: 85, 79
+  orig: 85, 79
+  offset: 0, 0
+  index: -1
+spine
+  rotate: false
+  xy: 2, 28
+  size: 218, 144
+  orig: 218, 144
+  offset: 0, 0
+  index: -1
+weapon_1
+  rotate: false
+  xy: 222, 81
+  size: 73, 91
+  orig: 73, 91
+  offset: 0, 0
+  index: -1
+weapon_2
+  rotate: false
+  xy: 341, 22
+  size: 37, 63
+  orig: 37, 63
+  offset: 0, 0
+  index: -1
+yingzi
+  rotate: false
+  xy: 90, 7
+  size: 83, 19
+  orig: 83, 19
+  offset: 0, 0
+  index: -1

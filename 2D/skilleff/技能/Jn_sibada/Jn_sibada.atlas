@@ -1,0 +1,139 @@
+
+Jn_sibada.png
+size: 595,272
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dun
+  rotate: false
+  xy: 378, 13
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+dun_ce
+  rotate: false
+  xy: 348, 142
+  size: 82, 129
+  orig: 82, 129
+  offset: 0, 0
+  index: -1
+fn_l_yan
+  rotate: true
+  xy: 431, 142
+  size: 56, 68
+  orig: 56, 68
+  offset: 0, 0
+  index: -1
+fn_r_yan
+  rotate: false
+  xy: 543, 82
+  size: 43, 68
+  orig: 43, 68
+  offset: 0, 0
+  index: -1
+fn_zui
+  rotate: false
+  xy: 543, 151
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+fxxxx/cj_bo_0
+  rotate: false
+  xy: 227, 111
+  size: 120, 160
+  orig: 120, 160
+  offset: 0, 0
+  index: -1
+fxxxx/dici_0
+  rotate: true
+  xy: 1, 66
+  size: 205, 40
+  orig: 205, 40
+  offset: 0, 0
+  index: -1
+fxxxx/glow_0
+  rotate: false
+  xy: 257, 8
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+fxxxx/ks_bo_0
+  rotate: true
+  xy: 1, 1
+  size: 64, 144
+  orig: 64, 144
+  offset: 0, 0
+  index: -1
+fxxxx/par_sk_0
+  rotate: false
+  xy: 507, 119
+  size: 31, 24
+  orig: 31, 24
+  offset: 0, 0
+  index: -1
+fxxxx/yanwu_qiu_1
+  rotate: false
+  xy: 431, 199
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+fxxxx/yanwu_qiu_2
+  rotate: false
+  xy: 507, 9
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+pifeng
+  rotate: false
+  xy: 146, 1
+  size: 110, 87
+  orig: 110, 87
+  offset: 0, 0
+  index: -1
+prince_arm_left
+  rotate: false
+  xy: 500, 144
+  size: 42, 54
+  orig: 42, 54
+  offset: 0, 0
+  index: -1
+r_gebo
+  rotate: true
+  xy: 507, 92
+  size: 26, 27
+  orig: 26, 27
+  offset: 0, 0
+  index: -1
+r_shou
+  rotate: false
+  xy: 348, 112
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+st
+  rotate: true
+  xy: 507, 203
+  size: 68, 74
+  orig: 68, 74
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 42, 89
+  size: 141, 182
+  orig: 141, 182
+  offset: 0, 0
+  index: -1
+wq
+  rotate: false
+  xy: 184, 99
+  size: 42, 172
+  orig: 42, 172
+  offset: 0, 0
+  index: -1

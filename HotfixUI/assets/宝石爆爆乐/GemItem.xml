@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="140,140" pivot="0.5,0.5" anchor="true" extention="Label">
+  <controller name="C_Type" pages="0,Loader_Normal,1,Loader_Color,2,Loader_SuperBook,3,Loader_Boom" selected="0"/>
+  <displayList>
+    <loader3D id="n7_n2d7" name="Loader_Normal" xy="0,0" pivot="0.5,0.5" size="140,140" animation="" skin="" loop="true">
+      <gearDisplay controller="C_Type" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader3D>
+    <loader3D id="n6_n2d7" name="Loader_Color" xy="0,0" pivot="0.5,0.5" size="140,140" animation="" skin="" loop="true">
+      <gearDisplay controller="C_Type" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader3D>
+    <loader3D id="n9_n2d7" name="Loader_SuperBook" xy="0,0" pivot="0.5,0.5" size="140,140" animation="" skin="" loop="true">
+      <gearDisplay controller="C_Type" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader3D>
+    <loader3D id="n8_n2d7" name="Loader_Boom" xy="0,0" pivot="0.5,0.5" size="140,140" animation="" skin="" loop="true">
+      <gearDisplay controller="C_Type" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader3D>
+  </displayList>
+  <transition name="T_GemFall">
+    <item time="0" type="Sound" value="ui://oy07mpfwc51b3n,100"/>
+  </transition>
+</component>

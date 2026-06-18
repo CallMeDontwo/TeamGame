@@ -1,0 +1,48 @@
+
+JN_wangzi_qibao.png
+size: 187,245
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ban_ring_0
+  rotate: false
+  xy: 1, 38
+  size: 121, 84
+  orig: 128, 90
+  offset: 4, 2
+  index: -1
+ci_glow_0
+  rotate: true
+  xy: 123, 108
+  size: 136, 63
+  orig: 150, 90
+  offset: 10, 1
+  index: -1
+ring_0
+  rotate: false
+  xy: 1, 123
+  size: 121, 121
+  orig: 128, 128
+  offset: 4, 4
+  index: -1
+yanwu1_1
+  rotate: false
+  xy: 123, 50
+  size: 54, 57
+  orig: 63, 63
+  offset: 6, 2
+  index: -1
+yanwu2_0
+  rotate: false
+  xy: 123, 9
+  size: 43, 40
+  orig: 50, 50
+  offset: 4, 5
+  index: -1
+yueya_0
+  rotate: true
+  xy: 1, 1
+  size: 36, 112
+  orig: 40, 128
+  offset: 3, 7
+  index: -1

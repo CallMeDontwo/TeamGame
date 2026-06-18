@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="900,900">
+  <displayList>
+    <component id="n32_gwgh" name="ScoreShow" src="lzui2h" fileName="组件/ScoreShow.xml" xy="450,450" visible="false"/>
+    <component id="n31_lzui" name="Com_Combo" src="lzui2i" fileName="组件/ComboShow.xml" xy="194,357" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+  <transition name="T_Combo">
+    <item time="0" type="Alpha" target="n31_lzui" value="1"/>
+    <item time="0" type="Scale" target="n31_lzui" tween="true" startValue="0.6,0.6" endValue="1.2,1.2" duration="4"/>
+    <item time="0" type="Visible" target="n31_lzui" value="true"/>
+    <item time="4" type="Scale" target="n31_lzui" tween="true" startValue="1.2,1.2" endValue="1,1" duration="4"/>
+    <item time="28" type="Alpha" target="n31_lzui" tween="true" startValue="1" endValue="0" duration="5"/>
+    <item time="28" type="Scale" target="n31_lzui" tween="true" startValue="1,1" endValue="2,1" duration="5"/>
+    <item time="33" type="Visible" target="n31_lzui" value="false"/>
+  </transition>
+  <transition name="T_PlayBoom">
+    <item time="0" type="Sound" value="ui://oy07mpfwgfya3l,100"/>
+  </transition>
+  <transition name="T_GemFall">
+    <item time="0" type="Sound" value="ui://oy07mpfwc51b3n"/>
+  </transition>
+</component>

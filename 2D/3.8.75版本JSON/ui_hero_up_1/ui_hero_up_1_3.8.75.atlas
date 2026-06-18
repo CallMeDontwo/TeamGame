@@ -1,0 +1,48 @@
+
+ui_hero_up_1_3.8.75.png
+size: 255,274
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guang_2_2
+  rotate: false
+  xy: 2, 114
+  size: 177, 158
+  orig: 177, 175
+  offset: 0, 1
+  index: -1
+guangdian
+  rotate: false
+  xy: 181, 186
+  size: 24, 24
+  orig: 24, 25
+  offset: 0, 1
+  index: -1
+guangzhu
+  rotate: true
+  xy: 2, 28
+  size: 84, 217
+  orig: 105, 222
+  offset: 11, 5
+  index: -1
+xian
+  rotate: false
+  xy: 221, 45
+  size: 32, 165
+  orig: 33, 165
+  offset: 0, 0
+  index: -1
+xian2
+  rotate: true
+  xy: 2, 2
+  size: 24, 196
+  orig: 26, 203
+  offset: 1, 4
+  index: -1
+xx
+  rotate: false
+  xy: 181, 212
+  size: 60, 60
+  orig: 75, 77
+  offset: 9, 8
+  index: -1

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root Version="v2.1">
+  <Common ShowPackageView="False" ShowEditorAlias="False" UniqueBundleName="True" />
+  <Package PackageName="DefaultPackage" PackageDesc="" AutoAddressable="True" LocationToLower="False" IncludeAssetGUID="False" IgnoreRuleName="NormalIgnoreRule">
+    <Group GroupActiveRule="EnableGroup" GroupName="AotDlls" GroupDesc="" AssetTags="">
+      <Collector CollectPath="Assets/Bundles/AotDlls" CollectGUID="2a2fb21f10d084045b0af7e3167386d1" CollectType="MainAssetCollector" AddressRule="AddressDisable" PackRule="PackDirectory" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="Audio" GroupDesc="" AssetTags="">
+      <Collector CollectPath="Assets/Bundles/Audio" CollectGUID="eb38d2b2323d6624bb9a0a1b3905d0fe" CollectType="MainAssetCollector" AddressRule="AddressDisable" PackRule="PackDirectory" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="Code" GroupDesc="" AssetTags="">
+      <Collector CollectPath="Assets/Bundles/Code" CollectGUID="42fc4d77b9bee1846aefcec3d3160e91" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackDirectory" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="Config" GroupDesc="" AssetTags="">
+      <Collector CollectPath="Assets/Bundles/Config" CollectGUID="055686934f4971f449f3a6d70363a495" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackDirectory" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="FGUI" GroupDesc="" AssetTags="">
+      <Collector CollectPath="Assets/Bundles/FGUI" CollectGUID="1f0f31ca224a5504d97059e4421df7c4" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackFairyUI" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="DisableGroup" GroupName="Prefabs" GroupDesc="" AssetTags="">
+      <Collector CollectPath="Assets/Bundles/Prefabs" CollectGUID="6b27956c1289982429f94d1ad54104f6" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackDirectory" FilterRule="CollectPrefab" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="Scenes" GroupDesc="" AssetTags="">
+      <Collector CollectPath="Assets/Bundles/Scenes" CollectGUID="596f936c39041fa4fbc2063b04d5f7b0" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackCollector" FilterRule="CollectScene" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="Spine" GroupDesc="" AssetTags="">
+      <Collector CollectPath="Assets/Bundles/Spine" CollectGUID="b544e3f5fba59604f864b0e6b024d252" CollectType="MainAssetCollector" AddressRule="AddressDisable" PackRule="PackCollector" FilterRule="CollectSpine" UserData="" AssetTags="" />
+    </Group>
+  </Package>
+</root>

@@ -1,0 +1,153 @@
+
+jn_wuzanghao.png
+size: 382,267
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/baokai_quan_0
+  rotate: false
+  xy: 263, 5
+  size: 77, 77
+  orig: 109, 109
+  offset: 16, 16
+  index: -1
+images/baokai_quan_2
+  rotate: false
+  xy: 105, 101
+  size: 93, 93
+  orig: 109, 109
+  offset: 8, 8
+  index: -1
+images/baokai_quan_3
+  rotate: false
+  xy: 1, 163
+  size: 103, 103
+  orig: 109, 109
+  offset: 3, 3
+  index: -1
+images/dizuo
+  rotate: true
+  xy: 341, 19
+  size: 63, 40
+  orig: 63, 40
+  offset: 0, 0
+  index: -1
+images/gj_fire_00
+  rotate: false
+  xy: 209, 96
+  size: 42, 72
+  orig: 105, 91
+  offset: 0, 8
+  index: -1
+images/gj_fire_01
+  rotate: true
+  xy: 1, 58
+  size: 104, 91
+  orig: 105, 91
+  offset: 1, 0
+  index: -1
+images/gj_fire_02
+  rotate: false
+  xy: 193, 39
+  size: 69, 44
+  orig: 105, 91
+  offset: 0, 20
+  index: -1
+images/gj_sanjiao_00
+  rotate: false
+  xy: 103, 1
+  size: 89, 99
+  orig: 109, 109
+  offset: 11, 7
+  index: -1
+images/gj_xt_00
+  rotate: true
+  xy: 93, 52
+  size: 110, 9
+  orig: 128, 9
+  offset: 9, 0
+  index: -1
+images/gj_xt_01
+  rotate: true
+  xy: 199, 84
+  size: 110, 9
+  orig: 128, 9
+  offset: 9, 0
+  index: -1
+images/glow_0
+  rotate: false
+  xy: 263, 83
+  size: 85, 85
+  orig: 109, 109
+  offset: 12, 12
+  index: -1
+images/qiangg
+  rotate: true
+  xy: 349, 153
+  size: 44, 22
+  orig: 44, 22
+  offset: 0, 0
+  index: -1
+images/qiangk
+  rotate: false
+  xy: 322, 172
+  size: 26, 25
+  orig: 26, 25
+  offset: 0, 0
+  index: -1
+images/qiangt
+  rotate: false
+  xy: 231, 6
+  size: 24, 32
+  orig: 24, 32
+  offset: 0, 0
+  index: -1
+images/qk_0
+  rotate: true
+  xy: 349, 111
+  size: 41, 22
+  orig: 43, 22
+  offset: 2, 0
+  index: -1
+images/smoke_01
+  rotate: false
+  xy: 59, 16
+  size: 26, 41
+  orig: 26, 41
+  offset: 0, 0
+  index: -1
+images/smoke_02
+  rotate: true
+  xy: 193, 4
+  size: 34, 37
+  orig: 34, 37
+  offset: 0, 0
+  index: -1
+images/smoke_03
+  rotate: true
+  xy: 105, 195
+  size: 71, 118
+  orig: 71, 118
+  offset: 0, 0
+  index: -1
+images/youjia
+  rotate: true
+  xy: 322, 198
+  size: 68, 59
+  orig: 68, 59
+  offset: 0, 0
+  index: -1
+images/yuan_0
+  rotate: false
+  xy: 224, 169
+  size: 97, 97
+  orig: 109, 109
+  offset: 6, 6
+  index: -1
+images/zuojia
+  rotate: false
+  xy: 1, 2
+  size: 57, 55
+  orig: 57, 55
+  offset: 0, 0
+  index: -1

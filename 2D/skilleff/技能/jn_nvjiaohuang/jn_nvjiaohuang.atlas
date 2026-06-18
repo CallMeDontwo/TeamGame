@@ -1,0 +1,48 @@
+
+jn_nvjiaohuang.png
+size: 484,272
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fz_0
+  rotate: false
+  xy: 191, 91
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+glow_0
+  rotate: false
+  xy: 191, 1
+  size: 89, 89
+  orig: 115, 115
+  offset: 13, 13
+  index: -1
+guangzhu_0
+  rotate: true
+  xy: 1, 42
+  size: 229, 189
+  orig: 230, 230
+  offset: 0, 41
+  index: -1
+jiahao_0
+  rotate: false
+  xy: 281, 38
+  size: 52, 52
+  orig: 54, 54
+  offset: 1, 1
+  index: -1
+par_3
+  rotate: false
+  xy: 372, 56
+  size: 108, 108
+  orig: 115, 115
+  offset: 3, 5
+  index: -1
+quan
+  rotate: true
+  xy: 372, 165
+  size: 106, 111
+  orig: 115, 115
+  offset: 2, 2
+  index: -1

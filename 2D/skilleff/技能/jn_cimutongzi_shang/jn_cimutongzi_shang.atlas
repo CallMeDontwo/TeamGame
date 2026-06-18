@@ -1,0 +1,160 @@
+
+jn_cimutongzi_shang.png
+size: 854,536
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dile_1
+  rotate: true
+  xy: 581, 138
+  size: 188, 53
+  orig: 188, 53
+  offset: 0, 0
+  index: -1
+fx/1/glow_01
+  rotate: false
+  xy: 745, 117
+  size: 104, 104
+  orig: 109, 109
+  offset: 3, 2
+  index: -1
+fx/2/baodian_0
+  rotate: false
+  xy: 635, 338
+  size: 201, 196
+  orig: 218, 218
+  offset: 7, 11
+  index: -1
+fx/2/baodian_1
+  rotate: false
+  xy: 2, 113
+  size: 209, 206
+  orig: 218, 218
+  offset: 0, 6
+  index: -1
+fx/2/baodian_2
+  rotate: false
+  xy: 215, 329
+  size: 210, 205
+  orig: 218, 218
+  offset: 0, 7
+  index: -1
+fx/3/fire_1
+  rotate: false
+  xy: 612, 58
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+fx/3/fire_2
+  rotate: false
+  xy: 612, 2
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+fx/3/fire_3
+  rotate: false
+  xy: 668, 58
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+fx/Lighting_0
+  rotate: false
+  xy: 224, 39
+  size: 283, 72
+  orig: 291, 73
+  offset: 7, 1
+  index: -1
+fx/balcks_1
+  rotate: false
+  xy: 2, 2
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+fx/balcks_2
+  rotate: false
+  xy: 2, 321
+  size: 211, 213
+  orig: 218, 218
+  offset: 4, 2
+  index: -1
+fx/balcks_4
+  rotate: false
+  xy: 636, 114
+  size: 107, 107
+  orig: 109, 109
+  offset: 1, 1
+  index: -1
+fx/glow_00
+  rotate: false
+  xy: 509, 35
+  size: 101, 101
+  orig: 109, 109
+  offset: 4, 4
+  index: -1
+fx/glowhs_2
+  rotate: false
+  xy: 427, 328
+  size: 206, 206
+  orig: 218, 218
+  offset: 6, 6
+  index: -1
+fx/glowhs_3
+  rotate: true
+  xy: 745, 13
+  size: 102, 103
+  orig: 109, 109
+  offset: 4, 3
+  index: -1
+fx/glowhs_5
+  rotate: false
+  xy: 213, 113
+  size: 180, 206
+  orig: 218, 218
+  offset: 15, 5
+  index: -1
+fx/glowhs_6
+  rotate: false
+  xy: 113, 2
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+fx/lizi_0
+  rotate: true
+  xy: 802, 282
+  size: 54, 50
+  orig: 54, 54
+  offset: 0, 2
+  index: -1
+fx/lizi_1
+  rotate: false
+  xy: 802, 230
+  size: 48, 50
+  orig: 54, 54
+  offset: 3, 3
+  index: -1
+fx/lizi_2
+  rotate: false
+  xy: 668, 8
+  size: 48, 48
+  orig: 54, 54
+  offset: 3, 3
+  index: -1
+shouzhi_0
+  rotate: false
+  xy: 636, 223
+  size: 164, 113
+  orig: 164, 113
+  offset: 0, 0
+  index: -1
+shouzhua_0
+  rotate: false
+  xy: 395, 158
+  size: 184, 168
+  orig: 184, 168
+  offset: 0, 0
+  index: -1

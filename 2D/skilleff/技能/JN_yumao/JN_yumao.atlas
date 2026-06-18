@@ -1,0 +1,20 @@
+
+JN_yumao.png
+size: 110,57
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sd/ym3
+  rotate: true
+  xy: 1, 1
+  size: 55, 54
+  orig: 55, 54
+  offset: 0, 0
+  index: -1
+sd/ym4
+  rotate: true
+  xy: 56, 1
+  size: 55, 53
+  orig: 55, 53
+  offset: 0, 0
+  index: -1

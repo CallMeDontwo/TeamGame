@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="868,538">
+  <displayList>
+    <image id="n0_995r" name="n0" src="995r4j" fileName="资源/叠叠乐/window_diediele.png" xy="0,0"/>
+    <component id="n1_vdhu" name="Com_ListGroup" src="vdhu5h" fileName="组件/SubComponent3/Com_DieDieLeListGroup.xml" xy="28,20" size="809,400"/>
+    <component id="n9_vdhu" name="Com_TextGroup" src="vdhu5l" fileName="组件/SubComponent3/Com_DieDieLeTextGroup.xml" xy="13,18"/>
+  </displayList>
+</component>

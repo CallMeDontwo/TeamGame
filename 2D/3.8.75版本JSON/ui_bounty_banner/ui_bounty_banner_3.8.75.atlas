@@ -1,0 +1,209 @@
+
+ui_bounty_banner_3.8.75.png
+size: 1810,1163
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+banner_1
+  rotate: false
+  xy: 1779, 856
+  size: 21, 41
+  orig: 23, 43
+  offset: 1, 1
+  index: -1
+banner_10
+  rotate: false
+  xy: 771, 28
+  size: 390, 357
+  orig: 393, 367
+  offset: 1, 5
+  index: -1
+banner_11
+  rotate: false
+  xy: 571, 51
+  size: 193, 166
+  orig: 193, 166
+  offset: 0, 0
+  index: -1
+banner_12
+  rotate: false
+  xy: 1502, 846
+  size: 102, 51
+  orig: 104, 53
+  offset: 1, 1
+  index: -1
+banner_13
+  rotate: true
+  xy: 1680, 513
+  size: 127, 121
+  orig: 129, 123
+  offset: 1, 1
+  index: -1
+banner_14
+  rotate: true
+  xy: 2, 18
+  size: 64, 138
+  orig: 64, 138
+  offset: 0, 0
+  index: -1
+banner_15
+  rotate: false
+  xy: 1680, 387
+  size: 96, 124
+  orig: 96, 124
+  offset: 0, 0
+  index: -1
+banner_16
+  rotate: true
+  xy: 1584, 223
+  size: 162, 148
+  orig: 164, 150
+  offset: 1, 1
+  index: -1
+banner_17
+  rotate: false
+  xy: 1373, 29
+  size: 147, 187
+  orig: 147, 187
+  offset: 0, 0
+  index: -1
+banner_18
+  rotate: false
+  xy: 1163, 12
+  size: 208, 139
+  orig: 208, 139
+  offset: 0, 0
+  index: -1
+banner_19
+  rotate: false
+  xy: 331, 15
+  size: 94, 47
+  orig: 96, 49
+  offset: 1, 1
+  index: -1
+banner_2
+  rotate: false
+  xy: 1778, 470
+  size: 21, 41
+  orig: 23, 43
+  offset: 1, 1
+  index: -1
+banner_20
+  rotate: false
+  xy: 427, 21
+  size: 73, 41
+  orig: 75, 43
+  offset: 1, 1
+  index: -1
+banner_21
+  rotate: false
+  xy: 1502, 899
+  size: 302, 262
+  orig: 304, 264
+  offset: 1, 1
+  index: -1
+banner_22
+  rotate: false
+  xy: 1522, 69
+  size: 143, 147
+  orig: 143, 147
+  offset: 0, 0
+  index: -1
+banner_23
+  rotate: true
+  xy: 1680, 642
+  size: 255, 97
+  orig: 255, 97
+  offset: 0, 0
+  index: -1
+banner_24
+  rotate: false
+  xy: 340, 64
+  size: 229, 153
+  orig: 229, 153
+  offset: 0, 0
+  index: -1
+banner_25
+  rotate: false
+  xy: 1366, 218
+  size: 216, 167
+  orig: 216, 167
+  offset: 0, 0
+  index: -1
+banner_26
+  rotate: false
+  xy: 2, 84
+  size: 336, 133
+  orig: 336, 133
+  offset: 0, 0
+  index: -1
+banner_27
+  rotate: false
+  xy: 771, 387
+  size: 907, 455
+  orig: 910, 459
+  offset: 2, 2
+  index: -1
+banner_28
+  rotate: false
+  xy: 2, 219
+  size: 767, 623
+  orig: 819, 766
+  offset: 25, 125
+  index: -1
+banner_29
+  rotate: false
+  xy: 2, 844
+  size: 1498, 317
+  orig: 1500, 319
+  offset: 1, 1
+  index: -1
+banner_3
+  rotate: true
+  xy: 1734, 310
+  size: 75, 74
+  orig: 101, 101
+  offset: 13, 14
+  index: -1
+banner_4
+  rotate: true
+  xy: 1734, 233
+  size: 75, 74
+  orig: 101, 101
+  offset: 13, 13
+  index: -1
+banner_5
+  rotate: false
+  xy: 1163, 153
+  size: 201, 232
+  orig: 211, 240
+  offset: 4, 4
+  index: -1
+banner_6
+  rotate: true
+  xy: 142, 2
+  size: 80, 94
+  orig: 83, 96
+  offset: 3, 0
+  index: -1
+banner_7
+  rotate: true
+  xy: 238, 3
+  size: 79, 91
+  orig: 83, 96
+  offset: 4, 4
+  index: -1
+banner_8
+  rotate: false
+  xy: 1667, 134
+  size: 75, 87
+  orig: 83, 96
+  offset: 4, 4
+  index: -1
+banner_9
+  rotate: false
+  xy: 1667, 48
+  size: 87, 84
+  orig: 96, 92
+  offset: 6, 4
+  index: -1

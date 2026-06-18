@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" designImageAlpha="58">
+  <controller name="C_MultiplePos" pages="0,,1,,2,,3,,4," selected="0"/>
+  <displayList>
+    <loader3D id="n90_n2d7" name="Loader_GameBg" xy="0,0" pivot="0.5,0.5" size="1920,1018" animation="" skin="" loop="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader3D>
+    <graph id="n102_njk9" name="Graph_Separate0" xy="0,0" size="1920,1080" alpha="0" type="rect">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n139_raz9" name="n139" src="raz9c7" fileName="资源/ui更新/ui/中景3_1.png" xy="0,9"/>
+    <image id="n80_jwha" name="n80" src="owhb90" fileName="资源/ui更新/ui/大门.png" xy="33,-214"/>
+    <loader3D id="n88_n2d7" name="Loader_RoleSpine" xy="-56,190" pivot="0.5,1" size="492,733" animation="" skin="" loop="true"/>
+    <loader3D id="n85_fj7a" name="Loader_GridBg" xy="505,64" pivot="0.5,0.5" size="976,883" animation="" skin="" loop="true"/>
+    <component id="n17_fwdo" name="Com_GemPanel" src="fwdoh" fileName="组件/GemPanel.xml" xy="994,507" pivot="0.5,0.5" anchor="true" size="956,830"/>
+    <loader3D id="n48_ccib" name="Loader_SuperSodaFg" xy="505,65" pivot="0.5,0.5" size="976,883" visible="false" animation="" skin="" loop="true"/>
+    <graph id="n104_nf6a" name="Graph_Separate1" xy="0,0" size="1920,1080" alpha="0" type="rect" lineSize="0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n103_nf6a" name="n103" src="owhb91" fileName="资源/ui更新/ui/屋顶.png" xy="34,-188"/>
+    <component id="n29_ggki" name="Bar_Progress" src="ggki1w" fileName="组件/ProgressBar1.xml" xy="453,147">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <loader3D id="n87_n2d7" name="Loader_Multiple" xy="334,795" pivot="0.5,0.5" size="232,266" visible="false" animation="" skin="" loop="true">
+      <gearXY controller="C_MultiplePos" pages="0,1,2,3,4" values="334,795|334,610|334,415|334,220|334,31"/>
+    </loader3D>
+    <image id="n113_owhb" name="Img_NextGem" src="owhb8y" fileName="资源/ui更新/ui/侧边棋子ui.png" xy="1495,34" visible="false"/>
+    <component id="n108_gf9z" name="Com_FlyoutGroup" src="gf9z88" fileName="组件/GemFlyoutGroup.xml" xy="1505,333" visible="false"/>
+    <image id="n81_jwha" name="n81" src="raz9c8" fileName="资源/ui更新/ui/底部ui_1.png" xy="-40,873"/>
+    <image id="n106_gf9z" name="n106" src="owhb8v" fileName="资源/ui更新/ui/数值框.png" xy="85,1012" size="267,63" group="n73_va5n"/>
+    <image id="n140_gprm" name="n140" src="k1i5ax" fileName="资源/ui联机/ui/能量图标.png" xy="98,1011" size="60,63" group="n73_va5n"/>
+    <image id="n94_njk9" name="n94" src="owhb8z" fileName="资源/ui更新/ui/剩余能量.png" xy="133,965" group="n73_va5n"/>
+    <richtext id="n72_va5n" name="Text_Credit" xy="161,1012" size="180,63" group="n73_va5n" font="ui://oy07mpfwowhb9k" fontSize="44" color="#2f5093" align="center" vAlign="middle" autoSize="shrink" singleLine="true" text="0"/>
+    <group id="n73_va5n" name="n73" xy="85,965" size="267,110"/>
+    <image id="n105_gf9z" name="n105" src="owhb8v" fileName="资源/ui更新/ui/数值框.png" xy="415,1012" size="209,63" group="n74_va5n"/>
+    <image id="n141_gprm" name="n141" src="k1i5ax" fileName="资源/ui联机/ui/能量图标.png" xy="428,1012" size="60,63" group="n74_va5n"/>
+    <image id="n96_njk9" name="n96" src="owhb95" fileName="资源/ui更新/ui/消耗能量.png" xy="436,965" group="n74_va5n"/>
+    <richtext id="n56_ftd5" name="Text_Bet" xy="495,1012" size="129,63" group="n74_va5n" font="ui://oy07mpfwowhb9k" fontSize="44" color="#2f5093" align="center" vAlign="middle" autoSize="shrink" singleLine="true" text="500"/>
+    <group id="n74_va5n" name="n74" xy="415,965" size="209,110"/>
+    <image id="n99_njk9" name="n99" src="owhb8v" fileName="资源/ui更新/ui/数值框.png" xy="1377,1012" size="297,63" group="n86_fj7a"/>
+    <image id="n142_gprm" name="n142" src="k1i5ax" fileName="资源/ui联机/ui/能量图标.png" xy="1384,1012" size="60,63" group="n86_fj7a"/>
+    <image id="n98_njk9" name="n98" src="owhb94" fileName="资源/ui更新/ui/本轮获得能量.png" xy="1399,963" group="n86_fj7a"/>
+    <richtext id="n45_ccib" name="Text_Totals" xy="1444,1012" size="230,63" group="n86_fj7a" font="ui://oy07mpfwowhb9k" fontSize="44" align="center" vAlign="middle" autoSize="shrink" singleLine="true" text="0"/>
+    <group id="n86_fj7a" name="n86" xy="1377,963" size="297,112"/>
+    <loader3D id="n136_raz9" name="Loader_LightBall0" xy="1498,969" pivot="0.5,0.5" size="100,100" visible="false" animation="" skin="" loop="true"/>
+    <loader3D id="n137_raz9" name="Loader_LightBall1" xy="1498,969" pivot="0.5,0.5" size="100,100" visible="false" animation="" skin="" loop="true"/>
+    <loader3D id="n138_raz9" name="Loader_LightBall2" xy="1498,969" pivot="0.5,0.5" size="100,100" visible="false" animation="" skin="" loop="true"/>
+    <loader3D id="n89_n2d7" name="Loader_Mode" xy="690,930" pivot="0.5,0.5" size="649,171" animation="" skin="" loop="true"/>
+    <loader3D id="n134_ka85" name="Loader_PlzAddCoin" xy="823,855" pivot="0.5,0.5" size="382,113" visible="false" animation="" skin="" loop="true"/>
+    <graph id="n115_owhb" name="Graph_Separate2" xy="0,0" size="1920,1080" alpha="0" type="rect">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n116_owhb" name="Com_GemLineShow" src="owhb9l" fileName="组件/GemLineShow.xml" xy="650,874" visible="false" controller="C_Quality,3,C_Multiple,3,C_Gem,3"/>
+    <component id="n117_tuks" name="Com_OnlyGenerate" src="tuks9m" fileName="组件/OnlyGenerateGem.xml" xy="668,874" visible="false"/>
+    <image id="n118_k1i5" name="n118" src="k1i5av" fileName="资源/ui联机/ui/联机banner.png" xy="1683,0" size="230,871" group="n132_k1i5"/>
+    <loader3D id="n129_k1i5" name="Loader_LotusFlower" xy="1797,130" pivot="0.5,0.5" anchor="true" size="247,247" group="n132_k1i5" animation="" skin="" loop="true"/>
+    <loader3D id="n130_k1i5" name="Loader_Energy" xy="1722,79" pivot="0.5,0.5" size="149,170" group="n132_k1i5" animation="" skin="" loop="true"/>
+    <richtext id="n122_k1i5" name="Text_AwardPool" xy="1683,211" size="230,78" group="n132_k1i5" font="ui://oy07mpfwk1i5b1" fontSize="31" align="center" vAlign="middle" letterSpacing="-5" autoSize="none" singleLine="true" text="100000"/>
+    <image id="n119_k1i5" name="n119" src="k1i5ay" fileName="资源/ui联机/ui/说明文字.png" xy="1688,279" group="n132_k1i5"/>
+    <image id="n123_k1i5" name="n123" src="k1i5au" fileName="资源/ui联机/ui/专属奖励.png" xy="1678,435" group="n132_k1i5"/>
+    <text id="n127_k1i5" name="Text_SelfAward" xy="1683,559" size="147,52" group="n132_k1i5" font="ui://oy07mpfwk1i5b2" fontSize="21" align="center" vAlign="middle" autoSize="none" singleLine="true" text="0"/>
+    <loader3D id="n131_k1i5" name="Loader_PondWater" xy="1670,582" pivot="0.5,1" size="256,286" group="n132_k1i5" animation="" skin="" loop="true"/>
+    <text id="n128_k1i5" name="Text_AwardProgress" xy="1683,682" size="230,87" group="n132_k1i5" font="ui://oy07mpfwk1i5b3" fontSize="12" align="center" vAlign="middle" letterSpacing="-6" autoSize="none" singleLine="true" text="0/200"/>
+    <group id="n132_k1i5" name="Group_AwardPool" xy="1670,0" size="256,871" advanced="true">
+      <relation target="" sidePair="right-right"/>
+    </group>
+    <component id="n133_rdxp" name="Com_PowerBalls" src="rdxpb4" fileName="组件/PowerBallLayer.xml" xy="0,0" size="1920,1080">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <graph id="n109_fxxj" name="Graph_Black" xy="0,0" size="1920,1080" visible="false" alpha="0.5" type="rect" lineSize="0" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <loader3D id="n66_n0us" name="Loader_Win" xy="1040,546" pivot="0.5,0.5" anchor="true" size="754,754" visible="false" animation="" skin="" loop="true"/>
+    <graph id="n67_n0us" name="Graph_Separate3" xy="0,0" size="1920,1080" alpha="0" type="rect"/>
+    <richtext id="n53_ccib" name="Text_Score" xy="315,670" size="1290,154" visible="false" font="ui://oy07mpfwka85bh" fontSize="14" align="center" singleLine="true" text="1234567890">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+    <image id="n143_gprm" name="Img_Power" src="k1i5ax" fileName="资源/ui联机/ui/能量图标.png" xy="124,640" size="201,213" visible="false">
+      <relation target="n53_ccib" sidePair="left-left,top-top"/>
+    </image>
+    <component id="n135_ka85" name="Com_WinAwardPool" src="ka85b6" fileName="组件/WinAwardPool.xml" xy="0,0" size="1920,1080" visible="false">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n38_ggki" name="Btn_Auto" src="ggki20" fileName="组件/AutioButton.xml" xy="825,934" size="649,171">
+      <Button titleFontSize="38"/>
+    </component>
+    <component id="n77_x776" name="Com_Setting" src="x7764t" fileName="组件/后台/DebugComponent/SettingsComponent.xml" xy="-46,17" size="1920,1080" visible="false">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+  <transition name="T_ComboChallenge" frameRate="60"/>
+  <transition name="T_PlayBonuns">
+    <item time="0" type="Sound" value="ui://oy07mpfwgfya3k,100"/>
+  </transition>
+  <transition name="T_PlayFillGem">
+    <item time="0" type="Sound" value="ui://oy07mpfwc51b3m,100"/>
+  </transition>
+  <transition name="T_GetCredit">
+    <item time="0" type="Visible" target="n136_raz9" value="true"/>
+    <item time="0" type="XY" target="n136_raz9" tween="true" startValue="1498,969" endValue="206,970" duration="24" path="2,0,0,-401,-312,-850,-321,1,2,-1292,1,-2336.276,761.7621,0,0,1"/>
+    <item time="6" type="Visible" target="n137_raz9" value="true"/>
+    <item time="6" type="XY" target="n137_raz9" tween="true" startValue="1498,969" endValue="206,969" duration="24" path="2,0,0,-401,-312,-850,-321,1,2,-1292,0,-2337.398,759.2147,0,0,1"/>
+    <item time="12" type="Visible" target="n138_raz9" value="true"/>
+    <item time="12" type="XY" target="n138_raz9" tween="true" startValue="1498,969" endValue="206,969" duration="24" path="2,0,0,-401,-312,-850,-321,1,2,-1292,0,-2337.398,759.2145,0,0,1"/>
+    <item time="24" type="Visible" target="n136_raz9" value="false"/>
+    <item time="30" type="Visible" target="n137_raz9" value="false"/>
+    <item time="36" type="Visible" target="n138_raz9" value="false"/>
+  </transition>
+</component>

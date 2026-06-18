@@ -1,0 +1,48 @@
+
+hit_aixing.png
+size: 137,219
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd_aixing
+  rotate: true
+  xy: 90, 166
+  size: 52, 44
+  orig: 55, 47
+  offset: 2, 1
+  index: -1
+bd_wujiao
+  rotate: false
+  xy: 1, 132
+  size: 88, 86
+  orig: 96, 96
+  offset: 8, 4
+  index: -1
+glow_0
+  rotate: false
+  xy: 1, 57
+  size: 74, 74
+  orig: 96, 96
+  offset: 11, 11
+  index: -1
+yanwu_qiu_0
+  rotate: false
+  xy: 76, 12
+  size: 60, 55
+  orig: 68, 68
+  offset: 4, 6
+  index: -1
+yanwu_qiu_1
+  rotate: true
+  xy: 76, 68
+  size: 63, 57
+  orig: 68, 68
+  offset: 2, 5
+  index: -1
+yanwu_qiu_2
+  rotate: false
+  xy: 1, 1
+  size: 59, 55
+  orig: 68, 68
+  offset: 5, 6
+  index: -1

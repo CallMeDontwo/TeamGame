@@ -1,0 +1,62 @@
+
+hit_huoxi.png
+size: 313,134
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd_wujiao
+  rotate: false
+  xy: 1, 56
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+glow_0
+  rotate: false
+  xy: 79, 56
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+sanjiao_0
+  rotate: false
+  xy: 157, 56
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+yanwu_qiu_0
+  rotate: false
+  xy: 79, 1
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+yanwu_qiu_1
+  rotate: false
+  xy: 134, 1
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+yanwu_qiu_2
+  rotate: false
+  xy: 189, 1
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+yuan_0
+  rotate: false
+  xy: 235, 56
+  size: 77, 77
+  orig: 77, 77
+  offset: 0, 0
+  index: -1
+yueya_da_0
+  rotate: true
+  xy: 1, 1
+  size: 54, 77
+  orig: 54, 77
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,5 @@
+{"dict": [
+[10, {"_t":"LanguageConfig","_id":10,"Name":"英文默认","Asset":"Assets/Bundles/Language/English.xml","UIBranch":"English"}],
+[6, {"_t":"LanguageConfig","_id":6,"Name":"中文","Asset":"Assets/Bundles/Language/Chinese.xml","UIBranch":"Chinese"}],
+[40, {"_t":"LanguageConfig","_id":40,"Name":"繁体","Asset":"Assets/Bundles/Language/ChineseTW.xml","UIBranch":"ChineseTW"}],
+]}

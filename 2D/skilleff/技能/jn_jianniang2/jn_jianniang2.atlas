@@ -1,0 +1,139 @@
+
+jn_jianniang2.png
+size: 334,263
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baoci_23
+  rotate: false
+  xy: 281, 193
+  size: 50, 69
+  orig: 51, 72
+  offset: 1, 1
+  index: -1
+dankeng_37
+  rotate: true
+  xy: 1, 160
+  size: 102, 58
+  orig: 102, 64
+  offset: 0, 2
+  index: -1
+glow_00
+  rotate: false
+  xy: 145, 139
+  size: 45, 45
+  orig: 51, 51
+  offset: 3, 3
+  index: -1
+paodan_00
+  rotate: false
+  xy: 145, 1
+  size: 28, 64
+  orig: 28, 64
+  offset: 0, 0
+  index: -1
+tw_00
+  rotate: false
+  xy: 60, 166
+  size: 48, 17
+  orig: 51, 20
+  offset: 2, 1
+  index: -1
+ty_dabaozha/ty_dbz_1
+  rotate: false
+  xy: 204, 194
+  size: 76, 68
+  orig: 80, 80
+  offset: 4, 2
+  index: -1
+ty_dabaozha/ty_dbz_11
+  rotate: true
+  xy: 1, 81
+  size: 78, 73
+  orig: 80, 80
+  offset: 2, 4
+  index: -1
+ty_dabaozha/ty_dbz_13
+  rotate: true
+  xy: 174, 4
+  size: 61, 73
+  orig: 80, 80
+  offset: 10, 4
+  index: -1
+ty_dabaozha/ty_dbz_15
+  rotate: true
+  xy: 190, 66
+  size: 60, 70
+  orig: 80, 80
+  offset: 11, 6
+  index: -1
+ty_dabaozha/ty_dbz_17
+  rotate: true
+  xy: 261, 16
+  size: 59, 70
+  orig: 80, 80
+  offset: 11, 6
+  index: -1
+ty_dabaozha/ty_dbz_19
+  rotate: false
+  xy: 281, 121
+  size: 49, 71
+  orig: 80, 80
+  offset: 13, 5
+  index: -1
+ty_dabaozha/ty_dbz_2
+  rotate: false
+  xy: 204, 127
+  size: 76, 66
+  orig: 80, 80
+  offset: 4, 2
+  index: -1
+ty_dabaozha/ty_dbz_21
+  rotate: false
+  xy: 145, 66
+  size: 44, 72
+  orig: 80, 80
+  offset: 16, 4
+  index: -1
+ty_dabaozha/ty_dbz_23
+  rotate: true
+  xy: 261, 76
+  size: 44, 72
+  orig: 80, 80
+  offset: 16, 4
+  index: -1
+ty_dabaozha/ty_dbz_3
+  rotate: true
+  xy: 60, 184
+  size: 78, 69
+  orig: 80, 80
+  offset: 2, 4
+  index: -1
+ty_dabaozha/ty_dbz_4
+  rotate: true
+  xy: 75, 87
+  size: 78, 69
+  orig: 80, 80
+  offset: 2, 4
+  index: -1
+ty_dabaozha/ty_dbz_5
+  rotate: true
+  xy: 1, 2
+  size: 78, 71
+  orig: 80, 80
+  offset: 2, 4
+  index: -1
+ty_dabaozha/ty_dbz_7
+  rotate: true
+  xy: 73, 2
+  size: 78, 71
+  orig: 80, 80
+  offset: 2, 4
+  index: -1
+ty_dabaozha/ty_dbz_9
+  rotate: true
+  xy: 130, 185
+  size: 77, 73
+  orig: 80, 80
+  offset: 2, 4
+  index: -1

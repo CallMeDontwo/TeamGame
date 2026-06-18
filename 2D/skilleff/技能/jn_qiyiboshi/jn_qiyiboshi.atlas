@@ -1,0 +1,55 @@
+
+jn_qiyiboshi.png
+size: 451,319
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bai
+  rotate: false
+  xy: 337, 211
+  size: 107, 107
+  orig: 109, 109
+  offset: 1, 1
+  index: -1
+baodian_27
+  rotate: true
+  xy: 298, 13
+  size: 138, 125
+  orig: 153, 153
+  offset: 11, 27
+  index: -1
+fz_0
+  rotate: false
+  xy: 1, 150
+  size: 168, 168
+  orig: 170, 170
+  offset: 1, 1
+  index: -1
+fz_quan_10
+  rotate: false
+  xy: 170, 152
+  size: 166, 166
+  orig: 170, 170
+  offset: 2, 2
+  index: -1
+glow_bai_25
+  rotate: false
+  xy: 1, 1
+  size: 148, 148
+  orig: 170, 170
+  offset: 11, 11
+  index: -1
+liangquan_10
+  rotate: false
+  xy: 150, 2
+  size: 147, 147
+  orig: 153, 153
+  offset: 3, 3
+  index: -1
+tiao_0
+  rotate: true
+  xy: 424, 44
+  size: 166, 26
+  orig: 166, 26
+  offset: 0, 0
+  index: -1

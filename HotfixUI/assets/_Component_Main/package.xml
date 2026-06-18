@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="z89tvj9k">
+  <resources>
+    <component id="gpi10" name="Layer1Component.xml" path="/" exported="true"/>
+    <component id="ppw61" name="Layer5Component.xml" path="/" exported="true"/>
+    <component id="tvqu2" name="Layer2Component.xml" path="/" exported="true"/>
+    <component id="snyy7" name="Layer3Component.xml" path="/" exported="true"/>
+    <component id="snyy8" name="Layer4Component.xml" path="/" exported="true"/>
+    <component id="snyy9" name="Layer0Component.xml" path="/" exported="true"/>
+    <component id="n0mya" name="Layer6Component.xml" path="/" exported="true"/>
+    <component id="n0myb" name="Layer7Component.xml" path="/" exported="true"/>
+    <component id="n0myc" name="Layer8Component.xml" path="/" exported="true"/>
+    <component id="n0myd" name="Layer9Component.xml" path="/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

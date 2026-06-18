@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="630,460">
+  <controller name="C_Type" pages="0,,1," selected="1"/>
+  <displayList>
+    <graph id="n24_w2zw" name="n24" xy="0,0" size="630,460" alpha="0.8" type="rect" lineSize="0" fillColor="#ff000000" corner="30"/>
+    <image id="n25_w2zw" name="n25" src="dxvn55" fileName="资源/主界面/Mark.png" xy="29,89" size="253,117"/>
+    <text id="n26_w2zw" name="Text_Total" xy="300,75" size="316,145" fontSize="112" color="#f0dc3c" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" strokeColor="#4d140b" strokeSize="4" text="99999"/>
+    <loader3D id="n30_w2zw" name="Loader_Coin" xy="60,225" size="160,160" group="n31_vdhu" animation="" skin="" loop="true"/>
+    <text id="n29_w2zw" name="Text_Current" xy="300,233" size="316,145" group="n31_vdhu" fontSize="112" color="#f0dc3c" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" strokeColor="#4d140b" strokeSize="4" text="9999"/>
+    <group id="n31_vdhu" name="n31" xy="60,225" size="556,160" advanced="true">
+      <gearDisplay controller="C_Type" pages="0"/>
+    </group>
+    <text id="n33_vdhu" name="Text_Num1" xy="25,256" size="159,104" group="n38_vdhu" fontSize="80" color="#f0dc3c" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" strokeColor="#4d140b" strokeSize="4" text="999"/>
+    <text id="n34_vdhu" name="Text_X" xy="204,256" size="56,104" group="n38_vdhu" fontSize="80" color="#f0dc3c" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" strokeColor="#4d140b" strokeSize="4" text="X"/>
+    <text id="n35_vdhu" name="Text_Num2" xy="277,256" size="92,104" group="n38_vdhu" fontSize="80" color="#f0dc3c" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" strokeColor="#4d140b" strokeSize="4" text="999"/>
+    <text id="n36_vdhu" name="Text_Equal" xy="382,256" size="40,104" group="n38_vdhu" fontSize="80" color="#f0dc3c" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" strokeColor="#4d140b" strokeSize="4" text="="/>
+    <text id="n37_vdhu" name="Text_Res" xy="431,256" size="186,104" group="n38_vdhu" fontSize="80" color="#f0dc3c" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" strokeColor="#4d140b" strokeSize="4" text="9999"/>
+    <group id="n38_vdhu" name="n38" xy="25,256" size="592,104" advanced="true">
+      <gearDisplay controller="C_Type" pages="1"/>
+    </group>
+    <text id="n40_g3y3" name="Text_Double" xy="0,384" size="630,79" visible="false" fontSize="60" color="#ff3399" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" strokeColor="#4d140b" strokeSize="4" text="Reward Double"/>
+  </displayList>
+</component>

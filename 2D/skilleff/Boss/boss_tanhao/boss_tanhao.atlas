@@ -1,0 +1,13 @@
+
+boss_tanhao.png
+size: 48,140
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tanhao
+  rotate: false
+  xy: 1, 1
+  size: 46, 138
+  orig: 46, 138
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,60 @@
+{
+  "skeleton": {
+    "hash": "WDYfcqEAWy6TBoqx1z+oFvuXl8M",
+    "spine": "3.8.99",
+    "x": -46,
+    "y": -45,
+    "width": 93,
+    "height": 90,
+    "images": "./images/",
+    "audio": ""
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "runshi",
+      "parent": "root"
+    }
+  ],
+  "slots": [
+    {
+      "name": "dd_yunshi",
+      "bone": "runshi",
+      "attachment": "dd_yunshi"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "dd_yunshi": {
+          "dd_yunshi": {
+            "x": 0.5,
+            "width": 93,
+            "height": 90
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "attack": {
+      "bones": {
+        "runshi": {
+          "rotate": [
+            {},
+            {
+              "time": 0.3333,
+              "angle": 180
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        }
+      }
+    }
+  }
+}

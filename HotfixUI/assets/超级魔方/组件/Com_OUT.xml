@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="119,141" extention="Label">
+  <controller name="C_Status" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n11_995r" name="n11" src="995r4a" fileName="资源/海盗2/游戏窗口ui/主界面/OUT_UI.png" xy="0,21"/>
+    <image id="n12_995r" name="n12" src="995r4h" fileName="资源/海盗2/游戏窗口ui/主界面/_.png" xy="38,46">
+      <gearDisplay controller="C_Status" pages="0"/>
+    </image>
+    <loader id="n14_tfyo" name="icon" xy="0,21" size="119,120" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="C_Status" pages="1"/>
+    </loader>
+    <text id="n13_995r" name="n13" xy="21,0" size="69,54" fontSize="40" color="#ff9140" letterSpacing="-3" strokeColor="#612f16" strokeSize="2" text="OUT"/>
+  </displayList>
+</component>

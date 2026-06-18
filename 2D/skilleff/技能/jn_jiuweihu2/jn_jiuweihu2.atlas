@@ -1,0 +1,27 @@
+
+jn_jiuweihu2.png
+size: 276,117
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd_aixing
+  rotate: true
+  xy: 219, 50
+  size: 66, 56
+  orig: 73, 63
+  offset: 3, 4
+  index: -1
+bd_wujiao
+  rotate: false
+  xy: 1, 1
+  size: 116, 115
+  orig: 128, 128
+  offset: 11, 5
+  index: -1
+glow_0
+  rotate: false
+  xy: 118, 16
+  size: 100, 100
+  orig: 128, 128
+  offset: 14, 14
+  index: -1

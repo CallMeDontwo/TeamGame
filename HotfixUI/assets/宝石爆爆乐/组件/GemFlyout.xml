@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100">
+  <controller name="C_Gem" pages="0,,1,,2,,3,,4,,5," selected="5"/>
+  <displayList>
+    <loader3D id="n0_gf9z" name="Loader_Gem" xy="0,0" pivot="0.5,0.5" size="100,100" animation="" skin="" loop="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader3D>
+    <loader3D id="n1_gf9z" name="Loader_Boom" xy="26,-50" pivot="0.5,0.5" size="100,100" visible="false" animation="" skin="" loop="true">
+      <gearXY controller="C_Gem" pages="0,1,2,3,4,5" values="26,382|26,268|26,-54|26,-156|26,165|26,-50"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader3D>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+
+Buff_bingdong.png
+size: 336,288
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bingdong
+  rotate: false
+  xy: 1, 1
+  size: 334, 286
+  orig: 334, 286
+  offset: 0, 0
+  index: -1

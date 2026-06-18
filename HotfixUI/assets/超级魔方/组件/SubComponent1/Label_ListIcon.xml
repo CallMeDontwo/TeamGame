@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="176,176" pivot="0.5,0.5" extention="Label">
+  <displayList>
+    <loader id="n1_d8z8" name="icon" xy="0,0" size="176,176" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n0_d8z8" name="title" xy="0,0" size="176,176" fontSize="12" align="center" vAlign="middle" autoSize="none" singleLine="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <transition name="T_Shiny">
+    <item time="0" type="Scale" tween="true" startValue="1,1" endValue="0.6,0.6" duration="6"/>
+    <item time="6" type="Scale" tween="true" startValue="0.6,0.6" endValue="1,1" duration="6"/>
+    <item time="12" type="Scale" tween="true" startValue="1,1" endValue="0.6,0.6" duration="6"/>
+    <item time="18" type="Scale" tween="true" startValue="0.6,0.6" endValue="1,1" duration="6"/>
+  </transition>
+</component>

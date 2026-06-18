@@ -1,0 +1,34 @@
+
+jn_zhugeliang_fz.png
+size: 567,214
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/fz_ks
+  rotate: false
+  xy: 451, 98
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+images/fz_wq
+  rotate: true
+  xy: 1, 1
+  size: 212, 224
+  orig: 230, 230
+  offset: 9, 6
+  index: -1
+images/glow_0
+  rotate: false
+  xy: 451, 8
+  size: 89, 89
+  orig: 115, 115
+  offset: 13, 13
+  index: -1
+images/glow_01
+  rotate: false
+  xy: 226, 6
+  size: 224, 207
+  orig: 230, 230
+  offset: 5, 10
+  index: -1

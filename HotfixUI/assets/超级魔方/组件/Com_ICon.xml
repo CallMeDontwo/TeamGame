@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="146,181" extention="Label">
+  <displayList>
+    <image id="n1_995r" name="n1" src="995r3k" fileName="资源/主界面/icon_kuang.png" xy="0,0"/>
+    <loader id="n2_995r" name="icon" xy="13,5" size="120,122" group="n4_sdwr" url="ui://hoqdodep995r3f" align="center" vAlign="middle"/>
+    <text id="n0_995r" name="title" xy="-1,111" size="146,54" group="n4_sdwr" font="ui://d5436bxt995r3j" fontSize="50" color="#ffffff" align="center" vAlign="middle" letterSpacing="-3" autoSize="height" singleLine="true" text="26">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <group id="n4_sdwr" name="n4" xy="-1,5" size="146,160" advanced="true"/>
+  </displayList>
+  <transition name="T_Shiny">
+    <item time="0" type="Visible" target="n4_sdwr" value="true"/>
+    <item time="6" type="Visible" target="n4_sdwr" value="false"/>
+    <item time="12" type="Visible" target="n4_sdwr" value="true"/>
+    <item time="18" type="Visible" target="n4_sdwr" value="false"/>
+    <item time="24" type="Visible" target="n4_sdwr" value="true"/>
+    <item time="30" type="Visible" target="n4_sdwr" value="false"/>
+    <item time="36" type="Visible" target="n4_sdwr" value="true"/>
+  </transition>
+  <transition name="T_Shiny1">
+    <item time="0" type="Color" target="n2_995r" value="#ffffff"/>
+    <item time="0" type="Visible" target="n0_995r" value="true"/>
+    <item time="6" type="Color" target="n2_995r" value="#666666"/>
+    <item time="6" type="Visible" target="n0_995r" value="false"/>
+    <item time="12" type="Color" target="n2_995r" value="#ffffff"/>
+    <item time="12" type="Visible" target="n0_995r" value="true"/>
+  </transition>
+</component>

@@ -1,0 +1,13 @@
+
+buff_xianglong_hudun.png
+size: 177,185
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hudun_0
+  rotate: false
+  xy: 2, 2
+  size: 173, 181
+  orig: 200, 200
+  offset: 21, 9
+  index: -1

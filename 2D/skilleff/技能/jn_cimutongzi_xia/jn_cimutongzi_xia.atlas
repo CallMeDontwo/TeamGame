@@ -1,0 +1,251 @@
+
+jn_cimutongzi_xia.png
+size: 751,520
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 441, 130
+  size: 23, 38
+  orig: 24, 38
+  offset: 0, 0
+  index: -1
+10
+  rotate: false
+  xy: 211, 3
+  size: 93, 75
+  orig: 94, 75
+  offset: 0, 0
+  index: -1
+11
+  rotate: true
+  xy: 583, 198
+  size: 41, 88
+  orig: 42, 88
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 389, 8
+  size: 31, 24
+  orig: 33, 25
+  offset: 1, 0
+  index: -1
+13
+  rotate: true
+  xy: 563, 2
+  size: 21, 23
+  orig: 21, 24
+  offset: 0, 0
+  index: -1
+14
+  rotate: false
+  xy: 673, 154
+  size: 70, 80
+  orig: 70, 80
+  offset: 0, 0
+  index: -1
+15
+  rotate: false
+  xy: 685, 353
+  size: 40, 39
+  orig: 40, 41
+  offset: 0, 1
+  index: -1
+16
+  rotate: false
+  xy: 685, 394
+  size: 49, 124
+  orig: 49, 126
+  offset: 0, 1
+  index: -1
+17
+  rotate: false
+  xy: 692, 269
+  size: 37, 82
+  orig: 37, 82
+  offset: 0, 0
+  index: -1
+18
+  rotate: false
+  xy: 330, 34
+  size: 125, 80
+  orig: 126, 80
+  offset: 0, 0
+  index: -1
+19
+  rotate: true
+  xy: 667, 73
+  size: 79, 78
+  orig: 79, 78
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 692, 236
+  size: 39, 31
+  orig: 39, 31
+  offset: 0, 0
+  index: -1
+20
+  rotate: false
+  xy: 73, 5
+  size: 80, 59
+  orig: 81, 60
+  offset: 0, 0
+  index: -1
+21
+  rotate: true
+  xy: 268, 227
+  size: 127, 171
+  orig: 128, 174
+  offset: 0, 2
+  index: -1
+22
+  rotate: false
+  xy: 667, 3
+  size: 82, 68
+  orig: 83, 70
+  offset: 1, 1
+  index: -1
+23
+  rotate: true
+  xy: 2, 2
+  size: 62, 69
+  orig: 62, 69
+  offset: 0, 0
+  index: -1
+24
+  rotate: false
+  xy: 2, 274
+  size: 264, 244
+  orig: 266, 244
+  offset: 1, 0
+  index: -1
+3
+  rotate: true
+  xy: 347, 7
+  size: 25, 40
+  orig: 26, 40
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 306, 2
+  size: 39, 30
+  orig: 39, 31
+  offset: 0, 1
+  index: -1
+5
+  rotate: false
+  xy: 210, 234
+  size: 52, 38
+  orig: 52, 38
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 441, 170
+  size: 28, 43
+  orig: 28, 43
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 581, 130
+  size: 79, 66
+  orig: 79, 66
+  offset: 0, 0
+  index: -1
+dile_0
+  rotate: true
+  xy: 441, 215
+  size: 139, 29
+  orig: 139, 29
+  offset: 0, 0
+  index: -1
+fx/1/glow_01
+  rotate: false
+  xy: 457, 24
+  size: 104, 104
+  orig: 109, 109
+  offset: 3, 2
+  index: -1
+fx/1/sphere_0
+  rotate: false
+  xy: 155, 10
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+fx/3/fire_0
+  rotate: false
+  xy: 330, 116
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+fx/balcks_3
+  rotate: false
+  xy: 583, 241
+  size: 107, 107
+  orig: 109, 109
+  offset: 0, 1
+  index: -1
+fx/glowhs_2
+  rotate: false
+  xy: 2, 66
+  size: 206, 206
+  orig: 218, 218
+  offset: 6, 6
+  index: -1
+fx/glowhs_3
+  rotate: false
+  xy: 563, 25
+  size: 102, 103
+  orig: 109, 109
+  offset: 4, 3
+  index: -1
+fx/glowhs_6
+  rotate: false
+  xy: 472, 239
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+fx/hei_00
+  rotate: false
+  xy: 306, 64
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+shouzhi_1
+  rotate: false
+  xy: 268, 356
+  size: 229, 162
+  orig: 229, 162
+  offset: 0, 0
+  index: -1
+shouzhi_2
+  rotate: false
+  xy: 210, 80
+  size: 118, 145
+  orig: 118, 145
+  offset: 0, 0
+  index: -1
+shouzhua_0
+  rotate: false
+  xy: 499, 350
+  size: 184, 168
+  orig: 184, 168
+  offset: 0, 0
+  index: -1
+yueliang
+  rotate: false
+  xy: 472, 130
+  size: 107, 107
+  orig: 109, 109
+  offset: 1, 1
+  index: -1

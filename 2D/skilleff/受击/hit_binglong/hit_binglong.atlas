@@ -1,0 +1,13 @@
+
+hit_binglong.png
+size: 111,111
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/fxxx/baodian1_0
+  rotate: false
+  xy: 1, 1
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1

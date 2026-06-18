@@ -1,0 +1,41 @@
+
+jn_xixuegui_fz.png
+size: 714,216
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/fz_ks
+  rotate: false
+  xy: 604, 106
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+images/fz_nq
+  rotate: false
+  xy: 1, 1
+  size: 214, 214
+  orig: 218, 218
+  offset: 2, 2
+  index: -1
+images/fz_wq
+  rotate: true
+  xy: 421, 2
+  size: 213, 182
+  orig: 218, 218
+  offset: 2, 17
+  index: -1
+images/fz_xl
+  rotate: false
+  xy: 216, 11
+  size: 204, 204
+  orig: 218, 218
+  offset: 7, 7
+  index: -1
+images/glow_0
+  rotate: false
+  xy: 604, 20
+  size: 85, 85
+  orig: 109, 109
+  offset: 12, 12
+  index: -1

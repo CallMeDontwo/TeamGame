@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="735,594">
+  <displayList>
+    <graph id="n4_v869" name="n4" xy="0,0" size="735,594" type="rect">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n3_v869" name="Text_Tip" xy="79,44" size="576,343" fontSize="20" color="#ffffff" autoSize="none" strokeColor="#000000" text=""/>
+    <component id="n0_v869" name="Btn_Cancel" src="v8693" fileName="组件/Button.xml" xy="125,466" size="172,84"/>
+    <component id="n1_v869" name="Btn_OK" src="v8693" fileName="组件/Button.xml" xy="438,466" size="172,84"/>
+  </displayList>
+</component>

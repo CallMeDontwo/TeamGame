@@ -1,0 +1,132 @@
+
+m10034_3.8.75.png
+size: 157,524
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eye
+  rotate: true
+  xy: 130, 469
+  size: 53, 24
+  orig: 53, 24
+  offset: 0, 0
+  index: -1
+eye_xuanyun
+  rotate: false
+  xy: 109, 23
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+gutou
+  rotate: true
+  xy: 102, 397
+  size: 70, 53
+  orig: 70, 53
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 2, 288
+  size: 98, 81
+  orig: 98, 81
+  offset: 0, 0
+  index: -1
+hand_L
+  rotate: true
+  xy: 102, 362
+  size: 33, 52
+  orig: 33, 52
+  offset: 0, 0
+  index: -1
+hand_R
+  rotate: false
+  xy: 2, 2
+  size: 41, 79
+  orig: 41, 79
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 116
+  size: 94, 81
+  orig: 94, 81
+  offset: 0, 0
+  index: -1
+hit_yan1
+  rotate: false
+  xy: 109, 3
+  size: 16, 18
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+kulou
+  rotate: true
+  xy: 45, 4
+  size: 77, 62
+  orig: 77, 63
+  offset: 0, 1
+  index: -1
+leg_L
+  rotate: false
+  xy: 101, 193
+  size: 43, 68
+  orig: 43, 68
+  offset: 0, 0
+  index: -1
+leg_R
+  rotate: false
+  xy: 98, 83
+  size: 43, 68
+  orig: 43, 68
+  offset: 0, 0
+  index: -1
+pelvis
+  rotate: true
+  xy: 102, 263
+  size: 97, 46
+  orig: 97, 46
+  offset: 0, 0
+  index: -1
+spine_1
+  rotate: false
+  xy: 2, 371
+  size: 98, 98
+  orig: 98, 98
+  offset: 0, 0
+  index: -1
+upperarm_L_1
+  rotate: false
+  xy: 98, 153
+  size: 56, 38
+  orig: 56, 38
+  offset: 0, 0
+  index: -1
+upperarm_L_2
+  rotate: false
+  xy: 109, 47
+  size: 41, 34
+  orig: 41, 34
+  offset: 0, 0
+  index: -1
+weapon_1
+  rotate: false
+  xy: 2, 471
+  size: 126, 51
+  orig: 126, 51
+  offset: 0, 0
+  index: -1
+weapon_2
+  rotate: true
+  xy: 2, 199
+  size: 87, 97
+  orig: 87, 97
+  offset: 0, 0
+  index: -1
+yingzi
+  rotate: false
+  xy: 2, 92
+  size: 93, 22
+  orig: 93, 22
+  offset: 0, 0
+  index: -1

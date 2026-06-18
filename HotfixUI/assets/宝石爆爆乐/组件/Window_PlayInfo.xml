@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920" extention="Label">
+  <displayList>
+    <graph id="n7_nf9u" name="Graph_BG" xy="0,-286" size="1080,2492" type="rect" lineSize="0" lineColor="#ff1e283c" fillColor="#99000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n1_nf9u" name="n1" src="nf9u7r" fileName="资源/基础系统ui/old/base_banner.png" pkg="7am1s0tj" xy="67,468" size="946,1314">
+      <relation target="" sidePair="height-height,center-center"/>
+    </image>
+    <image id="n2_nf9u" name="n2" src="nf9u7p" fileName="资源/基础系统ui/old/thematic2.png" pkg="7am1s0tj" xy="159,380">
+      <relation target="n1_nf9u" sidePair="center-center,top-top"/>
+    </image>
+    <text id="n6_nf9u" name="n6" xy="251,342" size="577,220" font="ui://d5436bxtlrme3i" fontSize="80" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="HOW TO PLAY?">
+      <relation target="n1_nf9u" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n4_nf9u" name="icon" src="qize35" fileName="组件/Com_info.xml" xy="144,576" size="821,1134">
+      <relation target="" sidePair="height-height"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,4 @@
+{"dict": [
+[1001, {"_t":"BulletConfig","_id":1001,"Speed":5,"Damage":30,"FlightType":1,"FlightValue":[0],"BulletType":1,"BulletTypeValue":[0],"IsHoming":0,"MaxDistance":8,"TargetFinderId":0,"CollisionRadius":18,"PrefabPath":"Assets/Bundles/Prefabs/Bullet/bullet_normal.prefab"}],
+[1002, {"_t":"BulletConfig","_id":1002,"Speed":1,"Damage":20,"FlightType":2,"FlightValue":[50,20],"BulletType":1,"BulletTypeValue":[0],"IsHoming":0,"MaxDistance":8,"TargetFinderId":0,"CollisionRadius":30,"PrefabPath":"Assets/Bundles/Prefabs/Bullet/bullet_zhadan.prefab"}],
+]}

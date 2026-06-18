@@ -1,0 +1,62 @@
+
+JN_yangsan_dd.png
+size: 345,91
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0000
+  rotate: false
+  xy: 1, 50
+  size: 241, 40
+  orig: 241, 40
+  offset: 0, 0
+  index: -1
+dan
+  rotate: false
+  xy: 64, 11
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+ksquan_1
+  rotate: true
+  xy: 243, 1
+  size: 89, 101
+  orig: 89, 101
+  offset: 0, 0
+  index: -1
+n1
+  rotate: true
+  xy: 100, 26
+  size: 23, 32
+  orig: 23, 32
+  offset: 0, 0
+  index: -1
+n3
+  rotate: false
+  xy: 163, 32
+  size: 28, 17
+  orig: 28, 17
+  offset: 0, 0
+  index: -1
+niao
+  rotate: false
+  xy: 1, 10
+  size: 62, 39
+  orig: 62, 39
+  offset: 0, 0
+  index: -1
+ym3
+  rotate: false
+  xy: 133, 22
+  size: 29, 27
+  orig: 29, 27
+  offset: 0, 0
+  index: -1
+ym4
+  rotate: false
+  xy: 64, 25
+  size: 35, 24
+  orig: 35, 24
+  offset: 0, 0
+  index: -1

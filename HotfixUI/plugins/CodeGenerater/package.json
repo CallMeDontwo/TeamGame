@@ -1,0 +1,11 @@
+{
+  "name": "CodeGenerater",
+  "displayName": "CodeGenerater",
+  "description": "CodeGenerater",
+  "version": "1.0",
+  "author": {
+    "name": "Win"
+  },
+  "icon": "",
+  "main": "main.js"
+}

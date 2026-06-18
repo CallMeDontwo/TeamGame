@@ -1,0 +1,20 @@
+
+ui_hero_purple_3.8.75.png
+size: 331,148
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_hero_purple_1
+  rotate: false
+  xy: 185, 2
+  size: 144, 144
+  orig: 144, 144
+  offset: 0, 0
+  index: -1
+ui_hero_purple_2
+  rotate: false
+  xy: 2, 14
+  size: 181, 132
+  orig: 181, 132
+  offset: 0, 0
+  index: -1

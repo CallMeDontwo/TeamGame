@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100">
+  <displayList>
+    <component id="n0_gf9z" name="Loader_Gem0" src="gf9z89" fileName="组件/GemFlyout.xml" xy="0,0" pivot="0.5,0.5" size="100,100">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n2_gf9z" name="Loader_Gem1" src="gf9z89" fileName="组件/GemFlyout.xml" xy="0,0" pivot="0.5,0.5" size="100,100">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n3_gf9z" name="Loader_Gem2" src="gf9z89" fileName="组件/GemFlyout.xml" xy="0,0" pivot="0.5,0.5" size="100,100">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n4_gf9z" name="Loader_Gem3" src="gf9z89" fileName="组件/GemFlyout.xml" xy="0,0" pivot="0.5,0.5" size="100,100">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n5_gf9z" name="Loader_Gem4" src="gf9z89" fileName="组件/GemFlyout.xml" xy="0,0" pivot="0.5,0.5" size="100,100">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n6_gf9z" name="Loader_Gem5" src="gf9z89" fileName="组件/GemFlyout.xml" xy="0,0" pivot="0.5,0.5" size="100,100">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+</component>

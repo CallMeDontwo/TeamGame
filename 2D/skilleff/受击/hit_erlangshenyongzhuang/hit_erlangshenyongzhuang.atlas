@@ -1,0 +1,34 @@
+
+hit_erlangshenyongzhuang.png
+size: 118,109
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/hit/bd_00
+  rotate: false
+  xy: 1, 45
+  size: 59, 63
+  orig: 64, 64
+  offset: 3, 0
+  index: -1
+images/hit/glow_0
+  rotate: false
+  xy: 61, 1
+  size: 50, 50
+  orig: 64, 64
+  offset: 7, 7
+  index: -1
+images/hit/yuan_0
+  rotate: false
+  xy: 61, 52
+  size: 56, 56
+  orig: 64, 64
+  offset: 4, 4
+  index: -1
+images/hit/yueya_da_0
+  rotate: true
+  xy: 1, 3
+  size: 41, 55
+  orig: 45, 64
+  offset: 2, 3
+  index: -1

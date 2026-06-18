@@ -1,0 +1,34 @@
+
+hit_falao.png
+size: 333,94
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/hit/bd_wujiao
+  rotate: false
+  xy: 1, 1
+  size: 94, 92
+  orig: 102, 102
+  offset: 8, 4
+  index: -1
+images/hit/glow_0
+  rotate: false
+  xy: 187, 13
+  size: 80, 80
+  orig: 102, 102
+  offset: 11, 11
+  index: -1
+images/hit/yuan_0
+  rotate: false
+  xy: 96, 3
+  size: 90, 90
+  orig: 102, 102
+  offset: 6, 6
+  index: -1
+images/hit/yueya_da_0
+  rotate: false
+  xy: 268, 6
+  size: 64, 87
+  orig: 72, 102
+  offset: 4, 5
+  index: -1

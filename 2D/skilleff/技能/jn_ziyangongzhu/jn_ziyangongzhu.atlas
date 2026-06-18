@@ -1,0 +1,69 @@
+
+jn_ziyangongzhu.png
+size: 328,296
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd_0
+  rotate: false
+  xy: 1, 167
+  size: 110, 128
+  orig: 110, 128
+  offset: 0, 0
+  index: -1
+bd_1
+  rotate: false
+  xy: 1, 38
+  size: 110, 128
+  orig: 110, 128
+  offset: 0, 0
+  index: -1
+bd_2
+  rotate: false
+  xy: 112, 167
+  size: 110, 128
+  orig: 110, 128
+  offset: 0, 0
+  index: -1
+bd_3
+  rotate: false
+  xy: 112, 38
+  size: 110, 128
+  orig: 110, 128
+  offset: 0, 0
+  index: -1
+dilie_0
+  rotate: true
+  xy: 223, 145
+  size: 150, 70
+  orig: 150, 70
+  offset: 0, 0
+  index: -1
+jian1_0
+  rotate: true
+  xy: 1, 4
+  size: 33, 150
+  orig: 33, 150
+  offset: 0, 0
+  index: -1
+jian2_0
+  rotate: false
+  xy: 294, 145
+  size: 33, 150
+  orig: 33, 150
+  offset: 0, 0
+  index: -1
+ring_0
+  rotate: false
+  xy: 223, 54
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+tw_0
+  rotate: true
+  xy: 152, 1
+  size: 36, 128
+  orig: 36, 128
+  offset: 0, 0
+  index: -1

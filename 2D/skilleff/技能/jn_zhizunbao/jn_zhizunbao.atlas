@@ -1,0 +1,118 @@
+
+jn_zhizunbao.png
+size: 479,255
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dd_sd_0
+  rotate: false
+  xy: 160, 73
+  size: 139, 40
+  orig: 150, 50
+  offset: 6, 6
+  index: -1
+dd_sd_1
+  rotate: true
+  xy: 160, 114
+  size: 140, 43
+  orig: 150, 50
+  offset: 5, 1
+  index: -1
+dd_sd_2
+  rotate: true
+  xy: 204, 115
+  size: 139, 40
+  orig: 150, 50
+  offset: 6, 1
+  index: -1
+glow_0
+  rotate: false
+  xy: 357, 32
+  size: 100, 100
+  orig: 128, 128
+  offset: 14, 14
+  index: -1
+guangzhu_0
+  rotate: false
+  xy: 1, 7
+  size: 109, 247
+  orig: 128, 256
+  offset: 10, 4
+  index: -1
+par_xing_0
+  rotate: false
+  xy: 111, 6
+  size: 62, 62
+  orig: 64, 64
+  offset: 1, 1
+  index: -1
+par_xing_2_0
+  rotate: false
+  xy: 174, 10
+  size: 62, 62
+  orig: 64, 64
+  offset: 1, 1
+  index: -1
+par_xing_3_0
+  rotate: false
+  xy: 237, 10
+  size: 62, 62
+  orig: 64, 64
+  offset: 1, 1
+  index: -1
+ring_0
+  rotate: false
+  xy: 357, 133
+  size: 121, 121
+  orig: 128, 128
+  offset: 4, 4
+  index: -1
+tw_caihong_0
+  rotate: false
+  xy: 111, 69
+  size: 48, 185
+  orig: 50, 200
+  offset: 1, 0
+  index: -1
+xian_cheng_0
+  rotate: false
+  xy: 327, 1
+  size: 24, 126
+  orig: 40, 128
+  offset: 9, 0
+  index: -1
+xian_hong_0
+  rotate: false
+  xy: 332, 128
+  size: 24, 126
+  orig: 40, 128
+  offset: 9, 0
+  index: -1
+xian_huang_0
+  rotate: false
+  xy: 300, 1
+  size: 26, 126
+  orig: 40, 128
+  offset: 8, 0
+  index: -1
+xian_lan_0
+  rotate: false
+  xy: 305, 128
+  size: 26, 126
+  orig: 40, 128
+  offset: 8, 0
+  index: -1
+xian_lv_0
+  rotate: false
+  xy: 277, 128
+  size: 27, 126
+  orig: 40, 128
+  offset: 7, 0
+  index: -1
+xian_zi_0
+  rotate: false
+  xy: 245, 126
+  size: 31, 128
+  orig: 40, 128
+  offset: 5, 0
+  index: -1

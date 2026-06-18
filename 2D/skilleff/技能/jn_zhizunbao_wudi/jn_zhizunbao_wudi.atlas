@@ -1,0 +1,27 @@
+
+jn_zhizunbao_wudi.png
+size: 181,202
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_0
+  rotate: false
+  xy: 1, 73
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+par_xing_0
+  rotate: false
+  xy: 1, 8
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+tw_caihong_0
+  rotate: false
+  xy: 130, 1
+  size: 50, 200
+  orig: 50, 200
+  offset: 0, 0
+  index: -1

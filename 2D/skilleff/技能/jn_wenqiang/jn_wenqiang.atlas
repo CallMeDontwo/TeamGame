@@ -1,0 +1,125 @@
+
+jn_wenqiang.png
+size: 437,272
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd_0
+  rotate: false
+  xy: 51, 1
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+cuantianhou
+  rotate: false
+  xy: 1, 84
+  size: 48, 187
+  orig: 48, 187
+  offset: 0, 0
+  index: -1
+glow_0
+  rotate: false
+  xy: 142, 1
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+huomiao_0
+  rotate: false
+  xy: 382, 169
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+l_shou
+  rotate: true
+  xy: 370, 22
+  size: 36, 32
+  orig: 36, 32
+  offset: 0, 0
+  index: -1
+par_0
+  rotate: false
+  xy: 324, 13
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+r_shou
+  rotate: false
+  xy: 340, 150
+  size: 41, 64
+  orig: 41, 64
+  offset: 0, 0
+  index: -1
+sdx1
+  rotate: false
+  xy: 141, 92
+  size: 104, 51
+  orig: 104, 51
+  offset: 0, 0
+  index: -1
+sdx2
+  rotate: false
+  xy: 246, 99
+  size: 99, 50
+  orig: 99, 50
+  offset: 0, 0
+  index: -1
+st
+  rotate: true
+  xy: 1, 14
+  size: 69, 49
+  orig: 69, 49
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 141, 144
+  size: 127, 92
+  orig: 127, 92
+  offset: 0, 0
+  index: -1
+tui1mohu_0
+  rotate: false
+  xy: 234, 150
+  size: 105, 56
+  orig: 105, 56
+  offset: 0, 0
+  index: -1
+tui2mohu_0
+  rotate: false
+  xy: 324, 215
+  size: 112, 56
+  orig: 112, 56
+  offset: 0, 0
+  index: -1
+wq
+  rotate: false
+  xy: 234, 207
+  size: 86, 64
+  orig: 86, 64
+  offset: 0, 0
+  index: -1
+yanhua_16
+  rotate: false
+  xy: 233, 1
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+yanwu_0
+  rotate: true
+  xy: 50, 92
+  size: 179, 90
+  orig: 179, 90
+  offset: 0, 0
+  index: -1
+yuan_0
+  rotate: false
+  xy: 346, 59
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1

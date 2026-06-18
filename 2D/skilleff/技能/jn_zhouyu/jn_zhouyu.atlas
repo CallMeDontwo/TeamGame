@@ -1,0 +1,132 @@
+
+jn_zhouyu.png
+size: 737,272
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Fire/Fire_00
+  rotate: true
+  xy: 527, 7
+  size: 124, 110
+  orig: 205, 205
+  offset: 5, 18
+  index: -1
+Fire/Fire_02
+  rotate: true
+  xy: 1, 75
+  size: 196, 189
+  orig: 205, 205
+  offset: 4, 11
+  index: -1
+Fire/Fire_04
+  rotate: false
+  xy: 191, 95
+  size: 173, 176
+  orig: 205, 205
+  offset: 5, 17
+  index: -1
+Fire/Fire_05
+  rotate: true
+  xy: 365, 89
+  size: 182, 161
+  orig: 205, 205
+  offset: 4, 22
+  index: -1
+Fire_00
+  rotate: false
+  xy: 252, 4
+  size: 59, 48
+  orig: 70, 48
+  offset: 11, 0
+  index: -1
+cz
+  rotate: false
+  xy: 527, 132
+  size: 209, 139
+  orig: 209, 139
+  offset: 0, 0
+  index: -1
+glow_0
+  rotate: false
+  xy: 377, 8
+  size: 80, 80
+  orig: 102, 102
+  offset: 11, 11
+  index: -1
+gz
+  rotate: true
+  xy: 144, 19
+  size: 13, 107
+  orig: 15, 107
+  offset: 0, 0
+  index: -1
+hl
+  rotate: false
+  xy: 458, 46
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+lht
+  rotate: false
+  xy: 638, 42
+  size: 94, 89
+  orig: 94, 89
+  offset: 0, 0
+  index: -1
+lz
+  rotate: false
+  xy: 458, 3
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+qz
+  rotate: false
+  xy: 1, 11
+  size: 82, 63
+  orig: 82, 63
+  offset: 0, 0
+  index: -1
+xfire/xFire_01
+  rotate: false
+  xy: 225, 53
+  size: 78, 41
+  orig: 102, 51
+  offset: 9, 3
+  index: -1
+xfire/xFire_02
+  rotate: false
+  xy: 144, 33
+  size: 80, 41
+  orig: 102, 51
+  offset: 11, 4
+  index: -1
+xfire/xFire_03
+  rotate: false
+  xy: 312, 10
+  size: 64, 43
+  orig: 102, 51
+  offset: 27, 5
+  index: -1
+xfire/xFire_04
+  rotate: true
+  xy: 304, 54
+  size: 40, 45
+  orig: 102, 51
+  offset: 44, 4
+  index: -1
+xfire/xFire_05
+  rotate: true
+  xy: 144, 1
+  size: 17, 23
+  orig: 102, 51
+  offset: 51, 6
+  index: -1
+yanwu_qiu_0
+  rotate: true
+  xy: 84, 10
+  size: 64, 59
+  orig: 72, 72
+  offset: 4, 6
+  index: -1

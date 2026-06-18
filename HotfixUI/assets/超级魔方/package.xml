@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="hoqdodep">
+  <resources>
+    <image id="995rz" name="all.png" path="/资源/jp结算/"/>
+    <image id="995r10" name="jp1.png" path="/资源/jp结算/"/>
+    <image id="995r11" name="jp2.png" path="/资源/jp结算/"/>
+    <image id="995r12" name="jp3.png" path="/资源/jp结算/"/>
+    <image id="995r1x" name="Back.png" path="/资源/寻宝界面ui/"/>
+    <image id="995r1y" name="bubbles.png" path="/资源/寻宝界面ui/"/>
+    <image id="995r1z" name="front.png" path="/资源/寻宝界面ui/"/>
+    <image id="995r20" name="orthophoto.png" path="/资源/寻宝界面ui/"/>
+    <image id="995r22" name="Please flip.png" path="/资源/寻宝界面ui/"/>
+    <image id="995r2b" name="预览图.png" path="/资源/寻宝界面ui/"/>
+    <image id="995r2f" name="icon_8_withoutBg.png" path="/资源_导出/128无背景/" exported="true"/>
+    <image id="995r2g" name="icon_boom_withoutBg.png" path="/资源_导出/128无背景/" exported="true"/>
+    <image id="995r2h" name="icon_boss_withoutBg.png" path="/资源_导出/128无背景/" exported="true"/>
+    <image id="995r2i" name="icon_hunt_withoutBg.png" path="/资源_导出/128无背景/" exported="true"/>
+    <image id="995r2j" name="icon_1.png" path="/资源_导出/icon128/" exported="true"/>
+    <image id="995r2k" name="icon_2.png" path="/资源_导出/icon128/" exported="true"/>
+    <image id="995r2l" name="icon_3.png" path="/资源_导出/icon128/" exported="true"/>
+    <image id="995r2m" name="icon_4.png" path="/资源_导出/icon128/" exported="true"/>
+    <image id="995r2n" name="icon_5.png" path="/资源_导出/icon128/" exported="true"/>
+    <image id="995r2o" name="icon_6.png" path="/资源_导出/icon128/" exported="true"/>
+    <image id="995r2p" name="icon_7.png" path="/资源_导出/icon128/" exported="true"/>
+    <image id="995r2q" name="icon_8.png" path="/资源_导出/icon128/" exported="true"/>
+    <image id="995r2r" name="icon_boss.png" path="/资源_导出/icon128/" exported="true"/>
+    <image id="995r2s" name="icon_hunt.png" path="/资源_导出/icon128/" exported="true"/>
+    <image id="995r2t" name="icon_boom.png" path="/资源_导出/icon128/" exported="true"/>
+    <image id="995r2u" name="BG_jp.png" path="/资源/jp结算/"/>
+    <image id="995r2v" name="jp结算预览.png" path="/资源/jp结算/"/>
+    <image id="995r2w" name="icon_7_withoutBg.png" path="/资源_导出/128无背景/" exported="true"/>
+    <image id="995r2x" name="icon_6_withoutBg.png" path="/资源_导出/128无背景/" exported="true"/>
+    <image id="995r2y" name="icon_5_withoutBg.png" path="/资源_导出/128无背景/" exported="true"/>
+    <image id="995r2z" name="icon_4_withoutBg.png" path="/资源_导出/128无背景/" exported="true"/>
+    <image id="995r38" name="ALL.png" path="/资源/主界面/"/>
+    <image id="995r3f" name="icon_1_withoutBg.png" path="/资源_导出/128无背景/" exported="true"/>
+    <image id="995r3g" name="icon_2_withoutBg.png" path="/资源_导出/128无背景/" exported="true"/>
+    <image id="995r3h" name="icon_3_withoutBg.png" path="/资源_导出/128无背景/" exported="true"/>
+    <image id="995r3k" name="icon_kuang.png" path="/资源/主界面/"/>
+    <image id="995r3l" name="JP2.png" path="/资源/主界面/"/>
+    <image id="995r44" name="小玛利预览.png" path="/资源/小玛利/"/>
+    <image id="995r45" name="小玛利结算.png" path="/资源/小玛利/"/>
+    <image id="995r46" name="npc.png" path="/资源/小玛利/"/>
+    <image id="995r47" name="JP3.png" path="/资源/主界面/"/>
+    <image id="995r48" name="jp_kuang.png" path="/资源/主界面/"/>
+    <image id="995r49" name="maek_ui.png" path="/资源/主界面/"/>
+    <image id="995r4a" name="OUT_UI.png" path="/资源/主界面/"/>
+    <image id="995r4b" name="spin_light .png" path="/资源/主界面/"/>
+    <image id="995r4c" name="SPIN_UI.png" path="/资源/主界面/"/>
+    <image id="995r4d" name="time_banner.png" path="/资源/主界面/"/>
+    <image id="995r4e" name="ui_bg.png" path="/资源/主界面/"/>
+    <image id="995r4f" name="JP1.png" path="/资源/主界面/"/>
+    <image id="995r4g" name="ui_zhubiankuang.png" path="/资源/主界面/"/>
+    <image id="995r4h" name="_.png" path="/资源/主界面/"/>
+    <image id="995r4i" name="主界面预览.png" path="/资源/主界面/"/>
+    <image id="995r4j" name="window_diediele.png" path="/资源/叠叠乐/"/>
+    <image id="995r4k" name="叠叠乐结算.png" path="/资源/叠叠乐/"/>
+    <image id="995r4l" name="叠叠乐预览.png" path="/资源/叠叠乐/"/>
+    <image id="995r4m" name="bg_xiaomali.png" path="/资源/小玛利/"/>
+    <image id="995r4n" name="kuang_xiaomali.png" path="/资源/小玛利/"/>
+    <image id="995r4o" name="mark_xiaomali.png" path="/资源/小玛利/"/>
+    <image id="995r4p" name="window.png" path="/资源/主界面/"/>
+    <component id="995r4r" name="MainComponent.xml" path="/" exported="true"/>
+    <component id="995r4s" name="Com_JP.xml" path="/组件/"/>
+    <component id="995r4t" name="Com_SPIN.xml" path="/组件/"/>
+    <component id="995r4w" name="Com_OUT.xml" path="/组件/"/>
+    <component id="995r4x" name="Com_Credit.xml" path="/组件/"/>
+    <component id="995r4y" name="Com_ICon.xml" path="/组件/"/>
+    <component id="995r4z" name="SubComponent1.xml" path="/组件/"/>
+    <component id="995r50" name="SubComponent2.xml" path="/组件/"/>
+    <component id="995r51" name="SubComponent3.xml" path="/组件/"/>
+    <component id="d8z852" name="Label_ListIcon.xml" path="/组件/SubComponent1/"/>
+    <component id="d8z853" name="Label_MaryItem.xml" path="/组件/SubComponent2/"/>
+    <component id="w2zw54" name="Com_AwardShow.xml" path="/组件/"/>
+    <image id="dxvn55" name="Mark.png" path="/资源/主界面/"/>
+    <image id="dxvn57" name="jp_banner.png" path="/资源/jp结算/"/>
+    <image id="dxvn58" name="mark.png" path="/资源/jp结算/"/>
+    <image id="dxvn59" name="Congratulations.png" path="/资源/jp结算/"/>
+    <component id="dxvn5a" name="Com_JPAward.xml" path="/组件/"/>
+    <image id="dxvn5b" name="BG_jp(1).png" path="/资源/jp结算/"/>
+    <image id="dxvn5c" name="jp结算预览1.png" path="/资源/jp结算/"/>
+    <component id="nilu5d" name="Com_Paid.xml" path="/组件/"/>
+    <component id="nilu5e" name="Com_Win.xml" path="/组件/"/>
+    <component id="sdwr5f" name="Com_LittleMaryItems.xml" path="/组件/SubComponent2/"/>
+    <component id="vdhu5g" name="Label_DieIcon.xml" path="/" exported="true"/>
+    <component id="vdhu5h" name="Com_DieDieLeListGroup.xml" path="/组件/SubComponent3/"/>
+    <component id="vdhu5i" name="Label_DieDieLeCoins.xml" path="/组件/SubComponent3/"/>
+    <component id="vdhu5j" name="Label_DieDieLeTime.xml" path="/组件/SubComponent3/"/>
+    <component id="vdhu5k" name="Com_DieDieLeText.xml" path="/组件/SubComponent3/"/>
+    <component id="vdhu5l" name="Com_DieDieLeTextGroup.xml" path="/组件/SubComponent3/"/>
+    <component id="vdhu5m" name="Com_DieDieLeList.xml" path="/组件/SubComponent3/"/>
+    <component id="g3y35n" name="InfoComponent.xml" path="/组件/DebugComponent/"/>
+    <component id="g3y35o" name="CoinPusherComponent.xml" path="/" exported="true"/>
+    <component id="n2q35q" name="FrameBtn.xml" path="/组件/DebugComponent/"/>
+    <component id="n2q35r" name="FrameItem.xml" path="/组件/DebugComponent/"/>
+    <image id="jxfj5s" name="background_bottom.png" path="/资源/DebugUI/切图/" scale="9grid" scale9grid="240,118,480,61"/>
+    <image id="jxfj5w" name="标注.jpg" path="/资源/DebugUI/"/>
+    <image id="jxfj5x" name="Background_line.png" path="/资源/DebugUI/切图/"/>
+    <image id="jxfj5y" name="Background_lab.png" path="/资源/DebugUI/切图/"/>
+    <image id="jxfj5z" name="Background_icon_reset.png" path="/资源/DebugUI/切图/"/>
+    <image id="jxfj60" name="Background_icon_close.png" path="/资源/DebugUI/切图/"/>
+    <image id="jxfj61" name="Background_icon_back.png" path="/资源/DebugUI/切图/"/>
+    <image id="jxfj62" name="Background_botton_sel_03.png" path="/资源/DebugUI/切图/" scale="9grid" scale9grid="25,12,50,24"/>
+    <image id="jxfj63" name="Background_botton_sel_02.png" path="/资源/DebugUI/切图/"/>
+    <image id="jxfj64" name="Background_botton_sel.png" path="/资源/DebugUI/切图/" scale="9grid" scale9grid="24,24,242,28"/>
+    <image id="jxfj65" name="Background_botton_nor_03.png" path="/资源/DebugUI/切图/" scale="9grid" scale9grid="25,12,50,24"/>
+    <image id="jxfj66" name="Background_botton_nor_02.png" path="/资源/DebugUI/切图/"/>
+    <image id="jxfj67" name="Background_botton_nor.png" path="/资源/DebugUI/切图/" scale="9grid" scale9grid="24,24,242,28"/>
+    <component id="jxfj6a" name="SettingsComponent.xml" path="/组件/DebugComponent/"/>
+    <component id="jxfj6b" name="Button1.xml" path="/组件/DebugComponent/"/>
+    <component id="jxfj6c" name="SettingComponent1.xml" path="/组件/DebugComponent/"/>
+    <component id="ee5c6d" name="Button2.xml" path="/组件/DebugComponent/"/>
+    <component id="ee5c6e" name="SettingComponent2.xml" path="/组件/DebugComponent/"/>
+    <component id="ee5c6f" name="SettingComponent3.xml" path="/组件/DebugComponent/"/>
+    <component id="ee5c6g" name="RecordItem1.xml" path="/组件/DebugComponent/"/>
+    <component id="ee5c6h" name="SettingComponent4.xml" path="/组件/DebugComponent/"/>
+    <component id="ee5c6i" name="RecordItem2.xml" path="/组件/DebugComponent/"/>
+    <component id="ee5c6j" name="SettingComponent5.xml" path="/组件/DebugComponent/"/>
+    <component id="ee5c6k" name="Button3.xml" path="/组件/DebugComponent/"/>
+    <component id="ee5c6l" name="Button4.xml" path="/组件/DebugComponent/"/>
+    <component id="m0uw6m" name="Button5.xml" path="/组件/DebugComponent/"/>
+    <image id="cvtw6n" name="后台界面1.jpg" path="/资源/DebugUI/"/>
+    <image id="cvtw6o" name="后台界面2.jpg" path="/资源/DebugUI/"/>
+    <image id="cvtw6p" name="后台界面3.jpg" path="/资源/DebugUI/"/>
+    <image id="cvtw6q" name="后台界面5.jpg" path="/资源/DebugUI/"/>
+    <image id="cvtw6r" name="后台界面7.jpg" path="/资源/DebugUI/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

@@ -1,0 +1,20 @@
+
+ui_unlock_light_1_3.8.75.png
+size: 289,275
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+g3
+  rotate: true
+  xy: 277, 238
+  size: 35, 10
+  orig: 35, 12
+  offset: 0, 1
+  index: -1
+quan1
+  rotate: true
+  xy: 2, 2
+  size: 271, 273
+  orig: 273, 274
+  offset: 2, 0
+  index: -1

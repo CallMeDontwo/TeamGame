@@ -1,0 +1,27 @@
+
+hudun_laola.png
+size: 268,117
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+danke_0
+  rotate: false
+  xy: 117, 1
+  size: 99, 115
+  orig: 99, 115
+  offset: 0, 0
+  index: -1
+glow_0
+  rotate: false
+  xy: 1, 1
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+jiutan
+  rotate: false
+  xy: 217, 57
+  size: 50, 59
+  orig: 50, 59
+  offset: 0, 0
+  index: -1

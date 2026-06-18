@@ -1,0 +1,153 @@
+
+jn_jinli.png
+size: 503,269
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bai_0
+  rotate: true
+  xy: 430, 15
+  size: 34, 35
+  orig: 42, 42
+  offset: 4, 4
+  index: -1
+beiqi
+  rotate: true
+  xy: 484, 233
+  size: 35, 18
+  orig: 35, 18
+  offset: 0, 0
+  index: -1
+dici
+  rotate: true
+  xy: 357, 52
+  size: 67, 74
+  orig: 71, 77
+  offset: 2, 1
+  index: -1
+dilie_shui
+  rotate: false
+  xy: 1, 142
+  size: 131, 126
+  orig: 131, 126
+  offset: 0, 0
+  index: -1
+haibei
+  rotate: false
+  xy: 1, 1
+  size: 64, 64
+  orig: 64, 65
+  offset: 0, 1
+  index: -1
+hx1
+  rotate: true
+  xy: 432, 50
+  size: 69, 67
+  orig: 70, 69
+  offset: 0, 1
+  index: -1
+hx2
+  rotate: false
+  xy: 131, 12
+  size: 69, 67
+  orig: 70, 70
+  offset: 0, 1
+  index: -1
+hx3
+  rotate: false
+  xy: 201, 12
+  size: 69, 67
+  orig: 70, 69
+  offset: 0, 1
+  index: -1
+l_yan
+  rotate: false
+  xy: 328, 9
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+par
+  rotate: true
+  xy: 271, 2
+  size: 29, 30
+  orig: 37, 36
+  offset: 4, 3
+  index: -1
+qipao2
+  rotate: false
+  xy: 355, 3
+  size: 48, 48
+  orig: 50, 50
+  offset: 1, 1
+  index: -1
+r_yan
+  rotate: false
+  xy: 404, 26
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+ring_0
+  rotate: false
+  xy: 1, 66
+  size: 75, 75
+  orig: 77, 77
+  offset: 1, 1
+  index: -1
+shuihou
+  rotate: false
+  xy: 133, 80
+  size: 223, 108
+  orig: 223, 108
+  offset: 0, 0
+  index: -1
+shuihua
+  rotate: true
+  xy: 368, 120
+  size: 148, 115
+  orig: 148, 129
+  offset: 0, 0
+  index: -1
+shuiqian
+  rotate: false
+  xy: 133, 189
+  size: 234, 79
+  orig: 234, 79
+  offset: 0, 0
+  index: -1
+st
+  rotate: false
+  xy: 271, 32
+  size: 83, 47
+  orig: 83, 47
+  offset: 0, 0
+  index: -1
+yazi
+  rotate: true
+  xy: 77, 81
+  size: 60, 53
+  orig: 60, 55
+  offset: 0, 1
+  index: -1
+yushou
+  rotate: false
+  xy: 302, 7
+  size: 25, 24
+  orig: 25, 24
+  offset: 0, 0
+  index: -1
+yuwei
+  rotate: false
+  xy: 77, 22
+  size: 53, 58
+  orig: 53, 58
+  offset: 0, 0
+  index: -1
+zui
+  rotate: false
+  xy: 484, 214
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1

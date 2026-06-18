@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="511,166" pivot="0.5,0.5">
+  <controller name="C_Type" pages="0,,1,,2,,3,,4," selected="0"/>
+  <displayList>
+    <graph id="n13_mndm" name="n13" xy="0,0" size="511,166" alpha="0" type="rect" lineSize="0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <richtext id="n1_lzui" name="Text_Combo0" xy="-1,10" size="224,145" font="ui://oy07mpfwnjk97u" fontSize="131" vAlign="middle" strokeColor="#ffffff" singleLine="true" text="50">
+      <gearDisplay controller="C_Type" pages="0"/>
+      <relation target="" sidePair="middle-middle"/>
+    </richtext>
+    <richtext id="n8_fxxj" name="Text_Combo1" xy="-1,10" size="224,145" font="ui://oy07mpfwnjk97v" fontSize="131" vAlign="middle" strokeColor="#ffffff" singleLine="true" text="50">
+      <gearDisplay controller="C_Type" pages="1"/>
+      <relation target="" sidePair="middle-middle"/>
+    </richtext>
+    <richtext id="n9_fxxj" name="Text_Combo2" xy="-1,10" size="224,145" font="ui://oy07mpfwnjk97w" fontSize="131" vAlign="middle" strokeColor="#ffffff" singleLine="true" text="50">
+      <gearDisplay controller="C_Type" pages="2"/>
+      <relation target="" sidePair="middle-middle"/>
+    </richtext>
+    <richtext id="n10_fxxj" name="Text_Combo3" xy="-1,10" size="224,146" font="ui://oy07mpfwnjk97x" fontSize="131" vAlign="middle" strokeColor="#ffffff" singleLine="true" text="50">
+      <gearDisplay controller="C_Type" pages="3"/>
+      <relation target="" sidePair="middle-middle"/>
+    </richtext>
+    <richtext id="n12_fxxj" name="Text_Combo4" xy="-1,10" size="224,145" font="ui://oy07mpfwnjk97y" fontSize="131" vAlign="middle" strokeColor="#ffffff" singleLine="true" text="50">
+      <gearDisplay controller="C_Type" pages="4"/>
+      <relation target="" sidePair="middle-middle"/>
+    </richtext>
+    <loader id="n2_nf6a" name="n2" xy="191,-8" pivot="0.5,0.5" size="338,184" scale="0.9,0.9" url="ui://oy07mpfwnf6a82">
+      <gearIcon controller="C_Type" pages="0,1,2,3,4" values="ui://oy07mpfwnf6a82|ui://oy07mpfwnf6a83|ui://oy07mpfwnf6a84|ui://oy07mpfwnf6a85|ui://oy07mpfwnf6a86"/>
+      <relation target="" sidePair="right-right"/>
+    </loader>
+  </displayList>
+  <relation target="n1_lzui" sidePair="width-width"/>
+</component>

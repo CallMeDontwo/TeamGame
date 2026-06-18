@@ -1,0 +1,69 @@
+
+jn_molihai.png
+size: 479,532
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pipa_0
+  rotate: true
+  xy: 236, 7
+  size: 92, 165
+  orig: 100, 168
+  offset: 4, 1
+  index: -1
+shengbo_1
+  rotate: false
+  xy: 1, 295
+  size: 234, 236
+  orig: 256, 256
+  offset: 12, 10
+  index: -1
+shengbo_2
+  rotate: false
+  xy: 1, 58
+  size: 234, 236
+  orig: 256, 256
+  offset: 12, 10
+  index: -1
+shengbo_3
+  rotate: false
+  xy: 236, 295
+  size: 234, 236
+  orig: 256, 256
+  offset: 12, 10
+  index: -1
+skl_bai_0
+  rotate: true
+  xy: 169, 1
+  size: 56, 58
+  orig: 64, 64
+  offset: 4, 4
+  index: -1
+skl_xishouxian_1
+  rotate: false
+  xy: 236, 100
+  size: 196, 194
+  orig: 200, 200
+  offset: 4, 3
+  index: -1
+yf_0
+  rotate: true
+  xy: 1, 14
+  size: 43, 90
+  orig: 90, 90
+  offset: 18, 0
+  index: -1
+yf_1
+  rotate: true
+  xy: 92, 9
+  size: 48, 76
+  orig: 90, 90
+  offset: 14, 6
+  index: -1
+yf_2
+  rotate: false
+  xy: 402, 22
+  size: 76, 77
+  orig: 90, 90
+  offset: 10, 5
+  index: -1

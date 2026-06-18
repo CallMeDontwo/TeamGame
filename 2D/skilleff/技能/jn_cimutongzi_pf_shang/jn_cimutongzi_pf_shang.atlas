@@ -1,0 +1,216 @@
+
+jn_cimutongzi_pf_shang.png
+size: 1009,488
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fx/2/dg_00
+  rotate: false
+  xy: 2, 260
+  size: 178, 148
+  orig: 180, 180
+  offset: 0, 32
+  index: -1
+fx/2/dg_01
+  rotate: false
+  xy: 2, 108
+  size: 174, 150
+  orig: 180, 180
+  offset: 6, 30
+  index: -1
+fx/2/dg_03
+  rotate: true
+  xy: 182, 252
+  size: 156, 125
+  orig: 180, 180
+  offset: 16, 46
+  index: -1
+fx/2/dg_05
+  rotate: true
+  xy: 883, 337
+  size: 149, 119
+  orig: 180, 180
+  offset: 18, 49
+  index: -1
+fx/2/dg_07
+  rotate: true
+  xy: 877, 19
+  size: 128, 101
+  orig: 180, 180
+  offset: 31, 56
+  index: -1
+fx/3/jc_00
+  rotate: true
+  xy: 801, 242
+  size: 110, 77
+  orig: 165, 115
+  offset: 37, 0
+  index: -1
+fx/3/jc_01
+  rotate: true
+  xy: 626, 2
+  size: 132, 94
+  orig: 165, 115
+  offset: 22, 0
+  index: -1
+fx/3/jc_02
+  rotate: false
+  xy: 650, 251
+  size: 149, 101
+  orig: 165, 115
+  offset: 13, 0
+  index: -1
+fx/3/jc_04
+  rotate: false
+  xy: 483, 141
+  size: 160, 110
+  orig: 165, 115
+  offset: 5, 0
+  index: -1
+fx/3/jc_06
+  rotate: false
+  xy: 484, 253
+  size: 164, 114
+  orig: 165, 115
+  offset: 1, 0
+  index: -1
+fx/4/ks_00
+  rotate: true
+  xy: 355, 37
+  size: 95, 90
+  orig: 179, 158
+  offset: 35, 5
+  index: -1
+fx/4/ks_01
+  rotate: false
+  xy: 483, 4
+  size: 141, 135
+  orig: 179, 158
+  offset: 23, 0
+  index: -1
+fx/4/ks_02
+  rotate: false
+  xy: 178, 108
+  size: 175, 142
+  orig: 179, 158
+  offset: 4, 1
+  index: -1
+fx/4/ks_03
+  rotate: false
+  xy: 309, 311
+  size: 173, 140
+  orig: 179, 158
+  offset: 4, 6
+  index: -1
+fx/4/ks_04
+  rotate: false
+  xy: 708, 354
+  size: 173, 132
+  orig: 179, 158
+  offset: 5, 14
+  index: -1
+fx/4/ks_05
+  rotate: true
+  xy: 355, 134
+  size: 175, 126
+  orig: 179, 158
+  offset: 2, 18
+  index: -1
+fx/5/cc_00
+  rotate: false
+  xy: 213, 2
+  size: 196, 33
+  orig: 222, 38
+  offset: 13, 2
+  index: -1
+fx/5/cc_01
+  rotate: false
+  xy: 2, 2
+  size: 209, 33
+  orig: 222, 38
+  offset: 7, 2
+  index: -1
+fx/5/cc_02
+  rotate: false
+  xy: 2, 71
+  size: 222, 35
+  orig: 222, 38
+  offset: 0, 1
+  index: -1
+fx/5/cc_03
+  rotate: false
+  xy: 303, 453
+  size: 222, 33
+  orig: 222, 38
+  offset: 0, 2
+  index: -1
+fx/5/cc_04
+  rotate: false
+  xy: 2, 37
+  size: 220, 32
+  orig: 222, 38
+  offset: 1, 2
+  index: -1
+fx/Lighting_0
+  rotate: false
+  xy: 2, 410
+  size: 299, 76
+  orig: 308, 77
+  offset: 7, 1
+  index: -1
+fx/cs_00
+  rotate: true
+  xy: 989, 146
+  size: 189, 18
+  orig: 222, 38
+  offset: 17, 9
+  index: -1
+fx/glow_00
+  rotate: false
+  xy: 880, 228
+  size: 107, 107
+  orig: 115, 115
+  offset: 4, 4
+  index: -1
+fx/glow_01
+  rotate: true
+  xy: 792, 80
+  size: 160, 83
+  orig: 176, 130
+  offset: 8, 25
+  index: -1
+fx/hei_00
+  rotate: false
+  xy: 309, 295
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+fx/jiantou_00
+  rotate: false
+  xy: 226, 94
+  size: 89, 12
+  orig: 89, 12
+  offset: 0, 0
+  index: -1
+fx/kl_00
+  rotate: false
+  xy: 877, 149
+  size: 110, 77
+  orig: 110, 77
+  offset: 0, 0
+  index: -1
+fx/kuos_00
+  rotate: false
+  xy: 645, 136
+  size: 145, 113
+  orig: 157, 123
+  offset: 2, 4
+  index: -1
+fx/kuos_01
+  rotate: false
+  xy: 527, 369
+  size: 179, 117
+  orig: 179, 117
+  offset: 0, 0
+  index: -1

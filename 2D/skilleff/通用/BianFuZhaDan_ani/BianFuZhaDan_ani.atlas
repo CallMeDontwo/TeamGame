@@ -1,0 +1,76 @@
+
+BianFuZhaDan_ani.png
+size: 106,138
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+l_chibang
+  rotate: true
+  xy: 1, 1
+  size: 33, 39
+  orig: 33, 39
+  offset: 0, 0
+  index: -1
+l_jiao
+  rotate: true
+  xy: 73, 32
+  size: 21, 27
+  orig: 21, 27
+  offset: 0, 0
+  index: -1
+meimao
+  rotate: true
+  xy: 60, 63
+  size: 14, 8
+  orig: 14, 8
+  offset: 0, 0
+  index: -1
+moqiu
+  rotate: true
+  xy: 69, 102
+  size: 35, 36
+  orig: 35, 36
+  offset: 0, 0
+  index: -1
+r_chibang
+  rotate: false
+  xy: 69, 54
+  size: 34, 47
+  orig: 34, 47
+  offset: 0, 0
+  index: -1
+r_jiao
+  rotate: false
+  xy: 73, 5
+  size: 20, 26
+  orig: 20, 26
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 1, 78
+  size: 59, 67
+  orig: 59, 67
+  offset: 0, 0
+  index: -1
+wangdou
+  rotate: true
+  xy: 1, 35
+  size: 42, 58
+  orig: 42, 58
+  offset: 0, 0
+  index: -1
+yan
+  rotate: true
+  xy: 41, 1
+  size: 33, 31
+  orig: 33, 31
+  offset: 0, 0
+  index: -1
+yanqiu
+  rotate: false
+  xy: 60, 41
+  size: 10, 12
+  orig: 10, 12
+  offset: 0, 0
+  index: -1

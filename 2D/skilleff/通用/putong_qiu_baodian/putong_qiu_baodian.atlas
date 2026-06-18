@@ -1,0 +1,55 @@
+
+putong_qiu_baodian.png
+size: 43,87
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dd_baiqiu_0
+  rotate: false
+  xy: 1, 26
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+dd_hongqiu
+  rotate: false
+  xy: 1, 67
+  size: 20, 19
+  orig: 20, 19
+  offset: 0, 0
+  index: -1
+dd_huiqiu
+  rotate: true
+  xy: 22, 67
+  size: 19, 20
+  orig: 19, 20
+  offset: 0, 0
+  index: -1
+dd_jb
+  rotate: false
+  xy: 1, 1
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+dd_lanqiu
+  rotate: false
+  xy: 1, 47
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+dd_lvqiu
+  rotate: false
+  xy: 22, 26
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+dd_ziqiu
+  rotate: false
+  xy: 21, 47
+  size: 20, 19
+  orig: 20, 19
+  offset: 0, 0
+  index: -1

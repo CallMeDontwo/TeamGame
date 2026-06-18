@@ -1,0 +1,20 @@
+
+Jn_moqiu_ani.png
+size: 131,71
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glow_0
+  rotate: false
+  xy: 71, 11
+  size: 59, 59
+  orig: 77, 77
+  offset: 9, 9
+  index: -1
+yuan_0
+  rotate: false
+  xy: 1, 1
+  size: 69, 69
+  orig: 77, 77
+  offset: 4, 4
+  index: -1

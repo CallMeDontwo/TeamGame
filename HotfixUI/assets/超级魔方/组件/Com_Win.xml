@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="252,96" extention="Label">
+  <displayList>
+    <image id="n1_995r" name="n1" src="995r49" fileName="资源/主界面/maek_ui.png" xy="0,0"/>
+    <text id="n3_995r" name="n3" xy="30,-10" size="191,63" fontSize="45" color="#fba980" align="center" vAlign="middle" letterSpacing="-2" autoSize="none" strokeColor="#95291e" strokeSize="3" text="Win"/>
+    <text id="n4_995r" name="title" xy="0,32" size="252,63" fontSize="42" color="#ffffff" align="center" vAlign="middle" letterSpacing="5" autoSize="none" strokeColor="#1e4895" strokeSize="3" text="000987"/>
+  </displayList>
+</component>

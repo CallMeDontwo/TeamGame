@@ -1,0 +1,62 @@
+
+jn_jiroutangseng2.png
+size: 388,388
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baokai_quan_0
+  rotate: false
+  xy: 1, 130
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+baokai_quan_1
+  rotate: false
+  xy: 130, 259
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+baokai_quan_2
+  rotate: false
+  xy: 1, 1
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+baokai_quan_3
+  rotate: false
+  xy: 130, 130
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+bd_0
+  rotate: false
+  xy: 1, 259
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+glow_bai_0
+  rotate: false
+  xy: 259, 259
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+yuan_0
+  rotate: false
+  xy: 130, 1
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+yueya_da_0
+  rotate: false
+  xy: 259, 130
+  size: 90, 128
+  orig: 90, 128
+  offset: 0, 0
+  index: -1

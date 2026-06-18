@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100" pivot="0.5,0.5" anchor="true">
+  <displayList>
+    <loader3D id="n1_rdxp" name="Loader_Back" xy="0,0" pivot="0.5,0.5" size="100,100" animation="" skin="" loop="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader3D>
+    <loader3D id="n0_rdxp" name="Loader_Front" xy="0,0" pivot="0.5,0.5" size="100,100" animation="" skin="" loop="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader3D>
+  </displayList>
+</component>

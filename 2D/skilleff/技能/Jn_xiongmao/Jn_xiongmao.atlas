@@ -1,0 +1,90 @@
+
+Jn_xiongmao.png
+size: 458,270
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fahuo
+  rotate: false
+  xy: 138, 13
+  size: 83, 85
+  orig: 83, 85
+  offset: 0, 0
+  index: -1
+l_shou
+  rotate: false
+  xy: 222, 49
+  size: 64, 82
+  orig: 64, 82
+  offset: 0, 0
+  index: -1
+l_tui
+  rotate: false
+  xy: 352, 64
+  size: 62, 78
+  orig: 62, 78
+  offset: 0, 0
+  index: -1
+ln_banyuan
+  rotate: true
+  xy: 1, 2
+  size: 96, 136
+  orig: 96, 136
+  offset: 0, 0
+  index: -1
+par_yezi
+  rotate: true
+  xy: 222, 23
+  size: 25, 67
+  orig: 25, 67
+  offset: 0, 0
+  index: -1
+qiu
+  rotate: false
+  xy: 1, 99
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+r_shou
+  rotate: false
+  xy: 287, 49
+  size: 64, 82
+  orig: 64, 82
+  offset: 0, 0
+  index: -1
+r_tui
+  rotate: true
+  xy: 352, 1
+  size: 62, 78
+  orig: 62, 78
+  offset: 0, 0
+  index: -1
+st
+  rotate: true
+  xy: 172, 132
+  size: 137, 171
+  orig: 137, 171
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 344, 143
+  size: 126, 113
+  orig: 126, 113
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: false
+  xy: 415, 104
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+ziya
+  rotate: true
+  xy: 415, 64
+  size: 39, 28
+  orig: 39, 28
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="707,70" extention="Label">
+  <controller name="C_Quality" exported="true" pages="0,,1,,2,,3,,4,,5," selected="0"/>
+  <controller name="C_Multiple" exported="true" pages="0,,1,,2,,3,,4," selected="4"/>
+  <controller name="C_Gem" exported="true" pages="0,绿色,1,蓝色,2,粉色,3,红色,4,紫色,5,黄色,6,彩虹" selected="0"/>
+  <displayList>
+    <loader id="n1_owhb" name="n1" xy="0,0" size="70,70" url="ui://oy07mpfwtuks9r" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="C_Quality" pages="5"/>
+      <gearIcon controller="C_Gem" pages="0,1,2,3,4,5,6" values="ui://oy07mpfwtuks9r|ui://oy07mpfwtuks9q|ui://oy07mpfwtuks9n|ui://oy07mpfwtuks9o|ui://oy07mpfwtuks9s|ui://oy07mpfwtuks9p|ui://oy07mpfwtuks9t"/>
+    </loader>
+    <loader id="n2_owhb" name="n2" xy="70,0" size="70,70" url="ui://oy07mpfwtuks9r" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="C_Quality" pages="4,5"/>
+      <gearIcon controller="C_Gem" pages="0,1,2,3,4,5,6" values="ui://oy07mpfwtuks9r|ui://oy07mpfwtuks9q|ui://oy07mpfwtuks9n|ui://oy07mpfwtuks9o|ui://oy07mpfwtuks9s|ui://oy07mpfwtuks9p|ui://oy07mpfwtuks9t"/>
+    </loader>
+    <loader id="n3_owhb" name="n3" xy="140,0" size="70,70" url="ui://oy07mpfwtuks9r" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="C_Quality" pages="3,4,5"/>
+      <gearIcon controller="C_Gem" pages="0,1,2,3,4,5,6" values="ui://oy07mpfwtuks9r|ui://oy07mpfwtuks9q|ui://oy07mpfwtuks9n|ui://oy07mpfwtuks9o|ui://oy07mpfwtuks9s|ui://oy07mpfwtuks9p|ui://oy07mpfwtuks9t"/>
+    </loader>
+    <loader id="n4_owhb" name="n4" xy="210,0" size="70,70" url="ui://oy07mpfwtuks9r" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="C_Quality" pages="2,3,4,5"/>
+      <gearIcon controller="C_Gem" pages="0,1,2,3,4,5,6" values="ui://oy07mpfwtuks9r|ui://oy07mpfwtuks9q|ui://oy07mpfwtuks9n|ui://oy07mpfwtuks9o|ui://oy07mpfwtuks9s|ui://oy07mpfwtuks9p|ui://oy07mpfwtuks9t"/>
+    </loader>
+    <loader id="n5_owhb" name="n5" xy="280,0" size="70,70" url="ui://oy07mpfwtuks9r" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="C_Quality" pages="1,2,3,4,5"/>
+      <gearIcon controller="C_Gem" pages="0,1,2,3,4,5,6" values="ui://oy07mpfwtuks9r|ui://oy07mpfwtuks9q|ui://oy07mpfwtuks9n|ui://oy07mpfwtuks9o|ui://oy07mpfwtuks9s|ui://oy07mpfwtuks9p|ui://oy07mpfwtuks9t"/>
+    </loader>
+    <text id="n11_tuks" name="n11" xy="350,0" size="116,70" fontSize="53" color="#ffffff" strokeColor="#000000" text="×5=">
+      <gearText controller="C_Multiple" pages="1,2,3,4" values="×2=|×3=|×4=|×5=" default="×1="/>
+    </text>
+    <text id="n12_tuks" name="title" xy="466,0" size="241,70" fontSize="53" color="#ffffff" autoSize="none" strokeColor="#000000" text=""/>
+  </displayList>
+</component>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920" opaque="false">
+  <displayList>
+    <text id="n0_g3y3" name="n0" xy="28,156" size="111,38" fontSize="28" strokeColor="#ffffff" text="Balance:"/>
+    <text id="n8_g3y3" name="Text_Balance" xy="149,156" size="19,38" fontSize="28" strokeColor="#ffffff" text="0"/>
+    <text id="n1_g3y3" name="n1" xy="28,204" size="36,38" fontSize="28" strokeColor="#ffffff" text="In:"/>
+    <text id="n9_g3y3" name="Text_In" xy="74,204" size="19,38" fontSize="28" strokeColor="#ffffff" text="0"/>
+    <text id="n2_g3y3" name="n2" xy="28,252" size="54,38" fontSize="28" strokeColor="#ffffff" text="Out:"/>
+    <text id="n10_g3y3" name="Text_Out" xy="92,252" size="19,38" fontSize="28" strokeColor="#ffffff" text="0"/>
+    <text id="n3_g3y3" name="n3" xy="28,300" size="59,38" fontSize="28" strokeColor="#ffffff" text="Gap:"/>
+    <text id="n11_g3y3" name="Text_Gap" xy="97,300" size="19,38" fontSize="28" strokeColor="#ffffff" text="0"/>
+    <text id="n4_g3y3" name="n4" xy="28,348" size="129,38" fontSize="28" strokeColor="#ffffff" text="SlotMode:"/>
+    <text id="n12_g3y3" name="SlotMode" xy="167,348" size="19,38" fontSize="28" strokeColor="#ffffff" text="0"/>
+    <text id="n16_g3y3" name="n16" xy="28,396" size="154,38" fontSize="28" strokeColor="#ffffff" text="SettingRTP:"/>
+    <text id="n17_g3y3" name="Text_SettingRTP" xy="192,396" size="19,38" fontSize="28" strokeColor="#ffffff" text="0"/>
+    <text id="n5_g3y3" name="n5" xy="28,444" size="131,39" fontSize="28" strokeColor="#ffffff" text="CycleRTP:"/>
+    <text id="n13_g3y3" name="Text_CycleRTP" xy="169,444" size="19,38" fontSize="28" strokeColor="#ffffff" text="0"/>
+    <text id="n20_i4h6" name="n20" xy="28,493" size="126,39" fontSize="28" strokeColor="#ffffff" text="TotalRTP:"/>
+    <text id="n21_i4h6" name="Text_TotalRTP" xy="164,493" size="19,38" fontSize="28" strokeColor="#ffffff" text="0"/>
+    <text id="n6_g3y3" name="n6" xy="28,542" size="193,38" fontSize="28" strokeColor="#ffffff" text="CycleCoinRate:"/>
+    <text id="n14_g3y3" name="Text_CycleCoinRate" xy="231,542" size="19,38" fontSize="28" strokeColor="#ffffff" text="0"/>
+    <text id="n7_g3y3" name="n7" xy="28,639" size="195,38" fontSize="28" strokeColor="#ffffff" text="CycleSpinRate:"/>
+    <text id="n15_g3y3" name="Text_CycleSpinRate" xy="233,639" size="19,38" fontSize="28" strokeColor="#ffffff" text="0"/>
+    <text id="n18_i4h6" name="n18" xy="28,590" size="187,39" fontSize="28" strokeColor="#ffffff" text="TotalCoinRate:"/>
+    <text id="n19_i4h6" name="Text_TotalCoinRate" xy="225,590" size="19,38" fontSize="28" strokeColor="#ffffff" text="0"/>
+  </displayList>
+</component>

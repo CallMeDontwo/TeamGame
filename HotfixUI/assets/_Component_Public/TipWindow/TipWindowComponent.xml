@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920">
+  <displayList>
+    <graph id="n14_9nvb" name="Graph_Bg" xy="0,-187" size="1080,2295" type="rect" lineSize="0" fillColor="#99000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n0_l6ot" name="n0" xy="100,675" size="880,570" type="rect" lineSize="0" fillColor="#ffff9900">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <text id="n10_l6ot" name="Text_context" xy="203,757" size="674,303" font="ui://d5436bxtlrme3i" fontSize="39" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="提示文本">
+      <relation target="n0_l6ot" sidePair="center-center,top-top"/>
+    </text>
+    <component id="n15_995r" name="Btn_OK" src="995rq9t" fileName="Btn_Normal/Btn_Normal.xml" xy="456,1126" size="167,61">
+      <Button title="确定" titleFontSize="27"/>
+    </component>
+  </displayList>
+</component>

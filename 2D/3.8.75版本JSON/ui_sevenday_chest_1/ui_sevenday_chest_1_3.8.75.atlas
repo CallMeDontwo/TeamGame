@@ -1,0 +1,27 @@
+
+ui_sevenday_chest_1_3.8.75.png
+size: 164,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 59, 5
+  size: 57, 50
+  orig: 57, 50
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 2, 2
+  size: 55, 60
+  orig: 57, 62
+  offset: 1, 1
+  index: -1
+xing
+  rotate: false
+  xy: 111, 6
+  size: 51, 56
+  orig: 55, 61
+  offset: 2, 3
+  index: -1

@@ -1,0 +1,41 @@
+
+jn_moliqing_hudun.png
+size: 784,168
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xuanfeng_0
+  rotate: false
+  xy: 653, 22
+  size: 130, 145
+  orig: 180, 180
+  offset: 25, 7
+  index: -1
+xuanfeng_2
+  rotate: false
+  xy: 505, 20
+  size: 147, 147
+  orig: 180, 180
+  offset: 16, 7
+  index: -1
+xuanfeng_4
+  rotate: true
+  xy: 353, 7
+  size: 160, 151
+  orig: 180, 180
+  offset: 8, 7
+  index: -1
+xuanfeng_6
+  rotate: false
+  xy: 180, 22
+  size: 172, 145
+  orig: 180, 180
+  offset: 1, 7
+  index: -1
+xuanfeng_8
+  rotate: false
+  xy: 1, 1
+  size: 178, 166
+  orig: 180, 180
+  offset: 0, 7
+  index: -1

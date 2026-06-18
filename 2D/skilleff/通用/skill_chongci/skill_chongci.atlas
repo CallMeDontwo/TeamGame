@@ -1,0 +1,27 @@
+
+skill_chongci.png
+size: 429,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cj_bo_0
+  rotate: true
+  xy: 1, 1
+  size: 126, 163
+  orig: 135, 180
+  offset: 8, 9
+  index: -1
+glow_0
+  rotate: false
+  xy: 339, 38
+  size: 89, 89
+  orig: 115, 115
+  offset: 13, 13
+  index: -1
+tw_0
+  rotate: false
+  xy: 165, 17
+  size: 173, 110
+  orig: 180, 115
+  offset: 4, 2
+  index: -1

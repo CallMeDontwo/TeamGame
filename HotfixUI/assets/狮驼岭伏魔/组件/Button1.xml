@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="160,160" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <image id="n0_dqc8" name="n0" src="hbgvu" fileName="资源/images/切图_97.png" xy="0,0">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_dqc8" name="n2" src="hbgvi" fileName="资源/images/切图_79.png" xy="37,58">
+      <gearDisplay controller="button" pages="0,2"/>
+    </image>
+    <image id="n1_dqc8" name="n1" src="hbgvv" fileName="资源/images/切图_99.png" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_dqc8" name="n3" src="hbgvt" fileName="资源/images/切图_94.png" xy="37,58">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+  </displayList>
+  <Button mode="Check"/>
+</component>

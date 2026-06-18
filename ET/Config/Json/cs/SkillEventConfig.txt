@@ -1,0 +1,7 @@
+{"dict": [
+[100101, {"_t":"SkillEventConfig","_id":100101,"EventType":1,"IntParam1":0,"IntParam2":0,"IntParam3":0,"StringParam":"frozen"}],
+[100102, {"_t":"SkillEventConfig","_id":100102,"EventType":1,"IntParam1":50,"IntParam2":0,"IntParam3":0,"StringParam":"attack04"}],
+[100103, {"_t":"SkillEventConfig","_id":100103,"EventType":3,"IntParam1":-24,"IntParam2":26,"IntParam3":1000,"StringParam":"Assets/Bundles/Prefabs/SkillEffect/hero1001_skill1_01 Variant.prefab"}],
+[100104, {"_t":"SkillEventConfig","_id":100104,"EventType":6,"IntParam1":1001,"IntParam2":0,"IntParam3":0,"StringParam":""}],
+[100105, {"_t":"SkillEventConfig","_id":100105,"EventType":6,"IntParam1":1002,"IntParam2":0,"IntParam3":0,"StringParam":""}],
+]}

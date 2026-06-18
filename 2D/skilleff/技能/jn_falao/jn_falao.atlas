@@ -1,0 +1,69 @@
+
+jn_falao.png
+size: 698,207
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bai_0
+  rotate: false
+  xy: 646, 38
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+baoci_1
+  rotate: true
+  xy: 1, 1
+  size: 205, 120
+  orig: 205, 120
+  offset: 0, 0
+  index: -1
+baoci_2
+  rotate: true
+  xy: 122, 1
+  size: 205, 120
+  orig: 205, 120
+  offset: 0, 0
+  index: -1
+baoci_3
+  rotate: true
+  xy: 243, 1
+  size: 205, 120
+  orig: 205, 120
+  offset: 0, 0
+  index: -1
+baoci_4
+  rotate: true
+  xy: 364, 1
+  size: 205, 120
+  orig: 205, 120
+  offset: 0, 0
+  index: -1
+fashe
+  rotate: true
+  xy: 588, 90
+  size: 116, 70
+  orig: 116, 70
+  offset: 0, 0
+  index: -1
+glow_36
+  rotate: false
+  xy: 485, 104
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+par_daxing_0
+  rotate: false
+  xy: 485, 1
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+suidong
+  rotate: true
+  xy: 588, 31
+  size: 58, 57
+  orig: 58, 57
+  offset: 0, 0
+  index: -1

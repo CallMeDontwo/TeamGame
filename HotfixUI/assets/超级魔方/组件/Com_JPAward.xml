@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1200,900">
+  <controller name="C_Type" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <image id="n8_dxvn" name="n8" src="995r2u" fileName="资源/jp结算/BG_jp.png" xy="23,39"/>
+    <image id="n10_dxvn" name="n10" src="dxvn57" fileName="资源/jp结算/jp_banner.png" xy="213,88" size="773,265" aspect="true"/>
+    <image id="n11_dxvn" name="n11" src="dxvn59" fileName="资源/jp结算/Congratulations.png" xy="323,131" size="554,77" aspect="true"/>
+    <image id="n19_nilu" name="n19" src="995r10" fileName="资源/jp结算/jp1.png" xy="539,216">
+      <gearDisplay controller="C_Type" pages="0"/>
+    </image>
+    <image id="n20_nilu" name="n20" src="995r11" fileName="资源/jp结算/jp2.png" xy="533,216">
+      <gearDisplay controller="C_Type" pages="1"/>
+    </image>
+    <image id="n21_nilu" name="n21" src="995r12" fileName="资源/jp结算/jp3.png" xy="531,216">
+      <gearDisplay controller="C_Type" pages="2"/>
+    </image>
+    <image id="n18_nilu" name="n18" src="995rz" fileName="资源/jp结算/all.png" xy="510,218">
+      <gearDisplay controller="C_Type" pages="3"/>
+    </image>
+    <image id="n12_dxvn" name="n12" src="dxvn58" fileName="资源/jp结算/mark.png" xy="299,459" size="226,87" aspect="true"/>
+    <text id="n15_dxvn" name="Text_Total" xy="565,406" size="411,178" fontSize="135" color="#ffffff" vAlign="middle" letterSpacing="3" autoSize="none" text="9999"/>
+    <loader3D id="n14_dxvn" name="Loader_Coin" xy="333,608" size="160,160" animation="" skin="" loop="true"/>
+    <text id="n16_dxvn" name="Text_Current" xy="565,596" size="411,178" fontSize="135" color="#ffffff" vAlign="middle" letterSpacing="3" autoSize="none" text="9999"/>
+    <text id="n22_g3y3" name="Text_Double" xy="285,788" size="630,79" visible="false" fontSize="60" color="#ff3399" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" strokeColor="#4d140b" strokeSize="4" text="Reward Double"/>
+  </displayList>
+</component>

@@ -1,0 +1,48 @@
+
+hit_suolong.png
+size: 390,130
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+00
+  rotate: true
+  xy: 275, 15
+  size: 59, 77
+  orig: 59, 77
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 130, 11
+  size: 73, 118
+  orig: 73, 118
+  offset: 0, 0
+  index: -1
+bai_0
+  rotate: false
+  xy: 204, 4
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+glow_xian_0
+  rotate: false
+  xy: 204, 75
+  size: 154, 54
+  orig: 154, 54
+  offset: 0, 0
+  index: -1
+heixian_0
+  rotate: true
+  xy: 359, 1
+  size: 128, 30
+  orig: 128, 30
+  offset: 0, 0
+  index: -1
+quan_0
+  rotate: false
+  xy: 1, 1
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1

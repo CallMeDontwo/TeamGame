@@ -1,0 +1,125 @@
+
+jn_suolong.png
+size: 946,370
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 817, 10
+  size: 124, 124
+  orig: 124, 124
+  offset: 0, 0
+  index: -1
+bai_0
+  rotate: false
+  xy: 435, 186
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+bd/a1
+  rotate: false
+  xy: 297, 143
+  size: 137, 113
+  orig: 137, 113
+  offset: 0, 0
+  index: -1
+bd/a2
+  rotate: false
+  xy: 291, 1
+  size: 210, 141
+  orig: 210, 141
+  offset: 0, 0
+  index: -1
+bd/a4
+  rotate: true
+  xy: 139, 143
+  size: 226, 157
+  orig: 226, 157
+  offset: 0, 0
+  index: -1
+bd/a5
+  rotate: true
+  xy: 683, 34
+  size: 198, 133
+  orig: 198, 133
+  offset: 0, 0
+  index: -1
+chen
+  rotate: false
+  xy: 139, 85
+  size: 71, 57
+  orig: 71, 57
+  offset: 0, 0
+  index: -1
+chen2
+  rotate: true
+  xy: 211, 102
+  size: 40, 36
+  orig: 40, 36
+  offset: 0, 0
+  index: -1
+dao
+  rotate: false
+  xy: 81, 86
+  size: 57, 283
+  orig: 57, 283
+  offset: 0, 0
+  index: -1
+dao1
+  rotate: false
+  xy: 1, 80
+  size: 79, 289
+  orig: 79, 289
+  offset: 0, 0
+  index: -1
+dao2
+  rotate: true
+  xy: 1, 1
+  size: 78, 289
+  orig: 78, 289
+  offset: 0, 0
+  index: -1
+glow_xian_0
+  rotate: false
+  xy: 506, 209
+  size: 154, 54
+  orig: 154, 54
+  offset: 0, 0
+  index: -1
+heixian_0
+  rotate: false
+  xy: 661, 233
+  size: 128, 30
+  orig: 128, 30
+  offset: 0, 0
+  index: -1
+par_xing_da_1
+  rotate: false
+  xy: 502, 5
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+quan_0
+  rotate: false
+  xy: 817, 135
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+s01
+  rotate: false
+  xy: 297, 257
+  size: 201, 112
+  orig: 201, 112
+  offset: 0, 0
+  index: -1
+tw_5
+  rotate: false
+  xy: 502, 264
+  size: 440, 105
+  orig: 440, 105
+  offset: 0, 0
+  index: -1

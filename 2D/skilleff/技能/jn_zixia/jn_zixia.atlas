@@ -1,0 +1,90 @@
+
+jn_zixia.png
+size: 262,544
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baoci_xl/baoci_xl_0
+  rotate: true
+  xy: 159, 346
+  size: 97, 96
+  orig: 120, 120
+  offset: 11, 0
+  index: -1
+baoci_xl/baoci_xl_1
+  rotate: false
+  xy: 115, 444
+  size: 105, 99
+  orig: 120, 120
+  offset: 10, 5
+  index: -1
+baoci_xl/baoci_xl_2
+  rotate: true
+  xy: 1, 309
+  size: 119, 101
+  orig: 120, 120
+  offset: 1, 10
+  index: -1
+baoci_xl/baoci_xl_3
+  rotate: true
+  xy: 1, 193
+  size: 115, 96
+  orig: 120, 120
+  offset: 3, 21
+  index: -1
+chongji_0
+  rotate: true
+  xy: 159, 246
+  size: 99, 89
+  orig: 102, 102
+  offset: 2, 3
+  index: -1
+dilie_0
+  rotate: false
+  xy: 1, 90
+  size: 181, 97
+  orig: 205, 102
+  offset: 20, 2
+  index: -1
+glow_bai_0
+  rotate: false
+  xy: 1, 1
+  size: 88, 88
+  orig: 102, 102
+  offset: 7, 7
+  index: -1
+jian
+  rotate: false
+  xy: 103, 188
+  size: 55, 240
+  orig: 55, 240
+  offset: 0, 0
+  index: -1
+jian_bai_3
+  rotate: true
+  xy: 159, 194
+  size: 51, 102
+  orig: 51, 102
+  offset: 0, 0
+  index: -1
+jian_glow_0
+  rotate: false
+  xy: 183, 14
+  size: 78, 179
+  orig: 102, 205
+  offset: 12, 0
+  index: -1
+par_0
+  rotate: false
+  xy: 90, 7
+  size: 62, 82
+  orig: 64, 84
+  offset: 1, 1
+  index: -1
+shengbo_0
+  rotate: false
+  xy: 1, 429
+  size: 113, 114
+  orig: 123, 123
+  offset: 6, 4
+  index: -1

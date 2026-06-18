@@ -1,0 +1,132 @@
+
+Jn_mogu.png
+size: 887,518
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baoci_23
+  rotate: true
+  xy: 535, 9
+  size: 123, 172
+  orig: 128, 180
+  offset: 3, 3
+  index: -1
+glow_0
+  rotate: false
+  xy: 708, 19
+  size: 100, 100
+  orig: 128, 128
+  offset: 14, 14
+  index: -1
+mogu_36
+  rotate: false
+  xy: 1, 319
+  size: 191, 198
+  orig: 200, 200
+  offset: 5, 1
+  index: -1
+quan_0
+  rotate: false
+  xy: 778, 120
+  size: 108, 104
+  orig: 128, 128
+  offset: 10, 10
+  index: -1
+sq_0
+  rotate: false
+  xy: 701, 134
+  size: 76, 90
+  orig: 80, 90
+  offset: 2, 0
+  index: -1
+ty_dabaozha/ty_dbz_1
+  rotate: true
+  xy: 532, 133
+  size: 190, 168
+  orig: 200, 200
+  offset: 10, 7
+  index: -1
+ty_dabaozha/ty_dbz_11
+  rotate: true
+  xy: 179, 124
+  size: 194, 180
+  orig: 200, 200
+  offset: 6, 11
+  index: -1
+ty_dabaozha/ty_dbz_13
+  rotate: false
+  xy: 554, 337
+  size: 151, 180
+  orig: 200, 200
+  offset: 25, 11
+  index: -1
+ty_dabaozha/ty_dbz_15
+  rotate: true
+  xy: 708, 225
+  size: 147, 172
+  orig: 200, 200
+  offset: 29, 17
+  index: -1
+ty_dabaozha/ty_dbz_17
+  rotate: true
+  xy: 708, 373
+  size: 144, 174
+  orig: 200, 200
+  offset: 29, 15
+  index: -1
+ty_dabaozha/ty_dbz_19
+  rotate: true
+  xy: 179, 1
+  size: 122, 176
+  orig: 200, 200
+  offset: 32, 13
+  index: -1
+ty_dabaozha/ty_dbz_21
+  rotate: true
+  xy: 1, 11
+  size: 111, 177
+  orig: 200, 200
+  offset: 39, 12
+  index: -1
+ty_dabaozha/ty_dbz_23
+  rotate: true
+  xy: 356, 13
+  size: 110, 178
+  orig: 200, 200
+  offset: 40, 11
+  index: -1
+ty_dabaozha/ty_dbz_3
+  rotate: true
+  xy: 360, 128
+  size: 194, 171
+  orig: 200, 200
+  offset: 5, 12
+  index: -1
+ty_dabaozha/ty_dbz_5
+  rotate: true
+  xy: 1, 123
+  size: 195, 177
+  orig: 200, 200
+  offset: 5, 11
+  index: -1
+ty_dabaozha/ty_dbz_7
+  rotate: true
+  xy: 193, 323
+  size: 194, 177
+  orig: 200, 200
+  offset: 5, 10
+  index: -1
+ty_dabaozha/ty_dbz_9
+  rotate: true
+  xy: 371, 324
+  size: 193, 182
+  orig: 200, 200
+  offset: 4, 10
+  index: -1
+yanwu_qiu_2
+  rotate: false
+  xy: 809, 47
+  size: 77, 72
+  orig: 90, 90
+  offset: 7, 8
+  index: -1

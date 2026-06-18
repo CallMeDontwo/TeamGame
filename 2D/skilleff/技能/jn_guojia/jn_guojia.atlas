@@ -1,0 +1,83 @@
+
+jn_guojia.png
+size: 310,525
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bing/1005_gl13_00
+  rotate: false
+  xy: 1, 1
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+images/bing/bing_0
+  rotate: false
+  xy: 207, 140
+  size: 84, 203
+  orig: 84, 203
+  offset: 0, 0
+  index: -1
+images/bing/bing_1
+  rotate: true
+  xy: 1, 156
+  size: 83, 200
+  orig: 83, 200
+  offset: 0, 0
+  index: -1
+images/bing/bing_2
+  rotate: true
+  xy: 1, 240
+  size: 78, 205
+  orig: 78, 205
+  offset: 0, 0
+  index: -1
+images/bing/bing_4
+  rotate: true
+  xy: 207, 344
+  size: 77, 101
+  orig: 77, 101
+  offset: 0, 0
+  index: -1
+images/bing/bing_5
+  rotate: false
+  xy: 201, 104
+  size: 64, 35
+  orig: 64, 35
+  offset: 0, 0
+  index: -1
+images/bing/binzhui_0
+  rotate: false
+  xy: 156, 103
+  size: 44, 52
+  orig: 44, 52
+  offset: 0, 0
+  index: -1
+images/bing/dilie_0
+  rotate: false
+  xy: 1, 319
+  size: 205, 205
+  orig: 205, 205
+  offset: 0, 0
+  index: -1
+images/bing/xh_0
+  rotate: false
+  xy: 207, 422
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+images/bing/yanwu_qiu_0
+  rotate: false
+  xy: 156, 30
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+images/bing/yanwu_qiu_1
+  rotate: false
+  xy: 229, 31
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,97 @@
+
+jn_chushi.png
+size: 497,492
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd/bd_0
+  rotate: false
+  xy: 266, 222
+  size: 230, 134
+  orig: 280, 175
+  offset: 30, 9
+  index: -1
+bd/bd_1
+  rotate: false
+  xy: 255, 72
+  size: 236, 145
+  orig: 280, 175
+  offset: 25, 9
+  index: -1
+bd/bd_2
+  rotate: false
+  xy: 1, 70
+  size: 253, 147
+  orig: 280, 175
+  offset: 18, 17
+  index: -1
+bd/bd_3
+  rotate: false
+  xy: 1, 218
+  size: 264, 138
+  orig: 280, 175
+  offset: 14, 30
+  index: -1
+lizi/lz1_0
+  rotate: false
+  xy: 206, 45
+  size: 28, 24
+  orig: 90, 90
+  offset: 31, 33
+  index: -1
+lizi/lz1_1
+  rotate: false
+  xy: 206, 20
+  size: 24, 24
+  orig: 90, 90
+  offset: 33, 33
+  index: -1
+lizi/lz1_2
+  rotate: false
+  xy: 439, 361
+  size: 24, 26
+  orig: 90, 90
+  offset: 33, 32
+  index: -1
+lizi/lz1_3
+  rotate: false
+  xy: 439, 388
+  size: 34, 30
+  orig: 90, 90
+  offset: 28, 30
+  index: -1
+lizi/lz1_4
+  rotate: false
+  xy: 143, 17
+  size: 62, 52
+  orig: 90, 90
+  offset: 14, 19
+  index: -1
+lizi/lz1_5
+  rotate: false
+  xy: 1, 1
+  size: 80, 68
+  orig: 90, 90
+  offset: 5, 11
+  index: -1
+lizi/lz1_6
+  rotate: false
+  xy: 82, 8
+  size: 60, 61
+  orig: 90, 90
+  offset: 15, 14
+  index: -1
+par 2/xingxing_0
+  rotate: false
+  xy: 439, 419
+  size: 54, 72
+  orig: 56, 74
+  offset: 1, 1
+  index: -1
+wuqi
+  rotate: false
+  xy: 1, 357
+  size: 437, 134
+  orig: 449, 134
+  offset: 0, 0
+  index: -1

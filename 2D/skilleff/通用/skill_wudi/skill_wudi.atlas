@@ -1,0 +1,27 @@
+
+skill_wudi.png
+size: 241,113
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+banquan_0
+  rotate: false
+  xy: 186, 1
+  size: 54, 111
+  orig: 72, 115
+  offset: 7, 2
+  index: -1
+glow_0
+  rotate: false
+  xy: 96, 23
+  size: 89, 89
+  orig: 115, 115
+  offset: 13, 13
+  index: -1
+ring_dan_0
+  rotate: false
+  xy: 1, 8
+  size: 94, 104
+  orig: 99, 115
+  offset: 3, 4
+  index: -1

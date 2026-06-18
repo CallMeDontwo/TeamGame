@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <controller name="C_ShowText" pages="0,,1," selected="1"/>
+  <displayList>
+    <graph id="n2_ka85" name="n2" xy="0,0" size="1920,1080" alpha="0.5" type="rect" lineSize="0" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <loader3D id="n0_ka85" name="Loader_Spine" xy="960,540" pivot="0.5,0.5" anchor="true" size="100,100" animation="" skin="" loop="true"/>
+    <graph id="n6_jlzb" name="n6" xy="0,0" size="1920,1080" alpha="0" type="rect" lineSize="0"/>
+    <image id="n7_jlzb" name="n7" src="jlzbc6" fileName="资源/ui联机/ui/专属奖励_文字.png" xy="1045,503" group="n5_jlzb"/>
+    <text id="n3_jlzb" name="Text_SelfAward" xy="1045,526" size="516,139" group="n5_jlzb" font="ui://oy07mpfwk1i5b2" fontSize="60" vAlign="middle" autoSize="none" text="500"/>
+    <image id="n8_jlzb" name="n8" src="gprmc9" fileName="资源/ui联机/ui/联机奖励.png" xy="717,505" group="n5_jlzb"/>
+    <text id="n4_jlzb" name="Text_AwardPool" xy="358,526" size="516,139" group="n5_jlzb" font="ui://oy07mpfwk1i5b1" fontSize="60" align="right" vAlign="middle" autoSize="none" text="100"/>
+    <group id="n5_jlzb" name="n5" xy="358,503" size="1203,162" advanced="true">
+      <gearDisplay controller="C_ShowText" pages="1"/>
+    </group>
+    <text id="n1_ka85" name="Text_Score" xy="821,661" size="278,122" font="ui://oy07mpfwka85bh" fontSize="11" align="center" vAlign="middle" text="123">
+      <gearDisplay controller="C_ShowText" pages="1"/>
+      <relation target="n0_ka85" sidePair="center-center,middle-middle"/>
+    </text>
+    <image id="n9_gprm" name="n9" src="k1i5ax" fileName="资源/ui联机/ui/能量图标.png" xy="630,670" size="106,112"/>
+  </displayList>
+</component>

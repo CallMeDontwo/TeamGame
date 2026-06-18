@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="7am1s0tj">
+  <resources>
+    <component id="ppw60" name="LoadingComponent.xml" path="/LoadingWindow/" exported="true"/>
+    <component id="ppw61" name="ProgressBar1.xml" path="/LoadingWindow/组件/"/>
+    <image id="9v4k2" name="BG_loading2.png" path="/LoadingWindow/资源/ui/"/>
+    <image id="9v4k3" name="Enter account number.png" path="/LoadingWindow/资源/ui/"/>
+    <image id="9v4k4" name="play_loading2.png" path="/LoadingWindow/资源/ui/"/>
+    <image id="9v4k5" name="text_box_loading2.png" path="/LoadingWindow/资源/ui/"/>
+    <image id="9v4k6" name="loading2预览.png" path="/LoadingWindow/资源/"/>
+    <image id="9v4k7" name="BG_loading.png" path="/LoadingWindow/资源/ui/"/>
+    <component id="l6ot4u" name="Btn_Exit.xml" path="/Btn_Exit/" exported="true"/>
+    <image id="9oyl4c" name="ui_exit.png" path="/Btn_Exit/资源/"/>
+    <component id="r8g34v" name="TipWindowComponent.xml" path="/TipWindow/" exported="true"/>
+    <component id="vojlq9r" name="ReconnectWindow.xml" path="/ReconnectWindow/" exported="true"/>
+    <image id="lu2aq9s" name="loading_icon.png" path="/ReconnectWindow/资源/"/>
+    <component id="995rq9t" name="Btn_Normal.xml" path="/Btn_Normal/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

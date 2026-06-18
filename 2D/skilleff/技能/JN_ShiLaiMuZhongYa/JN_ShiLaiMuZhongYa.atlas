@@ -1,0 +1,76 @@
+
+JN_ShiLaiMuZhongYa.png
+size: 442,137
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ci_glow_0
+  rotate: true
+  xy: 233, 1
+  size: 135, 81
+  orig: 135, 81
+  offset: 0, 0
+  index: -1
+l_yan
+  rotate: true
+  xy: 26, 4
+  size: 16, 25
+  orig: 16, 25
+  offset: 0, 0
+  index: -1
+par_bai_0
+  rotate: false
+  xy: 419, 36
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+r_yan
+  rotate: true
+  xy: 1, 2
+  size: 18, 24
+  orig: 18, 24
+  offset: 0, 0
+  index: -1
+ring_0
+  rotate: false
+  xy: 1, 21
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+st
+  rotate: false
+  xy: 315, 59
+  size: 120, 77
+  orig: 120, 77
+  offset: 0, 0
+  index: -1
+tw_0
+  rotate: false
+  xy: 117, 21
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+yanwu1_1
+  rotate: false
+  xy: 315, 1
+  size: 57, 57
+  orig: 57, 57
+  offset: 0, 0
+  index: -1
+yanwu2_0
+  rotate: false
+  xy: 373, 13
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+zui
+  rotate: true
+  xy: 52, 3
+  size: 17, 6
+  orig: 17, 6
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="860,54">
+  <controller name="C_Type" pages="0,,1," selected="0"/>
+  <displayList>
+    <graph id="n1_ee5c" name="n1" xy="0,0" size="860,54" type="rect" lineSize="0" lineColor="#ff00ebf0" fillColor="#ff00ebf0">
+      <gearDisplay controller="C_Type" pages="0"/>
+    </graph>
+    <text id="n0_ee5c" name="Text_Name" xy="0,0" size="860,54" fontSize="40" vAlign="middle" autoSize="none" text="奖项名称">
+      <gearColor controller="C_Type" pages="0" values="#000000,#000000" default="#00ebf0,#000000"/>
+    </text>
+    <text id="n2_ee5c" name="Text_Count" xy="0,0" size="860,54" fontSize="40" align="center" vAlign="middle" autoSize="none" text="5999999">
+      <gearColor controller="C_Type" pages="0" values="#000000,#000000" default="#00ebf0,#000000"/>
+    </text>
+    <text id="n3_ee5c" name="Text_Socre" xy="0,0" size="860,54" fontSize="40" align="right" vAlign="middle" autoSize="none" text="100000000">
+      <gearColor controller="C_Type" pages="0" values="#000000,#000000" default="#00ebf0,#000000"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,55 @@
+
+jn_bosaidong.png
+size: 830,342
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2
+  rotate: true
+  xy: 284, 1
+  size: 223, 118
+  orig: 223, 118
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 1, 5
+  size: 282, 219
+  orig: 282, 219
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 403, 28
+  size: 231, 164
+  orig: 231, 164
+  offset: 0, 0
+  index: -1
+5
+  rotate: true
+  xy: 703, 158
+  size: 183, 126
+  orig: 183, 126
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 1, 225
+  size: 454, 116
+  orig: 454, 116
+  offset: 0, 0
+  index: -1
+shuihua
+  rotate: false
+  xy: 635, 31
+  size: 161, 126
+  orig: 161, 126
+  offset: 0, 0
+  index: -1
+yu
+  rotate: false
+  xy: 456, 193
+  size: 246, 148
+  orig: 246, 148
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="278,104" pivot="0.5,0.5" anchor="true">
+  <displayList>
+    <graph id="n3_fxxj" name="n3" xy="0,0" size="278,104" alpha="0" type="rect">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n2_lzui" name="Text_Socre" xy="0,0" size="278,104" font="ui://oy07mpfwowhb9j" fontSize="100" vAlign="middle" text="100"/>
+  </displayList>
+  <relation target="n2_lzui" sidePair="width-width"/>
+</component>

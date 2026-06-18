@@ -1,0 +1,111 @@
+
+jn_molishou.png
+size: 808,391
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chongxian/chongxian_0
+  rotate: false
+  xy: 554, 150
+  size: 204, 172
+  orig: 205, 205
+  offset: 1, 8
+  index: -1
+chongxian/chongxian_2
+  rotate: false
+  xy: 590, 1
+  size: 204, 148
+  orig: 205, 205
+  offset: 1, 24
+  index: -1
+chongxian/chongxian_4
+  rotate: true
+  xy: 1, 118
+  size: 204, 187
+  orig: 205, 205
+  offset: 1, 2
+  index: -1
+chongxian/chongxian_6
+  rotate: true
+  xy: 189, 118
+  size: 204, 182
+  orig: 205, 205
+  offset: 1, 0
+  index: -1
+glow_chong_0
+  rotate: false
+  xy: 372, 128
+  size: 181, 194
+  orig: 205, 205
+  offset: 12, 5
+  index: -1
+shetou
+  rotate: false
+  xy: 222, 62
+  size: 102, 21
+  orig: 102, 21
+  offset: 0, 0
+  index: -1
+st
+  rotate: false
+  xy: 1, 323
+  size: 806, 67
+  orig: 806, 67
+  offset: 0, 0
+  index: -1
+tou
+  rotate: false
+  xy: 372, 3
+  size: 217, 124
+  orig: 217, 124
+  offset: 0, 0
+  index: -1
+xiazui
+  rotate: false
+  xy: 149, 1
+  size: 127, 34
+  orig: 127, 34
+  offset: 0, 0
+  index: -1
+xl_nl/xl_nl_1
+  rotate: true
+  xy: 222, 84
+  size: 33, 86
+  orig: 88, 120
+  offset: 35, 0
+  index: -1
+xl_nl/xl_nl_3
+  rotate: false
+  xy: 81, 5
+  size: 67, 112
+  orig: 88, 120
+  offset: 9, 1
+  index: -1
+xl_nl/xl_nl_5
+  rotate: false
+  xy: 1, 14
+  size: 79, 103
+  orig: 88, 120
+  offset: 4, 16
+  index: -1
+xl_nl/xl_nl_7
+  rotate: false
+  xy: 149, 36
+  size: 72, 81
+  orig: 88, 120
+  offset: 11, 32
+  index: -1
+xl_nl/xl_nl_9
+  rotate: true
+  xy: 268, 40
+  size: 21, 46
+  orig: 88, 120
+  offset: 15, 34
+  index: -1
+ya
+  rotate: false
+  xy: 222, 37
+  size: 45, 24
+  orig: 46, 26
+  offset: 0, 1
+  index: -1

@@ -1,0 +1,76 @@
+
+Jn_yuhangyuan.png
+size: 446,323
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+feidie
+  rotate: false
+  xy: 1, 144
+  size: 273, 178
+  orig: 273, 178
+  offset: 0, 0
+  index: -1
+gt1
+  rotate: true
+  xy: 415, 256
+  size: 66, 30
+  orig: 66, 30
+  offset: 0, 0
+  index: -1
+gt2
+  rotate: false
+  xy: 331, 6
+  size: 55, 49
+  orig: 55, 49
+  offset: 0, 0
+  index: -1
+gt3
+  rotate: false
+  xy: 249, 1
+  size: 81, 54
+  orig: 81, 54
+  offset: 0, 0
+  index: -1
+guangzhu1_24
+  rotate: false
+  xy: 275, 150
+  size: 139, 172
+  orig: 144, 176
+  offset: 4, 2
+  index: -1
+guangzhu2_24
+  rotate: true
+  xy: 275, 56
+  size: 93, 153
+  orig: 104, 160
+  offset: 7, 4
+  index: -1
+qiu
+  rotate: false
+  xy: 415, 160
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+quan
+  rotate: false
+  xy: 1, 14
+  size: 247, 129
+  orig: 249, 131
+  offset: 1, 1
+  index: -1
+skl_bai_0
+  rotate: false
+  xy: 387, 9
+  size: 45, 46
+  orig: 51, 51
+  offset: 3, 3
+  index: -1
+tianxian
+  rotate: false
+  xy: 415, 190
+  size: 10, 65
+  orig: 10, 65
+  offset: 0, 0
+  index: -1

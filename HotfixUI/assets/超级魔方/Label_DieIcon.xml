@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,60" extention="Label">
+  <displayList>
+    <loader id="n0_vdhu" name="icon" xy="0,0" size="60,60" url="ui://hoqdodep995r3f" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+  </displayList>
+</component>

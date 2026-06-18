@@ -1,0 +1,20 @@
+
+Hero_wuya_hit.png
+size: 315,169
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/du1
+  rotate: true
+  xy: 169, 17
+  size: 151, 145
+  orig: 151, 145
+  offset: 0, 0
+  index: -1
+images/ring_0
+  rotate: false
+  xy: 1, 1
+  size: 167, 167
+  orig: 179, 179
+  offset: 6, 6
+  index: -1

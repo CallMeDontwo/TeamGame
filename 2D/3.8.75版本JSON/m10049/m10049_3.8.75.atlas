@@ -1,0 +1,111 @@
+
+m10049_3.8.75.png
+size: 364,255
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eye_xuanyun
+  rotate: false
+  xy: 162, 24
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+gutou
+  rotate: true
+  xy: 309, 183
+  size: 70, 53
+  orig: 70, 53
+  offset: 0, 0
+  index: -1
+hair_1
+  rotate: true
+  xy: 111, 67
+  size: 101, 99
+  orig: 101, 99
+  offset: 0, 0
+  index: -1
+hair_2
+  rotate: false
+  xy: 290, 97
+  size: 64, 84
+  orig: 64, 84
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 212, 85
+  size: 100, 76
+  orig: 102, 78
+  offset: 1, 1
+  index: -1
+hit_yan1
+  rotate: false
+  xy: 184, 26
+  size: 16, 18
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+hit_yan2
+  rotate: false
+  xy: 162, 2
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+kulou
+  rotate: false
+  xy: 212, 21
+  size: 77, 62
+  orig: 77, 63
+  offset: 0, 1
+  index: -1
+leg_l
+  rotate: true
+  xy: 291, 13
+  size: 82, 62
+  orig: 82, 62
+  offset: 0, 0
+  index: -1
+leg_r
+  rotate: false
+  xy: 2, 2
+  size: 83, 44
+  orig: 83, 44
+  offset: 0, 0
+  index: -1
+mouth_1
+  rotate: false
+  xy: 156, 187
+  size: 151, 66
+  orig: 151, 66
+  offset: 0, 0
+  index: -1
+mouth_2
+  rotate: false
+  xy: 2, 170
+  size: 152, 83
+  orig: 152, 83
+  offset: 0, 0
+  index: -1
+spine
+  rotate: false
+  xy: 2, 48
+  size: 107, 120
+  orig: 107, 120
+  offset: 0, 0
+  index: -1
+ya
+  rotate: false
+  xy: 87, 9
+  size: 73, 35
+  orig: 73, 36
+  offset: 0, 0
+  index: -1
+yingzi
+  rotate: false
+  xy: 111, 46
+  size: 83, 19
+  orig: 83, 19
+  offset: 0, 0
+  index: -1

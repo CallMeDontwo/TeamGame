@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="rjjbyphx">
+  <resources>
+    <component id="hbgv0" name="MainComponent.xml" path="/" exported="true"/>
+    <image id="hbgv1" name="切图_07.png" path="/资源/images/" scale="9grid" scale9grid="1216,0,223,425"/>
+    <image id="hbgv2" name="切图_30.png" path="/资源/images/"/>
+    <image id="hbgv3" name="切图_34.png" path="/资源/images/"/>
+    <image id="hbgv4" name="切图_39.png" path="/资源/images/"/>
+    <image id="hbgv5" name="切图_41.png" path="/资源/images/" scale="9grid" scale9grid="28,17,56,34"/>
+    <image id="hbgv6" name="切图_45.png" path="/资源/images/"/>
+    <image id="hbgv7" name="切图_46.png" path="/资源/images/"/>
+    <image id="hbgv8" name="切图_47.png" path="/资源/images/"/>
+    <image id="hbgv9" name="切图_51.png" path="/资源/images/"/>
+    <image id="hbgva" name="切图_53.png" path="/资源/images/"/>
+    <image id="hbgvb" name="切图_55.png" path="/资源/images/"/>
+    <image id="hbgvc" name="切图_58.png" path="/资源/images/"/>
+    <image id="hbgvd" name="切图_60.png" path="/资源/images/"/>
+    <image id="hbgve" name="切图_62.png" path="/资源/images/"/>
+    <image id="hbgvf" name="切图_65.png" path="/资源/images/"/>
+    <image id="hbgvg" name="切图_29.png" path="/资源/images/"/>
+    <image id="hbgvh" name="切图_68.png" path="/资源/images/"/>
+    <image id="hbgvi" name="切图_79.png" path="/资源/images/"/>
+    <image id="hbgvj" name="切图_81.png" path="/资源/字体/字体3/"/>
+    <image id="hbgvk" name="切图_82.png" path="/资源/字体/字体3/"/>
+    <image id="hbgvl" name="切图_83.png" path="/资源/字体/字体3/"/>
+    <image id="hbgvm" name="切图_84.png" path="/资源/字体/字体3/"/>
+    <image id="hbgvn" name="切图_85.png" path="/资源/字体/字体3/"/>
+    <image id="hbgvo" name="切图_86.png" path="/资源/字体/字体3/"/>
+    <image id="hbgvp" name="切图_87.png" path="/资源/字体/字体3/"/>
+    <image id="hbgvq" name="切图_88.png" path="/资源/字体/字体3/"/>
+    <image id="hbgvr" name="切图_89.png" path="/资源/字体/字体3/"/>
+    <image id="hbgvs" name="切图_90.png" path="/资源/字体/字体3/"/>
+    <image id="hbgvt" name="切图_94.png" path="/资源/images/"/>
+    <image id="hbgvu" name="切图_97.png" path="/资源/images/"/>
+    <image id="hbgvv" name="切图_99.png" path="/资源/images/"/>
+    <image id="hbgvw" name="切图_73.png" path="/资源/images/"/>
+    <image id="hbgvx" name="地图2500X1080.jpg" path="/资源/images/"/>
+    <image id="hbgvy" name="切图_28.png" path="/资源/images/"/>
+    <image id="hbgvz" name="切图_21.png" path="/资源/images/" scale9grid="0,0,-23,-23"/>
+    <image id="hbgv10" name="切图_104.png" path="/资源/images/"/>
+    <image id="hbgv11" name="切图_106.png" path="/资源/images/"/>
+    <image id="hbgv12" name="切图_11.png" path="/资源/images/"/>
+    <image id="hbgv13" name="切图_111.png" path="/资源/字体/字体1/"/>
+    <image id="hbgv14" name="切图_112.png" path="/资源/字体/字体1/"/>
+    <image id="hbgv15" name="切图_113.png" path="/资源/字体/字体1/"/>
+    <image id="hbgv16" name="切图_114.png" path="/资源/字体/字体1/"/>
+    <image id="hbgv17" name="切图_115.png" path="/资源/字体/字体1/"/>
+    <image id="hbgv18" name="切图_116.png" path="/资源/字体/字体1/"/>
+    <image id="hbgv19" name="切图_117.png" path="/资源/字体/字体1/"/>
+    <image id="hbgv1a" name="切图_118.png" path="/资源/字体/字体1/"/>
+    <image id="hbgv1b" name="切图_119.png" path="/资源/字体/字体1/"/>
+    <image id="hbgv1c" name="切图_120.png" path="/资源/字体/字体1/"/>
+    <image id="hbgv1d" name="切图_121.png" path="/资源/字体/字体1/"/>
+    <image id="hbgv1e" name="切图_22.png" path="/资源/images/"/>
+    <image id="hbgv1f" name="切图_123.png" path="/资源/字体/字体2/"/>
+    <image id="hbgv1g" name="切图_125.png" path="/资源/字体/字体2/"/>
+    <image id="hbgv1h" name="切图_126.png" path="/资源/字体/字体2/"/>
+    <image id="hbgv1i" name="切图_127.png" path="/资源/字体/字体2/"/>
+    <image id="hbgv1j" name="切图_128.png" path="/资源/字体/字体2/"/>
+    <image id="hbgv1k" name="切图_129.png" path="/资源/字体/字体2/"/>
+    <image id="hbgv1l" name="切图_130.png" path="/资源/字体/字体2/"/>
+    <image id="hbgv1m" name="切图_131.png" path="/资源/字体/字体2/"/>
+    <image id="hbgv1n" name="切图_132.png" path="/资源/字体/字体2/"/>
+    <image id="hbgv1o" name="切图_133.png" path="/资源/字体/字体2/"/>
+    <image id="hbgv1p" name="切图_135.png" path="/资源/images/"/>
+    <image id="hbgv1q" name="切图_14.png" path="/资源/images/"/>
+    <image id="hbgv1r" name="切图_15.png" path="/资源/images/"/>
+    <image id="hbgv1s" name="切图_16.png" path="/资源/images/"/>
+    <image id="hbgv1t" name="切图_19.png" path="/资源/images/"/>
+    <image id="hbgv1u" name="切图_124.png" path="/资源/字体/字体2/"/>
+    <image id="hbgv1v" name="效果图.jpg" path="/资源/"/>
+    <font id="dqc81w" name="Font1.fnt" path="/资源_导出/字体/" exported="true"/>
+    <font id="dqc81x" name="Font2.fnt" path="/资源_导出/字体/" exported="true"/>
+    <font id="dqc81y" name="Font3.fnt" path="/资源_导出/字体/" exported="true"/>
+    <component id="dqc81z" name="ProgressBar1.xml" path="/组件/"/>
+    <component id="dqc820" name="ProgressBar2.xml" path="/组件/"/>
+    <component id="dqc821" name="Button1.xml" path="/组件/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="k8htpmtj">
+  <resources>
+    <component id="v8690" name="HotfixComponent.xml" path="/" exported="true"/>
+    <component id="v8691" name="DownloadProgress.xml" path="/组件/"/>
+    <component id="v8692" name="DownloadTip.xml" path="/组件/"/>
+    <component id="v8693" name="Button.xml" path="/组件/"/>
+    <image id="q5mt4" name="BG_loading.png" path="/资源/"/>
+    <image id="j5fz5" name="背景.png" path="/资源/"/>
+    <image id="j5fz7" name="logo字体.png" path="/资源/"/>
+    <image id="j5fz8" name="Task_BarFill.png" path="/资源/"/>
+    <image id="j5fz9" name="Task_Bar.png" path="/资源/" scale9grid="61,0,650,53"/>
+  </resources>
+  <publish name="" maxAtlasSize="4096"/>
+</packageDescription>

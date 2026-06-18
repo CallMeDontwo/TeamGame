@@ -1,0 +1,13 @@
+
+dandao_jineng_1.png
+size: 73,74
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dd_yunshi
+  rotate: false
+  xy: 1, 1
+  size: 71, 72
+  orig: 74, 72
+  offset: 1, 0
+  index: -1

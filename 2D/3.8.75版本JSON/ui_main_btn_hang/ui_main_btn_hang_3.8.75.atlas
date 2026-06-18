@@ -1,0 +1,62 @@
+
+ui_main_btn_hang_3.8.75.png
+size: 112,94
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ack
+  rotate: true
+  xy: 81, 57
+  size: 35, 29
+  orig: 37, 31
+  offset: 1, 1
+  index: -1
+dian
+  rotate: false
+  xy: 81, 2
+  size: 11, 12
+  orig: 13, 14
+  offset: 1, 1
+  index: -1
+fen
+  rotate: true
+  xy: 2, 5
+  size: 7, 19
+  orig: 9, 21
+  offset: 1, 1
+  index: -1
+miao
+  rotate: false
+  xy: 23, 5
+  size: 16, 7
+  orig: 18, 9
+  offset: 1, 1
+  index: -1
+pan
+  rotate: false
+  xy: 2, 14
+  size: 77, 78
+  orig: 79, 80
+  offset: 1, 1
+  index: -1
+shi
+  rotate: true
+  xy: 81, 16
+  size: 17, 13
+  orig: 19, 15
+  offset: 1, 1
+  index: -1
+xx1
+  rotate: true
+  xy: 96, 18
+  size: 15, 14
+  orig: 17, 16
+  offset: 1, 1
+  index: -1
+xx2
+  rotate: false
+  xy: 81, 35
+  size: 15, 20
+  orig: 17, 22
+  offset: 1, 1
+  index: -1

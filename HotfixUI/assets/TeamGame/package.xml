@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="hyf249vw">
+  <resources>
+    <component id="c7oi0" name="Pro_hp.xml" path="/组件/" exported="true"/>
+    <image id="c7oi1" name="切图_29.png" path="/资源/pro/"/>
+    <image id="c7oi2" name="切图_30.png" path="/资源/pro/"/>
+    <component id="c7oi3" name="TeamMain.xml" path="/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

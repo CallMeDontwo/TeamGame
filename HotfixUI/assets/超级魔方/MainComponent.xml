@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1200,900" pivot="0.5,0.5" anchor="true">
+  <controller name="C_Type" pages="0,,1,,2," selected="0"/>
+  <controller name="C_JP" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n2_995r" name="n2" src="995r4e" fileName="资源/主界面/ui_bg.png" xy="22,30"/>
+    <component id="n5_995r" name="Com_JP1" src="995r4s" fileName="组件/Com_JP.xml" xy="31,47">
+      <Label icon="ui://hoqdodep995r4f"/>
+    </component>
+    <component id="n6_995r" name="Com_JP2" src="995r4s" fileName="组件/Com_JP.xml" xy="314,47">
+      <Label icon="ui://hoqdodep995r3l"/>
+    </component>
+    <component id="n7_995r" name="Com_JP3" src="995r4s" fileName="组件/Com_JP.xml" xy="597,47">
+      <Label icon="ui://hoqdodep995r47"/>
+    </component>
+    <component id="n8_995r" name="Com_All" src="995r4s" fileName="组件/Com_JP.xml" xy="883,47">
+      <Label icon="ui://hoqdodep995r38"/>
+    </component>
+    <component id="n18_995r" name="Com_Sub1" src="995r4z" fileName="组件/SubComponent1.xml" xy="34,137">
+      <gearDisplay controller="C_Type" pages="0"/>
+    </component>
+    <component id="n19_995r" name="Com_Sub2" src="995r50" fileName="组件/SubComponent2.xml" xy="83,134">
+      <gearDisplay controller="C_Type" pages="1"/>
+    </component>
+    <component id="n23_995r" name="Com_Sub3" src="995r51" fileName="组件/SubComponent3.xml" xy="41,139">
+      <gearDisplay controller="C_Type" pages="2"/>
+    </component>
+    <component id="n14_995r" name="Com_Credit" src="995r4x" fileName="组件/Com_Credit.xml" xy="910,142">
+      <Label title="0"/>
+    </component>
+    <component id="n15_995r" name="Com_Paid" src="nilu5d" fileName="组件/Com_Paid.xml" xy="910,242">
+      <Label title="0"/>
+    </component>
+    <component id="n16_995r" name="Com_Win" src="nilu5e" fileName="组件/Com_Win.xml" xy="910,343">
+      <Label title="0"/>
+    </component>
+    <component id="n11_995r" name="Com_OUT" src="995r4w" fileName="组件/Com_OUT.xml" xy="983,426" group="n34_vdhu"/>
+    <component id="n9_995r" name="Com_SPIN" src="995r4t" fileName="组件/Com_SPIN.xml" xy="926,570" group="n34_vdhu" controller="C_Num,0"/>
+    <group id="n34_vdhu" name="n34" xy="926,426" size="223,255" advanced="true">
+      <gearDisplay controller="C_Type" pages="0,1"/>
+    </group>
+    <component id="n38_vdhu" name="Lable_DieDieLeTime" src="vdhu5j" fileName="组件/SubComponent3/Label_DieDieLeTime.xml" xy="947,440" group="n40_vdhu"/>
+    <component id="n39_vdhu" name="Lable_DieDieLeCoins" src="vdhu5i" fileName="组件/SubComponent3/Label_DieDieLeCoins.xml" xy="947,557" group="n40_vdhu"/>
+    <group id="n40_vdhu" name="n40" xy="947,440" size="177,236" advanced="true">
+      <gearDisplay controller="C_Type" pages="2"/>
+    </group>
+    <list id="n17_995r" name="List_Icon" xy="28,679" size="1140,181" layout="flow_hz" colGap="-4" defaultItem="ui://hoqdodep995r4y">
+      <item icon="ui://hoqdodep995r3f"/>
+      <item icon="ui://hoqdodep995r3g"/>
+      <item icon="ui://hoqdodep995r3h"/>
+      <item icon="ui://hoqdodep995r2z"/>
+      <item icon="ui://hoqdodep995r2y"/>
+      <item icon="ui://hoqdodep995r2x"/>
+      <item icon="ui://hoqdodep995r2w"/>
+      <item title="1000" icon="ui://hoqdodep995r2f"/>
+    </list>
+    <component id="n24_w2zw" name="Com_Settle" src="w2zw54" fileName="组件/Com_AwardShow.xml" xy="149,175" visible="false"/>
+    <component id="n31_dxvn" name="Com_JPAward" src="dxvn5a" fileName="组件/Com_JPAward.xml" xy="0,0">
+      <gearDisplay controller="C_JP" pages="1"/>
+    </component>
+    <loader3D id="n33_nilu" name="Loader_JP" xy="0,0" size="1200,900" animation="" skin="" loop="true"/>
+    <image id="n3_995r" name="n3" src="995r4g" fileName="资源/主界面/ui_zhubiankuang.png" xy="0,0"/>
+  </displayList>
+</component>

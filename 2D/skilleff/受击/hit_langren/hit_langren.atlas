@@ -1,0 +1,13 @@
+
+hit_langren.png
+size: 116,97
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/fxxx/bd_atk_0
+  rotate: false
+  xy: 1, 1
+  size: 114, 95
+  orig: 115, 115
+  offset: 0, 10
+  index: -1

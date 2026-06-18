@@ -1,0 +1,76 @@
+
+ui_main_btn_gift_grow_3.8.75.png
+size: 94,137
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hdj1
+  rotate: false
+  xy: 38, 2
+  size: 15, 16
+  orig: 17, 18
+  offset: 1, 1
+  index: -1
+hdj2
+  rotate: true
+  xy: 66, 80
+  size: 55, 26
+  orig: 55, 26
+  offset: 0, 0
+  index: -1
+libao
+  rotate: false
+  xy: 2, 95
+  size: 62, 40
+  orig: 64, 42
+  offset: 1, 1
+  index: -1
+q1
+  rotate: false
+  xy: 2, 3
+  size: 34, 53
+  orig: 34, 53
+  offset: 0, 0
+  index: -1
+q2
+  rotate: true
+  xy: 2, 58
+  size: 35, 57
+  orig: 35, 57
+  offset: 0, 0
+  index: -1
+q3
+  rotate: true
+  xy: 38, 20
+  size: 36, 50
+  orig: 36, 50
+  offset: 0, 0
+  index: -1
+xx11
+  rotate: false
+  xy: 61, 59
+  size: 15, 19
+  orig: 17, 21
+  offset: 1, 1
+  index: -1
+xx12
+  rotate: false
+  xy: 55, 4
+  size: 12, 14
+  orig: 14, 16
+  offset: 1, 1
+  index: -1
+xx13
+  rotate: false
+  xy: 69, 4
+  size: 12, 14
+  orig: 14, 16
+  offset: 1, 1
+  index: -1
+xx14
+  rotate: false
+  xy: 78, 60
+  size: 14, 18
+  orig: 16, 20
+  offset: 1, 1
+  index: -1

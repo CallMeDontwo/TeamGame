@@ -1,0 +1,34 @@
+
+jn_xixuegui_bd.png
+size: 187,361
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/bd_atk_0
+  rotate: false
+  xy: 1, 180
+  size: 108, 90
+  orig: 109, 109
+  offset: 0, 10
+  index: -1
+images/glow_0
+  rotate: false
+  xy: 1, 275
+  size: 85, 85
+  orig: 109, 109
+  offset: 12, 12
+  index: -1
+images/sanjiao_0
+  rotate: true
+  xy: 87, 271
+  size: 89, 99
+  orig: 109, 109
+  offset: 11, 7
+  index: -1
+images/xy_00
+  rotate: true
+  xy: 1, 1
+  size: 178, 183
+  orig: 178, 183
+  offset: 0, 0
+  index: -1

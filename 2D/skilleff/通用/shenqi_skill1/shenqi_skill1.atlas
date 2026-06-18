@@ -1,0 +1,97 @@
+
+shenqi_skill1.png
+size: 591,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1/baodian_00
+  rotate: false
+  xy: 1, 376
+  size: 226, 135
+  orig: 226, 135
+  offset: 0, 0
+  index: -1
+1/baodian_01
+  rotate: false
+  xy: 1, 240
+  size: 226, 135
+  orig: 226, 135
+  offset: 0, 0
+  index: -1
+1/baodian_02
+  rotate: false
+  xy: 228, 376
+  size: 226, 135
+  orig: 226, 135
+  offset: 0, 0
+  index: -1
+1/baodian_03
+  rotate: false
+  xy: 1, 104
+  size: 226, 135
+  orig: 226, 135
+  offset: 0, 0
+  index: -1
+1/baodian_04
+  rotate: false
+  xy: 228, 240
+  size: 226, 135
+  orig: 226, 135
+  offset: 0, 0
+  index: -1
+1/baodian_05
+  rotate: true
+  xy: 455, 285
+  size: 226, 135
+  orig: 226, 135
+  offset: 0, 0
+  index: -1
+1/baodian_06
+  rotate: false
+  xy: 228, 104
+  size: 226, 135
+  orig: 226, 135
+  offset: 0, 0
+  index: -1
+1/baodian_07
+  rotate: true
+  xy: 455, 58
+  size: 226, 135
+  orig: 226, 135
+  offset: 0, 0
+  index: -1
+bai_0
+  rotate: false
+  xy: 353, 52
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+par_daxing_0
+  rotate: false
+  xy: 1, 1
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+yanwu_qiu_0
+  rotate: false
+  xy: 207, 31
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+yanwu_qiu_1
+  rotate: false
+  xy: 280, 31
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+yuan_0
+  rotate: false
+  xy: 104, 1
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1

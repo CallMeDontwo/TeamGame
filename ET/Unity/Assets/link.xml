@@ -1,0 +1,51 @@
+<linker>
+	<assembly fullname="Unity.Core" preserve="all"/>
+	<assembly fullname="Unity.Mono" preserve="all"/>
+	<assembly fullname="Unity.ThirdParty" preserve="all"/>
+	<assembly fullname="Unity.Model" preserve="all"/>
+	<assembly fullname="Unity.ModelView" preserve="all"/>
+	<assembly fullname="Unity.Hotfix" preserve="all"/>
+	<assembly fullname="Unity.HotfixView" preserve="all"/>
+	<assembly fullname="mscorlib">
+		<namespace fullname="System" preserve="all" />
+		<namespace fullname="System.Collections" preserve="all" />
+		<namespace fullname="System.Collections.Generic" preserve="all" />
+		<namespace fullname="System.IO" preserve="all" />
+		<namespace fullname="System.Reflection" preserve="all" />
+		<namespace fullname="System.Threading.Tasks" preserve="all" />
+	</assembly>
+	<assembly fullname="System">
+		<namespace fullname="System.Collections.Generic" preserve="all" />
+		<type fullname="System.CodeDom.Compiler.GeneratedCodeAttribute" preserve="all" />
+		<type fullname="System.ComponentModel.EditorBrowsableAttribute" preserve="all" />
+		<type fullname="System.ComponentModel.EditorBrowsableState" preserve="all" />
+		<type fullname="System.Net.EndPoint" preserve="all" />
+		<type fullname="System.Net.IPEndPoint" preserve="all" />
+		<type fullname="System.Net.Sockets.AddressFamily" preserve="all" />
+		<type fullname="System.Net.Sockets.ProtocolType" preserve="all" />
+		<type fullname="System.Net.Sockets.Socket" preserve="all" />
+		<type fullname="System.Net.Sockets.SocketAsyncEventArgs" preserve="all" />
+		<type fullname="System.Net.Sockets.SocketAsyncOperation" preserve="all" />
+		<type fullname="System.Net.Sockets.SocketError" preserve="all" />
+		<type fullname="System.Net.Sockets.SocketType" preserve="all" />
+	</assembly>
+	<assembly fullname="System.Core">
+		<namespace fullname="System" preserve="all"/>
+		<namespace fullname="System.Collections.Generic" preserve="all"/>
+		<namespace fullname="System.Linq" preserve="all"/>
+	</assembly>
+	<assembly fullname="System.Net.Http" preserve="all" />
+	<assembly fullname="System.Runtime.CompilerServices.Unsafe" preserve="all"/>
+	<assembly fullname="UnityEngine.CoreModule">
+		<namespace fullname="UnityEngine" preserve="all" />
+	</assembly>
+	<assembly fullname="UnityEngine.AnimationModule" preserve="all" />
+	<assembly fullname="UnityEngine.Purchasing" preserve="all" />
+	<assembly fullname="Unity.InputSystem">
+		<namespace fullname="UnityEngine.InputSystem" preserve="all"/>
+	</assembly>
+	<assembly fullname="FairyGUI.Runtime" preserve="all" />
+	<assembly fullname="MemoryPack.Core" preserve="all"/>
+	<assembly fullname="spine-unity" preserve="all"/>
+	<assembly fullname="YooAsset" preserve="all"/>
+</linker>

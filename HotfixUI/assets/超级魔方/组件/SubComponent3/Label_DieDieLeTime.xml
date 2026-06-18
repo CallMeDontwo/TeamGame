@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="177,119" extention="Label">
+  <displayList>
+    <image id="n1_vdhu" name="n1" src="995r4d" fileName="资源/主界面/time_banner.png" xy="0,0"/>
+    <text id="n3_vdhu" name="n3" xy="46,8" size="86,43" fontSize="29" color="#5d2442" align="center" vAlign="middle" letterSpacing="-1" autoSize="none" text="TIME"/>
+    <text id="n0_vdhu" name="Text_Seconds" xy="10,31" size="155,77" fontSize="44" color="#fff8a5" align="center" vAlign="middle" vars="true" autoSize="none" strokeColor="#ca516d" strokeSize="3" singleLine="true" text="{var1=10}S">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+</component>

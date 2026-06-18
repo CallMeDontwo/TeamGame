@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="97,55" overflow="hidden">
+  <displayList>
+    <text id="n11_vdhu" name="Text_NewText" xy="0,-55" size="97,55" fontSize="41" align="center" vAlign="middle" autoSize="none" text=""/>
+    <text id="n9_vdhu" name="Text_OldText" xy="0,0" size="97,55" fontSize="41" align="center" vAlign="middle" autoSize="none" text="X30"/>
+  </displayList>
+  <transition name="T_Show">
+    <item time="0" type="XY" target="n11_vdhu" tween="true" startValue="0,-32,0,-1" endValue="0,0,0,0" duration="12"/>
+    <item time="0" type="XY" target="n9_vdhu" tween="true" startValue="0,0,0,0" endValue="0,32,0,1" duration="12"/>
+  </transition>
+</component>

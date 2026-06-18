@@ -1,0 +1,111 @@
+
+Jn_Nano.png
+size: 1004,380
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+111
+  rotate: false
+  xy: 828, 4
+  size: 20, 170
+  orig: 20, 170
+  offset: 0, 0
+  index: -1
+a
+  rotate: true
+  xy: 533, 1
+  size: 95, 173
+  orig: 95, 173
+  offset: 0, 0
+  index: -1
+b
+  rotate: false
+  xy: 707, 8
+  size: 88, 88
+  orig: 88, 88
+  offset: 0, 0
+  index: -1
+bz_00
+  rotate: false
+  xy: 108, 44
+  size: 91, 82
+  orig: 91, 82
+  offset: 0, 0
+  index: -1
+c
+  rotate: true
+  xy: 200, 65
+  size: 61, 50
+  orig: 61, 50
+  offset: 0, 0
+  index: -1
+chen
+  rotate: false
+  xy: 309, 295
+  size: 560, 84
+  orig: 560, 84
+  offset: 0, 0
+  index: -1
+feiji
+  rotate: false
+  xy: 1, 127
+  size: 307, 252
+  orig: 307, 252
+  offset: 0, 0
+  index: -1
+glow_0
+  rotate: false
+  xy: 849, 11
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ksquan_1
+  rotate: false
+  xy: 1, 20
+  size: 106, 106
+  orig: 106, 106
+  offset: 0, 0
+  index: -1
+sphere_00
+  rotate: false
+  xy: 200, 20
+  size: 59, 44
+  orig: 59, 44
+  offset: 0, 0
+  index: -1
+yan1
+  rotate: false
+  xy: 309, 24
+  size: 223, 130
+  orig: 223, 130
+  offset: 0, 0
+  index: -1
+yan2
+  rotate: true
+  xy: 870, 140
+  size: 239, 133
+  orig: 239, 133
+  offset: 0, 0
+  index: -1
+yan3
+  rotate: false
+  xy: 309, 155
+  size: 264, 139
+  orig: 264, 139
+  offset: 0, 0
+  index: -1
+yan4
+  rotate: false
+  xy: 574, 175
+  size: 278, 119
+  orig: 278, 119
+  offset: 0, 0
+  index: -1
+yan5
+  rotate: false
+  xy: 574, 97
+  size: 253, 77
+  orig: 253, 77
+  offset: 0, 0
+  index: -1

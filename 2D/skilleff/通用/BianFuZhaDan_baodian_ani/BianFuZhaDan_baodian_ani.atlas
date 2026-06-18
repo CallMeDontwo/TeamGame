@@ -1,0 +1,27 @@
+
+BianFuZhaDan_baodian_ani.png
+size: 115,118
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bai
+  rotate: false
+  xy: 1, 47
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+guangshu_0
+  rotate: true
+  xy: 1, 1
+  size: 45, 90
+  orig: 45, 90
+  offset: 0, 0
+  index: -1
+tuanyun_2_0
+  rotate: false
+  xy: 72, 75
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1

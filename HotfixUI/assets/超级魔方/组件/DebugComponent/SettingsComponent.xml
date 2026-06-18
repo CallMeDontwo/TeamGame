@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="960,1500">
+  <controller name="C_Page" pages="0,,1,,2,,3,,4," selected="0"/>
+  <displayList>
+    <image id="n0_jxfj" name="n0" src="jxfj5s" fileName="资源/DebugUI/切图/background_bottom.png" xy="0,0" size="960,1500">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_jxfj" name="n1" xy="317,13" size="324,72" fontSize="54" color="#00ebf0" align="center" vAlign="middle" text="后台管理系统">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n10_jxfj" name="Com_Page0" src="jxfj6c" fileName="组件/DebugComponent/SettingComponent1.xml" xy="0,0">
+      <gearDisplay controller="C_Page" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n11_ee5c" name="Com_Page1" src="ee5c6e" fileName="组件/DebugComponent/SettingComponent2.xml" xy="0,0">
+      <gearDisplay controller="C_Page" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n12_ee5c" name="Com_Page2" src="ee5c6f" fileName="组件/DebugComponent/SettingComponent3.xml" xy="0,0" size="960,1500">
+      <gearDisplay controller="C_Page" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n13_ee5c" name="Com_Page3" src="ee5c6h" fileName="组件/DebugComponent/SettingComponent4.xml" xy="0,0">
+      <gearDisplay controller="C_Page" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n14_m0uw" name="Com_Page4" src="ee5c6j" fileName="组件/DebugComponent/SettingComponent5.xml" xy="0,0">
+      <gearDisplay controller="C_Page" pages="4"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+</component>

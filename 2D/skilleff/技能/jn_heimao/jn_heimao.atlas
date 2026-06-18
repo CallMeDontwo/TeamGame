@@ -1,0 +1,76 @@
+
+jn_heimao.png
+size: 708,172
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Line_00
+  rotate: false
+  xy: 262, 1
+  size: 194, 11
+  orig: 198, 12
+  offset: 2, 0
+  index: -1
+images/Line_01
+  rotate: false
+  xy: 1, 2
+  size: 193, 5
+  orig: 196, 5
+  offset: 1, 0
+  index: -1
+images/dg_01
+  rotate: true
+  xy: 87, 12
+  size: 159, 174
+  orig: 159, 174
+  offset: 0, 0
+  index: -1
+images/dg_02
+  rotate: false
+  xy: 346, 58
+  size: 253, 113
+  orig: 254, 113
+  offset: 1, 0
+  index: -1
+images/glow_00
+  rotate: false
+  xy: 600, 64
+  size: 107, 107
+  orig: 115, 115
+  offset: 4, 4
+  index: -1
+images/jsc_0
+  rotate: true
+  xy: 1, 8
+  size: 163, 85
+  orig: 168, 87
+  offset: 3, 1
+  index: -1
+images/jsc_1
+  rotate: true
+  xy: 262, 13
+  size: 158, 83
+  orig: 168, 87
+  offset: 6, 1
+  index: -1
+images/jsc_2
+  rotate: false
+  xy: 346, 32
+  size: 102, 25
+  orig: 168, 87
+  offset: 61, 0
+  index: -1
+images/lizi_0
+  rotate: false
+  xy: 514, 14
+  size: 193, 43
+  orig: 212, 51
+  offset: 10, 4
+  index: -1
+images/par_xing_0
+  rotate: false
+  xy: 457, 1
+  size: 56, 56
+  orig: 58, 58
+  offset: 1, 1
+  index: -1

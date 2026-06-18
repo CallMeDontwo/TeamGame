@@ -1,0 +1,97 @@
+
+JN_dayugu.png
+size: 410,194
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd_ci_huang_0
+  rotate: false
+  xy: 1, 60
+  size: 115, 133
+  orig: 143, 143
+  offset: 15, 10
+  index: -1
+ci_glow_0
+  rotate: false
+  xy: 235, 128
+  size: 137, 65
+  orig: 143, 86
+  offset: 6, 1
+  index: -1
+glow_0
+  rotate: false
+  xy: 235, 3
+  size: 94, 94
+  orig: 122, 122
+  offset: 14, 14
+  index: -1
+par_bai_0
+  rotate: false
+  xy: 100, 11
+  size: 17, 17
+  orig: 23, 23
+  offset: 3, 3
+  index: -1
+ring_0
+  rotate: false
+  xy: 117, 76
+  size: 117, 117
+  orig: 122, 122
+  offset: 3, 3
+  index: -1
+yanwu1_1
+  rotate: false
+  xy: 355, 42
+  size: 53, 55
+  orig: 60, 60
+  offset: 5, 2
+  index: -1
+yanwu2_0
+  rotate: false
+  xy: 355, 1
+  size: 43, 40
+  orig: 48, 48
+  offset: 3, 4
+  index: -1
+yg_1
+  rotate: false
+  xy: 373, 118
+  size: 36, 75
+  orig: 38, 76
+  offset: 1, 0
+  index: -1
+yg_2
+  rotate: false
+  xy: 330, 16
+  size: 24, 81
+  orig: 26, 83
+  offset: 1, 1
+  index: -1
+yg_3
+  rotate: true
+  xy: 1, 1
+  size: 27, 98
+  orig: 28, 100
+  offset: 1, 1
+  index: -1
+yg_4
+  rotate: true
+  xy: 1, 29
+  size: 30, 119
+  orig: 32, 121
+  offset: 1, 1
+  index: -1
+yg_5
+  rotate: true
+  xy: 121, 5
+  size: 70, 92
+  orig: 72, 92
+  offset: 1, 0
+  index: -1
+yg_6
+  rotate: false
+  xy: 235, 98
+  size: 121, 29
+  orig: 123, 30
+  offset: 1, 0
+  index: -1

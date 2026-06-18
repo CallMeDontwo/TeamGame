@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="41,801" restrictSize="0,0,221,0" extention="ProgressBar">
+  <displayList>
+    <image id="n8_t0m4" name="n8" src="t0m49x" fileName="资源/ui更新/ui/能量槽.png" xy="0,0"/>
+    <image id="n3_njk9" name="bar_v" src="t0m49y" fileName="资源/ui更新/ui/能量条.png" xy="10,10" fillMethod="vt" fillOrigin="1"/>
+    <image id="n7_njk9" name="n7" src="njk96b" fileName="资源/ui/能量条/阶段ui.png" xy="-2,195"/>
+    <image id="n6_njk9" name="n6" src="njk96b" fileName="资源/ui/能量条/阶段ui.png" xy="-2,390"/>
+    <image id="n5_njk9" name="n5" src="njk96b" fileName="资源/ui/能量条/阶段ui.png" xy="-2,585"/>
+  </displayList>
+  <ProgressBar/>
+</component>

@@ -1,0 +1,41 @@
+
+hit_aimiliya.png
+size: 184,230
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0001
+  rotate: false
+  xy: 119, 167
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+dian
+  rotate: false
+  xy: 119, 150
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+guan2
+  rotate: false
+  xy: 1, 1
+  size: 95, 95
+  orig: 95, 95
+  offset: 0, 0
+  index: -1
+quan1
+  rotate: false
+  xy: 97, 10
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+x
+  rotate: false
+  xy: 1, 97
+  size: 117, 132
+  orig: 117, 132
+  offset: 0, 0
+  index: -1

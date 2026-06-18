@@ -1,0 +1,118 @@
+
+jn_nezha.png
+size: 407,283
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd_xl/bd_xl_0
+  rotate: false
+  xy: 252, 82
+  size: 97, 97
+  orig: 105, 105
+  offset: 6, 1
+  index: -1
+bd_xl/bd_xl_1
+  rotate: true
+  xy: 52, 71
+  size: 103, 97
+  orig: 105, 105
+  offset: 2, 7
+  index: -1
+bd_xl/bd_xl_2
+  rotate: true
+  xy: 52, 176
+  size: 105, 91
+  orig: 105, 105
+  offset: 0, 14
+  index: -1
+chongci_5
+  rotate: true
+  xy: 145, 179
+  size: 102, 91
+  orig: 105, 105
+  offset: 2, 3
+  index: -1
+dici
+  rotate: true
+  xy: 351, 141
+  size: 60, 44
+  orig: 60, 44
+  offset: 0, 0
+  index: -1
+dici2
+  rotate: false
+  xy: 293, 42
+  size: 55, 38
+  orig: 55, 38
+  offset: 0, 0
+  index: -1
+dilie_0
+  rotate: true
+  xy: 238, 181
+  size: 100, 88
+  orig: 105, 105
+  offset: 5, 7
+  index: -1
+glow_0
+  rotate: false
+  xy: 155, 5
+  size: 70, 70
+  orig: 90, 90
+  offset: 10, 10
+  index: -1
+shengbo_0
+  rotate: false
+  xy: 151, 77
+  size: 99, 100
+  orig: 108, 108
+  offset: 5, 4
+  index: -1
+wq_jian
+  rotate: true
+  xy: 2, 8
+  size: 273, 48
+  orig: 274, 48
+  offset: 1, 0
+  index: -1
+wq_mao
+  rotate: true
+  xy: 110, 3
+  size: 66, 43
+  orig: 66, 43
+  offset: 0, 0
+  index: -1
+xs_huoyan/xs_huoyan_0
+  rotate: false
+  xy: 328, 203
+  size: 77, 78
+  orig: 77, 90
+  offset: 0, 3
+  index: -1
+xs_huoyan/xs_huoyan_2
+  rotate: false
+  xy: 227, 6
+  size: 64, 69
+  orig: 77, 90
+  offset: 13, 16
+  index: -1
+xs_huoyan/xs_huoyan_4
+  rotate: false
+  xy: 52, 3
+  size: 56, 66
+  orig: 77, 90
+  offset: 21, 23
+  index: -1
+xs_huoyan/xs_huoyan_6
+  rotate: false
+  xy: 351, 79
+  size: 43, 60
+  orig: 77, 90
+  offset: 24, 29
+  index: -1
+xs_huoyan/xs_huoyan_7
+  rotate: true
+  xy: 293, 2
+  size: 38, 57
+  orig: 77, 90
+  offset: 27, 31
+  index: -1

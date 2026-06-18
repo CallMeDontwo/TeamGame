@@ -1,0 +1,13 @@
+
+buff_chengmo.png
+size: 83,57
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chengmo
+  rotate: false
+  xy: 1, 1
+  size: 81, 55
+  orig: 81, 55
+  offset: 0, 0
+  index: -1

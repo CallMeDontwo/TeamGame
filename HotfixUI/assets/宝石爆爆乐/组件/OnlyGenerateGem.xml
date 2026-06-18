@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="650,70">
+  <displayList>
+    <loader id="n13_tuks" name="n13" xy="580,0" size="70,70" url="ui://oy07mpfwtuks9r" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n12_tuks" name="n12" xy="510,0" size="70,70" url="ui://oy07mpfwtuks9q" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n9_tuks" name="n9" xy="300,0" size="70,70" url="ui://oy07mpfwtuks9n" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n8_tuks" name="n8" xy="230,0" size="70,70" url="ui://oy07mpfwtuks9o" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n11_tuks" name="n11" xy="440,0" size="70,70" url="ui://oy07mpfwtuks9s" align="center" vAlign="middle" fill="scale"/>
+    <loader id="n10_tuks" name="n10" xy="370,0" size="70,70" url="ui://oy07mpfwtuks9p" align="center" vAlign="middle" fill="scale"/>
+    <text id="n0_tuks" name="n0" xy="0,0" size="230,70" fontSize="53" color="#ffffff" strokeColor="#000000" text="只会出现:"/>
+  </displayList>
+</component>

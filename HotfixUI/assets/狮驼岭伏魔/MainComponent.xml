@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" designImageOffsetX="-56" designImageOffsetY="-30" designImageAlpha="100">
+  <displayList>
+    <image id="n2_dqc8" name="n2" src="hbgv12" fileName="资源/images/切图_11.png" xy="627,0" group="n33_ipu7"/>
+    <component id="n24_dqc8" name="Progress_Huihe" src="dqc81z" fileName="组件/ProgressBar1.xml" xy="861,-14" group="n33_ipu7">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <group id="n33_ipu7" name="n33" xy="627,-14" size="665,212" advanced="true">
+      <relation target="" sidePair="center-center"/>
+    </group>
+    <image id="n1_dqc8" name="n1" src="hbgv1" fileName="资源/images/切图_07.png" xy="0,655">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </image>
+    <list id="n32_dqc8" name="List_GemList" xy="408,799" size="1112,157" overflow="scroll"/>
+    <image id="n10_dqc8" name="n10" src="hbgv9" fileName="资源/images/切图_51.png" xy="41,740" group="n34_ipu7"/>
+    <image id="n7_dqc8" name="n7" src="hbgv1q" fileName="资源/images/切图_14.png" xy="9,773" group="n34_ipu7"/>
+    <text id="n26_dqc8" name="Text_SuperBigAward" xy="35,789" size="224,53" group="n34_ipu7" font="ui://rjjbyphxdqc81w" fontSize="12" vAlign="middle" letterSpacing="-10" autoSize="none" singleLine="true" text="9999999"/>
+    <image id="n11_dqc8" name="n11" src="hbgva" fileName="资源/images/切图_53.png" xy="42,847" group="n34_ipu7"/>
+    <image id="n8_dqc8" name="n8" src="hbgv1r" fileName="资源/images/切图_15.png" xy="8,881" group="n34_ipu7"/>
+    <text id="n27_dqc8" name="Text_BigAward" xy="35,897" size="224,53" group="n34_ipu7" font="ui://rjjbyphxdqc81w" fontSize="12" vAlign="middle" letterSpacing="-10" autoSize="none" singleLine="true" text="9999999"/>
+    <image id="n12_dqc8" name="n12" src="hbgvb" fileName="资源/images/切图_55.png" xy="41,958" group="n34_ipu7"/>
+    <image id="n9_dqc8" name="n9" src="hbgv1s" fileName="资源/images/切图_16.png" xy="7,990" group="n34_ipu7"/>
+    <text id="n28_dqc8" name="Text_LittleAward" xy="35,1008" size="224,53" group="n34_ipu7" font="ui://rjjbyphxdqc81w" fontSize="12" vAlign="middle" letterSpacing="-10" autoSize="none" singleLine="true" text="9999999"/>
+    <group id="n34_ipu7" name="n34" xy="7,740" size="281,344" advanced="true">
+      <relation target="" sidePair="bottom-bottom"/>
+    </group>
+    <image id="n14_dqc8" name="n14" src="hbgvd" fileName="资源/images/切图_60.png" xy="325,1010" group="n35_ipu7"/>
+    <image id="n16_dqc8" name="n16" src="hbgv5" fileName="资源/images/切图_41.png" xy="495,994" size="241,71" group="n35_ipu7"/>
+    <text id="n29_dqc8" name="Text_Credit" xy="501,1005" size="224,53" group="n35_ipu7" font="ui://rjjbyphxdqc81w" fontSize="12" vAlign="middle" letterSpacing="-10" autoSize="none" singleLine="true" text="9999999"/>
+    <image id="n13_dqc8" name="n13" src="hbgvc" fileName="资源/images/切图_58.png" xy="776,1011" group="n35_ipu7"/>
+    <image id="n17_dqc8" name="n17" src="hbgv5" fileName="资源/images/切图_41.png" xy="941,994" size="169,71" group="n35_ipu7"/>
+    <text id="n30_dqc8" name="Text_Bet" xy="948,1005" size="151,53" group="n35_ipu7" font="ui://rjjbyphxdqc81w" fontSize="12" vAlign="middle" letterSpacing="-10" autoSize="none" singleLine="true" text="99999"/>
+    <image id="n15_dqc8" name="n15" src="hbgve" fileName="资源/images/切图_62.png" xy="1159,1012" group="n35_ipu7"/>
+    <image id="n18_dqc8" name="n18" src="hbgv5" fileName="资源/images/切图_41.png" xy="1404,994" size="207,71" group="n35_ipu7"/>
+    <text id="n31_dqc8" name="Text_AllScore" xy="1411,1005" size="190,53" group="n35_ipu7" font="ui://rjjbyphxdqc81w" fontSize="12" vAlign="middle" letterSpacing="-10" autoSize="none" singleLine="true" text="99999"/>
+    <group id="n35_ipu7" name="n35" xy="325,994" size="1286,71" advanced="true">
+      <relation target="" sidePair="bottom-bottom"/>
+    </group>
+    <image id="n6_dqc8" name="n6" src="hbgv11" fileName="资源/images/切图_106.png" xy="1626,1008" group="n36_ipu7"/>
+    <component id="n25_dqc8" name="Btn_Auto" src="dqc821" fileName="组件/Button1.xml" xy="1682,897" group="n36_ipu7"/>
+    <image id="n5_dqc8" name="n5" src="hbgv10" fileName="资源/images/切图_104.png" xy="1830,1006" group="n36_ipu7"/>
+    <group id="n36_ipu7" name="n36" xy="1626,897" size="274,160" advanced="true">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </group>
+  </displayList>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="262,145" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_ggki" name="n0" src="ggki1h" fileName="资源/ui/buttonsi_bbl_start.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_dxrk" name="n1" xy="0,17" size="262,67" fontSize="50" color="#c05c12" align="center" vAlign="middle" autoSize="none" bold="true" italic="true" text="START"/>
+    <richtext id="n2_ftd5" name="Text_Score" xy="111,85" size="40,42" fontSize="31" color="#c05c12" align="center" vAlign="middle" bold="true" italic="true" text="10">
+      <relation target="" sidePair="center-center"/>
+    </richtext>
+  </displayList>
+  <Button downEffect="dark" downEffectValue=".8"/>
+</component>

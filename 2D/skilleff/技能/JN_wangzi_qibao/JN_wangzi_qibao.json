@@ -1,0 +1,1174 @@
+{
+  "skeleton": {
+    "hash": "uoD57KjBWMF+0tIhk/8Af5LUuFw",
+    "spine": "3.8.99",
+    "images": "./images/",
+    "audio": "D:/新割草小游戏动效制作/2023.1.9测试动画特效资源/技能制作总/重压史莱姆/史莱姆重压spine工程/images"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "scaleX": 1.4,
+      "scaleY": 1.4
+    },
+    {
+      "name": "fxxx",
+      "parent": "root"
+    },
+    {
+      "name": "ci",
+      "parent": "fxxx",
+      "y": 4.43,
+      "scaleX": 1.5356,
+      "scaleY": 0.8987
+    },
+    {
+      "name": "ring",
+      "parent": "fxxx"
+    },
+    {
+      "name": "par_yan1",
+      "parent": "fxxx"
+    },
+    {
+      "name": "y1",
+      "parent": "par_yan1"
+    },
+    {
+      "name": "ring2",
+      "parent": "fxxx"
+    },
+    {
+      "name": "y2",
+      "parent": "par_yan1"
+    },
+    {
+      "name": "y3",
+      "parent": "par_yan1"
+    },
+    {
+      "name": "y4",
+      "parent": "par_yan1"
+    },
+    {
+      "name": "y5",
+      "parent": "par_yan1"
+    },
+    {
+      "name": "y6",
+      "parent": "par_yan1"
+    },
+    {
+      "name": "y7",
+      "parent": "par_yan1"
+    },
+    {
+      "name": "y8",
+      "parent": "par_yan1"
+    },
+    {
+      "name": "par_yan2",
+      "parent": "fxxx"
+    },
+    {
+      "name": "y2_1",
+      "parent": "par_yan2",
+      "y": 11.96
+    },
+    {
+      "name": "y2_2",
+      "parent": "par_yan2",
+      "y": 11.96
+    },
+    {
+      "name": "ewn",
+      "parent": "root"
+    },
+    {
+      "name": "banyuan",
+      "parent": "ewn",
+      "y": 4.03
+    },
+    {
+      "name": "yueya1",
+      "parent": "ewn"
+    },
+    {
+      "name": "yueya2",
+      "parent": "ewn"
+    }
+  ],
+  "slots": [
+    {
+      "name": "ci_glow_0",
+      "bone": "ci",
+      "blend": "additive"
+    },
+    {
+      "name": "ring_0",
+      "bone": "ring"
+    },
+    {
+      "name": "ring_1",
+      "bone": "ring2"
+    },
+    {
+      "name": "yanwu1_0",
+      "bone": "y1"
+    },
+    {
+      "name": "yanwu1_1",
+      "bone": "y2"
+    },
+    {
+      "name": "yanwu1_2",
+      "bone": "y3"
+    },
+    {
+      "name": "yanwu1_3",
+      "bone": "y4"
+    },
+    {
+      "name": "yanwu1_4",
+      "bone": "y5"
+    },
+    {
+      "name": "yanwu1_5",
+      "bone": "y6"
+    },
+    {
+      "name": "yanwu1_6",
+      "bone": "y7"
+    },
+    {
+      "name": "yanwu1_7",
+      "bone": "y8"
+    },
+    {
+      "name": "yanwu2_0",
+      "bone": "y2_1"
+    },
+    {
+      "name": "yanwu2_1",
+      "bone": "y2_2"
+    },
+    {
+      "name": "ban_ring_0",
+      "bone": "banyuan",
+      "blend": "additive"
+    },
+    {
+      "name": "yueya_0",
+      "bone": "yueya1",
+      "blend": "additive"
+    },
+    {
+      "name": "yueya_1",
+      "bone": "yueya2",
+      "blend": "additive"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "ban_ring_0": {
+          "ban_ring_0": {
+            "y": 40.39,
+            "width": 128,
+            "height": 90
+          }
+        },
+        "ci_glow_0": {
+          "ci_glow_0": {
+            "y": 24.89,
+            "width": 150,
+            "height": 90
+          }
+        },
+        "ring_0": {
+          "ring_0": {
+            "width": 128,
+            "height": 128
+          }
+        },
+        "ring_1": {
+          "ring_0": {
+            "width": 128,
+            "height": 128
+          }
+        },
+        "yanwu1_0": {
+          "yanwu1_1": {
+            "width": 63,
+            "height": 63
+          }
+        },
+        "yanwu1_1": {
+          "yanwu1_1": {
+            "width": 63,
+            "height": 63
+          }
+        },
+        "yanwu1_2": {
+          "yanwu1_1": {
+            "width": 63,
+            "height": 63
+          }
+        },
+        "yanwu1_3": {
+          "yanwu1_1": {
+            "width": 63,
+            "height": 63
+          }
+        },
+        "yanwu1_4": {
+          "yanwu1_1": {
+            "width": 63,
+            "height": 63
+          }
+        },
+        "yanwu1_5": {
+          "yanwu1_1": {
+            "width": 63,
+            "height": 63
+          }
+        },
+        "yanwu1_6": {
+          "yanwu1_1": {
+            "width": 63,
+            "height": 63
+          }
+        },
+        "yanwu1_7": {
+          "yanwu1_1": {
+            "width": 63,
+            "height": 63
+          }
+        },
+        "yanwu2_0": {
+          "yanwu2_0": {
+            "x": -0.82,
+            "y": -0.48,
+            "rotation": 90.72,
+            "width": 50,
+            "height": 50
+          }
+        },
+        "yanwu2_1": {
+          "yanwu2_0": {
+            "x": -0.82,
+            "y": -0.48,
+            "rotation": 90.72,
+            "width": 50,
+            "height": 50
+          }
+        },
+        "yueya_0": {
+          "yueya_0": {
+            "width": 40,
+            "height": 128
+          }
+        },
+        "yueya_1": {
+          "yueya_0": {
+            "width": 40,
+            "height": 128
+          }
+        }
+      }
+    }
+  ],
+  "events": {
+    "hit": {}
+  },
+  "animations": {
+    "skill": {
+      "slots": {
+        "ban_ring_0": {
+          "color": [
+            {
+              "time": 0.0667,
+              "color": "ffc761ff"
+            },
+            {
+              "time": 0.3,
+              "color": "ffc76100"
+            }
+          ],
+          "attachment": [
+            {
+              "name": "ban_ring_0"
+            }
+          ]
+        },
+        "ci_glow_0": {
+          "color": [
+            {
+              "time": 0.0333,
+              "color": "ffc600ff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1333,
+              "color": "ffc600ff"
+            },
+            {
+              "time": 0.2667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.0333,
+              "name": "ci_glow_0"
+            }
+          ]
+        },
+        "ring_0": {
+          "color": [
+            {
+              "time": 0.0667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.1,
+              "color": "ffd470b1"
+            },
+            {
+              "time": 0.2,
+              "color": "ffd46f00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.0667,
+              "name": "ring_0"
+            }
+          ]
+        },
+        "ring_1": {
+          "color": [
+            {
+              "time": 0.1667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.5333,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.0667,
+              "name": "ring_0"
+            }
+          ]
+        },
+        "yanwu1_0": {
+          "color": [
+            {
+              "time": 0.0667,
+              "color": "ffffffe3"
+            },
+            {
+              "time": 0.1667,
+              "color": "e4e4e484"
+            },
+            {
+              "time": 0.5667,
+              "color": "e4e4e400"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.0667,
+              "name": "yanwu1_1"
+            }
+          ]
+        },
+        "yanwu1_1": {
+          "color": [
+            {
+              "time": 0.0667,
+              "color": "ffffffb0"
+            },
+            {
+              "time": 0.2667,
+              "color": "e4e4e484"
+            },
+            {
+              "time": 0.6667,
+              "color": "e4e4e400"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.0667,
+              "name": "yanwu1_1"
+            }
+          ]
+        },
+        "yanwu1_2": {
+          "color": [
+            {
+              "time": 0.0667,
+              "color": "ffffffa3"
+            },
+            {
+              "time": 0.5,
+              "color": "e4e4e400"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.0667,
+              "name": "yanwu1_1"
+            }
+          ]
+        },
+        "yanwu1_3": {
+          "color": [
+            {
+              "time": 0.0667,
+              "color": "ffffffe2"
+            },
+            {
+              "time": 0.4333,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.0667,
+              "name": "yanwu1_1"
+            }
+          ]
+        },
+        "yanwu1_4": {
+          "color": [
+            {
+              "time": 0.0667,
+              "color": "ffffffe2"
+            },
+            {
+              "time": 0.3667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.0667,
+              "name": "yanwu1_1"
+            }
+          ]
+        },
+        "yanwu1_5": {
+          "color": [
+            {
+              "time": 0.0667,
+              "color": "ffffffe2"
+            },
+            {
+              "time": 0.4667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.0667,
+              "name": "yanwu1_1"
+            }
+          ]
+        },
+        "yanwu1_6": {
+          "color": [
+            {
+              "time": 0.0667,
+              "color": "ffffffe2"
+            },
+            {
+              "time": 0.5333,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.0667,
+              "name": "yanwu1_1"
+            }
+          ]
+        },
+        "yanwu1_7": {
+          "color": [
+            {
+              "time": 0.0667,
+              "color": "ffffffe2"
+            },
+            {
+              "time": 0.3667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.0667,
+              "name": "yanwu1_1"
+            }
+          ]
+        },
+        "yanwu2_0": {
+          "color": [
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.5667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.1333,
+              "name": "yanwu2_0"
+            }
+          ]
+        },
+        "yanwu2_1": {
+          "color": [
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6333,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.1333,
+              "name": "yanwu2_0"
+            }
+          ]
+        },
+        "yueya_0": {
+          "color": [
+            {
+              "time": 0.1,
+              "color": "f6c051ff"
+            },
+            {
+              "time": 0.1667,
+              "color": "f6c05076"
+            },
+            {
+              "time": 0.3333,
+              "color": "f6c05000"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.1,
+              "name": "yueya_0"
+            }
+          ]
+        },
+        "yueya_1": {
+          "color": [
+            {
+              "time": 0.1,
+              "color": "f6c051ff"
+            },
+            {
+              "time": 0.1667,
+              "color": "f6c05076"
+            },
+            {
+              "time": 0.3333,
+              "color": "f6c05000"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.1,
+              "name": "yueya_0"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "ci": {
+          "translate": [
+            {
+              "time": 0.0333,
+              "y": 6.63
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.0333,
+              "x": 0.391,
+              "y": 0.391
+            },
+            {
+              "time": 0.0667,
+              "x": 0.646,
+              "y": 0.811
+            },
+            {
+              "time": 0.1,
+              "x": 0.999,
+              "y": 1.281
+            },
+            {
+              "time": 0.2667,
+              "x": 1.204,
+              "y": 1.66
+            }
+          ]
+        },
+        "ring": {
+          "translate": [
+            {
+              "time": 0.0667,
+              "x": 0.94,
+              "y": 11.33
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.0667,
+              "y": 0.332
+            },
+            {
+              "time": 0.1,
+              "x": 2.141,
+              "y": 0.9,
+              "curve": 0.25,
+              "c2": 0.3,
+              "c3": 0.593,
+              "c4": 0.64
+            },
+            {
+              "time": 0.2,
+              "x": 2.861,
+              "y": 1.203
+            }
+          ]
+        },
+        "ring2": {
+          "translate": [
+            {
+              "time": 0.0667,
+              "x": 0.94,
+              "y": 11.33
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.0667,
+              "x": 0.692,
+              "y": 0.23,
+              "curve": 0,
+              "c2": 0.14,
+              "c3": 0.275
+            },
+            {
+              "time": 0.5333,
+              "x": 1.486,
+              "y": 0.493
+            }
+          ]
+        },
+        "y1": {
+          "rotate": [
+            {
+              "time": 0.0667
+            },
+            {
+              "time": 0.2667,
+              "angle": -62.61
+            },
+            {
+              "time": 0.5667,
+              "angle": -112.3
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.0667,
+              "x": -26.28,
+              "y": -2.54,
+              "curve": 0.082,
+              "c2": 0.24,
+              "c3": 0.402,
+              "c4": 0.63
+            },
+            {
+              "time": 0.1,
+              "x": -44.76,
+              "y": -4.89,
+              "curve": 0.246,
+              "c2": 0.39,
+              "c3": 0.576,
+              "c4": 0.76
+            },
+            {
+              "time": 0.5667,
+              "x": -60.22,
+              "y": -25.9
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.0667,
+              "x": 0.451,
+              "y": 0.451
+            },
+            {
+              "time": 0.1,
+              "x": 0.876,
+              "y": 0.876
+            },
+            {
+              "time": 0.5667,
+              "x": 0.673,
+              "y": 0.673
+            }
+          ]
+        },
+        "y2": {
+          "rotate": [
+            {
+              "time": 0.0667,
+              "angle": -65.29
+            },
+            {
+              "time": 0.6667,
+              "angle": -129.56
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.0667,
+              "x": 6.49,
+              "y": -9.73,
+              "curve": 0.039,
+              "c2": 0.28,
+              "c3": 0.341,
+              "c4": 0.98
+            },
+            {
+              "time": 0.6667,
+              "x": 9.69,
+              "y": -28.12
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.0667,
+              "x": 0.639,
+              "y": 0.639
+            },
+            {
+              "time": 0.6667,
+              "x": 0.77,
+              "y": 0.77
+            }
+          ]
+        },
+        "y3": {
+          "rotate": [
+            {
+              "time": 0.0667,
+              "angle": -145.74
+            },
+            {
+              "time": 0.5,
+              "angle": -105.55
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.0667,
+              "x": 26,
+              "y": -12.46
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.0667,
+              "x": 0.441,
+              "y": 0.441
+            },
+            {
+              "time": 0.5,
+              "x": 0.77,
+              "y": 0.77
+            }
+          ]
+        },
+        "y4": {
+          "rotate": [
+            {
+              "time": 0.0667,
+              "angle": 148.54
+            },
+            {
+              "time": 0.4333,
+              "angle": -109.79
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.0667,
+              "x": 50.84,
+              "y": -5.1,
+              "curve": 0.039,
+              "c2": 0.28,
+              "c3": 0.341,
+              "c4": 0.98
+            },
+            {
+              "time": 0.4333,
+              "x": 69.7,
+              "y": -16.14
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.0667,
+              "x": 0.253,
+              "y": 0.253
+            },
+            {
+              "time": 0.4333,
+              "x": 0.528,
+              "y": 0.528
+            }
+          ]
+        },
+        "y5": {
+          "rotate": [
+            {
+              "time": 0.0667,
+              "angle": 148.54
+            },
+            {
+              "time": 0.3667,
+              "angle": -108.69
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.0667,
+              "x": 77.15,
+              "y": 15.97,
+              "curve": 0.039,
+              "c2": 0.28,
+              "c3": 0.341,
+              "c4": 0.98
+            },
+            {
+              "time": 0.3667,
+              "x": 99.8,
+              "y": 13.91
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.0667,
+              "x": 0.837,
+              "y": 0.837
+            },
+            {
+              "time": 0.3667,
+              "x": 0.564,
+              "y": 0.564
+            }
+          ]
+        },
+        "y6": {
+          "rotate": [
+            {
+              "time": 0.0667,
+              "angle": 148.54
+            },
+            {
+              "time": 0.4667,
+              "angle": -148.37
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.0667,
+              "x": -55.98,
+              "y": 22.14,
+              "curve": 0.039,
+              "c2": 0.28,
+              "c3": 0.341,
+              "c4": 0.98
+            },
+            {
+              "time": 0.4667,
+              "x": -96.66,
+              "y": 42.14
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.0667,
+              "x": 0.237,
+              "y": 0.237
+            },
+            {
+              "time": 0.4333,
+              "x": 0.395,
+              "y": 0.395
+            },
+            {
+              "time": 0.4667,
+              "x": 1.02,
+              "y": 1.02
+            }
+          ]
+        },
+        "y7": {
+          "rotate": [
+            {
+              "time": 0.0667,
+              "angle": 148.54
+            },
+            {
+              "time": 0.5333,
+              "angle": -139.07
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.0667,
+              "x": -46.78,
+              "y": 8.76,
+              "curve": 0.039,
+              "c2": 0.28,
+              "c3": 0.341,
+              "c4": 0.98
+            },
+            {
+              "time": 0.5333,
+              "x": -54.93,
+              "y": 5.08
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.0667,
+              "x": 0.237,
+              "y": 0.237
+            },
+            {
+              "time": 0.5333,
+              "x": 0.54,
+              "y": 0.54
+            }
+          ]
+        },
+        "y8": {
+          "rotate": [
+            {
+              "time": 0.0667,
+              "angle": 148.54
+            },
+            {
+              "time": 0.3667,
+              "angle": 103.27
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.0667,
+              "x": -42.67,
+              "y": 32.78,
+              "curve": 0.039,
+              "c2": 0.28,
+              "c3": 0.341,
+              "c4": 0.98
+            },
+            {
+              "time": 0.3667,
+              "x": -57.08,
+              "y": 43.08
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.0667,
+              "x": 0.237,
+              "y": 0.237
+            },
+            {
+              "time": 0.3667,
+              "x": 0.577,
+              "y": 0.577
+            }
+          ]
+        },
+        "y2_1": {
+          "rotate": [
+            {
+              "time": 0.1333
+            },
+            {
+              "time": 0.5667,
+              "angle": 58.13
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.1333,
+              "x": -15.82,
+              "y": -14.89
+            },
+            {
+              "time": 0.5667,
+              "x": -14.94,
+              "y": -21.95
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.1333,
+              "x": 0.227,
+              "y": 0.227
+            },
+            {
+              "time": 0.5667,
+              "x": 0.603,
+              "y": 0.603
+            }
+          ]
+        },
+        "y2_2": {
+          "rotate": [
+            {
+              "time": 0.1333
+            },
+            {
+              "time": 0.6,
+              "angle": 78.93
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.1333,
+              "x": 62.06,
+              "y": 22.28
+            },
+            {
+              "time": 0.6333,
+              "x": 72.68,
+              "y": 31.13
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.1333,
+              "x": 0.227,
+              "y": 0.227
+            },
+            {
+              "time": 0.6333,
+              "x": 1.105,
+              "y": 1.105
+            }
+          ]
+        },
+        "fxxx": {
+          "translate": [
+            {
+              "y": -8.71
+            }
+          ]
+        },
+        "banyuan": {
+          "translate": [
+            {
+              "y": -10.86
+            }
+          ],
+          "scale": [
+            {
+              "x": 0.444,
+              "y": 0.444
+            },
+            {
+              "time": 0.0667,
+              "x": 1.148,
+              "y": 1.148
+            },
+            {
+              "time": 0.3,
+              "x": 1.404,
+              "y": 1.404
+            }
+          ]
+        },
+        "yueya1": {
+          "translate": [
+            {
+              "time": 0.1,
+              "x": -87.72,
+              "y": 4.08
+            },
+            {
+              "time": 0.3333,
+              "x": -111.52,
+              "y": 4.08
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.1,
+              "x": 2.437,
+              "y": 0.897
+            }
+          ]
+        },
+        "yueya2": {
+          "translate": [
+            {
+              "time": 0.1,
+              "x": 80.01,
+              "y": 4.08
+            },
+            {
+              "time": 0.3333,
+              "x": 116.45,
+              "y": 4.08
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.1,
+              "x": -3.086,
+              "y": 0.897
+            }
+          ]
+        }
+      },
+      "events": [
+        {
+          "time": 0.0667,
+          "name": "hit"
+        }
+      ]
+    }
+  }
+}

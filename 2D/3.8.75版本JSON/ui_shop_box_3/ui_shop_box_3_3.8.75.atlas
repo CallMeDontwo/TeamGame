@@ -1,0 +1,90 @@
+
+ui_shop_box_3_3.8.75.png
+size: 1095,219
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 592, 99
+  size: 290, 118
+  orig: 290, 118
+  offset: 0, 0
+  index: -1
+1_1
+  rotate: false
+  xy: 294, 43
+  size: 296, 174
+  orig: 296, 175
+  offset: 0, 1
+  index: -1
+1_4
+  rotate: false
+  xy: 2, 6
+  size: 290, 211
+  orig: 290, 211
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 957, 40
+  size: 52, 64
+  orig: 60, 73
+  offset: 4, 5
+  index: -1
+5
+  rotate: false
+  xy: 1011, 16
+  size: 82, 83
+  orig: 91, 91
+  offset: 4, 4
+  index: -1
+6
+  rotate: true
+  xy: 884, 106
+  size: 111, 132
+  orig: 124, 146
+  offset: 8, 7
+  index: -1
+banguang2
+  rotate: false
+  xy: 592, 2
+  size: 279, 95
+  orig: 282, 104
+  offset: 1, 0
+  index: -1
+banguang3
+  rotate: false
+  xy: 1018, 101
+  size: 44, 116
+  orig: 50, 129
+  offset: 5, 0
+  index: -1
+dian
+  rotate: true
+  xy: 470, 13
+  size: 28, 93
+  orig: 28, 95
+  offset: 0, 1
+  index: -1
+quan1
+  rotate: false
+  xy: 565, 17
+  size: 23, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+xian
+  rotate: false
+  xy: 294, 11
+  size: 174, 30
+  orig: 181, 31
+  offset: 2, 1
+  index: -1
+xx
+  rotate: false
+  xy: 873, 12
+  size: 82, 85
+  orig: 94, 102
+  offset: 4, 7
+  index: -1

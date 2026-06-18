@@ -1,0 +1,76 @@
+
+jn_diaoyulao.png
+size: 499,454
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd_0
+  rotate: false
+  xy: 301, 69
+  size: 150, 76
+  orig: 166, 83
+  offset: 7, 1
+  index: -1
+bd_1
+  rotate: false
+  xy: 326, 264
+  size: 160, 83
+  orig: 166, 83
+  offset: 2, 0
+  index: -1
+shuidi
+  rotate: true
+  xy: 301, 2
+  size: 66, 63
+  orig: 66, 63
+  offset: 0, 0
+  index: -1
+shuihua
+  rotate: false
+  xy: 326, 146
+  size: 150, 117
+  orig: 150, 117
+  offset: 0, 0
+  index: -1
+shuihua_hou
+  rotate: true
+  xy: 210, 213
+  size: 240, 115
+  orig: 240, 115
+  offset: 0, 0
+  index: -1
+shuihua_qian
+  rotate: true
+  xy: 1, 200
+  size: 253, 86
+  orig: 253, 86
+  offset: 0, 0
+  index: -1
+shuimian
+  rotate: true
+  xy: 88, 208
+  size: 245, 121
+  orig: 245, 121
+  offset: 0, 0
+  index: -1
+yushen
+  rotate: false
+  xy: 1, 1
+  size: 193, 198
+  orig: 193, 198
+  offset: 0, 0
+  index: -1
+yutou
+  rotate: false
+  xy: 195, 35
+  size: 105, 172
+  orig: 105, 172
+  offset: 0, 0
+  index: -1
+yuzui
+  rotate: true
+  xy: 326, 348
+  size: 105, 172
+  orig: 105, 172
+  offset: 0, 0
+  index: -1

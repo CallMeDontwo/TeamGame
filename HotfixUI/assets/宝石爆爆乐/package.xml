@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="oy07mpfw">
+  <resources>
+    <component id="lysj0" name="GemBoomComponent.xml" path="/" exported="true"/>
+    <component id="snyy2" name="GemItem.xml" path="/" exported="true"/>
+    <component id="fwdoh" name="GemPanel.xml" path="/组件/"/>
+    <component id="ggki1w" name="ProgressBar1.xml" path="/组件/"/>
+    <component id="ggki1x" name="Button2.xml" path="/组件/"/>
+    <component id="ggki1y" name="Button3.xml" path="/组件/"/>
+    <component id="ggki1z" name="Button0.xml" path="/组件/"/>
+    <component id="ggki20" name="AutioButton.xml" path="/组件/"/>
+    <component id="lzui2h" name="ScoreShow.xml" path="/组件/"/>
+    <component id="lzui2i" name="ComboShow.xml" path="/组件/"/>
+    <component id="qize34" name="Window_PlayInfo.xml" path="/组件/"/>
+    <component id="qize35" name="Com_info.xml" path="/组件/"/>
+    <component id="qize3h" name="Button4.xml" path="/组件/"/>
+    <sound id="gfya3i" name="explosion-36210.mp3" path="/资源/音效/"/>
+    <sound id="gfya3j" name="big-boom-14752.mp3" path="/资源/音效/"/>
+    <sound id="gfya3k" name="playful-casino-slot-machine-jackpot-2-183923.mp3" path="/资源/音效/"/>
+    <sound id="gfya3l" name="grenade-explosion-14-190266.mp3" path="/资源/音效/"/>
+    <sound id="c51b3m" name="gemfillsound.mp3" path="/资源/音效/"/>
+    <sound id="c51b3n" name="gemfallsound.mp3" path="/资源/音效/"/>
+    <component id="x7764q" name="InfoComponent.xml" path="/组件/后台/DebugComponent/"/>
+    <component id="x7764r" name="FrameBtn.xml" path="/组件/后台/DebugComponent/"/>
+    <component id="x7764s" name="FrameItem.xml" path="/组件/后台/DebugComponent/"/>
+    <component id="x7764t" name="SettingsComponent.xml" path="/组件/后台/DebugComponent/"/>
+    <image id="x7764u" name="background_bottom.png" path="/资源/DebugUI/切图/" scale="9grid" scale9grid="240,118,480,61"/>
+    <component id="x7764v" name="SettingComponent1.xml" path="/组件/后台/DebugComponent/"/>
+    <component id="x7764w" name="Button1.xml" path="/组件/后台/DebugComponent/"/>
+    <image id="x7764x" name="Background_botton_nor.png" path="/资源/DebugUI/切图/" scale="9grid" scale9grid="24,24,242,28"/>
+    <image id="x7764y" name="Background_botton_sel.png" path="/资源/DebugUI/切图/" scale="9grid" scale9grid="24,24,242,28"/>
+    <component id="x7764z" name="SettingComponent2.xml" path="/组件/后台/DebugComponent/"/>
+    <component id="x77650" name="Button2.xml" path="/组件/后台/DebugComponent/"/>
+    <image id="x77651" name="Background_icon_back.png" path="/资源/DebugUI/切图/"/>
+    <component id="x77652" name="SettingComponent3.xml" path="/组件/后台/DebugComponent/"/>
+    <image id="x77653" name="Background_line.png" path="/资源/DebugUI/切图/"/>
+    <component id="x77654" name="RecordItem1.xml" path="/组件/后台/DebugComponent/"/>
+    <component id="x77655" name="SettingComponent4.xml" path="/组件/后台/DebugComponent/"/>
+    <component id="x77656" name="RecordItem2.xml" path="/组件/后台/DebugComponent/"/>
+    <component id="x77657" name="Button5.xml" path="/组件/后台/DebugComponent/"/>
+    <component id="x77658" name="SettingComponent5.xml" path="/组件/后台/DebugComponent/"/>
+    <component id="x77659" name="Button4.xml" path="/组件/后台/DebugComponent/"/>
+    <image id="x7765a" name="Background_botton_nor_03.png" path="/资源/DebugUI/切图/" scale="9grid" scale9grid="25,12,50,24"/>
+    <image id="x7765b" name="Background_botton_sel_03.png" path="/资源/DebugUI/切图/" scale="9grid" scale9grid="25,12,50,24"/>
+    <component id="x7765c" name="Button3.xml" path="/组件/后台/DebugComponent/"/>
+    <image id="x7765d" name="Background_botton_nor_02.png" path="/资源/DebugUI/切图/"/>
+    <image id="x7765e" name="Background_botton_sel_02.png" path="/资源/DebugUI/切图/"/>
+    <image id="jwha5f" name="xiyou_text2_0.png" path="/资源/ui/字体/分数字体/"/>
+    <image id="jwha5g" name="ui墙壁.png" path="/资源/ui/"/>
+    <image id="jwha5h" name="ui大门.png" path="/资源/ui/"/>
+    <image id="jwha5i" name="xiyou_text1_9.png" path="/资源/ui/字体/连消称号奖励字体/"/>
+    <image id="jwha5j" name="xiyou_text1_8.png" path="/资源/ui/字体/连消称号奖励字体/"/>
+    <image id="jwha5k" name="xiyou_text1_7.png" path="/资源/ui/字体/连消称号奖励字体/"/>
+    <image id="jwha5l" name="xiyou_text1_6.png" path="/资源/ui/字体/连消称号奖励字体/"/>
+    <image id="jwha5m" name="xiyou_text1_5.png" path="/资源/ui/字体/连消称号奖励字体/"/>
+    <image id="jwha5n" name="xiyou_text1_4.png" path="/资源/ui/字体/连消称号奖励字体/"/>
+    <image id="jwha5o" name="xiyou_text1_3.png" path="/资源/ui/字体/连消称号奖励字体/"/>
+    <image id="jwha5p" name="xiyou_text1_2.png" path="/资源/ui/字体/连消称号奖励字体/"/>
+    <image id="jwha5q" name="xiyou_text1_1.png" path="/资源/ui/字体/连消称号奖励字体/"/>
+    <image id="jwha5r" name="xiyou_text1_0.png" path="/资源/ui/字体/连消称号奖励字体/"/>
+    <image id="jwha5s" name="xiyou_text2_9.png" path="/资源/ui/字体/分数字体/"/>
+    <image id="jwha5t" name="xiyou_text2_8.png" path="/资源/ui/字体/分数字体/"/>
+    <image id="jwha5u" name="xiyou_text2_7.png" path="/资源/ui/字体/分数字体/"/>
+    <image id="jwha5v" name="xiyou_text2_6.png" path="/资源/ui/字体/分数字体/"/>
+    <image id="jwha5w" name="xiyou_text2_5.png" path="/资源/ui/字体/分数字体/"/>
+    <image id="jwha5x" name="xiyou_text2_4.png" path="/资源/ui/字体/分数字体/"/>
+    <image id="jwha5y" name="xiyou_text2_3.png" path="/资源/ui/字体/分数字体/"/>
+    <image id="jwha5z" name="xiyou_text2_2.png" path="/资源/ui/字体/分数字体/"/>
+    <image id="jwha60" name="xiyou_text2_1.png" path="/资源/ui/字体/分数字体/"/>
+    <image id="jwha61" name="连连消logo.png" path="/资源/ui/"/>
+    <image id="jwha62" name="中景.png" path="/资源/ui/"/>
+    <image id="jwha64" name="场景一效果图.png" path="/资源/效果图/"/>
+    <image id="jwha65" name="场景二效果图.png" path="/资源/效果图/"/>
+    <image id="jwha66" name="连续消除称号.png" path="/资源/效果图/"/>
+    <font id="fj7a68" name="连消称号奖励字体.fnt" path="/资源_导出/字体/" exported="true"/>
+    <image id="njk969" name="能量条.png" path="/资源/ui/能量条/" scale="9grid" scale9grid="0,16,18,663"/>
+    <image id="njk96a" name="能量槽.png" path="/资源/ui/能量条/" scale="9grid" scale9grid="0,180,35,360"/>
+    <image id="njk96b" name="阶段ui.png" path="/资源/ui/能量条/"/>
+    <image id="njk96c" name="倍率.png" path="/资源/ui/数值框/"/>
+    <image id="njk96d" name="剩余能量.png" path="/资源/ui/数值框/"/>
+    <image id="njk96e" name="数值框.png" path="/资源/ui/数值框/" scale="9grid" scale9grid="50,0,74,84"/>
+    <image id="njk96f" name="本轮分数.png" path="/资源/ui/数值框/"/>
+    <image id="njk96g" name="mtlxiyou_combo1_0.png" path="/资源/ui/字体/Combo字体/combo_text_1/"/>
+    <image id="njk96h" name="mtlxiyou_combo3_7.png" path="/资源/ui/字体/Combo字体/combo_text_3/"/>
+    <image id="njk96i" name="mtlxiyou_combo3_8.png" path="/资源/ui/字体/Combo字体/combo_text_3/"/>
+    <image id="njk96j" name="mtlxiyou_combo3_9.png" path="/资源/ui/字体/Combo字体/combo_text_3/"/>
+    <image id="njk96k" name="mtlxiyou_combo4_0.png" path="/资源/ui/字体/Combo字体/combo_text_4/"/>
+    <image id="njk96l" name="mtlxiyou_combo4_1.png" path="/资源/ui/字体/Combo字体/combo_text_4/"/>
+    <image id="njk96m" name="mtlxiyou_combo4_2.png" path="/资源/ui/字体/Combo字体/combo_text_4/"/>
+    <image id="njk96n" name="mtlxiyou_combo4_3.png" path="/资源/ui/字体/Combo字体/combo_text_4/"/>
+    <image id="njk96o" name="mtlxiyou_combo4_4.png" path="/资源/ui/字体/Combo字体/combo_text_4/"/>
+    <image id="njk96p" name="mtlxiyou_combo4_5.png" path="/资源/ui/字体/Combo字体/combo_text_4/"/>
+    <image id="njk96q" name="mtlxiyou_combo4_6.png" path="/资源/ui/字体/Combo字体/combo_text_4/"/>
+    <image id="njk96r" name="mtlxiyou_combo4_7.png" path="/资源/ui/字体/Combo字体/combo_text_4/"/>
+    <image id="njk96s" name="mtlxiyou_combo4_8.png" path="/资源/ui/字体/Combo字体/combo_text_4/"/>
+    <image id="njk96t" name="mtlxiyou_combo4_9.png" path="/资源/ui/字体/Combo字体/combo_text_4/"/>
+    <image id="njk96u" name="mtlxiyou_combo5_0.png" path="/资源/ui/字体/Combo字体/combo_text_5/"/>
+    <image id="njk96v" name="mtlxiyou_combo5_1.png" path="/资源/ui/字体/Combo字体/combo_text_5/"/>
+    <image id="njk96w" name="mtlxiyou_combo5_2.png" path="/资源/ui/字体/Combo字体/combo_text_5/"/>
+    <image id="njk96x" name="mtlxiyou_combo5_3.png" path="/资源/ui/字体/Combo字体/combo_text_5/"/>
+    <image id="njk96y" name="mtlxiyou_combo5_4.png" path="/资源/ui/字体/Combo字体/combo_text_5/"/>
+    <image id="njk96z" name="mtlxiyou_combo5_5.png" path="/资源/ui/字体/Combo字体/combo_text_5/"/>
+    <image id="njk970" name="mtlxiyou_combo5_6.png" path="/资源/ui/字体/Combo字体/combo_text_5/"/>
+    <image id="njk971" name="mtlxiyou_combo5_7.png" path="/资源/ui/字体/Combo字体/combo_text_5/"/>
+    <image id="njk972" name="mtlxiyou_combo3_6.png" path="/资源/ui/字体/Combo字体/combo_text_3/"/>
+    <image id="njk973" name="mtlxiyou_combo3_5.png" path="/资源/ui/字体/Combo字体/combo_text_3/"/>
+    <image id="njk974" name="mtlxiyou_combo3_4.png" path="/资源/ui/字体/Combo字体/combo_text_3/"/>
+    <image id="njk975" name="mtlxiyou_combo3_3.png" path="/资源/ui/字体/Combo字体/combo_text_3/"/>
+    <image id="njk976" name="mtlxiyou_combo1_1.png" path="/资源/ui/字体/Combo字体/combo_text_1/"/>
+    <image id="njk977" name="mtlxiyou_combo1_2.png" path="/资源/ui/字体/Combo字体/combo_text_1/"/>
+    <image id="njk978" name="mtlxiyou_combo1_3.png" path="/资源/ui/字体/Combo字体/combo_text_1/"/>
+    <image id="njk979" name="mtlxiyou_combo1_4.png" path="/资源/ui/字体/Combo字体/combo_text_1/"/>
+    <image id="njk97a" name="mtlxiyou_combo1_5.png" path="/资源/ui/字体/Combo字体/combo_text_1/"/>
+    <image id="njk97b" name="mtlxiyou_combo1_6.png" path="/资源/ui/字体/Combo字体/combo_text_1/"/>
+    <image id="njk97c" name="mtlxiyou_combo1_7.png" path="/资源/ui/字体/Combo字体/combo_text_1/"/>
+    <image id="njk97d" name="mtlxiyou_combo1_8.png" path="/资源/ui/字体/Combo字体/combo_text_1/"/>
+    <image id="njk97e" name="mtlxiyou_combo1_9.png" path="/资源/ui/字体/Combo字体/combo_text_1/"/>
+    <image id="njk97f" name="mtlxiyou_combo2_0.png" path="/资源/ui/字体/Combo字体/combo_text_2/"/>
+    <image id="njk97g" name="mtlxiyou_combo5_8.png" path="/资源/ui/字体/Combo字体/combo_text_5/"/>
+    <image id="njk97h" name="mtlxiyou_combo2_1.png" path="/资源/ui/字体/Combo字体/combo_text_2/"/>
+    <image id="njk97i" name="mtlxiyou_combo2_3.png" path="/资源/ui/字体/Combo字体/combo_text_2/"/>
+    <image id="njk97j" name="mtlxiyou_combo2_4.png" path="/资源/ui/字体/Combo字体/combo_text_2/"/>
+    <image id="njk97k" name="mtlxiyou_combo2_5.png" path="/资源/ui/字体/Combo字体/combo_text_2/"/>
+    <image id="njk97l" name="mtlxiyou_combo2_6.png" path="/资源/ui/字体/Combo字体/combo_text_2/"/>
+    <image id="njk97m" name="mtlxiyou_combo2_7.png" path="/资源/ui/字体/Combo字体/combo_text_2/"/>
+    <image id="njk97n" name="mtlxiyou_combo2_8.png" path="/资源/ui/字体/Combo字体/combo_text_2/"/>
+    <image id="njk97o" name="mtlxiyou_combo2_9.png" path="/资源/ui/字体/Combo字体/combo_text_2/"/>
+    <image id="njk97p" name="mtlxiyou_combo3_0.png" path="/资源/ui/字体/Combo字体/combo_text_3/"/>
+    <image id="njk97q" name="mtlxiyou_combo3_1.png" path="/资源/ui/字体/Combo字体/combo_text_3/"/>
+    <image id="njk97r" name="mtlxiyou_combo3_2.png" path="/资源/ui/字体/Combo字体/combo_text_3/"/>
+    <image id="njk97s" name="mtlxiyou_combo2_2.png" path="/资源/ui/字体/Combo字体/combo_text_2/"/>
+    <image id="njk97t" name="mtlxiyou_combo5_9.png" path="/资源/ui/字体/Combo字体/combo_text_5/"/>
+    <font id="njk97u" name="ComboFont1.fnt" path="/资源_导出/字体/" exported="true"/>
+    <font id="njk97v" name="ComboFont2.fnt" path="/资源_导出/字体/" exported="true"/>
+    <font id="njk97w" name="ComboFont3.fnt" path="/资源_导出/字体/" exported="true"/>
+    <font id="njk97x" name="ComboFont4.fnt" path="/资源_导出/字体/" exported="true"/>
+    <font id="njk97y" name="ComboFont5.fnt" path="/资源_导出/字体/" exported="true"/>
+    <image id="nf6a7z" name="屋顶.png" path="/资源/ui/"/>
+    <image id="nf6a80" name="本轮获得能量.png" path="/资源/ui/数值框/"/>
+    <image id="nf6a81" name="消耗能量.png" path="/资源/ui/数值框/"/>
+    <image id="nf6a82" name="combo1.png" path="/资源/ui/连爆文字/"/>
+    <image id="nf6a83" name="combo2.png" path="/资源/ui/连爆文字/"/>
+    <image id="nf6a84" name="combo3.png" path="/资源/ui/连爆文字/"/>
+    <image id="nf6a85" name="combo4.png" path="/资源/ui/连爆文字/"/>
+    <image id="nf6a86" name="combo5.png" path="/资源/ui/连爆文字/"/>
+    <component id="nf6a87" name="FlashBar.xml" path="/" exported="true"/>
+    <component id="gf9z88" name="GemFlyoutGroup.xml" path="/组件/"/>
+    <component id="gf9z89" name="GemFlyout.xml" path="/组件/"/>
+    <component id="gxs78a" name="GemFall.xml" path="/" exported="true"/>
+    <image id="gxs78b" name="西游消消乐新中景.png" path="/资源/ui/"/>
+    <image id="owhb8c" name="效果图.png" path="/资源/ui更新/"/>
+    <image id="owhb8d" name="xiyou_text2_3.png" path="/资源/ui更新/字体/下方ui分数/"/>
+    <image id="owhb8e" name="xiyou_text2_4.png" path="/资源/ui更新/字体/下方ui分数/"/>
+    <image id="owhb8f" name="xiyou_text2_5.png" path="/资源/ui更新/字体/下方ui分数/"/>
+    <image id="owhb8g" name="xiyou_text2_6.png" path="/资源/ui更新/字体/下方ui分数/"/>
+    <image id="owhb8h" name="xiyou_text2_7.png" path="/资源/ui更新/字体/下方ui分数/"/>
+    <image id="owhb8i" name="xiyou_text2_8.png" path="/资源/ui更新/字体/下方ui分数/"/>
+    <image id="owhb8j" name="xiyou_text2_9.png" path="/资源/ui更新/字体/下方ui分数/"/>
+    <image id="owhb8k" name="show_text_0.png" path="/资源/ui更新/字体/即时分数显示/"/>
+    <image id="owhb8l" name="show_text_1.png" path="/资源/ui更新/字体/即时分数显示/"/>
+    <image id="owhb8m" name="show_text_2.png" path="/资源/ui更新/字体/即时分数显示/"/>
+    <image id="owhb8n" name="show_text_3.png" path="/资源/ui更新/字体/即时分数显示/"/>
+    <image id="owhb8o" name="show_text_4.png" path="/资源/ui更新/字体/即时分数显示/"/>
+    <image id="owhb8p" name="show_text_5.png" path="/资源/ui更新/字体/即时分数显示/"/>
+    <image id="owhb8q" name="show_text_6.png" path="/资源/ui更新/字体/即时分数显示/"/>
+    <image id="owhb8r" name="show_text_7.png" path="/资源/ui更新/字体/即时分数显示/"/>
+    <image id="owhb8s" name="xiyou_text2_2.png" path="/资源/ui更新/字体/下方ui分数/"/>
+    <image id="owhb8t" name="show_text_8.png" path="/资源/ui更新/字体/即时分数显示/"/>
+    <image id="owhb8u" name="xiyou_text2_1.png" path="/资源/ui更新/字体/下方ui分数/"/>
+    <image id="owhb8v" name="数值框.png" path="/资源/ui更新/ui/" scale="9grid" scale9grid="38,15,76,30"/>
+    <image id="owhb8w" name="效果图2.png" path="/资源/ui更新/"/>
+    <image id="owhb8x" name="中景3.png" path="/资源/ui更新/ui/"/>
+    <image id="owhb8y" name="侧边棋子ui.png" path="/资源/ui更新/ui/"/>
+    <image id="owhb8z" name="剩余能量.png" path="/资源/ui更新/ui/"/>
+    <image id="owhb90" name="大门.png" path="/资源/ui更新/ui/"/>
+    <image id="owhb91" name="屋顶.png" path="/资源/ui更新/ui/"/>
+    <image id="owhb92" name="底部ui.png" path="/资源/ui更新/ui/"/>
+    <image id="owhb93" name="show_text_9.png" path="/资源/ui更新/字体/即时分数显示/"/>
+    <image id="owhb94" name="本轮获得能量.png" path="/资源/ui更新/ui/"/>
+    <image id="owhb95" name="消耗能量.png" path="/资源/ui更新/ui/"/>
+    <image id="owhb99" name="xiyou_text2_0.png" path="/资源/ui更新/字体/下方ui分数/"/>
+    <font id="owhb9j" name="连线分数字体.fnt" path="/资源_导出/字体/" exported="true"/>
+    <font id="owhb9k" name="底部UI字体.fnt" path="/资源_导出/字体/" exported="true"/>
+    <component id="owhb9l" name="GemLineShow.xml" path="/组件/"/>
+    <component id="tuks9m" name="OnlyGenerateGem.xml" path="/组件/"/>
+    <image id="tuks9n" name="feng1.png" path="/资源/ui更新/新棋子/"/>
+    <image id="tuks9o" name="hong1.png" path="/资源/ui更新/新棋子/"/>
+    <image id="tuks9p" name="jin1.png" path="/资源/ui更新/新棋子/"/>
+    <image id="tuks9q" name="lan1.png" path="/资源/ui更新/新棋子/"/>
+    <image id="tuks9r" name="lv1.png" path="/资源/ui更新/新棋子/"/>
+    <image id="tuks9s" name="zi1.png" path="/资源/ui更新/新棋子/"/>
+    <image id="tuks9t" name="万能棋子.png" path="/资源/ui更新/新棋子/"/>
+    <image id="t0m49u" name="阶段ui 拷贝 2.png" path="/资源/ui更新/ui/"/>
+    <image id="t0m49v" name="阶段ui 拷贝.png" path="/资源/ui更新/ui/"/>
+    <image id="t0m49w" name="阶段ui.png" path="/资源/ui更新/ui/"/>
+    <image id="t0m49x" name="能量槽.png" path="/资源/ui更新/ui/"/>
+    <image id="t0m49y" name="能量条.png" path="/资源/ui更新/ui/"/>
+    <image id="k1i59z" name="small_text_0.png" path="/资源/ui联机/字体/专属奖池字体/"/>
+    <image id="k1i5a0" name="schedule_text_7.png" path="/资源/ui联机/字体/进度字体/"/>
+    <image id="k1i5a1" name="schedule_text_6.png" path="/资源/ui联机/字体/进度字体/"/>
+    <image id="k1i5a2" name="schedule_text_5.png" path="/资源/ui联机/字体/进度字体/"/>
+    <image id="k1i5a3" name="schedule_text_4.png" path="/资源/ui联机/字体/进度字体/"/>
+    <image id="k1i5a4" name="schedule_text_3.png" path="/资源/ui联机/字体/进度字体/"/>
+    <image id="k1i5a5" name="schedule_text_2.png" path="/资源/ui联机/字体/进度字体/"/>
+    <image id="k1i5a6" name="schedule_text_1.png" path="/资源/ui联机/字体/进度字体/"/>
+    <image id="k1i5a7" name="schedule_text_0.png" path="/资源/ui联机/字体/进度字体/"/>
+    <image id="k1i5a8" name="schedule_text_.png" path="/资源/ui联机/字体/进度字体/"/>
+    <image id="k1i5a9" name="big_text_9.png" path="/资源/ui联机/字体/联机奖池字体/"/>
+    <image id="k1i5aa" name="big_text_8.png" path="/资源/ui联机/字体/联机奖池字体/"/>
+    <image id="k1i5ab" name="big_text_7.png" path="/资源/ui联机/字体/联机奖池字体/"/>
+    <image id="k1i5ac" name="big_text_6.png" path="/资源/ui联机/字体/联机奖池字体/"/>
+    <image id="k1i5ad" name="schedule_text_8.png" path="/资源/ui联机/字体/进度字体/"/>
+    <image id="k1i5ae" name="big_text_5.png" path="/资源/ui联机/字体/联机奖池字体/"/>
+    <image id="k1i5af" name="big_text_3.png" path="/资源/ui联机/字体/联机奖池字体/"/>
+    <image id="k1i5ag" name="big_text_2.png" path="/资源/ui联机/字体/联机奖池字体/"/>
+    <image id="k1i5ah" name="big_text_1.png" path="/资源/ui联机/字体/联机奖池字体/"/>
+    <image id="k1i5ai" name="big_text_0.png" path="/资源/ui联机/字体/联机奖池字体/"/>
+    <image id="k1i5aj" name="small_text_9.png" path="/资源/ui联机/字体/专属奖池字体/"/>
+    <image id="k1i5ak" name="small_text_8.png" path="/资源/ui联机/字体/专属奖池字体/"/>
+    <image id="k1i5al" name="small_text_7.png" path="/资源/ui联机/字体/专属奖池字体/"/>
+    <image id="k1i5am" name="small_text_6.png" path="/资源/ui联机/字体/专属奖池字体/"/>
+    <image id="k1i5an" name="small_text_5.png" path="/资源/ui联机/字体/专属奖池字体/"/>
+    <image id="k1i5ao" name="small_text_4.png" path="/资源/ui联机/字体/专属奖池字体/"/>
+    <image id="k1i5ap" name="small_text_3.png" path="/资源/ui联机/字体/专属奖池字体/"/>
+    <image id="k1i5aq" name="small_text_2.png" path="/资源/ui联机/字体/专属奖池字体/"/>
+    <image id="k1i5ar" name="small_text_1.png" path="/资源/ui联机/字体/专属奖池字体/"/>
+    <image id="k1i5as" name="big_text_4.png" path="/资源/ui联机/字体/联机奖池字体/"/>
+    <image id="k1i5at" name="schedule_text_9.png" path="/资源/ui联机/字体/进度字体/"/>
+    <image id="k1i5au" name="专属奖励.png" path="/资源/ui联机/ui/"/>
+    <image id="k1i5av" name="联机banner.png" path="/资源/ui联机/ui/" scale="9grid" scale9grid="0,0,230,307"/>
+    <image id="k1i5aw" name="能量图标-地清.png" path="/资源/ui联机/ui/"/>
+    <image id="k1i5ax" name="能量图标.png" path="/资源/ui联机/ui/"/>
+    <image id="k1i5ay" name="说明文字.png" path="/资源/ui联机/ui/"/>
+    <image id="k1i5b0" name="联机效果图.png" path="/资源/ui联机/"/>
+    <font id="k1i5b1" name="联机奖池字体.fnt" path="/资源_导出/字体/" exported="true"/>
+    <font id="k1i5b2" name="专属奖池字体.fnt" path="/资源_导出/字体/" exported="true"/>
+    <font id="k1i5b3" name="奖池进度字体.fnt" path="/资源_导出/字体/" exported="true"/>
+    <component id="rdxpb4" name="PowerBallLayer.xml" path="/组件/"/>
+    <component id="rdxpb5" name="PowerBall.xml" path="/" exported="true"/>
+    <component id="ka85b6" name="WinAwardPool.xml" path="/组件/"/>
+    <image id="ka85b7" name="combo_text_0.png" path="/资源/ui更新/字体/称号数字/"/>
+    <image id="ka85b8" name="combo_text_1.png" path="/资源/ui更新/字体/称号数字/"/>
+    <image id="ka85b9" name="combo_text_2.png" path="/资源/ui更新/字体/称号数字/"/>
+    <image id="ka85ba" name="combo_text_3.png" path="/资源/ui更新/字体/称号数字/"/>
+    <image id="ka85bb" name="combo_text_4.png" path="/资源/ui更新/字体/称号数字/"/>
+    <image id="ka85bc" name="combo_text_5.png" path="/资源/ui更新/字体/称号数字/"/>
+    <image id="ka85bd" name="combo_text_6.png" path="/资源/ui更新/字体/称号数字/"/>
+    <image id="ka85be" name="combo_text_7.png" path="/资源/ui更新/字体/称号数字/"/>
+    <image id="ka85bf" name="combo_text_8.png" path="/资源/ui更新/字体/称号数字/"/>
+    <image id="ka85bg" name="combo_text_9.png" path="/资源/ui更新/字体/称号数字/"/>
+    <font id="ka85bh" name="称号数字.fnt" path="/资源_导出/字体/" exported="true"/>
+    <component id="ity8bi" name="BgmMusic.xml" path="/组件/"/>
+    <sound id="ity8bj" name="00_baozangdao.mp3" path="/资源/BGM/"/>
+    <sound id="ity8bk" name="01_SkyCombat.mp3" path="/资源/BGM/"/>
+    <image id="jlzbbl" name="lianji1_text_0.png" path="/资源/ui联机/字体/专属奖池字体/"/>
+    <image id="jlzbbm" name="lianji1_text_1.png" path="/资源/ui联机/字体/专属奖池字体/"/>
+    <image id="jlzbbn" name="lianji1_text_2.png" path="/资源/ui联机/字体/专属奖池字体/"/>
+    <image id="jlzbbo" name="lianji1_text_3.png" path="/资源/ui联机/字体/专属奖池字体/"/>
+    <image id="jlzbbp" name="lianji1_text_4.png" path="/资源/ui联机/字体/专属奖池字体/"/>
+    <image id="jlzbbq" name="lianji1_text_5.png" path="/资源/ui联机/字体/专属奖池字体/"/>
+    <image id="jlzbbr" name="lianji1_text_6.png" path="/资源/ui联机/字体/专属奖池字体/"/>
+    <image id="jlzbbs" name="lianji1_text_7.png" path="/资源/ui联机/字体/专属奖池字体/"/>
+    <image id="jlzbbt" name="lianji1_text_8.png" path="/资源/ui联机/字体/专属奖池字体/"/>
+    <image id="jlzbbu" name="lianji1_text_9.png" path="/资源/ui联机/字体/专属奖池字体/"/>
+    <image id="jlzbbv" name="lianji2_text_0.png" path="/资源/ui联机/字体/联机奖池字体/"/>
+    <image id="jlzbbw" name="lianji2_text_1.png" path="/资源/ui联机/字体/联机奖池字体/"/>
+    <image id="jlzbbx" name="lianji2_text_2.png" path="/资源/ui联机/字体/联机奖池字体/"/>
+    <image id="jlzbby" name="lianji2_text_3.png" path="/资源/ui联机/字体/联机奖池字体/"/>
+    <image id="jlzbbz" name="lianji2_text_4.png" path="/资源/ui联机/字体/联机奖池字体/"/>
+    <image id="jlzbc0" name="lianji2_text_5.png" path="/资源/ui联机/字体/联机奖池字体/"/>
+    <image id="jlzbc1" name="lianji2_text_6.png" path="/资源/ui联机/字体/联机奖池字体/"/>
+    <image id="jlzbc2" name="lianji2_text_7.png" path="/资源/ui联机/字体/联机奖池字体/"/>
+    <image id="jlzbc3" name="lianji2_text_8.png" path="/资源/ui联机/字体/联机奖池字体/"/>
+    <image id="jlzbc4" name="lianji2_text_9.png" path="/资源/ui联机/字体/联机奖池字体/"/>
+    <image id="jlzbc6" name="专属奖励_文字.png" path="/资源/ui联机/ui/"/>
+    <image id="raz9c7" name="中景3_1.png" path="/资源/ui更新/ui/"/>
+    <image id="raz9c8" name="底部ui_1.png" path="/资源/ui更新/ui/"/>
+    <image id="gprmc9" name="联机奖励.png" path="/资源/ui联机/ui/"/>
+    <image id="gprmca" name="企业微信截图_17422073251339.png" path="/资源/ui联机/ui/"/>
+  </resources>
+  <publish name="" maxAtlasSize="2048"/>
+</packageDescription>
