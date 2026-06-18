@@ -16,7 +16,7 @@ namespace ET.TeamGame
             Log.Debug($"[BulletFactory] CreateBullet called casterId={caster?.Id} configId={bulletConfigId}");
             if (caster == null || caster.IsDisposed) return;
 
-            var bulletCfg = BulletConfigCategory.Instance.Get(bulletConfigId);
+            var bulletCfg = BulletDataStore.Get(bulletConfigId);
             Scene scene = caster.Scene();
             var unitManager = scene.GetComponent<UnitManager>();
             var bulletManager = scene.GetComponent<BulletManagerComponent>();
@@ -72,25 +72,23 @@ namespace ET.TeamGame
                 BulletUnit = bulletUnit,
             });
 
-            // 构建运行时数据
-            float speed = bulletCfg.Speed;
-            float maxDist = bulletCfg.MaxDistance;
-            float gravity = 0f;    // 非抛物线不用
+            // 构建运行时数据（int/10000 浮点值统一除 10000）
+            float speed = bulletCfg.Speed / 10000f;
+            float maxDist = bulletCfg.MaxDistance / 10000f;
+            float gravity = 0f;
 
             float2 vel;
             if (bulletCfg.FlightType == 2)
             {
-                // 抛物线：FlightValue[0]=向上速度(int/100), FlightValue[1]=角度(度)
-                float vy = (bulletCfg.FlightValue != null && bulletCfg.FlightValue.Length > 0)
-                    ? bulletCfg.FlightValue[0] / 100f : 1f;
-                float angleDeg = (bulletCfg.FlightValue != null && bulletCfg.FlightValue.Length > 1)
-                    ? bulletCfg.FlightValue[1] : 45f;
+                // 抛物线：Speed = 总合速度, FlightValue[0] = 发射角度(度)
+                float angleDeg = (bulletCfg.FlightValue != null && bulletCfg.FlightValue.Length > 0)
+                    ? bulletCfg.FlightValue[0] : 45f;
                 float angleRad = angleDeg * math.PI / 180f;
-                float vx = vy / math.tan(angleRad);
+                float vx = speed * math.cos(angleRad);
+                float vy = speed * math.sin(angleRad);
 
                 vel = new float2(direction.x * vx, vy);
 
-                // 重力从 vx, vy, maxDist 反推
                 float flightTime = maxDist / vx;
                 gravity = 2f * vy / flightTime;
             }
@@ -99,13 +97,13 @@ namespace ET.TeamGame
                 vel = new float2(direction.x * speed, 0f);
             }
 
-            // 弹射参数：BulletTypeValue[0]=弹射次数, [1]=弹射半径(int/100)
+            // 弹射参数：BulletTypeValue[0]=弹射次数, [1]=弹射半径(int/10000)
             int ricochetCount = 0;
             float ricochetRadius = 0f;
             if (bulletCfg.BulletType == 2 && bulletCfg.BulletTypeValue != null && bulletCfg.BulletTypeValue.Length >= 2)
             {
                 ricochetCount  = bulletCfg.BulletTypeValue[0];
-                ricochetRadius = bulletCfg.BulletTypeValue[1] / 100f;
+                ricochetRadius = bulletCfg.BulletTypeValue[1] / 10000f;
             }
 
             var runtime = new BulletRuntimeData
@@ -134,7 +132,7 @@ namespace ET.TeamGame
         }
 
         /// <summary>获取子弹碰撞半径（int/100 → float）</summary>
-        private static float GetBulletRadius(BulletConfig cfg)
+        private static float GetBulletRadius(BulletData cfg)
         {
             return cfg.CollisionRadius / 100f;
         }

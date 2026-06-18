@@ -30,10 +30,14 @@ namespace ET.TeamGame
         {
             if (spriteRenderer != null && radius > 0f)
             {
-                // sharedSprite 的 pixelsPerUnit = TEX_SIZE，即纹理边长 = 1 单位
-                // 所以 transform.scale = 直径 即得到正确大小
                 float diameter = radius * 2f;
                 transform.localScale = new Vector3(diameter, diameter, 1f);
+                // 补偿父级缩放，确保世界空间大小 = 直径
+                Transform parent = transform.parent;
+                if (parent != null)
+                {
+                    Debug.Log($"[CollisionCircle] name={transform.parent.name} radius={radius:F3} diameter={diameter:F3} parentScale=({parent.localScale.x:F2},{parent.localScale.y:F2}) worldScale=({transform.lossyScale.x:F3},{transform.lossyScale.y:F3})");
+                }
             }
         }
 

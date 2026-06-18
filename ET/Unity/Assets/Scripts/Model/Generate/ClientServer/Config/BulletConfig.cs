@@ -61,13 +61,13 @@ namespace ET
 	{
 		/// <summary>ID</summary>
 		public int Id { get; set; }
-		/// <summary>速度</summary>
+		/// <summary>速度/10000</summary>
 		public int Speed { get; set; }
 		/// <summary>伤害</summary>
 		public int Damage { get; set; }
 		/// <summary>飞行类型</summary>
 		public int FlightType { get; set; }
-		/// <summary>飞行参数</summary>
+		/// <summary>飞行参数/10000</summary>
 		public int[] FlightValue { get; set; }
 		/// <summary>子弹类型</summary>
 		public int BulletType { get; set; }
@@ -75,11 +75,11 @@ namespace ET
 		public int[] BulletTypeValue { get; set; }
 		/// <summary>锁定追踪</summary>
 		public int IsHoming { get; set; }
-		/// <summary>最大飞行距离</summary>
+		/// <summary>最大飞行距离/10000</summary>
 		public int MaxDistance { get; set; }
 		/// <summary>寻敌配置ID</summary>
 		public int TargetFinderId { get; set; }
-		/// <summary>碰撞半径</summary>
+		/// <summary>碰撞半径/100</summary>
 		public int CollisionRadius { get; set; }
 		/// <summary>预制体路径</summary>
 		public string PrefabPath { get; set; }

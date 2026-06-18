@@ -24,6 +24,11 @@ namespace ET
             // 先加载 Unity 场景，再创建测试 Unit（避免场景加载时销毁 GameObject）
             await this.LoadScene(parent, scene, this.GetSceneName());
 
+            // 预加载技能 JSON 数据
+            SkillDataLoader.LoadAll();
+            // 预加载子弹 JSON 数据
+            BulletDataLoader.LoadAll();
+
             // 添加 AI 调试 Overlay（按 F1 开关）
             var debugGo = new UnityEngine.GameObject("AIDebugger");
             debugGo.AddComponent<AIDebugger>().scene = scene;

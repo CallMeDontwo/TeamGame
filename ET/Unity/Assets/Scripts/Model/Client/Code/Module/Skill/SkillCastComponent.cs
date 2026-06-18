@@ -19,10 +19,10 @@ namespace ET.TeamGame
         /// <summary>施法目标</summary>
         public EntityRef<Unit> Target { get; set; }
 
-        /// <summary>缓存的技能配置（Cast时赋值，避免TickCasting每帧查表）</summary>
-        public SkillConfig CachedConfig;
+        /// <summary>缓存的技能数据（Cast时赋值，避免TickCasting每帧查表）</summary>
+        public SkillData CachedData;
 
-        /// <summary>缓存的事件配置数组（Cast时赋值，避免TickCasting每事件查表）</summary>
-        public SkillEventConfig[] CachedEvents;
+        /// <summary>缓存的事件数据列表引用（指向 CachedData.Events）</summary>
+        public System.Collections.Generic.List<SkillEventData> CachedEvents;
     }
 }

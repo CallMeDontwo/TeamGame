@@ -80,7 +80,7 @@ namespace ET.TeamGame
             if (isBullet)
             {
                 var bc = unit.GetComponent<BulletComponent>();
-                var bulletCfg = BulletConfigCategory.Instance.Get(bc.BulletConfigId);
+                var bulletCfg = BulletDataStore.Get(bc.BulletConfigId);
                 radius = bulletCfg.CollisionRadius / 100f;
                 color = new Color(1f, 0.92f, 0.016f, 0.5f); // 黄色半透明
             }

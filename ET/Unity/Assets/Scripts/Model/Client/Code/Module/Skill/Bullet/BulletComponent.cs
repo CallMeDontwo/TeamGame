@@ -22,7 +22,7 @@ namespace ET.TeamGame
     [EnableMethod]
     public sealed partial class BulletComponent : Entity, IAwake, IDestroy
     {
-        /// <summary>子弹配置ID（查 BulletConfigCategory）</summary>
+        /// <summary>子弹配置ID（查 BulletDataStore）</summary>
         public int BulletConfigId { get; set; }
 
         /// <summary>发射者 Unit 引用</summary>

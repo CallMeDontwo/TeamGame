@@ -42,7 +42,9 @@ namespace ET.TeamGame
         {
             if (!self.IsReady(skillId) || self.IsCasting()) return false;
 
-            var config = SkillConfigCategory.Instance.Get(skillId);
+            var skillData = SkillDataStore.Get(skillId);
+            if (skillData == null) return false;
+
             var unit = self.GetParent<Unit>();
 
             var castComp = unit.GetComponent<SkillCastComponent>() ?? unit.AddComponent<SkillCastComponent>();
@@ -51,13 +53,9 @@ namespace ET.TeamGame
             castComp.SkillStartTime = TimeInfo.Instance.ClientFrameTime();
             castComp.NextEventIndex = 0;
 
-            // 缓存配置和事件数组，避免 TickCasting 每帧重复查表
-            castComp.CachedConfig = config;
-            castComp.CachedEvents = new SkillEventConfig[config.SkillEventIds.Length];
-            for (int i = 0; i < config.SkillEventIds.Length; i++)
-            {
-                castComp.CachedEvents[i] = SkillEventConfigCategory.Instance.Get(config.SkillEventIds[i]);
-            }
+            // 缓存技能数据和事件列表，避免 TickCasting 每帧查表
+            castComp.CachedData = skillData;
+            castComp.CachedEvents = skillData.Events;
 
             await self.StartSkillTimeline();
             return true;
@@ -84,30 +82,30 @@ namespace ET.TeamGame
         private static void TickCasting(this SkillComponent self, SkillCastComponent castComp)
         {
             var unit = self.GetParent<Unit>();
-            var config = castComp.CachedConfig;
+            var skillData = castComp.CachedData;
             var events = castComp.CachedEvents;
+            if (skillData == null || events == null) return;
+
             long elapsed = TimeInfo.Instance.ClientFrameTime() - castComp.SkillStartTime;
 
-            // 遍历未执行的事件（使用缓存的事件数组）
-            while (castComp.NextEventIndex < events.Length
-                && config.SkillEventTimestamps != null
-                && castComp.NextEventIndex < config.SkillEventTimestamps.Length)
+            // 遍历未执行的事件
+            while (castComp.NextEventIndex < events.Count)
             {
-                if (elapsed < config.SkillEventTimestamps[castComp.NextEventIndex]) break;
+                var ev = events[castComp.NextEventIndex];
+                if (elapsed < ev.Timestamp) break;
 
-                var eventConfig = events[castComp.NextEventIndex];
                 castComp.NextEventIndex++;
 
-                ExecuteEvent(unit, castComp.Target, eventConfig);
+                ExecuteEvent(unit, castComp.Target, ev);
             }
 
             // 全部事件执行完毕 → 结束技能，进入CD
-            if (castComp.NextEventIndex >= events.Length && elapsed >= config.Duration)
+            if (castComp.NextEventIndex >= events.Count && elapsed >= skillData.Duration)
             {
-                self.StartCooldown(castComp.SkillConfigId, config.CD);
+                self.StartCooldown(castComp.SkillConfigId, skillData.CD);
                 castComp.SkillConfigId = 0;
                 castComp.Target = default;
-                castComp.CachedConfig = null;
+                castComp.CachedData = null;
                 castComp.CachedEvents = null;
             }
         }
@@ -116,30 +114,30 @@ namespace ET.TeamGame
         //  事件分发
         // ═══════════════════════════════════════════════════
 
-        private static void ExecuteEvent(Unit caster, Unit target, SkillEventConfig config)
+        private static void ExecuteEvent(Unit caster, Unit target, SkillEventData ev)
         {
-            switch ((SkillEventType)config.EventType)
+            switch ((SkillEventType)ev.EventType)
             {
                 case SkillEventType.PlayAnimation:
-                    SkillEvent_PlayAnimation.Execute(caster, config);
+                    SkillEvent_PlayAnimation.Execute(caster, ev);
                     break;
                 case SkillEventType.FindTarget:
-                    SkillEvent_FindTarget.Execute(caster, config);
+                    SkillEvent_FindTarget.Execute(caster, ev);
                     break;
                 case SkillEventType.SpawnVFX:
-                    SkillEvent_SpawnVFX.Execute(caster, config);
+                    SkillEvent_SpawnVFX.Execute(caster, ev);
                     break;
                 case SkillEventType.ApplyValue:
-                    SkillEvent_ApplyValue.Execute(caster, target, config);
+                    SkillEvent_ApplyValue.Execute(caster, target, ev);
                     break;
                 case SkillEventType.AddBuff:
-                    SkillEvent_AddBuff.Execute(caster, target, config);
+                    SkillEvent_AddBuff.Execute(caster, target, ev);
                     break;
                 case SkillEventType.SpawnBullet:
-                    SkillEvent_SpawnBullet.Execute(caster, config);
+                    SkillEvent_SpawnBullet.Execute(caster, ev);
                     break;
                 default:
-                    Log.Error($"[SkillEvent] 未知事件类型 EventType={config.EventType}, EventId={config.Id}, Caster={caster?.Id}");
+                    Log.Error($"[SkillEvent] 未知事件类型 EventType={ev.EventType}, Caster={caster?.Id}");
                     break;
             }
         }

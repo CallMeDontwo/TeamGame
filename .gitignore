@@ -67,3 +67,10 @@ Thumbs.db
 
 # === SVN 残留 ===
 .svn/
+
+# === Excel 临时文件 ===
+~$*.xlsx
+~$*.xlsx.meta
+
+# === 密钥/Token文件 ===
+gitToken.txt

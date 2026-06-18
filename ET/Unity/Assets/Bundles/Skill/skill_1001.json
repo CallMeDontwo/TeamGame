@@ -1,0 +1,57 @@
+{
+    "SkillId": 1001,
+    "Name": "旋风斩",
+    "Desc": "快速旋转挥砍周围敌人并发射剑气",
+    "CD": 3,
+    "Duration": 1800,
+    "Events": [
+        {
+            "EventType": 3,
+            "Timestamp": 0,
+            "IntParam1": -24,
+            "IntParam2": 26,
+            "IntParam3": 1000,
+            "StringParam": "Assets/Bundles/Prefabs/SkillEffect/hero1001_skill1_01 Variant.prefab"
+        },
+        {
+            "EventType": 1,
+            "Timestamp": 0,
+            "IntParam1": 0,
+            "IntParam2": 0,
+            "IntParam3": 0,
+            "StringParam": "frozen"
+        },
+        {
+            "EventType": 6,
+            "Timestamp": 500,
+            "IntParam1": 1001,
+            "IntParam2": 0,
+            "IntParam3": 0,
+            "StringParam": ""
+        },
+        {
+            "EventType": 1,
+            "Timestamp": 1000,
+            "IntParam1": 50,
+            "IntParam2": 0,
+            "IntParam3": 0,
+            "StringParam": "attack04"
+        },
+        {
+            "EventType": 6,
+            "Timestamp": 1200,
+            "IntParam1": 1001,
+            "IntParam2": 0,
+            "IntParam3": 0,
+            "StringParam": ""
+        },
+        {
+            "EventType": 6,
+            "Timestamp": 1300,
+            "IntParam1": 1002,
+            "IntParam2": 0,
+            "IntParam3": 0,
+            "StringParam": ""
+        }
+    ]
+}
