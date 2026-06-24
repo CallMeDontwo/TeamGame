@@ -79,6 +79,10 @@ namespace ET
 		public int[] SkillIds { get; set; }
 		/// <summary>碰撞半径</summary>
 		public int CollisionRadius { get; set; }
+		/// <summary>普攻</summary>
+		public int BasicAttackSkillId { get; set; }
+		/// <summary>高度</summary>
+		public int Height { get; set; }
 
 	}
 }

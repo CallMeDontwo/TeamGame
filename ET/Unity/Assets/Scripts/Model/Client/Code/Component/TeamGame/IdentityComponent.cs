@@ -15,5 +15,8 @@ namespace ET.TeamGame
 
         /// <summary>等级</summary>
         public int Level { get; set; } = 1;
+
+        /// <summary>高度层（0=地面,1=低空,2+=高空）</summary>
+        public int Height { get; set; }
     }
 }

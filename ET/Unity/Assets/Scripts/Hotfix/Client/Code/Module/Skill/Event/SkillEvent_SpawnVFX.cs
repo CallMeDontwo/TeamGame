@@ -11,7 +11,7 @@ namespace ET.TeamGame
                 PrefabPath = config.StringParam,
                 OffsetX = config.IntParam1 / 100f,
                 OffsetY = config.IntParam2 / 100f,
-                dua = config.IntParam3,
+                Duration = config.IntParam3,
             });
         }
     }

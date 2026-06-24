@@ -1,0 +1,35 @@
+{
+    "SkillId": 100100,
+    "Name": "英雄普攻",
+    "Desc": "英雄1001的基础攻击",
+    "CD": 0,
+    "Duration": 600,
+    "CastRange": 80,
+    "ReachHeight": 0,
+    "Events": [
+        {
+            "EventType": 1,
+            "Timestamp": 0,
+            "IntParam1": 0,
+            "IntParam2": 0,
+            "IntParam3": 0,
+            "FloatParam1": 0.0,
+            "FloatParam2": 0.0,
+            "FloatParam3": 0.0,
+            "FloatParam4": 0.0,
+            "StringParam": "attack01"
+        },
+        {
+            "EventType": 4,
+            "Timestamp": 300,
+            "IntParam1": 0,
+            "IntParam2": 0,
+            "IntParam3": 0,
+            "FloatParam1": 0.0,
+            "FloatParam2": 0.0,
+            "FloatParam3": 0.0,
+            "FloatParam4": 0.0,
+            "StringParam": ""
+        }
+    ]
+}

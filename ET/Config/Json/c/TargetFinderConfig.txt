@@ -1,3 +1,4 @@
 {"dict": [
-[1, {"_t":"TargetFinderConfig","_id":1,"FinderType":1,"Range":300}],
+[1, {"_t":"TargetFinderConfig","_id":1,"FinderType":1,"Range":300,"AnchorType":0,"Param1":0,"Param2":0,"OffsetX":0,"OffsetY":0}],
+[2, {"_t":"TargetFinderConfig","_id":2,"FinderType":3,"Range":0,"AnchorType":1,"Param1":100,"Param2":80,"OffsetX":62,"OffsetY":35}],
 ]}

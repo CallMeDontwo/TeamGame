@@ -2,7 +2,7 @@ namespace ET.TeamGame
 {
     public static class SkillEvent_SpawnBullet
     {
-        public static void Execute(Unit caster, SkillEventData config)
+        public static void Execute(Unit caster, SkillCastComponent castComp, SkillEventData config)
         {
             if (caster == null || caster.IsDisposed) return;
             int bulletConfigId = config.IntParam1;

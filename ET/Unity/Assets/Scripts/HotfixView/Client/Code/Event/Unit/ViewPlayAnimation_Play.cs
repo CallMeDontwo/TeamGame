@@ -20,7 +20,7 @@ namespace ET.TeamGame
                 var animView = view.GameObject.GetComponent<AnimatorView>();
                 if (animView != null)
                 {
-                    animView.PlayAnimation(a.anime);
+                    animView.PlayAnimation(a.anime,a.isLoop);
                 }
             }
 

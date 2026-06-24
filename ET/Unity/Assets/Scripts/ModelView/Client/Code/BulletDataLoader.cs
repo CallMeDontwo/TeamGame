@@ -8,6 +8,7 @@ namespace ET.TeamGame
     /// </summary>
     public static class BulletDataLoader
     {
+        [StaticField]
         private static bool _loaded;
 
         public static async ETTask LoadAll()
@@ -15,8 +16,7 @@ namespace ET.TeamGame
             if (_loaded) return;
             _loaded = true;
 
-            var handles = YooAssets.LoadAllAssetsAsync<UnityEngine.TextAsset>(
-                "Assets/Bundles/Bullet/bullet_1001.json");
+            var handles = YooAssets.LoadAllAssetsAsync<UnityEngine.TextAsset>("Assets/Bundles/Bullet/bullet_1001.json");
             await handles.Task;
             if (handles == null) return;
 

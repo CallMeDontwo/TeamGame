@@ -20,4 +20,12 @@ namespace ET.TeamGame
         Hit = 5,
         Death = 6,
     }
+
+    /// <summary>游戏流程阶段</summary>
+    public enum GameFlowPhase
+    {
+        None = 0,
+        BattlePrepare = 1,  // 布阵阶段
+        Fighting = 2,       // 战斗中
+    }
 }

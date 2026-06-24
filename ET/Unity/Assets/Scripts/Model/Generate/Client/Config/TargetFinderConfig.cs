@@ -65,6 +65,16 @@ namespace ET
 		public int FinderType { get; set; }
 		/// <summary>搜索范围</summary>
 		public int Range { get; set; }
+		/// <summary>锚点类型</summary>
+		public int AnchorType { get; set; }
+		/// <summary>参数1</summary>
+		public int Param1 { get; set; }
+		/// <summary>参数2</summary>
+		public int Param2 { get; set; }
+		/// <summary>偏移X</summary>
+		public int OffsetX { get; set; }
+		/// <summary>偏移Y</summary>
+		public int OffsetY { get; set; }
 
 	}
 }

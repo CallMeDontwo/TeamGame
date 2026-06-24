@@ -1,0 +1,35 @@
+{
+    "SkillId": 100300,
+    "Name": "骑士普攻",
+    "Desc": "",
+    "CD": 0,
+    "Duration": 700,
+    "CastRange": 80,
+    "ReachHeight": 0,
+    "Events": [
+        {
+            "EventType": 1,
+            "Timestamp": 0,
+            "IntParam1": 10,
+            "IntParam2": 0,
+            "IntParam3": 0,
+            "FloatParam1": 0.0,
+            "FloatParam2": 0.0,
+            "FloatParam3": 0.0,
+            "FloatParam4": 0.0,
+            "StringParam": "attack03"
+        },
+        {
+            "EventType": 4,
+            "Timestamp": 300,
+            "IntParam1": 20,
+            "IntParam2": 0,
+            "IntParam3": 0,
+            "FloatParam1": 0.0,
+            "FloatParam2": 0.0,
+            "FloatParam3": 0.0,
+            "FloatParam4": 0.0,
+            "StringParam": ""
+        }
+    ]
+}

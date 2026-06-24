@@ -30,5 +30,8 @@ namespace ET.TeamGame
 
         /// <summary>当前执行的行为名称（调试用）</summary>
         public string CurrentBehaviorName { get; set; } = string.Empty;
+
+        /// <summary>锁定目标 ID（存活且在攻击范围内时不切换）</summary>
+        public long LockedTargetId { get; set; }
     }
 }

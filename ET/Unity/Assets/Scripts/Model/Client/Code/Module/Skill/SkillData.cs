@@ -25,6 +25,18 @@ namespace ET.TeamGame
         /// <summary>整型参数3</summary>
         public int IntParam3;
 
+        /// <summary>浮点参数1（范围类参数用，如半径/长度）</summary>
+        public float FloatParam1;
+
+        /// <summary>浮点参数2（范围类参数用，如矩形宽度/扇形角度）</summary>
+        public float FloatParam2;
+
+        /// <summary>浮点参数3（范围类参数用，如中心点偏移X）</summary>
+        public float FloatParam3;
+
+        /// <summary>浮点参数4（范围类参数用，如中心点偏移Y）</summary>
+        public float FloatParam4;
+
         /// <summary>字符串参数（动画名/特效路径等）</summary>
         public string StringParam;
     }
@@ -50,6 +62,12 @@ namespace ET.TeamGame
 
         /// <summary>技能总时长（毫秒）</summary>
         public int Duration;
+
+        /// <summary>施法距离（int/100 = 世界单位，0=不限）</summary>
+        public int CastRange;
+
+        /// <summary>攻击可达高度（int/100，0=仅同层，500=5层差内均可）</summary>
+        public int ReachHeight;
 
         /// <summary>事件列表（按 Timestamp 排序）</summary>
         public List<SkillEventData> Events = new();

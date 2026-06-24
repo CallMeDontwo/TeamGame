@@ -25,9 +25,9 @@ namespace ET
             await this.LoadScene(parent, scene, this.GetSceneName());
 
             // 预加载技能 JSON 数据
-            SkillDataLoader.LoadAll();
+            await SkillDataLoader.LoadAll();
             // 预加载子弹 JSON 数据
-            BulletDataLoader.LoadAll();
+            await BulletDataLoader.LoadAll();
 
             // 添加 AI 调试 Overlay（按 F1 开关）
             var debugGo = new UnityEngine.GameObject("AIDebugger");
@@ -37,7 +37,9 @@ namespace ET
             var collisionGo = new UnityEngine.GameObject("CollisionDebugger");
             collisionGo.AddComponent<CollisionDebugger>().scene = scene;
 
-            await scene.GetComponent<UnitManager>().CreateTestUnits(scene);
+            // 添加 AOE 寻敌形状可视化（技能 FindTarget 时自动出现 1 秒）
+            var aoeShapeGo = new UnityEngine.GameObject("AoeShapeDrawer");
+            aoeShapeGo.AddComponent<AoeShapeDrawer>();
         }
 
         public override async ETTask OnDestroy(Scene parent, Scene scene, SceneArguments args)

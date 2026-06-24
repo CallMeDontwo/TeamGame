@@ -9,6 +9,7 @@ namespace ET.TeamGame
     /// </summary>
     public static class SkillDataLoader
     {
+        [StaticField]
         private static bool _loaded;
 
         public static async ETTask LoadAll()

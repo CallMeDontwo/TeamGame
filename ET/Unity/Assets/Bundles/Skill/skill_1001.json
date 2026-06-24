@@ -1,9 +1,11 @@
 {
     "SkillId": 1001,
-    "Name": "旋风斩",
+    "Name": "蓄力重击",
     "Desc": "快速旋转挥砍周围敌人并发射剑气",
     "CD": 3,
     "Duration": 1800,
+    "CastRange": 100,
+    "ReachHeight": 0,
     "Events": [
         {
             "EventType": 3,
@@ -11,7 +13,11 @@
             "IntParam1": -24,
             "IntParam2": 26,
             "IntParam3": 1000,
-            "StringParam": "Assets/Bundles/Prefabs/SkillEffect/hero1001_skill1_01 Variant.prefab"
+            "FloatParam1": 0.0,
+            "FloatParam2": 0.0,
+            "FloatParam3": 0.0,
+            "FloatParam4": 0.0,
+            "StringParam": "Assets/Bundles/Prefabs/SkillEffect/hero1001_skill1_01.prefab"
         },
         {
             "EventType": 1,
@@ -19,14 +25,22 @@
             "IntParam1": 0,
             "IntParam2": 0,
             "IntParam3": 0,
+            "FloatParam1": 0.0,
+            "FloatParam2": 0.0,
+            "FloatParam3": 0.0,
+            "FloatParam4": 0.0,
             "StringParam": "frozen"
         },
         {
-            "EventType": 6,
-            "Timestamp": 500,
-            "IntParam1": 1001,
+            "EventType": 2,
+            "Timestamp": 1300,
+            "IntParam1": 2,
             "IntParam2": 0,
             "IntParam3": 0,
+            "FloatParam1": 0.0,
+            "FloatParam2": 0.0,
+            "FloatParam3": 0.0,
+            "FloatParam4": 0.0,
             "StringParam": ""
         },
         {
@@ -35,22 +49,34 @@
             "IntParam1": 50,
             "IntParam2": 0,
             "IntParam3": 0,
+            "FloatParam1": 0.0,
+            "FloatParam2": 0.0,
+            "FloatParam3": 0.0,
+            "FloatParam4": 0.0,
             "StringParam": "attack04"
         },
         {
-            "EventType": 6,
-            "Timestamp": 1200,
-            "IntParam1": 1001,
+            "EventType": 3,
+            "Timestamp": 1300,
+            "IntParam1": 62,
             "IntParam2": 0,
-            "IntParam3": 0,
-            "StringParam": ""
+            "IntParam3": 500,
+            "FloatParam1": 0.0,
+            "FloatParam2": 0.0,
+            "FloatParam3": 0.0,
+            "FloatParam4": 0.0,
+            "StringParam": "Assets/Bundles/Prefabs/SkillEffect/hero1001_skill1_02.prefab"
         },
         {
-            "EventType": 6,
-            "Timestamp": 1300,
-            "IntParam1": 1002,
-            "IntParam2": 0,
+            "EventType": 4,
+            "Timestamp": 1500,
+            "IntParam1": 100,
+            "IntParam2": 2,
             "IntParam3": 0,
+            "FloatParam1": 0.0,
+            "FloatParam2": 0.0,
+            "FloatParam3": 0.0,
+            "FloatParam4": 0.0,
             "StringParam": ""
         }
     ]

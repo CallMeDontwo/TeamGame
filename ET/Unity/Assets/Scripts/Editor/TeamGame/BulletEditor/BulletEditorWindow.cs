@@ -121,105 +121,78 @@ namespace ET.TeamGame
             }
 
             var bullet = _bullets[_selectedIdx];
-            EditorGUILayout.LabelField($"子弹 {bullet.Id} — {bullet.BulletName}", EditorStyles.boldLabel);
+
+            // 标题行 + 按钮
+            EditorGUILayout.BeginHorizontal();
+            EditorGUILayout.LabelField($"子弹 {bullet.Id} — {bullet.BulletName}", EditorStyles.boldLabel, GUILayout.ExpandWidth(true));
+            if (GUILayout.Button("保存", GUILayout.Width(60)))
+                Save(bullet);
+            if (GUILayout.Button("复制", GUILayout.Width(60)))
+                Duplicate(bullet);
+            EditorGUILayout.EndHorizontal();
 
             _propScroll = EditorGUILayout.BeginScrollView(_propScroll);
 
             // ---- 基础信息 ----
             EditorGUILayout.LabelField("基础信息", EditorStyles.miniBoldLabel);
-            IntField("ID", ref bullet.Id, 80);
-            TextField("名称", ref bullet.BulletName, 200);
-            TextField("描述", ref bullet.Desc, 200);
+            TwoColInt("ID", ref bullet.Id, 80, "名称", ref bullet.BulletName);
+            TextField("描述", ref bullet.Desc, 300);
 
             EditorGUILayout.Space();
 
             // ---- 飞行属性 ----
             EditorGUILayout.LabelField("飞行属性", EditorStyles.miniBoldLabel);
+            TwoColIntH("速度", ref bullet.Speed, 70, "/10000", "最大距离", ref bullet.MaxDistance, 70, "/10000");
+            TwoColPopup("飞行类型", ref bullet.FlightType, new[] { "1-直线", "2-抛物线" }, new[] { 1, 2 },
+                        "锁定追踪", ref bullet.IsHoming, new[] { "否", "是" }, new[] { 0, 1 });
+            if (bullet.FlightType == 2)
             {
-                IntFieldWithHint("速度", ref bullet.Speed, 80, "/10000");
-                IntFieldWithHint("最大距离", ref bullet.MaxDistance, 80, "/10000");
-
-                EditorGUILayout.BeginHorizontal();
-                EditorGUILayout.LabelField("飞行类型", GUILayout.Width(55));
-                bullet.FlightType = EditorGUILayout.IntPopup(bullet.FlightType,
-                    new[] { "1-直线", "2-抛物线" }, new[] { 1, 2 }, GUILayout.Width(100));
-                GUILayout.FlexibleSpace();
-                EditorGUILayout.EndHorizontal();
-
-                // 抛物线参数
-                if (bullet.FlightType == 2)
-                {
-                    if (bullet.FlightValue == null || bullet.FlightValue.Length < 1)
-                        bullet.FlightValue = new int[] { 45 };
-                    IntFieldWithHint("发射角度", ref bullet.FlightValue[0], 60, "度");
-                }
-
-                EditorGUILayout.BeginHorizontal();
-                EditorGUILayout.LabelField("锁定追踪", GUILayout.Width(55));
-                bullet.IsHoming = EditorGUILayout.IntPopup(bullet.IsHoming,
-                    new[] { "否", "是" }, new[] { 0, 1 }, GUILayout.Width(60));
-                GUILayout.FlexibleSpace();
-                EditorGUILayout.EndHorizontal();
+                if (bullet.FlightValue == null || bullet.FlightValue.Length < 1)
+                    bullet.FlightValue = new int[] { 45 };
+                IntFieldWithHint("发射角度", ref bullet.FlightValue[0], 60, "度");
             }
 
             EditorGUILayout.Space();
 
             // ---- 战斗属性 ----
             EditorGUILayout.LabelField("战斗属性", EditorStyles.miniBoldLabel);
-            {
-                IntFieldWithHint("伤害", ref bullet.Damage, 80, "");
-                IntFieldWithHint("碰撞半径", ref bullet.CollisionRadius, 80, "/100");
-                IntField("寻敌配置ID", ref bullet.TargetFinderId, 80);
-            }
+            TwoColIntH("伤害", ref bullet.Damage, 70, "", "碰撞半径", ref bullet.CollisionRadius, 70, "/100");
+            IntField("寻敌配置ID", ref bullet.TargetFinderId, 70);
+
+            EditorGUILayout.Space();
+
+            // ---- 发射偏移 ----
+            EditorGUILayout.LabelField("发射偏移", EditorStyles.miniBoldLabel);
+            TwoColIntH("X偏移", ref bullet.SpawnOffsetX, 70, "/100", "Y偏移", ref bullet.SpawnOffsetY, 70, "/100");
 
             EditorGUILayout.Space();
 
             // ---- 子弹类型 ----
             EditorGUILayout.LabelField("子弹类型", EditorStyles.miniBoldLabel);
+            EditorGUILayout.BeginHorizontal();
+            EditorGUILayout.LabelField("子弹类型", GUILayout.Width(55));
+            bullet.BulletType = EditorGUILayout.IntPopup(bullet.BulletType,
+                new[] { "1-普通", "2-弹射" }, new[] { 1, 2 }, GUILayout.Width(100));
+            GUILayout.FlexibleSpace();
+            EditorGUILayout.EndHorizontal();
+            if (bullet.BulletType == 2)
             {
-                EditorGUILayout.BeginHorizontal();
-                EditorGUILayout.LabelField("子弹类型", GUILayout.Width(55));
-                bullet.BulletType = EditorGUILayout.IntPopup(bullet.BulletType,
-                    new[] { "1-普通", "2-弹射" }, new[] { 1, 2 }, GUILayout.Width(100));
-                GUILayout.FlexibleSpace();
-                EditorGUILayout.EndHorizontal();
-
-                // 弹射参数
-                if (bullet.BulletType == 2)
-                {
-                    if (bullet.BulletTypeValue == null || bullet.BulletTypeValue.Length < 2)
-                        bullet.BulletTypeValue = new int[] { 3, 5000 };
-                    IntField("弹射次数", ref bullet.BulletTypeValue[0], 60);
-                    IntFieldWithHint("搜索半径", ref bullet.BulletTypeValue[1], 80, "/10000");
-                }
+                if (bullet.BulletTypeValue == null || bullet.BulletTypeValue.Length < 2)
+                    bullet.BulletTypeValue = new int[] { 3, 5000 };
+                IntField("弹射次数", ref bullet.BulletTypeValue[0], 60);
+                IntFieldWithHint("搜索半径", ref bullet.BulletTypeValue[1], 80, "/10000");
             }
 
             EditorGUILayout.Space();
 
             // ---- 视图 ----
             EditorGUILayout.LabelField("视图", EditorStyles.miniBoldLabel);
-            TextField("预制体路径", ref bullet.PrefabPath, 200);
+            TextField("预制体路径", ref bullet.PrefabPath, 300);
 
-            EditorGUILayout.Space();
             EditorGUILayout.Space();
 
             // ---- 预览计算 ----
             DrawPreview(bullet);
-
-            EditorGUILayout.Space();
-
-            // ---- 操作按钮 ----
-            EditorGUILayout.BeginHorizontal();
-            if (GUILayout.Button("保存", GUILayout.Width(80)))
-            {
-                Save(bullet);
-            }
-            if (GUILayout.Button("复制", GUILayout.Width(80)))
-            {
-                Duplicate(bullet);
-            }
-            GUILayout.FlexibleSpace();
-            EditorGUILayout.EndHorizontal();
 
             EditorGUILayout.EndScrollView();
             EditorGUILayout.EndVertical();
@@ -286,6 +259,54 @@ namespace ET.TeamGame
             EditorGUILayout.EndHorizontal();
         }
 
+        private static void TwoColInt(string l1, ref int v1, int w1, string l2, ref string v2)
+        {
+            EditorGUILayout.BeginHorizontal();
+            EditorGUILayout.LabelField(l1, GUILayout.Width(55));
+            EditorGUI.BeginChangeCheck();
+            int n1 = EditorGUILayout.IntField(v1, GUILayout.Width(w1));
+            if (EditorGUI.EndChangeCheck()) v1 = n1;
+            GUILayout.Space(15);
+            EditorGUILayout.LabelField(l2, GUILayout.Width(55));
+            v2 = EditorGUILayout.TextField(v2 ?? "", GUILayout.Width(100));
+            GUILayout.FlexibleSpace();
+            EditorGUILayout.EndHorizontal();
+        }
+
+        private static void TwoColIntH(string l1, ref int v1, int w1, string h1,
+                                        string l2, ref int v2, int w2, string h2)
+        {
+            EditorGUILayout.BeginHorizontal();
+            EditorGUILayout.LabelField(l1, GUILayout.Width(55));
+            EditorGUI.BeginChangeCheck();
+            int n1 = EditorGUILayout.IntField(v1, GUILayout.Width(w1));
+            if (EditorGUI.EndChangeCheck()) v1 = n1;
+            if (!string.IsNullOrEmpty(h1))
+                GUILayout.Label(h1, GUILayout.Width(50));
+            GUILayout.Space(10);
+            EditorGUILayout.LabelField(l2, GUILayout.Width(55));
+            EditorGUI.BeginChangeCheck();
+            int n2 = EditorGUILayout.IntField(v2, GUILayout.Width(w2));
+            if (EditorGUI.EndChangeCheck()) v2 = n2;
+            if (!string.IsNullOrEmpty(h2))
+                GUILayout.Label(h2, GUILayout.Width(50));
+            GUILayout.FlexibleSpace();
+            EditorGUILayout.EndHorizontal();
+        }
+
+        private static void TwoColPopup(string l1, ref int v1, string[] d1, int[] val1,
+                                         string l2, ref int v2, string[] d2, int[] val2)
+        {
+            EditorGUILayout.BeginHorizontal();
+            EditorGUILayout.LabelField(l1, GUILayout.Width(55));
+            v1 = EditorGUILayout.IntPopup(v1, d1, val1, GUILayout.Width(100));
+            GUILayout.Space(30);
+            EditorGUILayout.LabelField(l2, GUILayout.Width(55));
+            v2 = EditorGUILayout.IntPopup(v2, d2, val2, GUILayout.Width(60));
+            GUILayout.FlexibleSpace();
+            EditorGUILayout.EndHorizontal();
+        }
+
         // ═══════════════════════════════ 操作 ═══════════════════════════════
 
         private void Create(int id, string name)
@@ -311,6 +332,8 @@ namespace ET.TeamGame
                 TargetFinderId = 0,
                 CollisionRadius = 50,
                 PrefabPath = "Bullet_Track",
+                SpawnOffsetX = 0,
+                SpawnOffsetY = 25,
             };
             _bullets.Add(bullet);
             _selectedIdx = _bullets.Count - 1;
@@ -339,6 +362,8 @@ namespace ET.TeamGame
                 TargetFinderId = src.TargetFinderId,
                 CollisionRadius = src.CollisionRadius,
                 PrefabPath = src.PrefabPath,
+                SpawnOffsetX = src.SpawnOffsetX,
+                SpawnOffsetY = src.SpawnOffsetY,
             };
             _bullets.Add(clone);
             _selectedIdx = _bullets.Count - 1;

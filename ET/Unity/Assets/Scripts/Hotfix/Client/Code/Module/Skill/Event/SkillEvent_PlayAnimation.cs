@@ -8,7 +8,7 @@ namespace ET.TeamGame
             var anim = caster.GetComponent<AnimatorComponent>();
             if (anim != null && !string.IsNullOrEmpty(config.StringParam))
             {
-                anim.Play(config.StringParam);
+                anim.Play(config.StringParam,false);
             }
         }
     }

@@ -2,7 +2,7 @@
     "Id": 1002,
     "BulletName": "抛物线弹",
     "Desc": "抛物线飞行，落地爆炸",
-    "Speed": 10000,
+    "Speed": 30000,
     "Damage": 20,
     "FlightType": 2,
     "FlightValue": [
@@ -14,5 +14,7 @@
     "MaxDistance": 80000,
     "TargetFinderId": 0,
     "CollisionRadius": 15,
-    "PrefabPath": "Assets/Bundles/Prefabs/Bullet/bullet_zhadan.prefab"
+    "PrefabPath": "Assets/Bundles/Prefabs/Bullet/bullet_zhadan.prefab",
+    "SpawnOffsetX": 0,
+    "SpawnOffsetY": 25
 }

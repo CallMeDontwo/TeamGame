@@ -1,5 +1,3 @@
-using UnityEngine;
-
 namespace ET.TeamGame
 {
     [EntitySystemOf(typeof(UnitGameObjectComponent))]
@@ -11,10 +9,12 @@ namespace ET.TeamGame
         {
             if (self.GameObject != null)
             {
-                // 清理碰撞圆子对象（避免回池后残留）
-                var circle = self.GameObject.transform.Find("CollisionCircle");
-                if (circle != null)
-                    UnityEngine.Object.Destroy(circle.gameObject);
+                // 清理视图组件再回池
+                self.GameObject.GetComponent<HPBarComponent>()?.Release();
+                self.GameObject.GetComponent<AnimatorView>()?.Clear();
+
+                // 重置 Transform 残留（朝向、位置等会被新 Unit 覆盖）
+                self.GameObject.transform.localRotation = UnityEngine.Quaternion.identity;
 
                 GameObjectPool.Recycle(self.GameObject);
                 self.GameObject = null;

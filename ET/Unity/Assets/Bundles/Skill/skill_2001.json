@@ -1,0 +1,27 @@
+{
+    "SkillId": 2001,
+    "Name": "怪物技能",
+    "Desc": "",
+    "CD": 5,
+    "Duration": 640,
+    "CastRange": 400,
+    "ReachHeight": 0,
+    "Events": [
+        {
+            "EventType": 1,
+            "Timestamp": 0,
+            "IntParam1": 0,
+            "IntParam2": 0,
+            "IntParam3": 0,
+            "StringParam": "attack02"
+        },
+        {
+            "EventType": 6,
+            "Timestamp": 300,
+            "IntParam1": 1001,
+            "IntParam2": 0,
+            "IntParam3": 0,
+            "StringParam": "0"
+        }
+    ]
+}

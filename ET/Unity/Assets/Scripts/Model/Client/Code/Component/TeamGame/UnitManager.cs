@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace ET.TeamGame
 {
     /// <summary>
@@ -7,7 +9,9 @@ namespace ET.TeamGame
     /// </summary>
     [ComponentOf(typeof(Scene))]
     [EnableMethod]
-    public sealed partial class UnitManager : Entity, IAwake, IDestroy
+    public sealed partial class UnitManager : Entity, IAwake, IDestroy, IUpdate
     {
+        /// <summary>锁定关系字典：key=被锁定目标ID, value=锁定者ID</summary>
+        public Dictionary<long, long> LockedTargets { get; set; } = new Dictionary<long, long>();
     }
 }

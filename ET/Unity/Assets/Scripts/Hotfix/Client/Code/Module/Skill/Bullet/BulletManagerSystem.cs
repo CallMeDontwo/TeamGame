@@ -17,6 +17,7 @@ namespace ET.TeamGame
             self.EnemiesSnapshot = new List<EnemyCollisionSnapshot>(32);
             self.HitsThisFrame = new List<HitResult>(16);
             self.GridCellSize = 1f;
+            self.LastUpdateTime = TimeInfo.Instance.ClientFrameTime();
         }
 
         [EntitySystem]
@@ -31,7 +32,7 @@ namespace ET.TeamGame
         }
 
         // ═══════════════════════════════════════════════════
-        //  主循环：每帧集中 Update（替代 N 个协程）
+        //  固定步长主循环
         // ═══════════════════════════════════════════════════
 
         [EntitySystem]
@@ -39,10 +40,22 @@ namespace ET.TeamGame
         {
             if (self.Bullets.Count == 0) return;
 
-            float dt = 1f / 60f;
+            long now = TimeInfo.Instance.ClientFrameTime();
+            float dt = (now - self.LastUpdateTime) / 1000f;
+            self.LastUpdateTime = now;
+            if (dt <= 0f || dt > 0.1f) dt = 1f / 60f;
 
-            BuildEnemySnapshot(self);
-            UpdateAllBullets(self, dt);
+            self.TimeAccumulator += dt;
+
+            // 固定步长推进（支持变帧率，CCD 防穿透）
+            while (self.TimeAccumulator >= ConstValue.FixedDt)
+            {
+                BuildEnemySnapshot(self);
+                UpdateAllBullets(self, ConstValue.FixedDt);
+                self.TimeAccumulator -= ConstValue.FixedDt;
+            }
+
+            // 每帧执行一次碰撞检测（含步长内所有移动）
             BuildSpatialGrid(self);
             CheckCollisions(self);
             ProcessHits(self);
@@ -53,7 +66,7 @@ namespace ET.TeamGame
         //  对外接口：注册子弹
         // ═══════════════════════════════════════════════════
 
-        /// <summary>注册一颗子弹到管理器的集中循环中</summary>
+            /// <summary>注册一颗子弹到管理器的集中循环中</summary>
         public static void Register(this BulletManagerComponent self, BulletRuntimeData data)
         {
             data.isActive = 1;
@@ -61,12 +74,12 @@ namespace ET.TeamGame
             {
                 int slot = self.FreeSlots.Dequeue();
                 self.Bullets[slot] = data;
-                Log.Debug($"[Bullet] Register slot={slot} unitId={data.bulletUnitId} pos=({data.position.x:F2},{data.position.y:F2}) speed={math.length(data.velocity):F1} maxDist={data.maxDist:F1}");
+                //Log.Debug($"[Bullet] Register slot={slot} unitId={data.bulletUnitId} pos=({data.position.x:F2},{data.position.y:F2}) speed={math.length(data.velocity):F1} maxDist={data.maxDist:F1}");
             }
             else
             {
                 self.Bullets.Add(data);
-                Log.Debug($"[Bullet] Register new idx={self.Bullets.Count-1} unitId={data.bulletUnitId} pos=({data.position.x:F2},{data.position.y:F2}) speed={math.length(data.velocity):F1} maxDist={data.maxDist:F1}");
+                //Log.Debug($"[Bullet] Register new idx={self.Bullets.Count-1} unitId={data.bulletUnitId} pos=({data.position.x:F2},{data.position.y:F2}) speed={math.length(data.velocity):F1} maxDist={data.maxDist:F1}");
             }
         }
 
@@ -99,6 +112,7 @@ namespace ET.TeamGame
                     radius  = radius,
                     unitId  = unit.Id,
                     unitType = (byte)identity.UnitType,
+                    height  = identity.Height,
                 });
             }
         }
@@ -141,26 +155,44 @@ namespace ET.TeamGame
                     }
                 }
 
-                // 抛物线：叠加重力到垂直分量
-                if (b.flightType == (byte)BulletFlightType.Parabolic)
-                    b.velocity.y -= b.gravity * dt;
-
-                // 位移
-                b.position += b.velocity * dt;
+                if (b.flightType == (byte)BulletFlightType.Parabolic && b.flightTime > 0f)
+                {
+                    // 抛物线：解析解（消除数值积分误差，落点严格 = spawnPos.y）
+                    // pos.x = spawn.x + vx * t
+                    // pos.y = spawn.y + vy0 * t - 0.5 * g * t²
+                    b.elapsed += dt;
+                    if (b.elapsed >= b.flightTime)
+                    {
+                        // 钳制到落点（水平射程 maxDist，垂直回到 spawn.y）
+                        b.elapsed = b.flightTime;
+                        b.position = new float2(
+                            b.spawnPos.x + b.vx * b.flightTime,
+                            b.spawnPos.y);
+                        b.traveledDist = b.maxDist;
+                        b.isActive = 0;
+                    }
+                    else
+                    {
+                        b.position = new float2(
+                            b.spawnPos.x + b.vx * b.elapsed,
+                            b.spawnPos.y + b.vy0 * b.elapsed - 0.5f * b.gravity * b.elapsed * b.elapsed);
+                        // 抛物线只计水平位移
+                        b.traveledDist += math.abs(b.vx) * dt;
+                        if (b.maxDist > 0 && b.traveledDist >= b.maxDist)
+                            b.isActive = 0;
+                    }
+                }
+                else
+                {
+                    // 直线 / 追踪：欧拉积分
+                    b.position += b.velocity * dt;
+                    b.traveledDist += math.length(b.velocity) * dt;
+                    if (b.maxDist > 0 && b.traveledDist >= b.maxDist)
+                        b.isActive = 0;
+                }
 
                 // 同步位置到 Unit（驱动 View 层移动 GameObject）
                 SyncBulletPosition(self, b);
-
-                // 飞行距离检查（抛物线只计水平位移，maxDist 表示水平射程）
-                float stepDist = b.flightType == (byte)BulletFlightType.Parabolic
-                    ? math.abs(b.velocity.x) * dt
-                    : math.length(b.velocity) * dt;
-                b.traveledDist += stepDist;
-                if (b.maxDist > 0 && b.traveledDist >= b.maxDist)
-                {
-                    b.isActive = 0;
-                    Log.Debug($"[Bullet] Expired idx={i} traveled={b.traveledDist:F2} >= maxDist={b.maxDist:F1}");
-                }
 
                 self.Bullets[i] = b;
             }
@@ -252,6 +284,10 @@ namespace ET.TeamGame
                         // 跳过同阵营（友方子弹不打友方）
                         long casterId = bullet.casterId;
                         if (IsSameSide(self, casterId, enemy.unitId, enemy.unitType))
+                            continue;
+
+                        // 高度不匹配：子弹高度层与敌人高度层不同则跳过
+                        if (bullet.height != enemy.height)
                             continue;
 
                         if (BulletHitCheck(
@@ -355,10 +391,7 @@ namespace ET.TeamGame
             if (targetUnit == null || targetUnit.IsDisposed || damage <= 0) return;
             var tn = targetUnit.GetComponent<NumericComponent>();
             if (tn == null) return;
-            long hp = tn.GetAsLong(NumericType.HP);
-            long nhp = hp - damage;
-            if (nhp < 0) nhp = 0;
-            tn.Set(NumericType.HP, nhp);
+            tn.TakeDamage(damage);
         }
 
         /// <summary>弹射：命中后跳向下一个最近敌人</summary>
@@ -368,7 +401,7 @@ namespace ET.TeamGame
             bullet.ricochetRemain--;
 
             // 在弹射半径内找下一个敌人
-            long nextTargetId = FindNextRicochetTarget(self, bullet.position, hitTargetId, bullet.ricochetRadius, bullet.casterId);
+            long nextTargetId = FindNextRicochetTarget(self, bullet.position, hitTargetId, bullet.ricochetRadius, bullet.casterId, bullet.height);
             if (nextTargetId != 0)
             {
                 bullet.targetId = nextTargetId;
@@ -393,7 +426,7 @@ namespace ET.TeamGame
 
         /// <summary>在弹射半径内找最近的敌人</summary>
         private static long FindNextRicochetTarget(
-            BulletManagerComponent self, float2 fromPos, long hitTargetId, float radius, long casterId)
+            BulletManagerComponent self, float2 fromPos, long hitTargetId, float radius, long casterId, int bulletHeight)
         {
             long nearestId = 0;
             float nearestDistSq = float.MaxValue;
@@ -407,8 +440,9 @@ namespace ET.TeamGame
                 float distSq = math.distancesq(fromPos, enemy.center);
                 if (distSq <= radiusSq && distSq < nearestDistSq)
                 {
-                    // 验证不是同阵营
-                    if (!IsSameSide(self, casterId, enemy.unitId, enemy.unitType))
+                    // 验证不是同阵营 且 高度匹配
+                    if (!IsSameSide(self, casterId, enemy.unitId, enemy.unitType)
+                        && enemy.height == bulletHeight)
                     {
                         nearestDistSq = distSq;
                         nearestId = enemy.unitId;

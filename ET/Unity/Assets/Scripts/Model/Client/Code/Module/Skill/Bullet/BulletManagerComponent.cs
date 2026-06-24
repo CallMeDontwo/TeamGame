@@ -29,5 +29,13 @@ namespace ET.TeamGame
 
         /// <summary>网格 cell 大小（world units）</summary>
         public float GridCellSize;
+
+        /// <summary>固定步长时间累积器</summary>
+        public float TimeAccumulator;
+
+        /// <summary>上一帧时间戳（ms）</summary>
+        public long LastUpdateTime;
+
+       
     }
 }

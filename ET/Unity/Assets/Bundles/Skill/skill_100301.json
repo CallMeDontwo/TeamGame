@@ -1,0 +1,47 @@
+{
+    "SkillId": 100301,
+    "Name": "骑士回血",
+    "Desc": "",
+    "CD": 2,
+    "Duration": 500,
+    "CastRange": 100,
+    "ReachHeight": 0,
+    "Events": [
+        {
+            "EventType": 1,
+            "Timestamp": 0,
+            "IntParam1": 10,
+            "IntParam2": 0,
+            "IntParam3": 0,
+            "FloatParam1": 0.0,
+            "FloatParam2": 0.0,
+            "FloatParam3": 0.0,
+            "FloatParam4": 0.0,
+            "StringParam": "block"
+        },
+        {
+            "EventType": 4,
+            "Timestamp": 500,
+            "IntParam1": 150,
+            "IntParam2": 1,
+            "IntParam3": 0,
+            "FloatParam1": 0.0,
+            "FloatParam2": 0.0,
+            "FloatParam3": 0.0,
+            "FloatParam4": 0.0,
+            "StringParam": ""
+        },
+        {
+            "EventType": 3,
+            "Timestamp": 0,
+            "IntParam1": 0,
+            "IntParam2": 0,
+            "IntParam3": 500,
+            "FloatParam1": 0.0,
+            "FloatParam2": 0.0,
+            "FloatParam3": 0.0,
+            "FloatParam4": 0.0,
+            "StringParam": "Assets/Bundles/Prefabs/SkillEffect/hero1003_skii1_01.prefab"
+        }
+    ]
+}

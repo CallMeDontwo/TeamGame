@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 namespace ET.TeamGame
@@ -19,10 +20,13 @@ namespace ET.TeamGame
             public int ConfigId;
             public string TypeName;
             public string Behavior;
-            public long TargetId;
+            public string Target;
+            public float TargetDist;
             public float HP;
             public int AIConfigId;
             public string SightRange;
+            public string SkillText;
+            public float AtkRange;
         }
 
         private readonly List<UnitDebugInfo> cache = new();
@@ -53,7 +57,7 @@ namespace ET.TeamGame
             int rows = cache.Count + 1;
             float x = 8;
             float y = 8;
-            float w = 880;
+            float w = 1120;
             float totalH = 40 + rows * 32 + 8;
 
             Color old = GUI.color;
@@ -82,6 +86,9 @@ namespace ET.TeamGame
             foreach (var kv in unitManager.Children)
             {
                 if (kv.Value is not Unit unit) continue;
+
+                // 跳过子弹 Unit
+                if (unit.GetComponent<BulletComponent>() != null) continue;
 
                 var info = new UnitDebugInfo
                 {
@@ -113,11 +120,57 @@ namespace ET.TeamGame
                     info.HP = numeric.GetAsFloat(NumericType.HP);
                 }
 
+                // 攻击范围: 直接读 SkillDataStore，同时记录诊断信息
+                var attackComp = unit.GetComponent<AttackComponent>();
+                info.AtkRange = -1f;
+                if (attackComp != null && attackComp.BasicAttackSkillId > 0)
+                {
+                    var skillData = SkillDataStore.Get(attackComp.BasicAttackSkillId);
+                    if (skillData != null)
+                    {
+                        info.AtkRange = skillData.CastRange / 100f;
+                        if (skillData.CastRange <= 0)
+                            Log.Debug($"[AIDebugger] 单位{unit.ConfigId} 技能{attackComp.BasicAttackSkillId} CastRange={skillData.CastRange}");
+                    }
+                    else
+                    {
+                        info.AtkRange = 1.5f;
+                        Log.Debug($"[AIDebugger] 单位{unit.ConfigId} 技能{attackComp.BasicAttackSkillId} 未加载");
+                    }
+                }
+                else
+                {
+                    info.AtkRange = attackComp == null ? -1f : 1.5f;
+                }
+
                 var perception = unit.GetComponent<PerceptionComponent>();
                 if (perception != null)
                 {
-                    info.TargetId = perception.PrimaryTargetId;
                     info.SightRange = (perception.SightRange / 100f).ToString("F1");
+
+                    // 目标 ConfigId + 距离
+                    var primaryId = perception.PrimaryTargetId;
+                    if (primaryId != 0 && unitManager.Children.TryGetValue(primaryId, out var targetEntity))
+                    {
+                        var targetUnit = targetEntity as Unit;
+                        if (targetUnit != null)
+                        {
+                            info.Target = targetUnit.ConfigId.ToString();
+                            info.TargetDist = math.distance(unit.Position, targetUnit.Position);
+                        }
+                    }
+                }
+
+                var castComp = unit.GetComponent<SkillCastComponent>();
+                int skillId = castComp?.SkillConfigId ?? 0;
+                if (skillId > 0)
+                {
+                    var sd = SkillDataStore.Get(skillId);
+                    info.SkillText = sd != null ? $"{sd.Name}({skillId})" : skillId.ToString();
+                }
+                else
+                {
+                    info.SkillText = null;
                 }
 
                 cache.Add(info);
@@ -132,14 +185,14 @@ namespace ET.TeamGame
 
             float x = 10;
             float y = 10;
-            float w = 880;
+            float w = 1120;
             float rowH = 30;
 
             GUI.Box(new Rect(x, y, w, 36), "AI Debug (F1 to toggle)", boxStyle);
 
             y += 40;
-            float[] colW = { 100, 80, 80, 120, 80, 80, 100 };
-            string[] headers = { "UnitID", "Type", "AIcfg", "Behavior", "Target", "HP", "Sight" };
+            float[] colW = { 80, 70, 70, 80, 90, 80, 80, 80, 80, 80 };
+            string[] headers = { "UnitID", "Type", "AIcfg", "Behavior", "Skill", "Target", "Dist", "AtkRng", "HP", "Sight" };
 
             float colX = x + 8;
             GUI.contentColor = Color.gray;
@@ -175,12 +228,22 @@ namespace ET.TeamGame
                 GUI.contentColor = rowColor;
                 GUI.Label(new Rect(colX, y, colW[3], rowH), info.Behavior, labelStyle);
                 colX += colW[3];
-                GUI.Label(new Rect(colX, y, colW[4], rowH), info.TargetId != 0 ? info.TargetId.ToString() : "—", labelStyle);
+                // 正在施放的技能
+                GUI.Label(new Rect(colX, y, colW[4], rowH), info.SkillText ?? "—", labelStyle);
                 colX += colW[4];
-                GUI.Label(new Rect(colX, y, colW[5], rowH), info.HP.ToString("F0"), labelStyle);
+                GUI.Label(new Rect(colX, y, colW[5], rowH), info.Target ?? "—", labelStyle);
                 colX += colW[5];
-                GUI.Label(new Rect(colX, y, colW[6], rowH), info.SightRange, labelStyle);
+                string distText = info.Target != null ? info.TargetDist.ToString("F4") : "—";
+                GUI.Label(new Rect(colX, y, colW[6], rowH), distText, labelStyle);
                 colX += colW[6];
+                string atkRangeText = info.AtkRange < 0 ? "N/A" : info.AtkRange.ToString("F4");
+                GUI.contentColor = info.Target != null && info.AtkRange > 0 && info.TargetDist <= info.AtkRange ? Color.green : Color.white;
+                GUI.Label(new Rect(colX, y, colW[7], rowH), atkRangeText, labelStyle);
+                colX += colW[7];
+                GUI.Label(new Rect(colX, y, colW[8], rowH), info.HP.ToString("F0"), labelStyle);
+                colX += colW[8];
+                GUI.Label(new Rect(colX, y, colW[9], rowH), info.SightRange, labelStyle);
+                colX += colW[9];
 
                 GUI.contentColor = Color.white;
                 y += rowH + 2;

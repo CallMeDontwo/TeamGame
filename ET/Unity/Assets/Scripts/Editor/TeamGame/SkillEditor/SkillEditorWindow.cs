@@ -138,6 +138,30 @@ namespace ET.TeamGame
             GUILayout.FlexibleSpace();
             EditorGUILayout.EndHorizontal();
 
+            // 施法距离
+            EditorGUILayout.BeginHorizontal();
+            EditorGUILayout.LabelField("施法距离", GUILayout.Width(55));
+            EditorGUI.BeginChangeCheck();
+            int newRange = EditorGUILayout.IntField(skill.CastRange, GUILayout.Width(120));
+            if (EditorGUI.EndChangeCheck()) skill.CastRange = newRange;
+            GUILayout.Label("/100", GUILayout.Width(35));
+            if (skill.CastRange > 0)
+                GUILayout.Label($"= {(skill.CastRange / 100f):F2} 单位");
+            GUILayout.FlexibleSpace();
+            EditorGUILayout.EndHorizontal();
+
+            // 攻击可达高度
+            EditorGUILayout.BeginHorizontal();
+            EditorGUILayout.LabelField("可达高度", GUILayout.Width(55));
+            EditorGUI.BeginChangeCheck();
+            int newReachH = EditorGUILayout.IntField(skill.ReachHeight, GUILayout.Width(120));
+            if (EditorGUI.EndChangeCheck()) skill.ReachHeight = newReachH;
+            GUILayout.Label("/100", GUILayout.Width(35));
+            if (skill.ReachHeight > 0)
+                GUILayout.Label($"= {skill.ReachHeight / 100f:F2} 层差");
+            GUILayout.FlexibleSpace();
+            EditorGUILayout.EndHorizontal();
+
             // 按钮
             EditorGUILayout.BeginHorizontal();
             if (GUILayout.Button("保存", GUILayout.Width(80)))
@@ -271,6 +295,10 @@ namespace ET.TeamGame
             ev.IntParam1 = EditorGUILayout.IntField("IntParam1", ev.IntParam1);
             ev.IntParam2 = EditorGUILayout.IntField("IntParam2", ev.IntParam2);
             ev.IntParam3 = EditorGUILayout.IntField("IntParam3", ev.IntParam3);
+            ev.FloatParam1 = EditorGUILayout.FloatField("FloatParam1", ev.FloatParam1);
+            ev.FloatParam2 = EditorGUILayout.FloatField("FloatParam2", ev.FloatParam2);
+            ev.FloatParam3 = EditorGUILayout.FloatField("FloatParam3", ev.FloatParam3);
+            ev.FloatParam4 = EditorGUILayout.FloatField("FloatParam4", ev.FloatParam4);
             ev.StringParam = EditorGUILayout.TextField("StringParam", ev.StringParam ?? "");
 
             EditorGUILayout.Space();
@@ -423,9 +451,9 @@ namespace ET.TeamGame
         private static string GetEventHint(int type) => type switch
         {
             1 => "StringParam=动画名",
-            2 => "IntParam1=目标类型",
-            3 => "StringParam=特效路径, P1=X偏移(/100), P2=Y偏移(/100)",
-            4 => "IntParam1=数值, P2=0伤害/1治疗",
+            2 => "IntParam1=TargetFinderConfigId",
+            3 => "StringParam=特效路径, P1=X偏移(/100,朝左自动取反), P2=Y偏移(/100), P3=持续时间(ms)",
+            4 => "IntParam1=数值, P2=0伤害目标/1治疗自己/2伤害AOE",
             5 => "IntParam1=BuffConfigId",
             6 => "IntParam1=BulletConfigId",
             _ => ""

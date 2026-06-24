@@ -2,8 +2,8 @@
     "Id": 1001,
     "BulletName": "普通子弹",
     "Desc": "直线飞行，击中销毁",
-    "Speed": 10000,
-    "Damage": 30,
+    "Speed": 30000,
+    "Damage": 20,
     "FlightType": 1,
     "FlightValue": [],
     "BulletType": 1,
@@ -12,5 +12,7 @@
     "MaxDistance": 80000,
     "TargetFinderId": 0,
     "CollisionRadius": 9,
-    "PrefabPath": "Assets/Bundles/Prefabs/Bullet/bullet_normal.prefab"
+    "PrefabPath": "Assets/Bundles/Prefabs/Bullet/bullet_normal.prefab",
+    "SpawnOffsetX": 100,
+    "SpawnOffsetY": 20
 }

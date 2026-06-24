@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Unity.Mathematics;
 
 namespace ET.TeamGame
 {
@@ -47,9 +48,27 @@ namespace ET.TeamGame
 
             var unit = self.GetParent<Unit>();
 
+            // 距离检查（+0.01f 容差对抗 float 精度误差）
+            if (skillData.CastRange > 0 && target != null && !target.IsDisposed)
+            {
+                float castRange = skillData.CastRange / 100f;
+                float dist = math.distance(unit.Position, target.Position);
+                if (dist > castRange + 0.01f) return false;
+            }
+
+            // 高度检查
+            if (target != null && !target.IsDisposed)
+            {
+                int selfH = unit.GetComponent<IdentityComponent>()?.Height ?? 0;
+                int targetH = target.GetComponent<IdentityComponent>()?.Height ?? 0;
+                int hDiff = math.abs(selfH - targetH);
+                if (hDiff > skillData.ReachHeight) return false;
+            }
+
             var castComp = unit.GetComponent<SkillCastComponent>() ?? unit.AddComponent<SkillCastComponent>();
             castComp.SkillConfigId = skillId;
             castComp.Target = target;
+            castComp.AoeTargets.Clear();
             castComp.SkillStartTime = TimeInfo.Instance.ClientFrameTime();
             castComp.NextEventIndex = 0;
 
@@ -65,11 +84,23 @@ namespace ET.TeamGame
         {
             TimerComponent timer = self.GetTimer();
             var unit = self.GetParent<Unit>();
+            var castComp = unit.GetComponent<SkillCastComponent>();
+            if (castComp == null || castComp.SkillConfigId == 0) return;
 
-            while (!self.IsDisposed)
+            var stateComp = unit.GetComponent<StateComponent>();
+            while (!self.IsDisposed && !unit.IsDisposed)
             {
-                var castComp = unit.GetComponent<SkillCastComponent>();
-                if (castComp == null || castComp.SkillConfigId == 0) return;
+
+                // 单位死亡时立即中断技能时间轴
+                if ( stateComp.State == UnitState.Death)
+                {
+                    castComp.SkillConfigId = 0;
+                    castComp.Target = default;
+                    castComp.AoeTargets.Clear();
+                    castComp.CachedData = null;
+                    castComp.CachedEvents = null;
+                    return;
+                }
 
                 self.TickCasting(castComp);
 
@@ -96,7 +127,7 @@ namespace ET.TeamGame
 
                 castComp.NextEventIndex++;
 
-                ExecuteEvent(unit, castComp.Target, ev);
+                ExecuteEvent(unit, castComp, ev);
             }
 
             // 全部事件执行完毕 → 结束技能，进入CD
@@ -105,6 +136,7 @@ namespace ET.TeamGame
                 self.StartCooldown(castComp.SkillConfigId, skillData.CD);
                 castComp.SkillConfigId = 0;
                 castComp.Target = default;
+                castComp.AoeTargets.Clear();
                 castComp.CachedData = null;
                 castComp.CachedEvents = null;
             }
@@ -114,7 +146,7 @@ namespace ET.TeamGame
         //  事件分发
         // ═══════════════════════════════════════════════════
 
-        private static void ExecuteEvent(Unit caster, Unit target, SkillEventData ev)
+        private static void ExecuteEvent(Unit caster, SkillCastComponent castComp, SkillEventData ev)
         {
             switch ((SkillEventType)ev.EventType)
             {
@@ -122,19 +154,19 @@ namespace ET.TeamGame
                     SkillEvent_PlayAnimation.Execute(caster, ev);
                     break;
                 case SkillEventType.FindTarget:
-                    SkillEvent_FindTarget.Execute(caster, ev);
+                    SkillEvent_FindTarget.Execute(caster, castComp, ev);
                     break;
                 case SkillEventType.SpawnVFX:
                     SkillEvent_SpawnVFX.Execute(caster, ev);
                     break;
                 case SkillEventType.ApplyValue:
-                    SkillEvent_ApplyValue.Execute(caster, target, ev);
+                    SkillEvent_ApplyValue.Execute(caster, castComp, ev);
                     break;
                 case SkillEventType.AddBuff:
-                    SkillEvent_AddBuff.Execute(caster, target, ev);
+                    SkillEvent_AddBuff.Execute(caster, castComp, ev);
                     break;
                 case SkillEventType.SpawnBullet:
-                    SkillEvent_SpawnBullet.Execute(caster, ev);
+                    SkillEvent_SpawnBullet.Execute(caster, castComp, ev);
                     break;
                 default:
                     Log.Error($"[SkillEvent] 未知事件类型 EventType={ev.EventType}, Caster={caster?.Id}");

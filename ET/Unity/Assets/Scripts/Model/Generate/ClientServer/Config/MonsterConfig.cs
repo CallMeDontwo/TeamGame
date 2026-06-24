@@ -81,8 +81,14 @@ namespace ET
 		public int IsBoss { get; set; }
 		/// <summary>AI配置ID</summary>
 		public int AIconfigId { get; set; }
+		/// <summary>技能ID列表</summary>
+		public int[] SkillIds { get; set; }
 		/// <summary>碰撞半径</summary>
 		public int CollisionRadius { get; set; }
+		/// <summary>普攻</summary>
+		public int BasicAttackSkillId { get; set; }
+		/// <summary>高度</summary>
+		public int Height { get; set; }
 
 	}
 }

@@ -51,5 +51,11 @@ namespace ET.TeamGame
 
         /// <summary>预制体路径（如 "Bullet_Track"）</summary>
         public string PrefabPath;
+
+        /// <summary>发射点X偏移（int/100 = 世界单位）</summary>
+        public int SpawnOffsetX;
+
+        /// <summary>发射点Y偏移（int/100 = 世界单位，0=脚底，正=向上）</summary>
+        public int SpawnOffsetY;
     }
 }

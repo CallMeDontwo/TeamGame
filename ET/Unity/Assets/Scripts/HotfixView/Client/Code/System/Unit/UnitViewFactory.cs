@@ -44,79 +44,28 @@ namespace ET.TeamGame
 
             if (!isBullet)
             {
-                // 添加动画视图
-                go.AddComponent<AnimatorView>().skeleton = go.GetComponentInChildren<SkeletonAnimation>();
+                // 添加动画视图（EnsureComponent 处理对象池复用场景）
+                var animView = go.EnsureComponent<AnimatorView>();
+                animView.skeleton = go.GetComponentInChildren<SkeletonAnimation>();
 
                 // 创建血条UI
                 CreateHPBar(unit, go);
 
                 // 初始动画同步 — 视图创建时 AI 可能已经开始运行，状态已切换
-                var stateComp = unit.GetComponent<StateComponent>();
-                if (stateComp != null)
-                {
-                    EventSystem.Instance.Publish(unit.Scene(), new UnitStateChanged()
-                    {
-                        Unit = unit,
-                        OldState = UnitState.None,
-                        NewState = stateComp.State,
-                    });
-                }
+                //var stateComp = unit.GetComponent<StateComponent>();
+                //if (stateComp != null)
+                //{
+                //    EventSystem.Instance.Publish(unit.Scene(), new UnitStateChanged()
+                //    {
+                //        Unit = unit,
+                //        OldState = UnitState.None,
+                //        NewState = stateComp.State,
+                //    });
+                //}
             }
 
             // 初始位置同步
             go.transform.position = unit.Position;
-
-            // 碰撞圆可视化
-            CreateCollisionCircle(unit, go, isBullet);
-        }
-
-        /// <summary>根据 Unit 类型创建碰撞圆可视化</summary>
-        private static void CreateCollisionCircle(Unit unit, GameObject go, bool isBullet)
-        {
-            float radius;
-            Color color;
-            float offsetY = 0f;
-
-            if (isBullet)
-            {
-                var bc = unit.GetComponent<BulletComponent>();
-                var bulletCfg = BulletDataStore.Get(bc.BulletConfigId);
-                radius = bulletCfg.CollisionRadius / 100f;
-                color = new Color(1f, 0.92f, 0.016f, 0.5f); // 黄色半透明
-            }
-            else
-            {
-                var identity = unit.GetComponent<IdentityComponent>();
-                if (identity == null) return;
-
-                switch (identity.UnitType)
-                {
-                    case UnitType.Hero:
-                        radius = HeroConfigCategory.Instance.Get(unit.ConfigId).CollisionRadius / 100f;
-                        color = new Color(0f, 0.8f, 0f, 0.4f);   // 绿色半透明
-                        offsetY = radius;  // 身体中心 = 锚点 + 半径
-                        break;
-                    case UnitType.Monster:
-                        radius = MonsterConfigCategory.Instance.Get(unit.ConfigId).CollisionRadius / 100f;
-                        color = new Color(0.9f, 0f, 0f, 0.4f);    // 红色半透明
-                        offsetY = radius;  // 身体中心 = 锚点 + 半径
-                        break;
-                    default:
-                        radius = 0.4f;
-                        color = new Color(0.5f, 0.5f, 0.5f, 0.4f); // 灰色
-                        offsetY = radius;
-                        break;
-                }
-            }
-
-            if (radius <= 0f) return;
-
-            // 子对象：圆心偏移到身体中心
-            var circleGo = new GameObject("CollisionCircle");
-            circleGo.transform.SetParent(go.transform, false);
-            circleGo.transform.localPosition = new Vector3(0, offsetY, 0);
-            var circle = circleGo.AddComponent<CollisionCircle>();
-            circle.Setup(radius, color);
         }
 
         private static string GetPrefabPath(Unit unit)

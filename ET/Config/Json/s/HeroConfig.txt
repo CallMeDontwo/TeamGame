@@ -1,3 +1,4 @@
 {"dict": [
-[1001, {"_t":"HeroConfig","_id":1001,"Name":"初始英雄","Desc":"标准初始英雄","NumericType":[1002,1003,1004,1005,1006],"NumericValue":[1000,50,150,1000,1],"Scale":100,"SkeletonAsset":"Assets/Res/Game/TeamGame/Spine/Hero/1/p0002_3.8_SkeletonData.asset","AIconfigId":1001,"SkillIds":[1001],"CollisionRadius":25}],
+[1001, {"_t":"HeroConfig","_id":1001,"Name":"女刀客","Desc":"标准初始英雄","NumericType":[1002,1003,1004,1005,1006],"NumericValue":[1000,50,150,1000,1],"Scale":100,"SkeletonAsset":"Assets/Res/Game/TeamGame/Spine/Hero/1/p0002_3.8_SkeletonData.asset","AIconfigId":1001,"SkillIds":[1001],"CollisionRadius":25,"BasicAttackSkillId":100100,"Height":0}],
+[1003, {"_t":"HeroConfig","_id":1003,"Name":"盾骑士","Desc":"标准初始英雄","NumericType":[1002,1003,1004,1005,1006],"NumericValue":[1000,50,150,1000,1],"Scale":100,"SkeletonAsset":"Assets/Res/Game/TeamGame/Spine/Hero/1/p0002_3.8_SkeletonData.asset","AIconfigId":1001,"SkillIds":[100301],"CollisionRadius":25,"BasicAttackSkillId":100300,"Height":0}],
 ]}

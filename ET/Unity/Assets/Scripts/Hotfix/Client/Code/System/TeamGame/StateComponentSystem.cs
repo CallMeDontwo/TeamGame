@@ -18,13 +18,20 @@ namespace ET.TeamGame
         /// <summary>切换状态，若状态不变则跳过</summary>
         public static void ChangeState(this StateComponent self, UnitState newState)
         {
-            if (self.State == newState) return;
+            //if (self.State == newState) return;
             UnitState oldState = self.State;
             self.State = newState;
-            var animationComponent = self.GetParent<Unit>().GetComponent<AnimatorComponent>();
-            animationComponent.Play(newState);
+            var unit = self.GetParent<Unit>();
+            var animationComponent = unit.GetComponent<AnimatorComponent>();
+            animationComponent.PlayWithState(newState);
 
-            EventSystem.Instance.Publish(self.Scene(), new UnitStateChanged() { Unit = self.GetParent<Unit>(), OldState = oldState, NewState = newState });
+            // 死亡时强制停止移动，避免移动协程继续拖动 unit
+            if (newState == UnitState.Death)
+            {
+                unit.GetComponent<MoveComponent>()?.Stop(true);
+            }
+
+            EventSystem.Instance.Publish(self.Scene(), new UnitStateChanged() { Unit = unit, OldState = oldState, NewState = newState });
         }
 
         /// <summary>是否处于可行动状态（非 Death / None）</summary>

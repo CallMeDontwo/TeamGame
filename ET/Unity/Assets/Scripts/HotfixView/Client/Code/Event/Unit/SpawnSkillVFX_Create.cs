@@ -25,16 +25,17 @@ namespace ET.TeamGame
                 return;
             }
 
-            // 挂到施法者下 + 设置本地偏移
+            // 挂到施法者下 + 设置本地偏移（人物朝左时 OffsetX 取反，保持"右正"语义）
             if (caster.TryGetComponent(out UnitGameObjectComponent view) && view.GameObject != null)
             {
                 vfx.transform.SetParent(view.GameObject.transform);
             }
-            vfx.transform.localPosition = new Vector3(a.OffsetX, a.OffsetY, 0);
+            int facingSign = caster.Forward.x < 0 ? -1 : 1;
+            vfx.transform.localPosition = new Vector3(a.OffsetX * facingSign, a.OffsetY, 0);
             vfx.name = $"VFX_{a.Caster.Id}_{prefabPath}";
 
             // 设置定时回收
-            await scene.GetComponent<TimerComponent>().WaitAsync(a.dua);
+            await scene.GetComponent<TimerComponent>().WaitAsync(a.Duration);
 
             // 解除父子关系后回池
             vfx.transform.SetParent(null);

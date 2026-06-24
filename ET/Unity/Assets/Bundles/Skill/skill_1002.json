@@ -1,8 +1,0 @@
-{
-    "SkillId": 1002,
-    "Name": "新技能",
-    "Desc": "",
-    "CD": 0,
-    "Duration": 1000,
-    "Events": []
-}

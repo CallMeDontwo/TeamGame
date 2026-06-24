@@ -1,3 +1,4 @@
+using System.Linq;
 using Unity.Mathematics;
 
 namespace ET.TeamGame
@@ -24,22 +25,41 @@ namespace ET.TeamGame
 
             // 数值组件（从配置的 NumericType + NumericValue 数组批量初始化）
             var heroConfig = HeroConfigCategory.Instance.Get(configId);
+            identity.Height = heroConfig.Height;
             var numeric = unit.AddComponent<NumericComponent>();
             numeric.InitFromArrays(heroConfig.NumericType, heroConfig.NumericValue);
             numeric.Set(NumericType.HP, numeric.GetAsInt(NumericType.MaxHP));
 
             unit.AddComponent<MoveComponent>();
 
-            // 攻击组件
-            unit.AddComponent<AttackComponent>();
+            // 攻击组件（普攻走技能系统管道）
+            var attackComp = unit.AddComponent<AttackComponent>();
+            attackComp.BasicAttackSkillId = heroConfig.BasicAttackSkillId;
 
             //动画组件
             unit.AddComponent<AnimatorComponent>();
 
-            // 技能组件（从 HeroConfig.SkillIds 初始化）
+            // 技能组件（从 HeroConfig.SkillIds 初始化，过滤 0）
             var skillComp = unit.AddComponent<SkillComponent>();
             if (heroConfig.SkillIds != null)
-                skillComp.SkillIds = heroConfig.SkillIds;
+                skillComp.SkillIds = heroConfig.SkillIds.Where(id => id > 0).ToArray();
+
+            // 计算单位最大可达高度 = max(普攻, 所有技能)
+            if (heroConfig.BasicAttackSkillId > 0)
+            {
+                var basicSkill = SkillDataStore.Get(heroConfig.BasicAttackSkillId);
+                if (basicSkill != null)
+                    attackComp.ReachHeight = basicSkill.ReachHeight;
+            }
+            if (skillComp.SkillIds != null)
+            {
+                foreach (int sid in skillComp.SkillIds)
+                {
+                    var data = SkillDataStore.Get(sid);
+                    if (data != null && data.ReachHeight > attackComp.ReachHeight)
+                        attackComp.ReachHeight = data.ReachHeight;
+                }
+            }
 
             unit.AddComponent<PerceptionComponent>();
            var aIComponent = unit.AddComponent<AIComponent, int>(heroConfig.AIconfigId);
@@ -74,6 +94,7 @@ namespace ET.TeamGame
 
             // 数值组件（从配置的 NumericType + NumericValue 数组批量初始化）
             var monsterConfig = MonsterConfigCategory.Instance.Get(configId);
+            identity.Height = monsterConfig.Height;
             var numeric = unit.AddComponent<NumericComponent>();
             numeric.InitFromArrays(monsterConfig.NumericType, monsterConfig.NumericValue);
             numeric.Set(NumericType.HP, numeric.GetAsInt(NumericType.MaxHP));
@@ -83,7 +104,31 @@ namespace ET.TeamGame
             unit.AddComponent<MoveComponent>();
             unit.AddComponent<AnimatorComponent>();
 
-            unit.AddComponent<AttackComponent>();
+            // 技能组件（从 MonsterConfig.SkillIds 初始化，过滤 0）
+            var skillComp = unit.AddComponent<SkillComponent>();
+            if (monsterConfig.SkillIds != null)
+                skillComp.SkillIds = monsterConfig.SkillIds.Where(id => id > 0).ToArray();
+
+            // 攻击组件（普攻走技能系统管道）
+            var attackComp = unit.AddComponent<AttackComponent>();
+            attackComp.BasicAttackSkillId = monsterConfig.BasicAttackSkillId;
+
+            // 计算单位最大可达高度 = max(普攻, 所有技能)
+            if (monsterConfig.BasicAttackSkillId > 0)
+            {
+                var basicSkill = SkillDataStore.Get(monsterConfig.BasicAttackSkillId);
+                if (basicSkill != null)
+                    attackComp.ReachHeight = basicSkill.ReachHeight;
+            }
+            if (skillComp.SkillIds != null)
+            {
+                foreach (int sid in skillComp.SkillIds)
+                {
+                    var data = SkillDataStore.Get(sid);
+                    if (data != null && data.ReachHeight > attackComp.ReachHeight)
+                        attackComp.ReachHeight = data.ReachHeight;
+                }
+            }
 
             unit.SetPositon(position, false);
 

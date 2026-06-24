@@ -1,5 +1,5 @@
 {"dict": [
-[1001, {"_t":"AIConfig","_id":1001,"AIName":"英雄AI","HandlerIds":[1,4,5],"CheckInterval":500,"SightRange":800,"EnablePatrol":1,"PatrolRadius":400,"PatrolWaitTime":2000,"ChaseMaxDistance":1200,"AttackRange":150}],
-[2001, {"_t":"AIConfig","_id":2001,"AIName":"巡逻精英","HandlerIds":[1,2,3,4],"CheckInterval":300,"SightRange":1200,"EnablePatrol":1,"PatrolRadius":600,"PatrolWaitTime":1500,"ChaseMaxDistance":2000,"AttackRange":200}],
-[99001, {"_t":"AIConfig","_id":99001,"AIName":"测试木桩","HandlerIds":[1],"CheckInterval":300,"SightRange":1200,"EnablePatrol":1,"PatrolRadius":600,"PatrolWaitTime":1500,"ChaseMaxDistance":2000,"AttackRange":200}],
+[1001, {"_t":"AIConfig","_id":1001,"AIName":"英雄AI","HandlerIds":[1,3,4,5],"CheckInterval":500,"SightRange":800,"EnablePatrol":1,"PatrolRadius":400,"PatrolWaitTime":2000,"ChaseMaxDistance":1200}],
+[2001, {"_t":"AIConfig","_id":2001,"AIName":"巡逻精英","HandlerIds":[1,2,4,5],"CheckInterval":300,"SightRange":1200,"EnablePatrol":1,"PatrolRadius":600,"PatrolWaitTime":1500,"ChaseMaxDistance":2000}],
+[99001, {"_t":"AIConfig","_id":99001,"AIName":"测试木桩","HandlerIds":[1],"CheckInterval":300,"SightRange":1200,"EnablePatrol":1,"PatrolRadius":600,"PatrolWaitTime":1500,"ChaseMaxDistance":2000}],
 ]}

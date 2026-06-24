@@ -77,8 +77,6 @@ namespace ET
 		public int PatrolWaitTime { get; set; }
 		/// <summary>最大追击距离/100</summary>
 		public int ChaseMaxDistance { get; set; }
-		/// <summary>攻击距离/100</summary>
-		public int AttackRange { get; set; }
 
 	}
 }

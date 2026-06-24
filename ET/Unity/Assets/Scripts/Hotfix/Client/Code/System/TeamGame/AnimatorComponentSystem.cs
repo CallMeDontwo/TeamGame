@@ -27,17 +27,19 @@ namespace ET.TeamGame
         }
 
         /// <summary>播放动画</summary>
-        public static void Play(this AnimatorComponent self, string animName)
+        public static void Play(this AnimatorComponent self, string anime,bool isLoop)
         {
-            if (string.IsNullOrEmpty(animName)) return;
-            self.CurrentAnimation = animName;
+            if (string.IsNullOrEmpty(anime)) return;
+            if (anime == self.CurrentAnimation&&isLoop ==true) return;
+            self.CurrentAnimation = anime;
             // View 层监听 CurrentAnimation 变化来驱动 Spine 播放
-            EventSystem.Instance.Publish(self.Scene(), new ViewPlayAnimation() { Unit = self.GetParent<Unit>(), anime = self.CurrentAnimation });
+            EventSystem.Instance.Publish(self.Scene(), new ViewPlayAnimation() { Unit = self.GetParent<Unit>(), anime = self.CurrentAnimation,isLoop = isLoop });
         }
 
-        public static void Play(this AnimatorComponent self, UnitState state)
+        public static  void PlayWithState(this AnimatorComponent self, UnitState state)
         {
-            self.Play(AnimNameFromState(state));
+            var data = AnimNameFromState(state);
+            self.Play(data.Item1,data.Item2);
         }
 
         /// <summary>设置朝向（1=右, -1=左）</summary>
@@ -49,16 +51,15 @@ namespace ET.TeamGame
             // View 层监听 Facing 变化驱动 Spine Skeleton.scaleX
         }
 
-        private static string AnimNameFromState(UnitState state)
+        private static (string, bool) AnimNameFromState(UnitState state)
         {
             return state switch
             {
-                UnitState.Idle => "idle",
-                UnitState.Move => "move",
-                UnitState.Attack => "attack01",
-                UnitState.Hit => "hit",
-                UnitState.Death => "death",
-                _ => null,
+                UnitState.Idle => ("idle",true),
+                UnitState.Move => ("move",true),
+                UnitState.Hit => ("hit", false),
+                UnitState.Death => ("death", false),
+                _ => (null,false),
             };
         }
     }

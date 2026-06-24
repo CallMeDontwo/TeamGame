@@ -18,10 +18,17 @@ namespace ET.Game
         {
             scene.AddComponent<UnitManager>();
             scene.AddComponent<BulletManagerComponent>();
+            scene.AddComponent<GameFlowComponent>();
 
             await ETTask.CompletedTask;
         }
 
+
+        public override async ETTask OnCreateComplete(Scene parent, Scene scene, SceneArguments args)
+        {
+            scene.GetComponent<GameFlowComponent>().StartFlow();
+            await ETTask.CompletedTask;
+        }
         public override async ETTask OnDestroy(Scene parent, Scene scene, SceneArguments args)
         {
             await ETTask.CompletedTask;

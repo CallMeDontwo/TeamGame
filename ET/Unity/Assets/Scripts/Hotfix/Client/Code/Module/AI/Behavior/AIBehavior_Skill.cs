@@ -13,7 +13,12 @@ namespace ET.TeamGame
             var state = unit.GetComponent<StateComponent>();
             state?.ChangeState(UnitState.Skill);
 
-           await skillComp.Cast(readySkillId, target);
+            unit.GetComponent<MoveComponent>()?.Stop(true);
+
+            // 面向目标
+            unit.GetComponent<MoveComponent>()?.FaceDirection(target.Position - unit.Position);
+
+            await skillComp.Cast(readySkillId, target);
             return true;
         }
     }

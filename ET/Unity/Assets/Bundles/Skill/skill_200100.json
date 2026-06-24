@@ -1,0 +1,47 @@
+{
+    "SkillId": 200100,
+    "Name": "野怪普攻",
+    "Desc": "野怪2001的基础攻击",
+    "CD": 0,
+    "Duration": 700,
+    "CastRange": 80,
+    "ReachHeight": 0,
+    "Events": [
+        {
+            "EventType": 1,
+            "Timestamp": 150,
+            "IntParam1": 0,
+            "IntParam2": 0,
+            "IntParam3": 0,
+            "FloatParam1": 0.0,
+            "FloatParam2": 0.0,
+            "FloatParam3": 0.0,
+            "FloatParam4": 0.0,
+            "StringParam": "attack01"
+        },
+        {
+            "EventType": 4,
+            "Timestamp": 350,
+            "IntParam1": 10,
+            "IntParam2": 0,
+            "IntParam3": 0,
+            "FloatParam1": 0.0,
+            "FloatParam2": 0.0,
+            "FloatParam3": 0.0,
+            "FloatParam4": 0.0,
+            "StringParam": ""
+        },
+        {
+            "EventType": 4,
+            "Timestamp": 400,
+            "IntParam1": 10,
+            "IntParam2": 0,
+            "IntParam3": 0,
+            "FloatParam1": 0.0,
+            "FloatParam2": 0.0,
+            "FloatParam3": 0.0,
+            "FloatParam4": 0.0,
+            "StringParam": ""
+        }
+    ]
+}

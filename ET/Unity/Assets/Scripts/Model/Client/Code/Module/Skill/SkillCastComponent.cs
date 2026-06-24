@@ -19,8 +19,11 @@ namespace ET.TeamGame
         /// <summary>施法目标</summary>
         public EntityRef<Unit> Target { get; set; }
 
+        /// <summary>AOE目标列表（FindTarget事件填充，ApplyValue等事件读取）</summary>
+        public System.Collections.Generic.List<Unit> AoeTargets { get; set; } = new();
+
         /// <summary>缓存的技能数据（Cast时赋值，避免TickCasting每帧查表）</summary>
-        public SkillData CachedData;
+        public SkillData CachedData { get; set; }
 
         /// <summary>缓存的事件数据列表引用（指向 CachedData.Events）</summary>
         public System.Collections.Generic.List<SkillEventData> CachedEvents;

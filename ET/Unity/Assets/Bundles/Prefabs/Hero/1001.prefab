@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2787759234509466475}
   - component: {fileID: 1294635462963279465}
   - component: {fileID: 430371137328567459}
-  - component: {fileID: 5192657856777924649}
   m_Layer: 0
   m_Name: 1001
   m_TagString: Untagged
@@ -122,18 +121,6 @@ MonoBehaviour:
   _animationName: 
   loop: 1
   timeScale: 1
---- !u!210 &5192657856777924649
-SortingGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 834341462898637092}
-  m_Enabled: 1
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortAtRoot: 0
 --- !u!1 &1272425753612199065
 GameObject:
   m_ObjectHideFlags: 0

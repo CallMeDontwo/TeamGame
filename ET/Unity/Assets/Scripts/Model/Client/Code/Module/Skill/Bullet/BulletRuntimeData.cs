@@ -27,8 +27,23 @@ namespace ET.TeamGame
         /// <summary>最大飞行距离（超出后销毁）</summary>
         public float maxDist;
 
-        /// <summary>重力加速度（仅抛物线飞行使用）</summary>
+        /// <summary>重力加速度（仅抛物线飞行使用，解析解用）</summary>
         public float gravity;
+
+        /// <summary>抛物线发射点（解析解用，直线弹不用）</summary>
+        public float2 spawnPos;
+
+        /// <summary>抛物线水平速度（解析解用，恒定）</summary>
+        public float vx;
+
+        /// <summary>抛物线初始垂直速度（解析解用）</summary>
+        public float vy0;
+
+        /// <summary>抛物线总飞行时间（解析解用，elapsed 达到后销毁）</summary>
+        public float flightTime;
+
+        /// <summary>抛物线已飞行时间（解析解用）</summary>
+        public float elapsed;
 
         /// <summary>发射者 Unit 的 EntityId</summary>
         public long casterId;
@@ -59,6 +74,9 @@ namespace ET.TeamGame
 
         /// <summary>是否活跃（0=已销毁/空闲槽位）</summary>
         public byte isActive;
+
+        /// <summary>子弹高度层（继承自目标单位，碰撞时需精确相等）</summary>
+        public int height;
     }
 
     /// <summary>
@@ -78,6 +96,9 @@ namespace ET.TeamGame
 
         /// <summary>单位类型：1=Hero, 2=Monster（用于区分友方）</summary>
         public byte unitType;
+
+        /// <summary>单位高度层</summary>
+        public int height;
     }
 
     /// <summary>
